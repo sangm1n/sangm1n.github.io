@@ -1,29 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sangminlog on sangminlog</title>
-    <link>sangm1n.github.io/</link>
+    <link>/</link>
     <description>Recent content in sangminlog on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="sangm1n.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introduction</title>
-      <link>sangm1n.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>sangm1n.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;h2 id=&#34;software-dankook-university&#34;&gt;Software, Dankook University&lt;/h2&gt;
 </description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>sangm1n.github.io/posts/</link>
+      <link>/posts/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>sangm1n.github.io/posts/</guid>
+      <guid>/posts/</guid>
       <description></description>
     </item>
     
