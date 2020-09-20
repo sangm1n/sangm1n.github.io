@@ -1,11 +1,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site on My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content in My New Hugo Site on My New Hugo Site</description>
+    <title>sangminlog on sangminlog</title>
+    <link>localhost/</link>
+    <description>Recent content in sangminlog on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="localhost/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introduction</title>
+      <link>localhost/about/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/about/</guid>
+      <description>&lt;h2 id=&#34;software-dankook-university&#34;&gt;Software, Dankook University&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>localhost/posts/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/posts/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -2,7 +2,9 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://example.org/categories/</loc>
+      <loc>localhost/categories/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
       
       
       
@@ -10,7 +12,9 @@
     </url>
   
     <url>
-      <loc>http://example.org/</loc>
+      <loc>localhost/tags/github/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
       
       
       
@@ -18,7 +22,69 @@
     </url>
   
     <url>
-      <loc>http://example.org/tags/</loc>
+      <loc>localhost/tags/hugo/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/new-blog/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/about/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/posts/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/tags/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>localhost/categories/til/</loc>
+      
+      <lastmod>2020-09-20T00:00:00+00:00</lastmod>
       
       
       
