@@ -6,13 +6,25 @@
     <description>Recent content in Server on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>APM 컴파일 설치하기 - MySQL</title>
+      <link>http://sangm1n.github.io/mysql-install/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/mysql-install/</guid>
+      <description>MySQL 8.0.19 컴파일 설치 Ubuntu 18.04 위에 Apache 2.4.46 설치를 완료했다. (이전 내용)
+MySQL은 버전 8.0.19 를 컴파일 설치했는데 시간이 정말 많이 걸려서 놀랐다. 심지어 도중에 한 번 우분투 복구까지 진행했다. 스냅샷을 찍어 백업시켜둔 과거의 나한테 고마웠다. 덕분에 apt-get upgrade하는데 굉장히 많은 시간이 걸렸지만&amp;hellip;
+의존성 패키지 설치 MySQL 공식 문서에 꼭 설치해야 하는 패키지들이 명시되어 있다. apt-get update 후 필요한 패키지들을 설치하면 된다.
+MySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.</description>
+    </item>
+    
     <item>
       <title>APM 컴파일 설치하기 - Apache</title>
-      <link>http://sangm1n.github.io/apm-install/</link>
+      <link>http://sangm1n.github.io/apache-install/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/apm-install/</guid>
+      <guid>http://sangm1n.github.io/apache-install/</guid>
       <description>컴파일 설치를 하는 이유 소프트 스퀘어드에서 내준 첫 과제는 서버를 구축하는 것 이다. 단순히 Linux에 Apache / PHP / MySQL (이하 APM) 세 가지만 깔면 된다고 해서 쉬운 과제일 줄 알았는데, package manager를 사용하지 않고 컴파일 설치를 시켰다. 그렇다면 왜 컴파일 설치를 해야 하는지 알아보도록 하자.
 Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있다. 패키지 매니저를 통해 프로그램을 설치하게 되면 OS 종류나 버전에 맞춰 의존성 있는 프로그램들도 같이 설치해준다. 개인적인 목적으로 설치하는 프로그램인 경우에는 패키지 매니저를 이용해 쉽게 설치하면 되나, 회사에서 업무적인 목적으로 설치하는 경우 이것을 막을 수도 있다.</description>
     </item>
