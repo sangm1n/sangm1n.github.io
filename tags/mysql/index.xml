@@ -6,7 +6,19 @@
     <description>Recent content in MySQL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>APM 컴파일 설치하기 - PHP</title>
+      <link>http://sangm1n.github.io/php-install/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/php-install/</guid>
+      <description>PHP 7.4.1 컴파일 설치 현재 Ubuntu 18.04위에 Apache 2.4.46과 MySQL 8.0.19까지 컴파일 설치했다. PHP 버전 7.4.1 설치를 마지막으로 우분투 위에 패키지 매니저를 사용하지 않고 APM 컴파일 설치를 완료했다.
+의존성 패키지 설치 의존성 패키지까지 모두 컴파일 설치 할 수는 없으니 편하게 apt-get 명령어를 사용해준다.
+$ apt-get install libxml2-dev $ apt-get install libjpeg-dev $ apt-get install libpng-dev php 설치 Apache와 MySQL 설치할 때와 동일하게 tar.gz 파일을 다운 받아 압축 해제한다.
+$ cd /usr/local/ $ wget https://www.</description>
+    </item>
+    
     <item>
       <title>APM 컴파일 설치하기 - MySQL</title>
       <link>http://sangm1n.github.io/mysql-install/</link>
