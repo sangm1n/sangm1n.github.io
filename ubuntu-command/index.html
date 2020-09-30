@@ -10,7 +10,7 @@
   
   
   <link rel="prev" href="http://sangm1n.github.io/php-install/" />
-  
+  <link rel="next" href="http://sangm1n.github.io/network/" />
   <link rel="canonical" href="http://sangm1n.github.io/ubuntu-command/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -58,7 +58,7 @@
     "datePublished": "2020-09-28 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-09-28 00:00:00 \u002b0000 UTC",
     "url" : "http:\/\/sangm1n.github.io\/ubuntu-command\/",
-    "wordCount" : "402",
+    "wordCount" : "517",
     "keywords" : [ "Ubuntu", "sangminlog"]
 }
 </script>
@@ -124,7 +124,7 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        <a href="http://sangm1n.github.io/categories/etc/"> Etc </a>
                         
                 </span>
         </div>
@@ -193,40 +193,14 @@
 </ul>
 <p><img src="../images/ps.png" alt="">
 기본적으로 아무런 옵션 없이 명령어를 이용하는 경우 위의 사진처럼 <code>PID</code> / <code>TTY</code> / <code>TIME</code> / <code>CMD</code>만 보여준다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">항목</th>
-<th style="text-align:center">의미</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">UID</td>
-<td style="text-align:center">프로세스 소유자의 이름 (User ID)</td>
-</tr>
-<tr>
-<td style="text-align:center">PID</td>
-<td style="text-align:center">프로세스 식별번호 (Process ID)</td>
-</tr>
-<tr>
-<td style="text-align:center">PPID</td>
-<td style="text-align:center">부모 프로세스 ID</td>
-</tr>
-<tr>
-<td style="text-align:center">TTY</td>
-<td style="text-align:center">프로세스와 연결된 터미널</td>
-</tr>
-<tr>
-<td style="text-align:center">TIME</td>
-<td style="text-align:center">총 CPU 사용 시간</td>
-</tr>
-<tr>
-<td style="text-align:center">CMD</td>
-<td style="text-align:center">프로세스의 실행 명령해</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><code>UID</code> : 프로세스 소유자의 이름 (User ID)</li>
+<li><code>PID</code> : 프로세스 식별 번호 (Process ID)</li>
+<li><code>PPID</code> : 부모 프로세스의 ID</li>
+<li><code>TTY</code> : 프로세스와 연결된 터미널</li>
+<li><code>TIME</code> : 총 CPU 사용 시간</li>
+<li><code>CMD</code> : 프로세스의 실행 명령행</li>
+</ul>
 <p><code>-ef</code> 옵션을 자주 사용했는데 이는 모든 프로세스(<code>-e</code>)를 full format(<code>-f</code>)으로 보여달라는 의미이다.</p>
 <h3 id="grep">grep</h3>
 <ul>
@@ -235,6 +209,31 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ ps -ef | grep httpd
 </code></pre></div><p>위처럼 <code>ps</code> 명령어와 함께 요긴하게 사용했다. 현재 실행 중인 프로세스 중 <code>httpd</code> 문자열이 포함된 프로세스만을 보여준다.<br>
 <code>grep</code>은 단순히 문자열 일치 여부만을 검사하는 것은 아니다. 정규 표현식에 의한 패턴 매칭 방식을 사용해 복잡하고 다양한 방식으로 문자열을 찾는다고 한다. (참고 : <a href="https://recipes4dev.tistory.com/157">https://recipes4dev.tistory.com/157</a>)</p>
+<h3 id="netstat">netstat</h3>
+<ul>
+<li><em>network statistics</em> 의 줄임말</li>
+<li>네트워크 연결 상태, 인터페이스 상태 등을 보여주는 명령어</li>
+</ul>
+<p><img src="../images/netstat.png" alt=""></p>
+<ul>
+<li><code>Proto</code> : 해당 통신이 사용하는 프로토콜</li>
+<li><code>Recv-Q</code> / <code>Send-Q</code> : 해당 통신이 사용할 때의 소켓 사이즈 버퍼
+<ul>
+<li><code>Recv-Q</code> : recv()를 통해 처리받지 못한 데이터</li>
+<li><code>Send-Q</code> : send()를 통해 보냈지만 아직 완전히 외부로 보내지지 않은 데이터</li>
+</ul>
+</li>
+<li><code>Local Address</code> : 해당 통신에서 나가는 내 주소</li>
+<li><code>Foreign Address</code> : 목적지에 해당하는 주소</li>
+<li><code>State</code> : <em>ESTABLISHED</em> / <em>LISTEN</em> 과 같은 상태 정보</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ netstat -anp
+</code></pre></div><p>위와 같은 옵션을 부여해 더 상세한 정보를 볼 수 있다.</p>
+<ul>
+<li><code>-a</code> : 모든 상태에 대한 소켓 정보</li>
+<li><code>-n</code> : 도메인 명이 아닌 숫자로 된 IP 주소 표시</li>
+<li><code>-p</code> : 어떤 프로세스에서 해당 통신을 사용하고 있는지 표시</li>
+</ul>
 <h3 id="curl">curl</h3>
 <ul>
 <li>client URL로 서버와 통신할 수 있는 명령어</li>
@@ -263,6 +262,8 @@
         
         <a href="http://sangm1n.github.io/php-install/" class="prev" rel="prev" title="APM 컴파일 설치하기 - PHP"><i class="iconfont icon-left"></i>&nbsp;APM 컴파일 설치하기 - PHP</a>
          
+        
+        <a href="http://sangm1n.github.io/network/" class="next" rel="next" title="Soft squared - Network란 무엇일까?">Soft squared - Network란 무엇일까?&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
