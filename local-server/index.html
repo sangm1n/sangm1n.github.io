@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/network/" />
+  <link rel="next" href="http://sangm1n.github.io/aws-start/" />
+  <link rel="canonical" href="http://sangm1n.github.io/local-server/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Bitnami로 서버 구축하여 외부에서 접속하기 | sangminlog
+       
+  </title>
+  <meta name="title" content="Bitnami로 서버 구축하여 외부에서 접속하기 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Bitnami로 서버 구축하여 외부에서 접속하기",
+    "headline" : "Bitnami로 서버 구축하여 외부에서 접속하기",
+    "description" : "Bitnami란 무엇일까? 소프트 스퀘어드 1주차 과제는 Ubuntu 위에 APM을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.\n이번에는 편하게 Bitnami를 이용할 것이다. 위키백과에서 bitnami 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 Bitnami WAMP를 사용할 것이다. WAMP는 Window 환경에 Apache \/ MySQL \/ PHP를 한 번에 설치해준다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-01 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-01 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/local-server\/",
+    "wordCount" : "289",
+    "keywords" : [ "Server","Apache","PHP","MySQL", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Bitnami로 서버 구축하여 외부에서 접속하기</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-01 itemprop="datePublished">October 1, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="bitnami란-무엇일까">Bitnami란 무엇일까?</h2>
+<p>소프트 스퀘어드 1주차 과제는 <code>Ubuntu</code> 위에 <code>APM</code>을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.<br>
+이번에는 편하게 <code>Bitnami</code>를 이용할 것이다. <a href="https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%EB%82%98%EB%AF%B8">위키백과</a>에서 <em>bitnami</em> 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 <code>Bitnami WAMP</code>를 사용할 것이다. <code>WAMP</code>는 <em>Window</em> 환경에 <code>Apache</code> / <code>MySQL</code> / <code>PHP</code>를 한 번에 설치해준다.</p>
+<h3 id="설치-및-실행">설치 및 실행</h3>
+<p><a href="https://bitnami.com/">bitnami 사이트</a>에서 설치 후 <strong>localhost</strong> 혹은 <strong>127.0.0.1</strong>로 접속하여 아래와 같은 화면이 뜨면 정상적으로 설치된 것이다.
+<img src="../images/bitnami.png" alt=""></p>
+<h3 id="phpinfo-띄우기">phpinfo 띄우기</h3>
+<p>설치한 <code>wampstack</code> 폴더의 <em>apache2/htdocs/</em> 경로로 가면 <code>index.html</code> 파일을 볼 수 있다. 해당 경로가 아파치 <em>config</em> 파일에 <code>root</code> 경로로 지정되어 있어 파일을 열면 위의 이미지와 같은 화면이 출력되는 것을 확인할 수 있다.<br>
+<code>phpinfo</code>를 출력하기 위해 메모장을 열어 아래의 코드를 작성해보자.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&lt;?php
+phpinfo<span style="color:#f92672">()</span>;
+?&gt;
+</code></pre></div><p>파일 이름을 <code>phpinfo.php</code>로 바꾸고 해당 경로에 저장하면 <strong>localhost/phpinfo.php</strong> 에서 php 설치 정보를 보여준다.
+<img src="../images/phpinfo.png" alt=""></p>
+<hr>
+<h2 id="외부에서-접속하기-port-forwarding">외부에서 접속하기 (port forwarding)</h2>
+<p>위의 과정은 단순히 <code>local server</code>를 구축한 것이다. 하지만 이번 과제의 목표는 클라이언트와 서버를 분리하는 것이고, 외부에서 접속 가능하도록 만들어야 한다. <code>포트포워딩</code>을 이용할 것인데 관련 내용은 <a href="https://sangm1n.github.io/network/">이전 게시물</a>에 정리해뒀다.</p>
+<h3 id="포트포워딩">포트포워딩</h3>
+<p><code>cmd</code> 창에 <em>ipconfig</em> 명령어를 입력하면 기본 게이트웨이 주소를 확인할 수 있다. 게이트웨이 주소로 접근하면 공유기 관리자 페이지에 접속 가능하다. 대개 <em>iptime</em>의 경우 로그인 이름과 암호 모두 <code>admin</code>으로 되어 있다.
+<img src="../images/iptime-admin.png" alt="">
+공유기 관리자 페이지에서 간단하게 포트포워딩을 설정할 수 있다.
+<img src="../images/iptime-port.png" alt=""></p>
+<ul>
+<li>외부 포트 : 외부에서 어떤 포트로 접속하였을 때 지정된 컴퓨터로 연결할 것인지 설정</li>
+<li>내부 포트 : 외부 포트에서 연결해주었을 때, 내부에서는 어떤 포트를 사용할 것인지 설정</li>
+</ul>
+<p>포트포워딩 설정을 완료하면 <code>http://[외부 IP]:[포트 번호]</code>로 로컬 서버에 접근할 수 있다. 네이버에 <em>내 ip 주소 확인</em> 이라고 검색하면 외부 IP가 나온다. (참고로 방화벽은 끄고 진행해야 한다. 나는 이 과정에서 3시간 이상 삽질했다&hellip;)</p>
+<h3 id="접속-확인">접속 확인</h3>
+<p>이로써 외부 클라이언트에서 로컬 서버로의 접근이 가능해졌다.
+<img src="../images/check.jpg" alt=""></p>
+
+    </div>
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/apache/">
+                    #Apache</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/php/">
+                    #PHP</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/mysql/">
+                    #MySQL</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/network/" class="prev" rel="prev" title="Soft squared - Network란 무엇일까?"><i class="iconfont icon-left"></i>&nbsp;Soft squared - Network란 무엇일까?</a>
+         
+        
+        <a href="http://sangm1n.github.io/aws-start/" class="next" rel="next" title="AWS를 이용한 서버 구축">AWS를 이용한 서버 구축&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

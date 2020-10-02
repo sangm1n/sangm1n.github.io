@@ -6,7 +6,26 @@
     <description>Recent content in Server on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS를 이용한 서버 구축</title>
+      <link>http://sangm1n.github.io/aws-start/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/aws-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
+      <link>http://sangm1n.github.io/local-server/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/local-server/</guid>
+      <description>Bitnami란 무엇일까? 소프트 스퀘어드 1주차 과제는 Ubuntu 위에 APM을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.
+이번에는 편하게 Bitnami를 이용할 것이다. 위키백과에서 bitnami 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 Bitnami WAMP를 사용할 것이다. WAMP는 Window 환경에 Apache / MySQL / PHP를 한 번에 설치해준다.</description>
+    </item>
+    
     <item>
       <title>Soft squared - Network란 무엇일까?</title>
       <link>http://sangm1n.github.io/network/</link>
