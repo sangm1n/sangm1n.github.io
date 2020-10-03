@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/aws-start/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/aws-connet/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           구축한 AWS 서버에 외부 접속하기 | sangminlog
+       
+  </title>
+  <meta name="title" content="구축한 AWS 서버에 외부 접속하기 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "구축한 AWS 서버에 외부 접속하기",
+    "headline" : "구축한 AWS 서버에 외부 접속하기",
+    "description" : "Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.\n   Server Program Back-end Language DBMS (\u002bDB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.\nNginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi \/var\/www\/html\/phpinfo.php \u0026lt;?php phpinfo(); ?",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-03 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-03 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/aws-connet\/",
+    "wordCount" : "173",
+    "keywords" : [ "Server","AWS","Nginx","PHP","MySQL", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">구축한 AWS 서버에 외부 접속하기</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-03 itemprop="datePublished">October 3, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="situation">Situation</h2>
+<p>현재 <code>AWS</code> 클라우드 서비스에 서버를 구축해놨다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Server Program</th>
+<th style="text-align:center">Back-end Language</th>
+<th style="text-align:center">DBMS (+DB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>Nginx</code></td>
+<td style="text-align:center"><code>PHP</code></td>
+<td style="text-align:center"><code>MySQL</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>chrome</code> 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.</p>
+<h3 id="nginx">Nginx</h3>
+<p><img src="../images/inbound-nginx.png" alt="">
+인바운드 규칙에 <code>HTTP</code>를 추가하고 인스턴스의 IP 주소로 들어가면 <strong>Welcome to nginx!</strong> 문장이 우릴 맞아준다. <code>nginx</code>가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다.
+<img src="../images/nginx.png" alt=""></p>
+<h3 id="php">PHP</h3>
+<h4 id="phpinfo-파일-작성">phpinfo 파일 작성</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo vi /var/www/html/phpinfo.php
+&lt;?php
+phpinfo<span style="color:#f92672">()</span>;
+?&gt;
+</code></pre></div><p><img src="../images/putty-php.png" alt=""></p>
+<h4 id="phpmyadmin-설치">phpmyadmin 설치</h4>
+<p><code>phpMyAdmin</code>은 웹 브라우저에서 <em>MySQL</em> 이나 <em>MariaDB</em> 를 관리할 수 있게 해주는 소프트웨어이다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ apt install phpmyadmin
+</code></pre></div><p>이후 설치 과정은 <a href="https://antilibrary.org/1901">갈루아의 반서재</a>라는 블로그에 굉장히 자세하게 나와 있으니 참고하면 될 것 같다.</p>
+<h3 id="mysql">MySQL</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+...
+bind-adress         <span style="color:#f92672">=</span> 0.0.0.0
+...
+</code></pre></div><p><img src="../images/inbound-mysql.png" alt="">
+인바운드 규칙에 <code>MySQL</code>을 추가하면 <strong>3306</strong> 포트가 자동으로 설정된다. <em>AWS</em> 에 접속할 계정을 하나 생성해보자.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mysql -u root -p
+
+mysql&gt; CREATE user <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> identified BY <span style="color:#e6db74">&#39;[USER_PASSWD]&#39;</span>;
+mysql&gt; grant all privileges on *.* to <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> with grant option;
+mysql&gt; exit;
+
+$ sudo service mysql restart
+</code></pre></div><h4 id="mysql-workbench에서-확인">MySQL Workbench에서 확인</h4>
+<p>새로운 커넥션을 만들어 <em>Hostname</em> 에는 <code>AWS instance IP</code>를, <em>Username</em> 에는 위에서 생성한 <code>USER_NAME</code>을 입력하여 테스트 커넥션을 진행한다. 아래와 같으면 정상적으로 연결된 것이다.
+<img src="../images/mysql-connect.png" alt=""></p>
+
+    </div>
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/aws/">
+                    #AWS</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/nginx/">
+                    #Nginx</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/php/">
+                    #PHP</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/mysql/">
+                    #MySQL</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/aws-start/" class="prev" rel="prev" title="AWS를 이용한 서버 구축"><i class="iconfont icon-left"></i>&nbsp;AWS를 이용한 서버 구축</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

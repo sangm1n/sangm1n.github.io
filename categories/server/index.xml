@@ -6,14 +6,29 @@
     <description>Recent content in Server on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>구축한 AWS 서버에 외부 접속하기</title>
+      <link>http://sangm1n.github.io/aws-connet/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/aws-connet/</guid>
+      <description>Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.
+   Server Program Back-end Language DBMS (+DB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.
+Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi /var/www/html/phpinfo.php &amp;lt;?php phpinfo(); ?</description>
+    </item>
+    
     <item>
       <title>AWS를 이용한 서버 구축</title>
       <link>http://sangm1n.github.io/aws-start/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/aws-start/</guid>
-      <description></description>
+      <description>AWS ? Amazon Web Services, AWS는 아마존에서 만든 Cloud service로 가상 컴퓨터와 스토리지, 네트워크 인프라 등 다양한 서비스를 제공한다.
+클라우드 컴퓨팅은 네트워크 상에서 클라우드 서비스 자원을 빌려 사용하는 것을 뜻하며 세 분류로 나뉜다.
+ IaaS : Infrastructure as a Service, 컴퓨터 환경만 빌려 사용
+ex) AWS EC2, Google Cloud Platform, Azure Virtual Machines, Naver Cloud Platform PaaS : Platform as a Service, 플랫폼 서비스
+ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, 서비스를 이용할 수 있는 소프트웨어</description>
     </item>
     
     <item>
