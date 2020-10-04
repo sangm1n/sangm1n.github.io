@@ -58,7 +58,7 @@
     "datePublished": "2020-10-03 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-10-03 00:00:00 \u002b0000 UTC",
     "url" : "http:\/\/sangm1n.github.io\/aws-connet\/",
-    "wordCount" : "173",
+    "wordCount" : "186",
     "keywords" : [ "Server","AWS","Nginx","PHP","MySQL", "sangminlog"]
 }
 </script>
@@ -179,7 +179,7 @@ phpinfo<span style="color:#f92672">()</span>;
 </code></pre></div><p><img src="../images/putty-php.png" alt=""></p>
 <h4 id="phpmyadmin-설치">phpmyadmin 설치</h4>
 <p><code>phpMyAdmin</code>은 웹 브라우저에서 <em>MySQL</em> 이나 <em>MariaDB</em> 를 관리할 수 있게 해주는 소프트웨어이다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ apt install phpmyadmin
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo apt install phpmyadmin
 </code></pre></div><p>이후 설치 과정은 <a href="https://antilibrary.org/1901">갈루아의 반서재</a>라는 블로그에 굉장히 자세하게 나와 있으니 참고하면 될 것 같다.</p>
 <h3 id="mysql">MySQL</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -195,6 +195,8 @@ mysql&gt; grant all privileges on *.* to <span style="color:#e6db74">&#39;[USER_
 mysql&gt; exit;
 
 $ sudo service mysql restart
+$ sudo ufw allow out 3306/tcp
+$ sudo ufw allot in 3306/tcp
 </code></pre></div><h4 id="mysql-workbench에서-확인">MySQL Workbench에서 확인</h4>
 <p>새로운 커넥션을 만들어 <em>Hostname</em> 에는 <code>AWS instance IP</code>를, <em>Username</em> 에는 위에서 생성한 <code>USER_NAME</code>을 입력하여 테스트 커넥션을 진행한다. 아래와 같으면 정상적으로 연결된 것이다.
 <img src="../images/mysql-connect.png" alt=""></p>
