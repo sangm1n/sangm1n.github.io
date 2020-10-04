@@ -6,15 +6,15 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo와 Github pages를 이용한 새 블로그 시작</title>
-      <link>http://sangm1n.github.io/new-blog/</link>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      <title>TIL 다시 시작하기</title>
+      <link>http://sangm1n.github.io/til/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/new-blog/</guid>
-      <description>블로그를 옮긴 이유 기존에 나는 GraphQL 기반의 블로그를 운영하고 있었다. 블로그를 옮겨야겠다고 마음 먹은 이유는 바로 테마였다. 정확히 말하자면 markdown 테마이다. 블로그 전체적인 테마는 심플해서 마음에 들었는데, markdown 형식으로 글을 쓸 경우 뭔가 밋밋했다. 또한 기존 블로그는 간단하게 TIL만 작성하는 등 최소한의 시간만 투자했었다. 하지만 기술 블로그의 의미를 조금 더 찾고자 새로운 블로그를 만들기로 결심했다.
- Jekyll vs Hexo vs Hugo 정적 웹사이트 생성기는 굉장히 많다. 그 중 사람들이 가장 많이 사용하는 세 가지를 비교하여 결정했다.</description>
+      <guid>http://sangm1n.github.io/til/2020-10-04/</guid>
+      <description>Restart 올해 7월 14일부터 이전 블로그에 TIL을 작성하기 시작했다. 그곳에서의 기록이 9월 19일에 멈췄기 때문에 3주 정도 TIL 작성을 쉬었다. 원래 이 블로그를 만들자마자 다시 시작할 계획이었는데 이런 저런 핑계로 미루게 되었다. 추석 연휴도 끝났으니 더는 미루면 안되겠다고 판단했다.
+ TIL 규칙 정하기 기존에 나는 아래 사진처럼 Today I Learned / Tomorrow I will Learn 두 파트로 작성해왔다. 애초에 블로그에 많은 시간을 투자하지 않기 위해 &amp;ldquo;기록만 하자&amp;rdquo; 라는 마인드로 진행했는데 지금 보니 턱없이 부실해 보인다.</description>
     </item>
     
   </channel>
