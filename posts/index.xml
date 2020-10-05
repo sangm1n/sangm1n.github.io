@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>구축한 AWS 서버에 외부 접속하기</title>
+      <title>구축한 AWS 서버 외부 접속 확인</title>
       <link>http://sangm1n.github.io/aws-connet/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -49,7 +49,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
       <guid>http://sangm1n.github.io/network/</guid>
       <description>컴파일 설치와의 작별 소프트 스퀘어드 에서의 1주차 과제는 Linux 위에 APM을 컴파일 설치하여 서버를 구축하는 것이었다. 단순히 apt와 같은 패키지 매니저를 사용했으면 편했겠지만 컴파일 설치가 왜 중요한지, 어떨 때 사용하는지를 알 수 있었고 덕분에 CLI (Command-line interface) 환경에 조금 더 친숙해졌다.
 어제 2주차 수업을 들으며 앞으로는 컴파일 설치를 하지 않아도 된다는 나름 희소식을 들었다.
- 스타벅스 가서 아메리카노 마실래 뚱딴지 같은 소리로 들릴 수도 있지만 2주차 Network 수업은 위의 문장으로 시작됐다.</description>
+스타벅스 가서 아메리카노 마실래 뚱딴지 같은 소리로 들릴 수도 있지만 2주차 Network 수업은 위의 문장으로 시작됐다. 결론부터 말하자면 아래의 설명을 쉽게 이해할 수 있도록 비유한 것이다.</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@ Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있�
       
       <guid>http://sangm1n.github.io/server-intro/</guid>
       <description>Soft squared를 시작하며 드디어 오늘 Soft squared 서버반 첫 수업을 시작했다. 예전부터 막연하게 백엔드 공부를 해보고 싶었다. 혼자 책보며 공부하는 것보다는 배우면서 실습도 해볼 수 있는 프로그램이 있나 찾아보다가 소프트 스퀘어드를 알게 되었다. 막학기 개강과 동시에 소프트 스퀘어드 서버반 등록을 했고 방금 막 첫 수업을 듣고 왔다.
- 그래서 서버가 뭔데? 네트워크와 같은 과목을 공부하다 보면 위의 사진을 쉽게 접했을 것이다. 사진을 보면 client가 서버에 요청을 하고 server는 요청에 해당하는 작업을 수행해서 응답하는 모습을 보인다.</description>
+그래서 서버가 뭔데? 네트워크와 같은 과목을 공부하다 보면 위의 사진을 쉽게 접했을 것이다. 사진을 보면 client가 서버에 요청을 하고 server는 요청에 해당하는 작업을 수행해서 응답하는 모습을 보인다.</description>
     </item>
     
     <item>
@@ -113,7 +113,7 @@ Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있�
       
       <guid>http://sangm1n.github.io/new-blog/</guid>
       <description>블로그를 옮긴 이유 기존에 나는 Gatsby 기반의 블로그를 Netlify로 배포해서 운영하고 있었다. 블로그를 옮겨야겠다고 마음 먹은 이유는 바로 테마였다. 정확히 말하자면 markdown 테마이다. 블로그 전체적인 테마는 심플해서 마음에 들었는데, markdown 형식으로 글을 쓸 경우 뭔가 밋밋했다. 또한 기존 블로그는 간단하게 TIL만 작성하는 등 최소한의 시간만 투자했었다. 하지만 기술 블로그의 의미를 조금 더 찾고자 새로운 블로그를 만들기로 결심했다.
- Jekyll vs Hexo vs Hugo 정적 웹사이트 생성기는 굉장히 많다. 그 중 사람들이 가장 많이 사용하는 세 가지를 비교하여 결정했다.</description>
+Jekyll vs Hexo vs Hugo 정적 웹사이트 생성기는 굉장히 많다. 그 중 사람들이 가장 많이 사용하는 세 가지를 비교하여 결정했다.</description>
     </item>
     
   </channel>

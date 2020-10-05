@@ -9,9 +9,9 @@
   
   
   
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-04/" />
   
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-05/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-04/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-05/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL 다시 시작하기 | sangminlog
+           TIL - 2020-10-04 | sangminlog
        
   </title>
-  <meta name="title" content="TIL 다시 시작하기 | sangminlog">
+  <meta name="title" content="TIL - 2020-10-04 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL 다시 시작하기",
-    "headline" : "TIL 다시 시작하기",
-    "description" : "Restart 올해 7월 14일부터 이전 블로그에 TIL을 작성하기 시작했다. 그곳에서의 기록이 9월 19일에 멈췄기 때문에 3주 정도 TIL 작성을 쉬었다. 원래 이 블로그를 만들자마자 다시 시작할 계획이었는데 이런 저런 핑계로 미루게 되었다. 추석 연휴도 끝났으니 더는 미루면 안되겠다고 판단했다.\nTIL 규칙 정하기 기존에 나는 아래 사진처럼 Today I Learned \/ Tomorrow I will Learn 두 파트로 작성해왔다. 애초에 블로그에 많은 시간을 투자하지 않기 위해 \u0026ldquo;기록만 하자\u0026rdquo; 라는 마인드로 진행했는데 지금 보니 턱없이 부실해 보인다.",
+    "name" : "TIL - 2020-10-04",
+    "headline" : "TIL - 2020-10-04",
+    "description" : "💪 Today I Learned AWS 서버 도메인 적용  가비아 도메인 구매 http:\/\/sangmini.site  가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 소프트 스퀘어드 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (1900원\/년 이면 진짜 싸긴 싸다)\n구매한 도메인을 AWS 서버에 적용했다. 서버 프로그램으로 nginx를 사용 중인데, server block에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.\nhttps 적용  letsencrypt 이용  나중에 모의 외주를 하거나 실제 외주를 진행할 때 https 적용은 필수라고 한다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -57,8 +57,8 @@
     "copyrightYear" : "2020",
     "datePublished": "2020-10-04 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-10-04 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-04\/",
-    "wordCount" : "274",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-05\/",
+    "wordCount" : "217",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,7 +117,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL 다시 시작하기</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020-10-04</h1>
         <div class="post-meta">
                 <span class="post-time"><time datetime=2020-10-04 itemprop="datePublished">October 4, 2020</time>
                 </span>
@@ -133,8 +133,6 @@
         
 
         
-            
-        
 
         
         
@@ -147,32 +145,36 @@
           
           
 
-          <h2 id="restart">Restart</h2>
-<p>올해 7월 14일부터 <a href="https://sangminlog.netlify.app/posts/TIL/start-blog">이전 블로그</a>에 TIL을 작성하기 시작했다. 그곳에서의 기록이 9월 19일에 멈췄기 때문에 3주 정도 <code>TIL</code> 작성을 쉬었다. 원래 이 블로그를 만들자마자 다시 시작할 계획이었는데 이런 저런 핑계로 미루게 되었다. 추석 연휴도 끝났으니 더는 미루면 안되겠다고 판단했다.</p>
-<h2 id="til-규칙-정하기">TIL 규칙 정하기</h2>
-<p>기존에 나는 아래 사진처럼 <code>Today I Learned</code> / <code>Tomorrow I will Learn</code> 두 파트로 작성해왔다.
-<img src="../../images/0914.png" alt="">
-<img src="../../images/0914_2.png" alt="">
-애초에 블로그에 많은 시간을 투자하지 않기 위해 <em>&ldquo;기록만 하자&rdquo;</em> 라는 마인드로 진행했는데 지금 보니 턱없이 부실해 보인다. 저렇게 나열하는 것은 다이어리에도 충분히 쓸 수 있을 것 같다.<br>
-시간이 지나고 보니 <strong>무슨 공부를 했는지</strong>는 알겠는데 <strong>어떠한 과정을 겪었고, 무엇을 느꼈는지</strong>는 전혀 모르겠다. 이 과정에서 <code>회고</code>의 중요성을 느꼈고 변화가 필요하다고 생각했다.</p>
-<h3 id="어떻게-쓰는-것이-좋을까">어떻게 쓰는 것이 좋을까?</h3>
-<p>사실 <code>TIL</code>을 작성하는 데 정해진 규칙이나 약속은 없다. 인터넷에 검색해봐도 각자 스타일대로 써내려간다. 그래서 나는 다음과 같은 스타일을 정했다.</p>
-<ol>
-<li>우선 오늘에 집중하자</li>
-</ol>
-<p>기존에 써왔던 <code>Tomorrow I will Learn</code>은 이제 그만 써야겠다. 물론 자기 전에 내일을 계획하고, 그 계획을 실천하는 삶을 사는 것이 좋다는 것은 명백한 사실이다. 하지만 위에서 언급했듯 <code>회고</code>에 초점을 맞추고 싶다.</p>
-<ol start="2">
-<li>포스팅한 글이라도 다시 작성하자</li>
-</ol>
-<p>이 부분이 뭔가 애매할 수 있다. 소프트 스퀘어드를 시작한 뒤로 현재까지 서버와 관련된 내용을 포스팅 해왔는데 그 내용을 <code>TIL</code>에 굳이 또 써야할까? 내가 내린 결론은 결국 <strong>YES</strong>다. 포스팅할 때 공들여 작성한 내용을 다시 쓰려면 귀찮을 게 분명하다. 하지만 간략하게라도 써서 복습하면 좋지 않겠는가.</p>
-<ol start="3">
-<li>개발 외적인 내용이라도 포함하자</li>
-</ol>
-<p>졸업을 앞둔 막학기지만 아직 학생이고 수업도 듣는다. 개발자가 되기 위해 매일 매일 코딩하는 것도 좋지만 이론으로 얻어가는 것도 상당히 많다고 생각한다. 그 날 공부하고 배운 것이 있다면 무엇이든 좋으니 적자.</p>
-<ol start="4">
-<li>1일 1커밋하기</li>
-</ol>
-<p><code>github</code> 사용하는 사람이라면 누구나 한 번 쯤 가득 찬 잔디밭을 꿈꿀 것이다. <strong>1일 1커밋</strong>이라는 게 사소하지만 은근 지키기 어렵다. 매일  꾸준히 <code>TIL</code> 작성해나가면 자연스레 따라오는 결과지 않을까 싶다.</p>
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="aws-서버-도메인-적용">AWS 서버 도메인 적용</h3>
+<ul>
+<li><a href="https://www.gabia.com/">가비아</a> 도메인 구매</li>
+<li><a href="http://sangmini.site">http://sangmini.site</a></li>
+</ul>
+<p>가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 <code>소프트 스퀘어드</code> 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (<em>1900원/년</em> 이면 진짜 싸긴 싸다)<br>
+구매한 도메인을 <code>AWS</code> 서버에 적용했다. 서버 프로그램으로 <code>nginx</code>를 사용 중인데, <strong>server block</strong>에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.</p>
+<h3 id="https-적용">https 적용</h3>
+<ul>
+<li>letsencrypt 이용</li>
+</ul>
+<p>나중에 모의 외주를 하거나 실제 외주를 진행할 때 <code>https</code> 적용은 필수라고 한다. <strong>hypertext transfer protocol secure</strong>의 약자로, 쉽게 말해 보안성이 강화된 http이다.<br>
+우분투 방화벽인 <code>ufw</code>에서 <em>Nginx Full</em> 로 지정해줘야 https 트래픽을 허용할 수 있다.</p>
+<h3 id="sub-domain-및-redirection-적용">sub domain 및 redirection 적용</h3>
+<ul>
+<li>sub domain
+<ul>
+<li><a href="http://test.sangmini.site">http://test.sangmini.site</a></li>
+<li><a href="http://product.sangmini.site">http://product.sangmini.site</a></li>
+</ul>
+</li>
+<li>redirect IP address to domain</li>
+</ul>
+<p>가비아 <code>CNAME</code> 레코드에 서브 도메인 두 개를 추가했다. 위에서 도메인을 적용했던 것과 동일하게 <strong>server block</strong>에 두 도메인을 추가해줬다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt;&gt; ping www.naver.com
+</code></pre></div><p><code>cmd</code> 창에 위와 같이 입력하면 네이버의 IP 주소(<em>210.89.164.90</em>)를 확인할 수 있다. 해당 주소로 이동하면 우리가 잘 알고 있는 <em><a href="http://www.naver.com">www.naver.com</a></em> 으로 <code>redirection</code> 된다.<br>
+이것 역시 <strong>server block</strong> 을 건드려 진행했는데 솔직히 말하면 어떻게 성공했는지 모르겠다. <code>server_name</code> 부분에 AWS 퍼블릭 IP 주소를 써놔서 된 것 같긴 하다. 하지만 원래대로 수정해도 redirection 이전의 상태로 돌아가지 않는다.</p>
+<h2 id="-한마디">🏃 한마디</h2>
+<p>우선 소프트 스퀘어드 <strong>2주차 과제 끝내기</strong>에 초점을 맞췄다. 과제 하면서 틈틈이 찍어둔 스크린샷을 바탕으로 발표 ppt를 만들어야겠다. 내일은 과제 수행하면서 단순히 따라하기만 한 부분들을 정확히 짚고 넘어가야겠다. (위에서 계속 언급한 <code>nginx</code>의 <strong>server block</strong>이나 <code>php-fpm</code>이 무엇인지 등&hellip;)</p>
 
     </div>
 
@@ -185,9 +187,9 @@
     </div>
 
     <div class="post-nav">
-         
         
-        <a href="http://sangm1n.github.io/til/2020-10-05/" class="next" rel="next" title="TIL - 2020-10-04">TIL - 2020-10-04&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/til/2020-10-04/" class="prev" rel="prev" title="TIL 다시 시작하기"><i class="iconfont icon-left"></i>&nbsp;TIL 다시 시작하기</a>
+         
         
     </div>
 
@@ -226,9 +228,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

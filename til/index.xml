@@ -8,13 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>TIL - 2020-10-04</title>
+      <link>http://sangm1n.github.io/til/2020-10-05/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-05/</guid>
+      <description>💪 Today I Learned AWS 서버 도메인 적용  가비아 도메인 구매 http://sangmini.site  가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 소프트 스퀘어드 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (1900원/년 이면 진짜 싸긴 싸다)
+구매한 도메인을 AWS 서버에 적용했다. 서버 프로그램으로 nginx를 사용 중인데, server block에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.
+https 적용  letsencrypt 이용  나중에 모의 외주를 하거나 실제 외주를 진행할 때 https 적용은 필수라고 한다.</description>
+    </item>
+    
+    <item>
       <title>TIL 다시 시작하기</title>
       <link>http://sangm1n.github.io/til/2020-10-04/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-04/</guid>
       <description>Restart 올해 7월 14일부터 이전 블로그에 TIL을 작성하기 시작했다. 그곳에서의 기록이 9월 19일에 멈췄기 때문에 3주 정도 TIL 작성을 쉬었다. 원래 이 블로그를 만들자마자 다시 시작할 계획이었는데 이런 저런 핑계로 미루게 되었다. 추석 연휴도 끝났으니 더는 미루면 안되겠다고 판단했다.
- TIL 규칙 정하기 기존에 나는 아래 사진처럼 Today I Learned / Tomorrow I will Learn 두 파트로 작성해왔다. 애초에 블로그에 많은 시간을 투자하지 않기 위해 &amp;ldquo;기록만 하자&amp;rdquo; 라는 마인드로 진행했는데 지금 보니 턱없이 부실해 보인다.</description>
+TIL 규칙 정하기 기존에 나는 아래 사진처럼 Today I Learned / Tomorrow I will Learn 두 파트로 작성해왔다. 애초에 블로그에 많은 시간을 투자하지 않기 위해 &amp;ldquo;기록만 하자&amp;rdquo; 라는 마인드로 진행했는데 지금 보니 턱없이 부실해 보인다.</description>
     </item>
     
   </channel>

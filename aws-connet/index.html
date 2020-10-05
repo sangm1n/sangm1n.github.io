@@ -23,10 +23,10 @@
   <title>
        
        
-           구축한 AWS 서버에 외부 접속하기 | sangminlog
+           구축한 AWS 서버 외부 접속 확인 | sangminlog
        
   </title>
-  <meta name="title" content="구축한 AWS 서버에 외부 접속하기 | sangminlog">
+  <meta name="title" content="구축한 AWS 서버 외부 접속 확인 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,8 +45,8 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "posts",
-    "name" : "구축한 AWS 서버에 외부 접속하기",
-    "headline" : "구축한 AWS 서버에 외부 접속하기",
+    "name" : "구축한 AWS 서버 외부 접속 확인",
+    "headline" : "구축한 AWS 서버 외부 접속 확인",
     "description" : "Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.\n   Server Program Back-end Language DBMS (\u002bDB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.\nNginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi \/var\/www\/html\/phpinfo.php \u0026lt;?php phpinfo(); ?",
     "inLanguage" : "en-us",
     "author" : "sangmin",
@@ -58,7 +58,7 @@
     "datePublished": "2020-10-03 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-10-03 00:00:00 \u002b0000 UTC",
     "url" : "http:\/\/sangm1n.github.io\/aws-connet\/",
-    "wordCount" : "186",
+    "wordCount" : "201",
     "keywords" : [ "Server","AWS","Nginx","PHP","MySQL", "sangminlog"]
 }
 </script>
@@ -117,7 +117,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">구축한 AWS 서버에 외부 접속하기</h1>
+        <h1 class="post-title" itemprop="name headline">구축한 AWS 서버 외부 접속 확인</h1>
         <div class="post-meta">
                 <span class="post-time"><time datetime=2020-10-03 itemprop="datePublished">October 3, 2020</time>
                 </span>
@@ -190,11 +190,14 @@ bind-adress         <span style="color:#f92672">=</span> 0.0.0.0
 인바운드 규칙에 <code>MySQL</code>을 추가하면 <strong>3306</strong> 포트가 자동으로 설정된다. <em>AWS</em> 에 접속할 계정을 하나 생성해보자.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mysql -u root -p
 
-mysql&gt; CREATE user <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> identified BY <span style="color:#e6db74">&#39;[USER_PASSWD]&#39;</span>;
+<span style="color:#75715e"># 새로운 계정 생성 및 권한 부여</span>
+mysql&gt; create user <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> identified by <span style="color:#e6db74">&#39;[USER_PASSWD]&#39;</span>;
 mysql&gt; grant all privileges on *.* to <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> with grant option;
+mysql&gt; flush privileges;
 mysql&gt; exit;
 
 $ sudo service mysql restart
+<span style="color:#75715e"># 방화벽에서 3306 포트 허용</span>
 $ sudo ufw allow out 3306/tcp
 $ sudo ufw allot in 3306/tcp
 </code></pre></div><h4 id="mysql-workbench에서-확인">MySQL Workbench에서 확인</h4>
