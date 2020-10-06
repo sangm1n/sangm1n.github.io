@@ -6,7 +6,19 @@
     <description>Recent content in Server on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache vs Nginx 간단 비교</title>
+      <link>http://sangm1n.github.io/apache-nginx/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/apache-nginx/</guid>
+      <description>2주에 걸쳐 서버 프로그램으로 Apache와 Nginx를 설치해서 사용해봤다. 두 가지 프로그램이 전체 웹 서비스의 반 이상을 차지할 정도로 폭넓게 사용된다고 하니 어떤 차이점이 있는지 궁금해졌다.
+Apache http 웹 서버의 대명사라고 불리는 아파치는 MPM(Multi Processing Module : 다중처리모듈) 방식으로 요청을 처리한다.
+스레드/프로세스 기반 구조 스레드/프로세스 기반 구조는 기본적으로 한 개의 스레드가 한 개의 요청만을 처리하는 구조이다. 사용자가 늘어날수록 많은 스레드를 생성해 메모리나 CPU 소모가 증가한다. 대표적으로 prefork와 worker 방식이 있다.
+Prefork MPM  실행 중인 프로세스를 복제하여 처리하는 방식 각 서버 프로세스는 한 번에 하나의 요청만 처리, 요청량이 많아질수록 프로세스를 복제하여 동작 PHP 환경에서 권장되는 방식  Worker MPM  한 개의 프로세스가 여러 개의 스레드를 사용하여 요청 처리 메모리 소모가 prefork 방식보다 적어 통신량이 많을 때 유리  아파치는 연결할 때마다 새로운 프로세스나 스레드가 필요하다.</description>
+    </item>
+    
     <item>
       <title>구축한 AWS 서버 외부 접속 확인</title>
       <link>http://sangm1n.github.io/aws-connet/</link>

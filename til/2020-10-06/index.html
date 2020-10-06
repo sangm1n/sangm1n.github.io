@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-04/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-06/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-05/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-05/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-06/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020-10-05 | sangminlog
+           TIL - 2020-10-06 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020-10-05 | sangminlog">
+  <meta name="title" content="TIL - 2020-10-06 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020-10-05",
-    "headline" : "TIL - 2020-10-05",
-    "description" : "💪 Today I Learned AWS 서버 도메인 적용  가비아 도메인 구매 http:\/\/sangmini.site  가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 소프트 스퀘어드 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (1900원\/년 이면 진짜 싸긴 싸다)\n구매한 도메인을 AWS 서버에 적용했다. 서버 프로그램으로 nginx를 사용 중인데, server block에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.\nhttps 적용  certbot 이용 (with letsencrypt)  나중에 모의 외주를 하거나 실제 외주를 진행할 때 https 적용은 필수라고 한다.",
+    "name" : "TIL - 2020-10-06",
+    "headline" : "TIL - 2020-10-06",
+    "description" : "💪 Today I Learned Apache vs Nginx  Apache : MPM 방식, 스레드\/프로세스 기반 구조 Nginx : 비동기 Event-Driven 기반 구조  발표 자료 만들다가 문득 궁금해져서 찾아봤다. 2주에 걸쳐 서버 프로그램으로 apache와 nginx를 사용했는데 정작 둘의 차이점은 모르고 있었다. 그래서 오늘 포스팅에 간략하게나마 정리했다. 간단하게 동시 접속 요청이 많을 경우 nginx를 사용하면 될 것 같다.\nhard link vs symbolic link (soft link)  hard link : 원본 파일과 동일한 inode를 가진다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-10-05 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-10-05 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-05\/",
-    "wordCount" : "219",
+    "datePublished": "2020-10-06 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-06 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-06\/",
+    "wordCount" : "262",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020-10-05</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020-10-06</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-10-05 itemprop="datePublished">October 5, 2020</time>
+                <span class="post-time"><time datetime=2020-10-06 itemprop="datePublished">October 6, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -146,35 +146,28 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="aws-서버-도메인-적용">AWS 서버 도메인 적용</h3>
+<h3 id="apache-vs-nginx">Apache vs Nginx</h3>
 <ul>
-<li><a href="https://www.gabia.com/">가비아</a> 도메인 구매</li>
-<li><a href="http://sangmini.site">http://sangmini.site</a></li>
+<li>Apache : MPM 방식, 스레드/프로세스 기반 구조</li>
+<li>Nginx : 비동기 Event-Driven 기반 구조</li>
 </ul>
-<p>가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 <code>소프트 스퀘어드</code> 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (<em>1900원/년</em> 이면 진짜 싸긴 싸다)<br>
-구매한 도메인을 <code>AWS</code> 서버에 적용했다. 서버 프로그램으로 <code>nginx</code>를 사용 중인데, <strong>server block</strong>에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.</p>
-<h3 id="https-적용">https 적용</h3>
+<p>발표 자료 만들다가 문득 궁금해져서 찾아봤다. 2주에 걸쳐 서버 프로그램으로 <code>apache</code>와 <code>nginx</code>를 사용했는데 정작 둘의 차이점은 모르고 있었다. 그래서 <a href="https://sangm1n.github.io/apache-nginx/">오늘 포스팅</a>에 간략하게나마 정리했다. 간단하게 동시 접속 요청이 많을 경우 <code>nginx</code>를 사용하면 될 것 같다.</p>
+<h3 id="hard-link-vs-symbolic-link-soft-link">hard link vs symbolic link (soft link)</h3>
 <ul>
-<li>certbot 이용 (with letsencrypt)</li>
+<li>hard link : 원본 파일과 동일한 inode를 가진다.</li>
+<li>symbolic link : 원본 파일의 이름을 가리킨다.</li>
 </ul>
-<p>나중에 모의 외주를 하거나 실제 외주를 진행할 때 <code>https</code> 적용은 필수라고 한다. <strong>hypertext transfer protocol secure</strong>의 약자로, 쉽게 말해 보안성이 강화된 http이다.<br>
-우분투 방화벽인 <code>ufw</code>에서 <em>Nginx Full</em> 로 지정해줘야 https 트래픽을 허용할 수 있다.</p>
-<h3 id="sub-domain-및-redirection-적용">sub domain 및 redirection 적용</h3>
+<p><code>phpmyadmin</code> 설치 시 <strong>ln -s</strong> 명령어로 심볼릭 링크를 걸어줬는데 이게 뭔가 싶었다. 찾아보니 2년 전 시스템 프로그래밍 시간에 배운 내용이었다. 수업 당시 교수님께서 <code>soft link</code>라는 용어로만 설명하셔서 생소하지 않았나 싶다.<br>
+어쨌든 심볼릭 링크는 쉽게 말해 <strong>윈도우 바로가기</strong>와 같은 것이다. 그래서 원본 파일이 삭제된다면 무용지물이 된다. 반면 하드 링크는 동일한 <code>inode</code>를 가지므로 원본 파일이 삭제되도 데이터만 남아있다면 문제 없다.</p>
+<h3 id="nginx-server-block">Nginx server block</h3>
 <ul>
-<li>sub domain
-<ul>
-<li><a href="http://test.sangmini.site">http://test.sangmini.site</a></li>
-<li><a href="http://product.sangmini.site">http://product.sangmini.site</a></li>
+<li>redirection 위주</li>
 </ul>
-</li>
-<li>redirect IP address to domain</li>
-</ul>
-<p>가비아 <code>CNAME</code> 레코드에 서브 도메인 두 개를 추가했다. 위에서 도메인을 적용했던 것과 동일하게 <strong>server block</strong>에 두 도메인을 추가해줬다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt;&gt; ping www.naver.com
-</code></pre></div><p><code>cmd</code> 창에 위와 같이 입력하면 네이버의 IP 주소(<em>210.89.164.90</em>)를 확인할 수 있다. 해당 주소로 이동하면 우리가 잘 알고 있는 <em><a href="http://www.naver.com">www.naver.com</a></em> 으로 <code>redirection</code> 된다.<br>
-이것 역시 <strong>server block</strong> 을 건드려 진행했는데 솔직히 말하면 어떻게 성공했는지 모르겠다. <code>server_name</code> 부분에 AWS 퍼블릭 IP 주소를 써놔서 된 것 같긴 하다. 하지만 원래대로 수정해도 redirection 이전의 상태로 돌아가지 않는다.</p>
+<p>어제 말한대로 nginx의 <code>server block</code>에 대해 공부해봤다. 깊게 파보진 않고 <strong>http -&gt; https</strong>나 <strong>ip -&gt; domain</strong> 형식으로 <code>redirection</code> 걸어주는 방식에 대해 많이 알아봤다. 과제를 끝마쳤다고 생각했었는데 크롬이 아닌 <code>edge</code>로 들어가서 확인해보니 아니었다. (캐시를 삭제해주지 않아서 그런듯)<br>
+어쨌든 이번엔 제대로 구현했고 수차례 확인까지 했다. 삽질을 조금 했지만 굉장히 간단했다. <code>http</code>로 요청 들어오는 경우에 <strong>301</strong>로 리턴하여 리다이렉션 적용할 주소를 써주면 됐다.</p>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>우선 소프트 스퀘어드 <strong>2주차 과제 끝내기</strong>에 초점을 맞췄다. 과제 하면서 틈틈이 찍어둔 스크린샷을 바탕으로 발표 ppt를 만들어야겠다. 내일은 과제 수행하면서 단순히 따라하기만 한 부분들을 정확히 짚고 넘어가야겠다. (위에서 계속 언급한 <code>nginx</code>의 <strong>server block</strong>이나 <code>php-fpm</code>이 무엇인지 등&hellip;)</p>
+<p>생각보다 내가 했던 과제에 빈틈이 많이 존재했다. 그래서 아예 <code>AWS instance</code>를 하나 더 생성해 처음부터 다시해봤다. 한 번 더 훑어보니 서버 구축의 전반적인 과정을 이해하기 훨씬 수월했다. 또한 거의 2년 만에 사용하는 <code>putty</code>가 편해지기 시작했다.<br>
+궁금했던 점이 있는데, 인바운드 규칙에서 <strong>3306 포트</strong>를 열었는데도 불구하고 <code>MySQL</code> 연결이 안된다는 것이다. 우분투 방화벽인 <code>ufw</code>를 설정하여 해결하긴 했지만 왜 그런지 모르겠다. 내일 과제 발표 마치고 물어봐야겠다.</p>
 
     </div>
 
@@ -188,10 +181,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-10-04/" class="prev" rel="prev" title="TIL 다시 시작하기"><i class="iconfont icon-left"></i>&nbsp;TIL 다시 시작하기</a>
+        <a href="http://sangm1n.github.io/til/2020-10-05/" class="prev" rel="prev" title="TIL - 2020-10-05"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020-10-05</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-10-06/" class="next" rel="next" title="TIL - 2020-10-06">TIL - 2020-10-06&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

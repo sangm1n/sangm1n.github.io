@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/aws-connet/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/apache-nginx/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Apache vs Nginx 간단 비교 | sangminlog
+       
+  </title>
+  <meta name="title" content="Apache vs Nginx 간단 비교 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Apache vs Nginx 간단 비교",
+    "headline" : "Apache vs Nginx 간단 비교",
+    "description" : "2주에 걸쳐 서버 프로그램으로 Apache와 Nginx를 설치해서 사용해봤다. 두 가지 프로그램이 전체 웹 서비스의 반 이상을 차지할 정도로 폭넓게 사용된다고 하니 어떤 차이점이 있는지 궁금해졌다.\nApache http 웹 서버의 대명사라고 불리는 아파치는 MPM(Multi Processing Module : 다중처리모듈) 방식으로 요청을 처리한다.\n스레드\/프로세스 기반 구조 스레드\/프로세스 기반 구조는 기본적으로 한 개의 스레드가 한 개의 요청만을 처리하는 구조이다. 사용자가 늘어날수록 많은 스레드를 생성해 메모리나 CPU 소모가 증가한다. 대표적으로 prefork와 worker 방식이 있다.\nPrefork MPM  실행 중인 프로세스를 복제하여 처리하는 방식 각 서버 프로세스는 한 번에 하나의 요청만 처리, 요청량이 많아질수록 프로세스를 복제하여 동작 PHP 환경에서 권장되는 방식  Worker MPM  한 개의 프로세스가 여러 개의 스레드를 사용하여 요청 처리 메모리 소모가 prefork 방식보다 적어 통신량이 많을 때 유리  아파치는 연결할 때마다 새로운 프로세스나 스레드가 필요하다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-06 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-06 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/apache-nginx\/",
+    "wordCount" : "200",
+    "keywords" : [ "Server","Apache","Nginx", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Apache vs Nginx 간단 비교</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-06 itemprop="datePublished">October 6, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>2주에 걸쳐 서버 프로그램으로 <code>Apache</code>와 <code>Nginx</code>를 설치해서 사용해봤다. 두 가지 프로그램이 전체 웹 서비스의 반 이상을 차지할 정도로 폭넓게 사용된다고 하니 어떤 차이점이 있는지 궁금해졌다.</p>
+<h2 id="apache">Apache</h2>
+<p><img src="../images/apache-logo.png" alt="">
+<code>http</code> 웹 서버의 대명사라고 불리는 아파치는 <strong>MPM(Multi Processing Module : 다중처리모듈)</strong> 방식으로 요청을 처리한다.</p>
+<h3 id="스레드프로세스-기반-구조">스레드/프로세스 기반 구조</h3>
+<p><img src="../images/thread-process.png" alt="">
+스레드/프로세스 기반 구조는 기본적으로 <strong>한 개의 스레드가 한 개의 요청만을 처리</strong>하는 구조이다. 사용자가 늘어날수록 많은 스레드를 생성해 메모리나 CPU 소모가 증가한다. 대표적으로 <code>prefork</code>와 <code>worker</code> 방식이 있다.</p>
+<h4 id="prefork-mpm">Prefork MPM</h4>
+<ul>
+<li>실행 중인 프로세스를 복제하여 처리하는 방식</li>
+<li>각 서버 프로세스는 한 번에 하나의 요청만 처리, 요청량이 많아질수록 프로세스를 복제하여 동작</li>
+<li><code>PHP</code> 환경에서 권장되는 방식</li>
+</ul>
+<h4 id="worker-mpm">Worker MPM</h4>
+<ul>
+<li>한 개의 프로세스가 여러 개의 스레드를 사용하여 요청 처리</li>
+<li>메모리 소모가 <code>prefork</code> 방식보다 적어 통신량이 많을 때 유리</li>
+</ul>
+<p>아파치는 연결할 때마다 새로운 프로세스나 스레드가 필요하다. 따라서 이러한 접속 요청이 많아질 경우 대용량 요청을 처리할 수 있는 웹 서버로서의 한계를 보여준다.</p>
+<h2 id="nginx">Nginx</h2>
+<p><img src="../images/nginx-logo.png" alt="">
+비동기 Event-Driven 기반 구조로 다수의 연결을 보다 더 효과적으로 처리할 수 있다. 즉, 단일 <code>nginx</code> 작업자가 <strong>동시에 수천 개의 요청</strong>을 처리할 수 있다.</p>
+<h3 id="비동기-event-driven">비동기 Event-driven</h3>
+<p><img src="../images/event-driven.png" alt="">
+요청을 수행하는 도중 CPU가 관여하지 않는 작업(I/O, socket R/W 등)이 시작되면 기다리지 않고 바로 다른 요청을 수행한다. 그렇기 때문에 하나의 프로세스로 더 빠른 작업이 가능하며 메모리 측면에서 동시 접속 요청이 많아져도 효율적으로 처리할 수 있다.</p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><a href="https://cornswrold.tistory.com/429">https://cornswrold.tistory.com/429</a></li>
+<li><a href="https://youngmind.tistory.com/entry/Apache-vs-Nginx">https://youngmind.tistory.com/entry/Apache-vs-Nginx</a></li>
+</ul>
+
+    </div>
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/apache/">
+                    #Apache</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/nginx/">
+                    #Nginx</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/aws-connet/" class="prev" rel="prev" title="구축한 AWS 서버 외부 접속 확인"><i class="iconfont icon-left"></i>&nbsp;구축한 AWS 서버 외부 접속 확인</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

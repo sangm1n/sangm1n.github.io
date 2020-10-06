@@ -10,7 +10,7 @@
   
   
   <link rel="prev" href="http://sangm1n.github.io/aws-start/" />
-  
+  <link rel="next" href="http://sangm1n.github.io/apache-nginx/" />
   <link rel="canonical" href="http://sangm1n.github.io/aws-connet/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -58,7 +58,7 @@
     "datePublished": "2020-10-03 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-10-03 00:00:00 \u002b0000 UTC",
     "url" : "http:\/\/sangm1n.github.io\/aws-connet\/",
-    "wordCount" : "201",
+    "wordCount" : "223",
     "keywords" : [ "Server","AWS","Nginx","PHP","MySQL", "sangminlog"]
 }
 </script>
@@ -180,6 +180,8 @@ phpinfo<span style="color:#f92672">()</span>;
 <h4 id="phpmyadmin-설치">phpmyadmin 설치</h4>
 <p><code>phpMyAdmin</code>은 웹 브라우저에서 <em>MySQL</em> 이나 <em>MariaDB</em> 를 관리할 수 있게 해주는 소프트웨어이다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo apt install phpmyadmin
+<span style="color:#75715e"># symbolic link</span>
+$ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 </code></pre></div><p>이후 설치 과정은 <a href="https://antilibrary.org/1901">갈루아의 반서재</a>라는 블로그에 굉장히 자세하게 나와 있으니 참고하면 될 것 같다.</p>
 <h3 id="mysql">MySQL</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -191,15 +193,17 @@ bind-adress         <span style="color:#f92672">=</span> 0.0.0.0
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mysql -u root -p
 
 <span style="color:#75715e"># 새로운 계정 생성 및 권한 부여</span>
-mysql&gt; create user <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> identified by <span style="color:#e6db74">&#39;[USER_PASSWD]&#39;</span>;
-mysql&gt; grant all privileges on *.* to <span style="color:#e6db74">&#39;[USER_NAME]&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> with grant option;
+<span style="color:#75715e"># GRANT 권한종류 ON 대상 TO 계정명 IDENTIFIED BY 암호 [WITH GRANT OPTION];</span>
+mysql&gt; grant all privileges on *.* to <span style="color:#e6db74">&#39;sangmin&#39;</span>@<span style="color:#e6db74">&#39;%&#39;</span> identified by <span style="color:#e6db74">&#39;[PASSWORD]&#39;</span> with grant option;
+<span style="color:#75715e"># 변경 내용 적용</span>
 mysql&gt; flush privileges;
 mysql&gt; exit;
 
-$ sudo service mysql restart
 <span style="color:#75715e"># 방화벽에서 3306 포트 허용</span>
 $ sudo ufw allow out 3306/tcp
 $ sudo ufw allot in 3306/tcp
+
+$ sudo service mysql restart
 </code></pre></div><h4 id="mysql-workbench에서-확인">MySQL Workbench에서 확인</h4>
 <p>새로운 커넥션을 만들어 <em>Hostname</em> 에는 <code>AWS instance IP</code>를, <em>Username</em> 에는 위에서 생성한 <code>USER_NAME</code>을 입력하여 테스트 커넥션을 진행한다. 아래와 같으면 정상적으로 연결된 것이다.
 <img src="../images/mysql-connect.png" alt=""></p>
@@ -238,6 +242,8 @@ $ sudo ufw allot in 3306/tcp
         
         <a href="http://sangm1n.github.io/aws-start/" class="prev" rel="prev" title="AWS를 이용한 서버 구축"><i class="iconfont icon-left"></i>&nbsp;AWS를 이용한 서버 구축</a>
          
+        
+        <a href="http://sangm1n.github.io/apache-nginx/" class="next" rel="next" title="Apache vs Nginx 간단 비교">Apache vs Nginx 간단 비교&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

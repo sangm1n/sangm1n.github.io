@@ -6,16 +6,26 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TIL - 2020-10-04</title>
+      <title>TIL - 2020-10-06</title>
+      <link>http://sangm1n.github.io/til/2020-10-06/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-06/</guid>
+      <description>💪 Today I Learned Apache vs Nginx  Apache : MPM 방식, 스레드/프로세스 기반 구조 Nginx : 비동기 Event-Driven 기반 구조  발표 자료 만들다가 문득 궁금해져서 찾아봤다. 2주에 걸쳐 서버 프로그램으로 apache와 nginx를 사용했는데 정작 둘의 차이점은 모르고 있었다. 그래서 오늘 포스팅에 간략하게나마 정리했다. 간단하게 동시 접속 요청이 많을 경우 nginx를 사용하면 될 것 같다.
+hard link vs symbolic link (soft link)  hard link : 원본 파일과 동일한 inode를 가진다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020-10-05</title>
       <link>http://sangm1n.github.io/til/2020-10-05/</link>
-      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-05/</guid>
       <description>💪 Today I Learned AWS 서버 도메인 적용  가비아 도메인 구매 http://sangmini.site  가비아에서 도메인을 하나 구매했다. 무료 도메인을 쓰고 싶었으나 소프트 스퀘어드 수업에서 별로 비싸지 않으니까 아까워하지 말라더라. (1900원/년 이면 진짜 싸긴 싸다)
 구매한 도메인을 AWS 서버에 적용했다. 서버 프로그램으로 nginx를 사용 중인데, server block에 해당 도메인을 추가하는 것으로 쉽게 적용할 수 있었다.
-https 적용  letsencrypt 이용  나중에 모의 외주를 하거나 실제 외주를 진행할 때 https 적용은 필수라고 한다.</description>
+https 적용  certbot 이용 (with letsencrypt)  나중에 모의 외주를 하거나 실제 외주를 진행할 때 https 적용은 필수라고 한다.</description>
     </item>
     
     <item>

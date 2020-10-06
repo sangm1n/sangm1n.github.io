@@ -2,9 +2,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>http://sangm1n.github.io/tags/apache/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/apache-nginx/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://sangm1n.github.io/categories/</loc>
       
-      <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/nginx/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/posts/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
       
       
       
@@ -14,7 +54,37 @@
     <url>
       <loc>http://sangm1n.github.io/</loc>
       
-      <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/server/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/categories/server/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
       
       
       
@@ -24,7 +94,27 @@
     <url>
       <loc>http://sangm1n.github.io/categories/til/</loc>
       
-      <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/til/2020-10-06/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/til/</loc>
+      
+      <lastmod>2020-10-06T00:00:00+00:00</lastmod>
       
       
       
@@ -34,7 +124,7 @@
     <url>
       <loc>http://sangm1n.github.io/til/2020-10-05/</loc>
       
-      <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-05T00:00:00+00:00</lastmod>
       
       
       
@@ -43,16 +133,6 @@
   
     <url>
       <loc>http://sangm1n.github.io/til/2020-10-04/</loc>
-      
-      <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/til/</loc>
       
       <lastmod>2020-10-04T00:00:00+00:00</lastmod>
       
@@ -82,57 +162,7 @@
     </url>
   
     <url>
-      <loc>http://sangm1n.github.io/tags/nginx/</loc>
-      
-      <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://sangm1n.github.io/tags/php/</loc>
-      
-      <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/posts/</loc>
-      
-      <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/server/</loc>
-      
-      <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/categories/server/</loc>
-      
-      <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/</loc>
       
       <lastmod>2020-10-03T00:00:00+00:00</lastmod>
       
@@ -155,16 +185,6 @@
       <loc>http://sangm1n.github.io/aws-start/</loc>
       
       <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/apache/</loc>
-      
-      <lastmod>2020-10-01T00:00:00+00:00</lastmod>
       
       
       
