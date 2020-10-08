@@ -6,7 +6,18 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020-10-08</title>
+      <link>http://sangm1n.github.io/til/2020-10-08/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-08/</guid>
+      <description>💪 Today I Learned 탄력적 IP  고정된 IP 주소  AWS에서 탄력적 IP (EIP, Elastic IP)를 할당할 수 있다. AWS 인스턴스의 퍼블릭 IP는 유동적인 IP 주소이기 때문에 인스턴스를 중지하고 다시 시작할 경우 해당 IP 주소가 변경된다. 따라서 실제 서비스를 만들고자 할 때 유동 IP를 사용해서는 안된다.
+이럴 때 사용하는 것이 고정 IP이다. 단, EIP는 유료 서비스이므로 항상 주의하자.
+phpmyadmin VS mysql workbench  둘 다 mysql 접근  소프트 스퀘어드 2주차 과제를 진행하며 phpmyadmin과 mysql workbench를 사용하여 mysql에 외부 접속을 해봤다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020-10-07</title>
       <link>http://sangm1n.github.io/til/2020-10-07/</link>
@@ -24,8 +35,8 @@
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-06/</guid>
-      <description>💪 Today I Learned Apache vs Nginx  Apache : MPM 방식, 스레드/프로세스 기반 구조 Nginx : 비동기 Event-Driven 기반 구조  발표 자료 만들다가 문득 궁금해져서 찾아봤다. 2주에 걸쳐 서버 프로그램으로 apache와 nginx를 사용했는데 정작 둘의 차이점은 모르고 있었다. 그래서 오늘 포스팅에 간략하게나마 정리했다. 간단하게 동시 접속 요청이 많을 경우 nginx를 사용하면 될 것 같다.
-hard link vs symbolic link (soft link)  hard link : 원본 파일과 동일한 inode를 가진다.</description>
+      <description>💪 Today I Learned Apache VS Nginx  Apache : MPM 방식, 스레드/프로세스 기반 구조 Nginx : 비동기 Event-Driven 기반 구조  발표 자료 만들다가 문득 궁금해져서 찾아봤다. 2주에 걸쳐 서버 프로그램으로 apache와 nginx를 사용했는데 정작 둘의 차이점은 모르고 있었다. 그래서 오늘 포스팅에 간략하게나마 정리했다. 간단하게 동시 접속 요청이 많을 경우 nginx를 사용하면 될 것 같다.
+hard link VS symbolic link (soft link)  hard link : 원본 파일과 동일한 inode를 가진다.</description>
     </item>
     
     <item>
