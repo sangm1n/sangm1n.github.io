@@ -6,7 +6,19 @@
     <description>Recent content in MySQL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soft squared - DBMS에 대하여</title>
+      <link>http://sangm1n.github.io/rdbms/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/rdbms/</guid>
+      <description>3주차 수업은 DBMS에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.
+해피 서버와 드림 서버 1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 DBMS와 DB를 분리하는 것이다.
+초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?
+Server program + Back-end Language + DBMS 서버단에 대한 설명에서 Server program / Back-end Language / DBMS 세 파트를 통틀어서 서버라고 불렀다.</description>
+    </item>
+    
     <item>
       <title>구축한 AWS 서버 외부 접속 확인</title>
       <link>http://sangm1n.github.io/aws-connet/</link>
