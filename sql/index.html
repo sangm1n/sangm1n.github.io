@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-07/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-09/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-08/" />
+  <link rel="prev" href="http://sangm1n.github.io/dbms/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/sql/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 10월 8일 | sangminlog
+           SQL 종류 - DDL / DML / DCL | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 10월 8일 | sangminlog">
+  <meta name="title" content="SQL 종류 - DDL / DML / DCL | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "TIL",
-    "name" : "TIL - 2020년 10월 8일",
-    "headline" : "TIL - 2020년 10월 8일",
-    "description" : "💪 Today I Learned 탄력적 IP  고정된 IP 주소  AWS에서 탄력적 IP (EIP, Elastic IP)를 할당할 수 있다. AWS 인스턴스의 퍼블릭 IP는 유동적인 IP 주소이기 때문에 인스턴스를 중지하고 다시 시작할 경우 해당 IP 주소가 변경된다. 따라서 실제 서비스를 만들고자 할 때 유동 IP를 사용해서는 안된다.\n이럴 때 사용하는 것이 고정 IP이다. 단, EIP는 유료 서비스이므로 항상 주의하자.\nphpmyadmin VS mysql workbench  둘 다 mysql 접근  소프트 스퀘어드 2주차 과제를 진행하며 phpmyadmin과 mysql workbench를 사용하여 mysql에 외부 접속을 해봤다.",
+    "articleSection" : "posts",
+    "name" : "SQL 종류 - DDL \/ DML \/ DCL",
+    "headline" : "SQL 종류 - DDL \/ DML \/ DCL",
+    "description" : "SQL (Structured Query Language) SQL 명령어는 크게 세 가지로 분류할 수 있다. SQL이 무엇인지는 이전 포스팅에서 DBMS와 함께 정리해놨다.\nDDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하는 언어이다. 스키마(데이터베이스)나 테이블을 생성, 수정, 삭제하는 등 데이터 전체의 골격을 결정한다.\n CREATE : 테이블 혹은 데이터베이스 생성 ALTER : 테이블 수정 DROP : 테이블 혹은 데이터베이스 삭제 TRUNCATE : 테이블 초기화  DML DML은 Data Manipulation Language의 약자로 데이터 조작어이다. DDL을 통해 정의된 데이터베이스에 존재하는 레코드를 조회, 수정, 삭제하는 등 글자 그대로 데이터를 조작한다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-10-08 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-10-08 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-08\/",
-    "wordCount" : "141",
-    "keywords" : [  "sangminlog"]
+    "datePublished": "2020-10-11 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-11 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/sql\/",
+    "wordCount" : "123",
+    "keywords" : [ "Server","DBMS","SQL", "sangminlog"]
 }
 </script>
 
@@ -117,14 +117,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 8일</h1>
+        <h1 class="post-title" itemprop="name headline">SQL 종류 - DDL / DML / DCL</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-10-08 itemprop="datePublished">October 8, 2020</time>
+                <span class="post-time"><time datetime=2020-10-11 itemprop="datePublished">October 11, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
                         
                 </span>
         </div>
@@ -145,29 +145,49 @@
           
           
 
-          <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="탄력적-ip">탄력적 IP</h3>
+          <h2 id="sql-structured-query-language">SQL (Structured Query Language)</h2>
+<p><code>SQL</code> 명령어는 크게 세 가지로 분류할 수 있다. SQL이 무엇인지는 <a href="https://sangm1n.github.io/dbms/">이전 포스팅</a>에서 <code>DBMS</code>와 함께 정리해놨다.</p>
+<h3 id="ddl">DDL</h3>
+<p><code>DDL</code>은 <strong>Data Definition Language</strong>의 약자로 데이터베이스를 정의하는 언어이다. 스키마(데이터베이스)나 테이블을 생성, 수정, 삭제하는 등 데이터 전체의 골격을 결정한다.</p>
 <ul>
-<li>고정된 IP 주소</li>
+<li><em>CREATE</em> : 테이블 혹은 데이터베이스 생성</li>
+<li><em>ALTER</em> : 테이블 수정</li>
+<li><em>DROP</em> : 테이블 혹은 데이터베이스 삭제</li>
+<li><em>TRUNCATE</em> : 테이블 초기화</li>
 </ul>
-<p>AWS에서 <strong>탄력적 IP</strong> (<code>EIP</code>, Elastic IP)를 할당할 수 있다. AWS 인스턴스의 <strong>퍼블릭 IP</strong>는 유동적인 IP 주소이기 때문에 인스턴스를 중지하고 다시 시작할 경우 해당 IP 주소가 변경된다. 따라서 실제 서비스를 만들고자 할 때 유동 IP를 사용해서는 안된다.<br>
-이럴 때 사용하는 것이 고정 IP이다. 단, <code>EIP</code>는 유료 서비스이므로 항상 주의하자.</p>
-<h3 id="phpmyadmin-vs-mysql-workbench">phpmyadmin VS mysql workbench</h3>
+<h3 id="dml">DML</h3>
+<p><code>DML</code>은 <strong>Data Manipulation Language</strong>의 약자로 데이터 조작어이다. <code>DDL</code>을 통해 정의된 데이터베이스에 존재하는 레코드를 조회, 수정, 삭제하는 등 글자 그대로 데이터를 조작한다.</p>
 <ul>
-<li>둘 다 <code>mysql</code> 접근</li>
+<li><em>SELECT</em> : 데이터 조회</li>
+<li><em>INSERT</em> : 데이터 생성</li>
+<li><em>UPDATE</em> : 데이터 수정</li>
+<li><em>DELETE</em> : 데이터 삭제</li>
 </ul>
-<p><code>소프트 스퀘어드</code> 2주차 과제를 진행하며 phpmyadmin과 mysql workbench를 사용하여 <strong>mysql</strong>에 외부 접속을 해봤다. 하지만 정작 각각의 경우가 어떠한 차이를 갖고 있는지는 인지하지 못하고 있었다.</p>
+<h3 id="dcl">DCL</h3>
+<p><code>DCL</code>은 <strong>Data Control Language</strong>의 약자로 데이터베이스에 접근하거나 특정 사용자의 권한을 관리하는 등의 역할을 한다.</p>
 <ul>
-<li><em>phpmyadmin</em> : <strong>80</strong>번 포트로 서버 프로그램에 접근하여 내부에서 <code>DBMS</code>로 접속한다. 그러므로 사용자에 대한 권한을 주지 않아도 접근 가능하다.</li>
-<li><em>mysql workbench</em> : <strong>3306</strong>번 포트를 이용하여 외부에서 바로 접근한다. 그래서 과제 수행 시 사용자 계정에 권한을 부여하지 않으면 접근이 불가능했다.</li>
+<li><em>GRANT</em> : 사용자에게 특정 권한 부여</li>
+<li><em>REVOKE</em> : 사용자에게 특정 권한 회수</li>
 </ul>
-<h2 id="-한마디">🏃 한마디</h2>
-<p>슬슬 서버 공부가 재밌어진다. 빨리 6주차까지 교육받은 후 모의 외주를 진행하고 싶다.</p>
 
     </div>
     
 
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/dbms/">
+                    #DBMS</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/sql/">
+                    #SQL</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -186,10 +206,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-10-07/" class="prev" rel="prev" title="TIL - 2020년 10월 7일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 7일</a>
+        <a href="http://sangm1n.github.io/dbms/" class="prev" rel="prev" title="Soft squared - DBMS에 대하여"><i class="iconfont icon-left"></i>&nbsp;Soft squared - DBMS에 대하여</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-10-09/" class="next" rel="next" title="TIL - 2020년 10월 9일">TIL - 2020년 10월 9일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
