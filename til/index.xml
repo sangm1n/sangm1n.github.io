@@ -6,14 +6,23 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 12일</title>
+      <link>http://sangm1n.github.io/til/2020-10-12/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-12/</guid>
+      <description>💪 Today I Learned Brunch ERD 수정  AqueryTool 이용 데이터 구축을 위한 ERD 최종본  🏃 한마디 ERD 설계를 완성짓는 데 생각보다 너무 오래 걸렸다. 그 외 모든 시간은 한 방 쿼리 작성하는 데 쏟았다. 중요한 몇몇 쿼리문을 정리하여 포스팅하고 싶지만 과제를 기간 안에 끝마치지 못할 것 같아 수요일 이후에 여유가 생기면 작성해야겠다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 11일</title>
       <link>http://sangm1n.github.io/til/2020-10-11/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-11/</guid>
-      <description>💪 Today I Learned Brunch ERD 설계  AqueryTool 이용  어제 설계했던 ERD를 수정했다. 큰 맥락에서 보면 User / Post / Comment / Follow 네 개의 테이블이 주축을 이룬다. 나머지 테이블들은 모두 카테고리컬한 테이블이라고 봐도 무방하다.
+      <description>💪 Today I Learned Brunch ERD 수정  AqueryTool 이용  어제 설계했던 ERD를 수정했다. 큰 맥락에서 보면 User / Post / Comment / Follow 네 개의 테이블이 주축을 이룬다. 나머지 테이블들은 모두 카테고리컬한 테이블이라고 봐도 무방하다.
 aquerytool의 모든 테이블 생성 SQL 기능을 이용해 테이블을 생성했으니 데이터를 넣는 일만 남았다.
 🏃 한마디 사실 오늘 헌혈해서 많은 시간을 할애하지는 못했다. 그래도 어제보다 더 그럴싸하게 다이어그램을 만들어낸 것 같다. 내일은 DB에 데이터를 넣어 실제 앱 화면처럼 데이터를 뽑아내는 한 방 쿼리를 작성해야겠다.</description>
     </item>
