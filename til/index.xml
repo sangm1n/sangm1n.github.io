@@ -6,7 +6,17 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 14일</title>
+      <link>http://sangm1n.github.io/til/2020-10-14/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-14/</guid>
+      <description>💪 Today I Learned API  Application Programming Interface  소프트 스퀘어드 4주차 수업 내용은 API였다. 전공자로써 수도 없이 들어본 용어이지만 정작 정확한 의미를 모르고 있었다. 쉽게 program 간의 매개체 정도로 정의할 수 있을 것 같다.
+조금 더 쉬운 예시를 들자면, 사람이 스마트폰 홈 화면을 보기 위해 전원 버튼을 누르는 모습을 상상해보자. 사람은 전원 버튼을 누르면 홈 화면을 볼 수 있다는 사실을 알고 있다. 하지만 어떻게 홈 화면을 보여주는지 내부 로직은 모른다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 13일</title>
       <link>http://sangm1n.github.io/til/2020-10-13/</link>
