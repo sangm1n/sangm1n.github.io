@@ -6,7 +6,18 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 13일</title>
+      <link>http://sangm1n.github.io/til/2020-10-13/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-13/</guid>
+      <description>💪 Today I Learned JOIN  INNER JOIN LEFT JOIN RIGHT JOIN  join은 관계형 데이터베이스에서 굉장히 많이 사용한다. 나도 이번 과제를 하면서 수도 없이 사용했고, 그 중 가장 자주 사용한 세 개의 조인에 대해 알아봤다.
+inner join은 교집합이라고 보면 된다. ON 뒤에 두 테이블이 결합하는 조건을 나타낸다.
+SELECT * FROM tableA A JOIN tableB B ON A.KEY = B.KEY left join은 왼쪽 테이블 전체와 두 테이블의 교집합 부분을 나타낸다. 반면 right join은 오른쪽 테이블 전체와 두 테이블의 교집합 부분을 함께 나타낸다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 12일</title>
       <link>http://sangm1n.github.io/til/2020-10-12/</link>
