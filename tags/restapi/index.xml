@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RestAPI on sangminlog</title>
+    <link>http://sangm1n.github.io/tags/restapi/</link>
+    <description>Recent content in RestAPI on sangminlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/restapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soft squared - API에 대하여</title>
+      <link>http://sangm1n.github.io/api/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/api/</guid>
+      <description>API가 도대체 뭔데? 전공자로써 API라는 용어를 수도 없이 들었다. 심지어 졸업작품으로 진행했던 프로젝트에서 Google cloud vision API 를 가져다 썼었지만 정작 정확한 의미는 모르고 있었다.
+위키백과에서는 API를 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스 라고 정의한다. 그렇게 와닿는 말은 아닌 것 같다. 이해하기 쉽도록 예시를 준비해봤다.
+매개체 Application Programming Interface 에서 interface라는 단어에 초점을 맞춰보자. 직역하면 서로 맞대는 면 정도로 해석할 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
