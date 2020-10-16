@@ -13,7 +13,7 @@
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-15/</guid>
-      <description>💪 Today I Learned 🏃 한마디 </description>
+      <description>💪 Today I Learned Classification model error  Noise : 고칠 수 없는 원본 데이터의 결함 Bias : 데이터 내에 있는 모든 정보를 고려하지 않아 잘못된 것들을 학습하는 경향  Underfitting 유발   Variance : 데이터의 너무 세세한 부분까지 학습하여 모델 변동성이 커짐  Overfitting 유발    Model development process  feature selection algorithm selection hyper parameter tuning evaluation  위와 같은 시퀀스로 진행되는데, 평가를 제외한 모든 과정에서 cross-validation은 필수다.</description>
     </item>
     
     <item>
