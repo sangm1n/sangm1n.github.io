@@ -6,14 +6,25 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 17일</title>
+      <link>http://sangm1n.github.io/til/2020-10-17/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-17/</guid>
+      <description>💪 Today I Learned 서버 재구축  Server program : nginx  어제 AWS 계정을 새로 만든 탓에 서버를 다시 구축했다. phpmyadmin 외부 접속 시키는 것에 반나절을 투자했다. 원래 저번주 과제 때 처리해줬으면 수월하게 했을텐데 처음하는 것이라 오래 걸렸던 것 같다. 사실 경로를 잘못 알아 계속 다른 파일만 수정하고 있었다.
+cd /etc/phpmyadmin # phpmyadmin configuration file sudo vi config.inc.php 🏃 한마디 심지어 API 하나 설계하는 데에도 엄청난 시간을 쏟았다. 하나의 API에서 여러 개의 쿼리를 받아오고 싶은데 도무지 결과값 반환이 되지 않았다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 16일</title>
       <link>http://sangm1n.github.io/til/2020-10-16/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/til/2020-10-16/</guid>
-      <description>💪 Today I Learned 🏃 한마디 </description>
+      <description>💪 Today I Learned brunch API 설계  Back-end Language : php DBMS : RDS + mySQL  REST하게 작성하기 위해 많은 자료를 참고해야겠다.
+🏃 한마디 AWS 계정 만든지 3주도 안되서 85% 이상 썼다고 메일이 왔다. 서버 구축하고 테스트 용으로 인스턴스를 추가해서 만든 탓이였다. 급한대로 새로운 계정을 하나 생성했고 기존에 있는 인스턴스는 모두 삭제했다.</description>
     </item>
     
     <item>
