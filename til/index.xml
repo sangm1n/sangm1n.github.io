@@ -6,7 +6,17 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 18일</title>
+      <link>http://sangm1n.github.io/til/2020-10-18/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-18/</guid>
+      <description>💪 Today I Learned Brunch API 설계  GET /users/{user-idx} GET /users/{user-idx}/intro GET /users/{user-idx}/career GET /users/{user-idx}/post-list GET /users/{user-idx}/category-list  우선은 사용자 페이지 위주로 API를 설계하기 시작했다. 사실 브런치 어플은 웹과 다르게 카카오 계정으로 로그인만 허용해놨다. 그래서 회원가입 API는 일단 뒷전으로 미루고 GET을 통해 조회하는 API들에 집중했다.
+🏃 한마디 지금은 전부 path variable로 처리했는데 옳은 방법인지 잘 모르겠다. query string으로 넘겼을 때와 어떤 차이가 있는지 더 알아봐야겠다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 17일</title>
       <link>http://sangm1n.github.io/til/2020-10-17/</link>
