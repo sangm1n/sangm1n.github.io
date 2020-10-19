@@ -2,9 +2,9 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://sangm1n.github.io/tags/api/</loc>
+      <loc>http://sangm1n.github.io/categories/</loc>
       
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
       
       
       <changefreq>weekly</changefreq>
@@ -14,9 +14,9 @@
     </url>
   
     <url>
-      <loc>http://sangm1n.github.io/categories/</loc>
+      <loc>http://sangm1n.github.io/http-status-code/</loc>
       
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
       
       
       <changefreq>weekly</changefreq>
@@ -27,6 +27,66 @@
   
     <url>
       <loc>http://sangm1n.github.io/posts/</loc>
+      
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/</loc>
+      
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/server/</loc>
+      
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/categories/server/</loc>
+      
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/</loc>
+      
+      <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/api/</loc>
       
       <lastmod>2020-10-18T00:00:00+00:00</lastmod>
       
@@ -51,54 +111,6 @@
   
     <url>
       <loc>http://sangm1n.github.io/restapi/</loc>
-      
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/</loc>
-      
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/server/</loc>
-      
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/categories/server/</loc>
-      
-      <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/</loc>
       
       <lastmod>2020-10-18T00:00:00+00:00</lastmod>
       
