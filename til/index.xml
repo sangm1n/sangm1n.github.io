@@ -6,7 +6,18 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 19일</title>
+      <link>http://sangm1n.github.io/til/2020-10-19/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-19/</guid>
+      <description>💪 Today I Learned MySQL connection locked 현상 과제 수행 도중 Postman에서 계속 서버 에러가 뜨며 아래 메시지를 날렸다.
+ERROR 1129(00000): Host &amp;#39;xxx&amp;#39; is blocked because of many connection errors. Unblock with &amp;#39;mysqladmin flush-hosts&amp;#39; 구글링해보니 MySQL 은 외부에서 비정상적인 접속이라 판단되는 경우 해당 호스트를 블락시킨다고 한다. 이렇게 비정상 접속이라고 판단되는 케이스는
+ 단순 Connect 후 Disconnet하는 연결이 빈번하거나 접근 계정의 패스워드가 계속해서 불일치하는 경우 혹은 기타 사이버 공격으로 의심되는 케이스  라고 한다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 18일</title>
       <link>http://sangm1n.github.io/til/2020-10-18/</link>

@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-17/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-19/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-18/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-18/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-19/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 10월 18일 | sangminlog
+           TIL - 2020년 10월 19일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 10월 18일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 10월 19일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 10월 18일",
-    "headline" : "TIL - 2020년 10월 18일",
-    "description" : "💪 Today I Learned Brunch API 설계  GET \/users\/{user-idx} GET \/users\/{user-idx}\/intro GET \/users\/{user-idx}\/career GET \/users\/{user-idx}\/post-list GET \/users\/{user-idx}\/category-list  우선은 사용자 페이지 위주로 API를 설계하기 시작했다. 사실 브런치 어플은 웹과 다르게 카카오 계정으로 로그인만 허용해놨다. 그래서 회원가입 API는 일단 뒷전으로 미루고 GET을 통해 조회하는 API들에 집중했다.\n🏃 한마디 지금은 전부 path variable로 처리했는데 옳은 방법인지 잘 모르겠다. query string으로 넘겼을 때와 어떤 차이가 있는지 더 알아봐야겠다.",
+    "name" : "TIL - 2020년 10월 19일",
+    "headline" : "TIL - 2020년 10월 19일",
+    "description" : "💪 Today I Learned MySQL connection locked 현상 과제 수행 도중 Postman에서 계속 서버 에러가 뜨며 아래 메시지를 날렸다.\nERROR 1129(00000): Host \u0026#39;xxx\u0026#39; is blocked because of many connection errors. Unblock with \u0026#39;mysqladmin flush-hosts\u0026#39; 구글링해보니 MySQL 은 외부에서 비정상적인 접속이라 판단되는 경우 해당 호스트를 블락시킨다고 한다. 이렇게 비정상 접속이라고 판단되는 케이스는\n 단순 Connect 후 Disconnet하는 연결이 빈번하거나 접근 계정의 패스워드가 계속해서 불일치하는 경우 혹은 기타 사이버 공격으로 의심되는 케이스  라고 한다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-10-18 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-10-18 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-18\/",
-    "wordCount" : "64",
+    "datePublished": "2020-10-19 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-19 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-19\/",
+    "wordCount" : "171",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 18일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 19일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-10-18 itemprop="datePublished">October 18, 2020</time>
+                <span class="post-time"><time datetime=2020-10-19 itemprop="datePublished">October 19, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -146,17 +146,39 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="brunch-api-설계">Brunch API 설계</h3>
+<h3 id="mysql-connection-locked-현상">MySQL connection locked 현상</h3>
+<p>과제 수행 도중 <code>Postman</code>에서 계속 서버 에러가 뜨며 아래 메시지를 날렸다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ERROR 1129<span style="color:#f92672">(</span>00000<span style="color:#f92672">)</span>: Host <span style="color:#e6db74">&#39;xxx&#39;</span> is blocked because of many connection errors. 
+Unblock with <span style="color:#e6db74">&#39;mysqladmin flush-hosts&#39;</span> 
+</code></pre></div><p>구글링해보니 <em>MySQL</em> 은 외부에서 비정상적인 접속이라 판단되는 경우 해당 호스트를 블락시킨다고 한다. 이렇게 비정상 접속이라고 판단되는 케이스는</p>
+<ol>
+<li>단순 <strong>Connect</strong> 후 <strong>Disconnet</strong>하는 연결이 빈번하거나</li>
+<li>접근 계정의 패스워드가 계속해서 불일치하는 경우</li>
+<li>혹은 기타 사이버 공격으로 의심되는 케이스</li>
+</ol>
+<p>라고 한다. 여러 해결법이 있었는데, 나는 그냥 호스트 블락 자체를 초기화시켰다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Host Block 초기화</span>
+FLUSH HOSTS;
+
+<span style="color:#75715e"># max_connect_erros 확인 후 변경</span>
+SELECT @@global.max_connect_errors;
+SET global max_connect_errors<span style="color:#f92672">=</span>10000;
+
+<span style="color:#75715e"># max_connections 확인 후 변경</span>
+SELECT @@global.max_connections;
+SET global max_connections<span style="color:#f92672">=</span>300;
+</code></pre></div><h3 id="brunch-api-설계">Brunch API 설계</h3>
+<p>어제는 <code>GET</code> 방식만 설계해봤지만 오늘은 다른 <code>HTTP method</code>들도 사용했다. 특히 댓글창 구현하는 데 힘썼다.</p>
 <ul>
-<li><strong>GET</strong> /users/{user-idx}</li>
-<li><strong>GET</strong> /users/{user-idx}/intro</li>
-<li><strong>GET</strong> /users/{user-idx}/career</li>
-<li><strong>GET</strong> /users/{user-idx}/post-list</li>
-<li><strong>GET</strong> /users/{user-idx}/category-list</li>
+<li><strong>GET</strong> /comment/{post-idx}</li>
+<li><strong>POST</strong> /comment</li>
+<li><strong>PATCH</strong> /comment</li>
+<li><strong>DELETE</strong> /comment</li>
 </ul>
-<p>우선은 사용자 페이지 위주로 <code>API</code>를 설계하기 시작했다. 사실 브런치 어플은 웹과 다르게 카카오 계정으로 로그인만 허용해놨다. 그래서 회원가입 API는 일단 뒷전으로 미루고 <code>GET</code>을 통해 조회하는 API들에 집중했다.</p>
+<p>그대로 <code>PATCH</code>를 사용할지 <code>PUT</code>으로 변경할지는 조금 더 고민해봐야겠다.</p>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>지금은 전부 <code>path variable</code>로 처리했는데 옳은 방법인지 잘 모르겠다. <code>query string</code>으로 넘겼을 때와 어떤 차이가 있는지 더 알아봐야겠다.</p>
+<p>사실 API 명세서를 같이 작성해야 하는데 너무 API 만드는 데에만 초점을 두고있는 것 같다. 추가적으로 더 만들지 말고 명세서부터 써야겠다.<br>
+명세서 잘 작성하려고 <a href="https://sangm1n.github.io/http-status-code/">HTTP status code</a> 포스팅까지 했으니 빨리 시작해야지.</p>
 
     </div>
     
@@ -180,10 +202,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-10-17/" class="prev" rel="prev" title="TIL - 2020년 10월 17일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 17일</a>
+        <a href="http://sangm1n.github.io/til/2020-10-18/" class="prev" rel="prev" title="TIL - 2020년 10월 18일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 18일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-10-19/" class="next" rel="next" title="TIL - 2020년 10월 19일">TIL - 2020년 10월 19일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
