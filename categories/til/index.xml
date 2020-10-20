@@ -6,7 +6,17 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 20일</title>
+      <link>http://sangm1n.github.io/til/2020-10-20/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-20/</guid>
+      <description>💪 Today I Learned Brunch API 설계 18개 정도 설계해봤는데 아쉬움 투성이다. 못해도 25개 정도는 만들 수 있을거라 생각했지만 하나하나 쿼리문을 다시 작성하는 데 너무 오래 걸렸다. 저번주에 작성해둔 한 방 쿼리가 무용지물이라고 생각이 들 정도로 쿼리에 문제가 많았다. 사실 쿼리 문제라기보다는 테이블들이 마음에 안들었다. ERD 설계를 더 계획적으로 했어야 하지 않나 싶다.
+🏃 한마디 내일 수업 때 피드백 받고 다시 보완해야지.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 19일</title>
       <link>http://sangm1n.github.io/til/2020-10-19/</link>
