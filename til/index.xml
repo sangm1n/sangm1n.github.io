@@ -6,7 +6,26 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 25일</title>
+      <link>http://sangm1n.github.io/til/2020-10-25/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-25/</guid>
+      <description>💪 Today I Learned 🏃 한마디 </description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 10월 24일</title>
+      <link>http://sangm1n.github.io/til/2020-10-24/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-24/</guid>
+      <description>💪 Today I Learned 경진대회 보고서 작성  6개 모델 성능 비교  kNN Suport Vector Machine Decision Tree Random Forest LightGBM Xgboost    결국 LightGBM 정확도 0.925로 마무리했다.
+🏃 한마디 생각보다 GridSearchCV로 하이퍼 파라미터 튜닝하는 데 시간이 너무 오래 걸렸다. 왜 전문가들이 성능 좋은 데스크탑에서 모델을 학습시키는지 뼈저리게 느낄 수 있었다. 심지어 튜닝하는 동안 다른 작업을 하지 못해 시간이 아깝게만 느껴졌다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 23일</title>
       <link>http://sangm1n.github.io/til/2020-10-23/</link>

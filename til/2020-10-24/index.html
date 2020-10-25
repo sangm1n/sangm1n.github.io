@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-22/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-24/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-23/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-23/" />
+  <link rel="next" href="http://sangm1n.github.io/til/2020-10-25/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-24/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 10월 23일 | sangminlog
+           TIL - 2020년 10월 24일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 10월 23일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 10월 24일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 10월 23일",
-    "headline" : "TIL - 2020년 10월 23일",
-    "description" : "💪 Today I Learned SMOTE  Synthetic Minority Oversampling TEchnique 데이터 개수가 적은 클래스의 표본을 가져와 임의의 값을 더하여 데이터에 추가  결국 데이터 전처리부터 다시 진행했다. 클래스가 많이 불균형하지는 않지만 최대한 균형을 맞추고 싶었다. 데이터 불균형을 처리하는 방법은 크게\n Undersampling Oversampling CSL (Cost Sensitive Learning)  가 있다. 찾아보니 분석을 위해서는 많은 데이터 확보가 효과적이기 때문에 오버샘플링 기법을 적용하는 것이 좋다고 한다. 그래서 가장 많이 사용하는 SMOTE 알고리즘을 이용했다.",
+    "name" : "TIL - 2020년 10월 24일",
+    "headline" : "TIL - 2020년 10월 24일",
+    "description" : "💪 Today I Learned 경진대회 보고서 작성  6개 모델 성능 비교  kNN Suport Vector Machine Decision Tree Random Forest LightGBM Xgboost    결국 LightGBM 정확도 0.925로 마무리했다.\n🏃 한마디 생각보다 GridSearchCV로 하이퍼 파라미터 튜닝하는 데 시간이 너무 오래 걸렸다. 왜 전문가들이 성능 좋은 데스크탑에서 모델을 학습시키는지 뼈저리게 느낄 수 있었다. 심지어 튜닝하는 동안 다른 작업을 하지 못해 시간이 아깝게만 느껴졌다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-10-23 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-10-23 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-23\/",
-    "wordCount" : "116",
+    "datePublished": "2020-10-24 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-24 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-24\/",
+    "wordCount" : "59",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 23일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 24일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-10-23 itemprop="datePublished">October 23, 2020</time>
+                <span class="post-time"><time datetime=2020-10-24 itemprop="datePublished">October 24, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -146,20 +146,22 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="smote">SMOTE</h3>
+<h3 id="경진대회-보고서-작성">경진대회 보고서 작성</h3>
 <ul>
-<li><em>Synthetic Minority Oversampling TEchnique</em></li>
-<li>데이터 개수가 적은 클래스의 표본을 가져와 임의의 값을 더하여 데이터에 추가</li>
+<li>6개 모델 성능 비교
+<ul>
+<li><em>kNN</em></li>
+<li><em>Suport Vector Machine</em></li>
+<li><em>Decision Tree</em></li>
+<li><em>Random Forest</em></li>
+<li><em>LightGBM</em></li>
+<li><em>Xgboost</em></li>
 </ul>
-<p>결국 데이터 전처리부터 다시 진행했다. 클래스가 많이 불균형하지는 않지만 최대한 균형을 맞추고 싶었다. 데이터 불균형을 처리하는 방법은 크게</p>
-<ol>
-<li><strong>Undersampling</strong></li>
-<li><strong>Oversampling</strong></li>
-<li><strong>CSL</strong> (Cost Sensitive Learning)</li>
-</ol>
-<p>가 있다. 찾아보니 분석을 위해서는 많은 데이터 확보가 효과적이기 때문에 오버샘플링 기법을 적용하는 것이 좋다고 한다. 그래서 가장 많이 사용하는 <code>SMOTE</code> 알고리즘을 이용했다. 하지만 데이터를 복제해 많은 양의 데이터를 만드는 만큼 오버피팅 가능성이 높다.</p>
+</li>
+</ul>
+<p>결국 LightGBM 정확도 0.925로 마무리했다.</p>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>원래 오늘 끝냈어야 하는데 정확도가 많이 높아지지 않아 하루 더 투자해야 할 것 같다. 사실 기한은 일요일까지지만 다른 과목 시험 공부와 더불어 소프트 스퀘어드 과제 때문에 오래 잡고 있을 수가 없다. 내일 안에 보고서까지 꼭 마무리지어야겠다.</p>
+<p>생각보다 <code>GridSearchCV</code>로 하이퍼 파라미터 튜닝하는 데 시간이 너무 오래 걸렸다. 왜 전문가들이 성능 좋은 데스크탑에서 모델을 학습시키는지 뼈저리게 느낄 수 있었다. 심지어 튜닝하는 동안 다른 작업을 하지 못해 시간이 아깝게만 느껴졌다.</p>
 
     </div>
     
@@ -183,10 +185,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-10-22/" class="prev" rel="prev" title="TIL - 2020년 10월 22일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 22일</a>
+        <a href="http://sangm1n.github.io/til/2020-10-23/" class="prev" rel="prev" title="TIL - 2020년 10월 23일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 23일</a>
          
         
-        <a href="http://sangm1n.github.io/til/2020-10-24/" class="next" rel="next" title="TIL - 2020년 10월 24일">TIL - 2020년 10월 24일&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/til/2020-10-25/" class="next" rel="next" title="TIL - 2020년 10월 25일">TIL - 2020년 10월 25일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
