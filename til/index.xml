@@ -6,7 +6,16 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 27일</title>
+      <link>http://sangm1n.github.io/til/2020-10-27/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-27/</guid>
+      <description>💪 Today I Learned Brunch API 현황  홈 화면 조회 API path-variable 삭제  홈 화면에서 보여질 게시글 수를 {count}로 전달 -&amp;gt; php 내에서 배열에 저장해 랜덤으로 쿼리에 전달   API 출력 결과 변경  아래 사진처럼 리스트 형태로 뜨는 값들 묶어줬다.    회원가입 API 구현  사실 Brunch 어플은 카카오 계정으로 로그인 기능만 가능하다. 그래서 임의로 이메일과 패스워드를 통해 회원가입 가능하도록 작성했다. 이메일 / 패스워드 / 핸드폰 번호 각각 정규표현식 적용해 validation 처리   Transaction 적용  COMMIT : 게시글 조회 성공 시 최근 본 글 과 최근 본 작품 목록에 각각 들어가도록 ROLLBACK : 게시글 조회 실패 시    🏃 한마디 오늘 OAuth를 이용해 소셜 로그인 연동까지 되도록 했어야 깔끔한데 기존 쿼리 수정하다보니 시간이 촉박해서 못했다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 26일</title>
       <link>http://sangm1n.github.io/til/2020-10-26/</link>
