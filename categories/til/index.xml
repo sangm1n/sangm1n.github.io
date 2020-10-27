@@ -6,7 +6,18 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 26일</title>
+      <link>http://sangm1n.github.io/til/2020-10-26/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-26/</guid>
+      <description>💪 Today I Learned Brunch API JWT 적용 홈 화면 조회 API를 제외한 모든 API에 올바르지 못한 토큰으로 요청이 올 경우 전부 막아줬다. 그리고 기존 코드에서 나에 해당하는 userId 를 쿼리문에 직접 대입시켜 작성한 것을 JWT를 복호화하여 로그인한 사용자의 userId 로 수정했다. 이해하기 어렵게 설명한 것 같아 예시를 더하겠다.
+로그인한 사용자(나)의 userId 가 1이라고 가정해보자. 기존에는 특정한 게시글에 좋아요 눌렀는지의 여부를 보여줄 때 쿼리에 나를 명시적으로 넣어줬다.
+SELECT likeStatus FROM LikePost WHERE userId = 1; 이 userId 를 JWT payload 부분에 넣어 토큰을 발급했고, 이것을 다시 복호화하여 사용했다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 25일</title>
       <link>http://sangm1n.github.io/til/2020-10-25/</link>

@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-24/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-10-26/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-25/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10-25/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10-26/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 10월 25일 | sangminlog
+           TIL - 2020년 10월 26일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 10월 25일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 10월 26일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 10월 25일",
-    "headline" : "TIL - 2020년 10월 25일",
-    "description" : "💪 Today I Learned OpenCV bitwise  bitwise 이용하여 기존 이미지에 마스킹 이미지 합성  🏃 한마디 내일 영상정보처리 시험이라 예제 코드 익히기 바빴다.",
+    "name" : "TIL - 2020년 10월 26일",
+    "headline" : "TIL - 2020년 10월 26일",
+    "description" : "💪 Today I Learned Brunch API JWT 적용 홈 화면 조회 API를 제외한 모든 API에 올바르지 못한 토큰으로 요청이 올 경우 전부 막아줬다. 그리고 기존 코드에서 나에 해당하는 userId 를 쿼리문에 직접 대입시켜 작성한 것을 JWT를 복호화하여 로그인한 사용자의 userId 로 수정했다. 이해하기 어렵게 설명한 것 같아 예시를 더하겠다.\n로그인한 사용자(나)의 userId 가 1이라고 가정해보자. 기존에는 특정한 게시글에 좋아요 눌렀는지의 여부를 보여줄 때 쿼리에 나를 명시적으로 넣어줬다.\nSELECT likeStatus FROM LikePost WHERE userId = 1; 이 userId 를 JWT payload 부분에 넣어 토큰을 발급했고, 이것을 다시 복호화하여 사용했다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-10-25 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-10-25 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-25\/",
-    "wordCount" : "22",
+    "datePublished": "2020-10-26 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-26 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10-26\/",
+    "wordCount" : "154",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 25일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 26일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-10-25 itemprop="datePublished">October 25, 2020</time>
+                <span class="post-time"><time datetime=2020-10-26 itemprop="datePublished">October 26, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -132,8 +132,6 @@
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -148,13 +146,17 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="opencv-bitwise">OpenCV bitwise</h3>
-<ul>
-<li>bitwise 이용하여 기존 이미지에 마스킹 이미지 합성</li>
-</ul>
-<p><img src="../../images/bitwise.png" alt=""></p>
+<h3 id="brunch-api-jwt-적용">Brunch API JWT 적용</h3>
+<p>홈 화면 조회 API를 제외한 모든 API에 올바르지 못한 토큰으로 요청이 올 경우 전부 막아줬다. 그리고 기존 코드에서 <strong>나</strong>에 해당하는 <em>userId</em> 를 쿼리문에 직접 대입시켜 작성한 것을 <code>JWT</code>를 복호화하여 로그인한 사용자의 <em>userId</em> 로 수정했다. 이해하기 어렵게 설명한 것 같아 예시를 더하겠다.<br>
+로그인한 사용자(<strong>나</strong>)의 <em>userId</em> 가 1이라고 가정해보자. 기존에는 특정한 게시글에 좋아요 눌렀는지의 여부를 보여줄 때 쿼리에 <strong>나</strong>를 명시적으로 넣어줬다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> likeStatus <span style="color:#66d9ef">FROM</span> LikePost <span style="color:#66d9ef">WHERE</span> userId <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; 
+</code></pre></div><p>이 <em>userId</em> 를 JWT <code>payload</code> 부분에 넣어 토큰을 발급했고, 이것을 다시 복호화하여 사용했다. <code>getDataByJWToken</code> 함수에서 복호화한 값을 리턴하게끔 하여 그것을 쿼리에 전달했다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e"># php
+</span><span style="color:#75715e"></span>$myIdx <span style="color:#f92672">=</span> <span style="color:#a6e22e">getDataByJWToken</span>($jwt, <span style="color:#a6e22e">JWT_SECRET_KEY</span>);
+$query <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;SELECT likeStatus FROM LikePost WHERE userId = </span><span style="color:#e6db74">$myIdx</span><span style="color:#e6db74">;&#34;</span>
+</code></pre></div><p>이로써 항상 <strong>내가 로그인했다고 가정한 상태</strong>에서 벗어나 로그인한 사용자에 따라 다른 값을 보여줄 수 있다.</p>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>내일 영상정보처리 시험이라 예제 코드 익히기 바빴다.</p>
+<p>단순히 <em>myIdx</em> 변수를 쿼리에 전달하는 것 외에 수정할 부분이 없을거라 생각했는데 생각보다 많이 바꿔야했다. 처음부터 이 부분을 염두해두고 쿼리를 작성했다면 덜 수고스러웠을 것 같다.</p>
 
     </div>
     
@@ -178,10 +180,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-10-24/" class="prev" rel="prev" title="TIL - 2020년 10월 24일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 24일</a>
+        <a href="http://sangm1n.github.io/til/2020-10-25/" class="prev" rel="prev" title="TIL - 2020년 10월 25일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 25일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-10-26/" class="next" rel="next" title="TIL - 2020년 10월 26일">TIL - 2020년 10월 26일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -220,9 +220,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
