@@ -6,7 +6,26 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 10월 29일</title>
+      <link>http://sangm1n.github.io/til/2020-10-28-copy/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-28-copy/</guid>
+      <description>💪 Today I Learned Perceptron  가장 단순한 형태의 신경망 여러 신호를 받아들여 하나의 신호를 출력하는 알고리즘  딥러닝/클라우드 과목을 수강하며 퍼셉트론 개념을 처음 배웠다. 요새 워낙 인공지능 분야가 핫해서 들어본 용어긴한데, 말 그대로 들어만 봤었다. 그래서 과제하는 겸 퍼셉트론을 이루는 것들의 역할을 간단히 정리했다.
+ weight value  전기 회로에서의 저항과 같이 입력값의 전달을 조절 weight value 값이 크면 입력값이 출력에 많이 전달되고, 작으면 적게 전달   bias  뉴런의 활성화 여부를 조절 |b| 값이 크면 뉴런의 활성화를 억제하고, |b| 값이 작으면 활성화 촉진   activation function  가중합(weighted sum) v를 0과 1 사이의 값으로 변환시켜주는 역할    🏃 한마디 중간고사 전까지 머신러닝에 대해 배우고 드디어 딥러닝 개념을 배우기 시작했다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 10월 28일</title>
+      <link>http://sangm1n.github.io/til/2020-10-28/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-28/</guid>
+      <description>💪 Today I Learned Transaction  데이터베이스의 상태를 변환시키는 작업 수행의 논리적 단위 ACID 특성  원자성 (Atomacity) : All or Nothing 일관성 (Consistency) : 트랜잭션 완료 시 일관적인 데이터베이스 상태 유지 격리성 (Isolation) : 트랜잭션끼리 서로 간섭 X 지속성 (Durability) : 성공적으로 수행된 트랜잭션은 영원히 반영    🏃 한마디 Brunch 어플에서 유일하게 트랜잭션 처리를 해줘야 하는 부분이 있었다. 바로 조회한 게시글이 사용자의 최근 본 글 목록에 들어가는 것이다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 10월 27일</title>
       <link>http://sangm1n.github.io/til/2020-10-27/</link>
