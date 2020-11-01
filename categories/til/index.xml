@@ -6,15 +6,24 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TIL - 2020년 10월 29일</title>
-      <link>http://sangm1n.github.io/til/2020-10-28-copy/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <title>TIL - 2020년 11월 1일</title>
+      <link>http://sangm1n.github.io/til/2020-11-01/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-10-28-copy/</guid>
-      <description>💪 Today I Learned Perceptron  가장 단순한 형태의 신경망 여러 신호를 받아들여 하나의 신호를 출력하는 알고리즘  딥러닝/클라우드 과목을 수강하며 퍼셉트론 개념을 처음 배웠다. 요새 워낙 인공지능 분야가 핫해서 들어본 용어긴한데, 말 그대로 들어만 봤었다. 그래서 과제하는 겸 퍼셉트론을 이루는 것들의 역할을 간단히 정리했다.
- weight value  전기 회로에서의 저항과 같이 입력값의 전달을 조절 weight value 값이 크면 입력값이 출력에 많이 전달되고, 작으면 적게 전달   bias  뉴런의 활성화 여부를 조절 |b| 값이 크면 뉴런의 활성화를 억제하고, |b| 값이 작으면 활성화 촉진   activation function  가중합(weighted sum) v를 0과 1 사이의 값으로 변환시켜주는 역할    🏃 한마디 중간고사 전까지 머신러닝에 대해 배우고 드디어 딥러닝 개념을 배우기 시작했다.</description>
+      <guid>http://sangm1n.github.io/til/2020-11-01/</guid>
+      <description>💪 Today I Learned 집꾸미기 클론 코딩  서브 도메인 각각 ssh 적용 (by Certbot) 회원가입 및 로그인 API 구현 (dev)  User 테이블만 생성 후 적용 validation 최대한 어플과 유사하게    Product 관련 DB ERD 설계 상품과 사용자 관련 ERD만 설계했는데 테이블이 너무 많이 만들어진거 아닌가 싶다.
+🏃 한마디 reverse proxy 때문에 ssh 적용하는 데 꽤나 애먹었다. URL 뒤에 포트 번호가 붙어있어서 그런지 계속 https 적용이 안됐다. 성공하긴 했지만 기본적인 것에 시간을 쏟아붓지 않았나 싶다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 10월 31일</title>
+      <link>http://sangm1n.github.io/til/2020-10-31/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-10-31/</guid>
+      <description>💪 Today I Learned 집꾸미기 클론 코딩 시작  EC2 서버 구축  OS : ubuntu 18.04 Web server : nginx 1.14.0 Back-end language : node 14.15.0 Database : mysql 5.7.32   개발용(dev) / 배포용(prod) 각각 서브 도메인 적용  🏃 한마디 소프트 스퀘어드 6주차까지의 교육을 마치고 모의 외주 기간이 시작됐다. 집꾸미기 라는 어플을 배정 받았고 당연히 서버 포지션을 맡았다. 기획서 작성하기 전에 앱을 쓱 봤는데 브런치와는 비교도 안되게 어려워보여서 2주동안 할 수 있을지 걱정이 앞섰다.</description>
     </item>
     
     <item>
