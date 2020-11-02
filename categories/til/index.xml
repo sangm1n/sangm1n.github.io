@@ -6,7 +6,16 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 2일</title>
+      <link>http://sangm1n.github.io/til/2020-11-02/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-02/</guid>
+      <description>💪 Today I Learned 집꾸미기 클론 코딩  ERD 설계  Product 및 HouseIntro 관련 테이블 생성 Aquerytool / passwd : 7b2r3p   API 작성  회원가입 및 로그인 API 클라이언트 테스트 완료 (prod) 프로필 조회 및 수정, 회원탈퇴 API 작성 (dev) 닉네임 중복검사 및 프로필 이미지 수정 API 작성 (dev)    🏃 한마디 상품 관련 ERD 설계를 하고 더미 데이터를 넣어봤는데 실제 배포용 데이터베이스에 어떻게 다 넣을지 막막하다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 1일</title>
       <link>http://sangm1n.github.io/til/2020-11-01/</link>
