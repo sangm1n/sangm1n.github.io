@@ -6,7 +6,16 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 3일</title>
+      <link>http://sangm1n.github.io/til/2020-11-03/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-03/</guid>
+      <description>💪 Today I Learned Feedback  ERD 설계  User 테이블에 특정 사용자에 대한 권한 부여  Staff 테이블 대체   HouseIntro와 관련 있는 Tag 테이블들 합치기  status로 구분   주문 관련 테이블 구성하기 ERD 설계 완료 (~ 11/4)   기타  pm2로 NODE_ENV 설정 Dao 파일에서 DB connection에 대한 try-catch문 이용    🏃 한마디 ERD를 내일까지 다 설계할 수 있을까 의문이다. 그리고 집꾸미기 어플 내에 기능들이 너무 많아 2주간 완벽하게 클론 코딩 하기에는 무리라 생각해서 조금 축소했다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 2일</title>
       <link>http://sangm1n.github.io/til/2020-11-02/</link>
