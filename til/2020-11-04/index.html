@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-11-02/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-11-04/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11-03/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-11-03/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11-04/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 11월 3일 | sangminlog
+           TIL - 2020년 11월 4일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 11월 3일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 11월 4일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 11월 3일",
-    "headline" : "TIL - 2020년 11월 3일",
-    "description" : "💪 Today I Learned Feedback  ERD 설계  User 테이블에 특정 사용자에 대한 권한 부여  Staff 테이블 대체   HouseIntro와 관련 있는 Tag 테이블들 합치기  status로 구분   주문 관련 테이블 구성하기 ERD 설계 완료 (~ 11\/4)   기타  pm2로 NODE_ENV 설정 Dao 파일에서 DB connection에 대한 try-catch문 이용    🏃 한마디 ERD를 내일까지 다 설계할 수 있을까 의문이다. 그리고 집꾸미기 어플 내에 기능들이 너무 많아 2주간 완벽하게 클론 코딩 하기에는 무리라 생각해서 조금 축소했다.",
+    "name" : "TIL - 2020년 11월 4일",
+    "headline" : "TIL - 2020년 11월 4일",
+    "description" : "💪 Today I Learned 집꾸미기 어플 서버 클론  ERD 설계   Aquerytool \/ passwd : 4200dv 주문 테이블을 비롯한 집소개, 공간 테이블 구현  피드백 받았던 내용 최대한 반영   개발용 스키마에 더미 데이터 삽입 (by procedure)  테이블 당 500 ~ 2000개 추후에 구현하는 장바구니, 보관함 등의 테이블은 제외    🏃 한마디 하루종일 투자해서 ERD를 갈아엎었다. 부디 더 수정하는 일이 없길\u0026hellip;",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-03 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-11-03 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11-03\/",
-    "wordCount" : "89",
+    "datePublished": "2020-11-04 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-04 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11-04\/",
+    "wordCount" : "57",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 3일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 4일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-11-03 itemprop="datePublished">November 3, 2020</time>
+                <span class="post-time"><time datetime=2020-11-04 itemprop="datePublished">November 4, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -132,6 +132,8 @@
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -146,33 +148,27 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="feedback">Feedback</h3>
+<h3 id="집꾸미기-어플-서버-클론">집꾸미기 어플 서버 클론</h3>
 <ul>
-<li>ERD 설계
+<li>ERD 설계</li>
+</ul>
+<p><img src="../../images/decohome_ERD.png" alt=""></p>
 <ul>
-<li>User 테이블에 특정 사용자에 대한 권한 부여
+<li><a href="https://aquerytool.com:443/aquerymain/index/?rurl=b0b87157-d0aa-4476-981e-6ad6d765317c">Aquerytool</a> / <strong>passwd</strong> : 4200dv</li>
+<li>주문 테이블을 비롯한 집소개, 공간 테이블 구현
 <ul>
-<li>Staff 테이블 대체</li>
+<li>피드백 받았던 내용 최대한 반영</li>
 </ul>
 </li>
-<li>HouseIntro와 관련 있는 Tag 테이블들 합치기
+<li>개발용 스키마에 더미 데이터 삽입 (by <code>procedure</code>)
 <ul>
-<li><code>status</code>로 구분</li>
-</ul>
-</li>
-<li>주문 관련 테이블 구성하기</li>
-<li>ERD 설계 완료 (~ 11/4)</li>
-</ul>
-</li>
-<li>기타
-<ul>
-<li><code>pm2</code>로 <em>NODE_ENV</em> 설정</li>
-<li>Dao 파일에서 DB connection에 대한 <code>try-catch</code>문 이용</li>
+<li>테이블 당 500 ~ 2000개</li>
+<li>추후에 구현하는 장바구니, 보관함 등의 테이블은 제외</li>
 </ul>
 </li>
 </ul>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>ERD를 내일까지 다 설계할 수 있을까 의문이다. 그리고 집꾸미기 어플 내에 기능들이 너무 많아 2주간 완벽하게 클론 코딩 하기에는 무리라 생각해서 조금 축소했다. 오늘 클라이언트 분이 회원가입과 로그인 화면 퍼블리싱 한 것을 처음 봤는데 굉장히 신기했다. 생산성을 높여 빠르게 API를 만들어서 전달해야겠다.</p>
+<p>하루종일 투자해서 ERD를 갈아엎었다. 부디 더 수정하는 일이 없길&hellip;</p>
 
     </div>
     
@@ -196,10 +192,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-11-02/" class="prev" rel="prev" title="TIL - 2020년 11월 2일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 2일</a>
+        <a href="http://sangm1n.github.io/til/2020-11-03/" class="prev" rel="prev" title="TIL - 2020년 11월 3일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 3일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-11-04/" class="next" rel="next" title="TIL - 2020년 11월 4일">TIL - 2020년 11월 4일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -238,8 +232,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

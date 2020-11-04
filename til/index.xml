@@ -6,7 +6,16 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 4일</title>
+      <link>http://sangm1n.github.io/til/2020-11-04/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-04/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  ERD 설계   Aquerytool / passwd : 4200dv 주문 테이블을 비롯한 집소개, 공간 테이블 구현  피드백 받았던 내용 최대한 반영   개발용 스키마에 더미 데이터 삽입 (by procedure)  테이블 당 500 ~ 2000개 추후에 구현하는 장바구니, 보관함 등의 테이블은 제외    🏃 한마디 하루종일 투자해서 ERD를 갈아엎었다. 부디 더 수정하는 일이 없길&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 3일</title>
       <link>http://sangm1n.github.io/til/2020-11-03/</link>
