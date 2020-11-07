@@ -6,7 +6,16 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 7일</title>
+      <link>http://sangm1n.github.io/til/2020-11-07/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-07/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  신상품 조회 API 실시간 랭킹 조회 API  pagination으로 구현하여 메인 화면에서도 쓸 수 있도록 구현   추천상품 탭 관련 API  탭 목록에 있는 게시글 게시글 눌렀을 때 보여지는 여러 상품들      🏃 한마디 코딩테스트는 역시 어렵다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 6일</title>
       <link>http://sangm1n.github.io/til/2020-11-06/</link>
