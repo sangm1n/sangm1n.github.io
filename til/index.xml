@@ -6,7 +6,25 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 9일</title>
+      <link>http://sangm1n.github.io/til/2020-11-09/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-09/</guid>
+      <description>💪 Today I Learned Feedback  최종까지 transaction 꼭 구현하기 데이터 구축  상품 / 집소개 소량의 데이터 입력 R 활용하여 약 2,000개 복제  데이터 프레임으로 생성하여 엑셀 파일로 저장 RDS에 삽입      🏃 한마디 더미 데이터를 어떻게 대량 넣을까 고민하다가 예전에 자주 사용한 R을 활용했다. 확실히 안써버릇 하니까 문법이 잘 기억 안나더라.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 11월 8일</title>
+      <link>http://sangm1n.github.io/til/2020-11-08/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-08/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  집소개 관련 API  전체 집소개 리스트 / 집소개 수 / 집소개 게시글 조회   공간 관련 API  전체 공간 리스트 / 공간 수      🏃 한마디 너무 GET 방식 위주의 API만 작성하는 게 아닌가 싶다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 7일</title>
       <link>http://sangm1n.github.io/til/2020-11-07/</link>
