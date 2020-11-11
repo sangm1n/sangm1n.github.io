@@ -6,7 +6,25 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 11일</title>
+      <link>http://sangm1n.github.io/til/2020-11-11/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-11/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  transaction  집소개 게시글 조회 / 최근 본 컨텐츠 목록 삽입 / 조회수 +1 상품 조회 / 최근 본 상품 목록 삽입 / 조회수 +1 공간 게시글 조회 / 조회수 +1   상품 평점 및 후기 관련 API 최근 검색어 및 인기 검색어 조회 API    🏃 한마디 트랜잭션이 필요하다고 생각되는 부분들 모두 처리해줬다. 다중쿼리를 어떻게 적용시킬지 검색해 본 결과 craetePool에 multipleStatements 옵션을 true로만 설정해주면 됐다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 11월 10일</title>
+      <link>http://sangm1n.github.io/til/2020-11-10/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-10/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  공간 관련 API 마무리 transaction  회원가입 기본 보관함 2개 생성 (매거진 / 가구 &amp;amp; 소품)   보관함 생성 및 삭제 API    🏃 한마디 포스트맨으로 계속 확인하면서 작업중인데 내가 만든 API가 잘 동작한다는 것이 신기할 따름이다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 9일</title>
       <link>http://sangm1n.github.io/til/2020-11-09/</link>

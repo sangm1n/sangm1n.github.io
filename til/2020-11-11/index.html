@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-11-08/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-11-10/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11-09/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-11-10/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11-11/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 11월 9일 | sangminlog
+           TIL - 2020년 11월 11일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 11월 9일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 11월 11일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 11월 9일",
-    "headline" : "TIL - 2020년 11월 9일",
-    "description" : "💪 Today I Learned Feedback  최종까지 transaction 꼭 구현하기 데이터 구축  상품 \/ 집소개 소량의 데이터 입력 R 활용하여 약 2,000개 복제  데이터 프레임으로 생성하여 엑셀 파일로 저장 RDS에 삽입      🏃 한마디 더미 데이터를 어떻게 대량 넣을까 고민하다가 예전에 자주 사용한 R을 활용했다. 확실히 안써버릇 하니까 문법이 잘 기억 안나더라.",
+    "name" : "TIL - 2020년 11월 11일",
+    "headline" : "TIL - 2020년 11월 11일",
+    "description" : "💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  transaction  집소개 게시글 조회 \/ 최근 본 컨텐츠 목록 삽입 \/ 조회수 \u002b1 상품 조회 \/ 최근 본 상품 목록 삽입 \/ 조회수 \u002b1 공간 게시글 조회 \/ 조회수 \u002b1   상품 평점 및 후기 관련 API 최근 검색어 및 인기 검색어 조회 API    🏃 한마디 트랜잭션이 필요하다고 생각되는 부분들 모두 처리해줬다. 다중쿼리를 어떻게 적용시킬지 검색해 본 결과 craetePool에 multipleStatements 옵션을 true로만 설정해주면 됐다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-09 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-11-09 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11-09\/",
-    "wordCount" : "50",
+    "datePublished": "2020-11-11 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-11 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11-11\/",
+    "wordCount" : "73",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 9일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 11일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-11-09 itemprop="datePublished">November 9, 2020</time>
+                <span class="post-time"><time datetime=2020-11-11 itemprop="datePublished">November 11, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -146,23 +146,24 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="feedback">Feedback</h3>
+<h3 id="집꾸미기-어플-서버-클론">집꾸미기 어플 서버 클론</h3>
 <ul>
-<li>최종까지 <code>transaction</code> 꼭 구현하기</li>
-<li>데이터 구축
+<li>API 작성
 <ul>
-<li>상품 / 집소개 소량의 데이터 입력</li>
-<li>R 활용하여 약 2,000개 복제
+<li><code>transaction</code>
 <ul>
-<li>데이터 프레임으로 생성하여 엑셀 파일로 저장</li>
-<li>RDS에 삽입</li>
+<li>집소개 게시글 조회 / 최근 본 컨텐츠 목록 삽입 / 조회수 +1</li>
+<li>상품 조회 / 최근 본 상품 목록 삽입 / 조회수 +1</li>
+<li>공간 게시글 조회 / 조회수 +1</li>
 </ul>
 </li>
+<li>상품 평점 및 후기 관련 API</li>
+<li>최근 검색어 및 인기 검색어 조회 API</li>
 </ul>
 </li>
 </ul>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>더미 데이터를 어떻게 대량 넣을까 고민하다가 예전에 자주 사용한 R을 활용했다. 확실히 안써버릇 하니까 문법이 잘 기억 안나더라.</p>
+<p>트랜잭션이 필요하다고 생각되는 부분들 모두 처리해줬다. 다중쿼리를 어떻게 적용시킬지 검색해 본 결과 craetePool에 <code>multipleStatements</code> 옵션을 <strong>true</strong>로만 설정해주면 됐다.</p>
 
     </div>
     
@@ -186,10 +187,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-11-08/" class="prev" rel="prev" title="TIL - 2020년 11월 8일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 8일</a>
+        <a href="http://sangm1n.github.io/til/2020-11-10/" class="prev" rel="prev" title="TIL - 2020년 11월 10일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 10일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-11-10/" class="next" rel="next" title="TIL - 2020년 11월 10일">TIL - 2020년 11월 10일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
