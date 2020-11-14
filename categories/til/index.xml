@@ -6,7 +6,16 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 12일</title>
+      <link>http://sangm1n.github.io/til/2020-11-12/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11-12/</guid>
+      <description>💪 Today I Learned 집꾸미기 어플 서버 클론  API 작성  마이페이지 보관함 API  전체 / 보관함 각각 다르게 구성 timestampdiff 이용하여 날짜 차이 구한 뒤 date_format 적용   검색 결과로 뜨는 세 가지 탭  스토어 / 매거진 / 사진 필터링 미구현     기타  클라이언트가 화질 저하되서 뜬다는 부분 사진 수정    🏃 한마디 드디어 내일 2주간의 모의 외주 프로젝트가 끝난다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 11일</title>
       <link>http://sangm1n.github.io/til/2020-11-11/</link>
