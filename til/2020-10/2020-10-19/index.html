@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10/2020-10-18/" />
+  <link rel="next" href="http://sangm1n.github.io/til/2020-10/2020-10-20/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10/2020-10-19/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           TIL - 2020년 10월 19일 | sangminlog
+       
+  </title>
+  <meta name="title" content="TIL - 2020년 10월 19일 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "TIL",
+    "name" : "TIL - 2020년 10월 19일",
+    "headline" : "TIL - 2020년 10월 19일",
+    "description" : "💪 Today I Learned MySQL connection locked 현상 과제 수행 도중 Postman에서 계속 서버 에러가 뜨며 아래 메시지를 날렸다.\nERROR 1129(00000): Host \u0026#39;xxx\u0026#39; is blocked because of many connection errors. Unblock with \u0026#39;mysqladmin flush-hosts\u0026#39; 구글링해보니 MySQL 은 외부에서 비정상적인 접속이라 판단되는 경우 해당 호스트를 블락시킨다고 한다. 이렇게 비정상 접속이라고 판단되는 케이스는\n 단순 Connect 후 Disconnet하는 연결이 빈번하거나 접근 계정의 패스워드가 계속해서 불일치하는 경우 혹은 기타 사이버 공격으로 의심되는 케이스  라고 한다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-19 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-19 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10\/2020-10-19\/",
+    "wordCount" : "171",
+    "keywords" : [  "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 19일</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-19 itemprop="datePublished">October 19, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="mysql-connection-locked-현상">MySQL connection locked 현상</h3>
+<p>과제 수행 도중 <code>Postman</code>에서 계속 서버 에러가 뜨며 아래 메시지를 날렸다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ERROR 1129<span style="color:#f92672">(</span>00000<span style="color:#f92672">)</span>: Host <span style="color:#e6db74">&#39;xxx&#39;</span> is blocked because of many connection errors. 
+Unblock with <span style="color:#e6db74">&#39;mysqladmin flush-hosts&#39;</span> 
+</code></pre></div><p>구글링해보니 <em>MySQL</em> 은 외부에서 비정상적인 접속이라 판단되는 경우 해당 호스트를 블락시킨다고 한다. 이렇게 비정상 접속이라고 판단되는 케이스는</p>
+<ol>
+<li>단순 <strong>Connect</strong> 후 <strong>Disconnet</strong>하는 연결이 빈번하거나</li>
+<li>접근 계정의 패스워드가 계속해서 불일치하는 경우</li>
+<li>혹은 기타 사이버 공격으로 의심되는 케이스</li>
+</ol>
+<p>라고 한다. 여러 해결법이 있었는데, 나는 그냥 호스트 블락 자체를 초기화시켰다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Host Block 초기화</span>
+FLUSH HOSTS;
+
+<span style="color:#75715e"># max_connect_erros 확인 후 변경</span>
+SELECT @@global.max_connect_errors;
+SET global max_connect_errors<span style="color:#f92672">=</span>10000;
+
+<span style="color:#75715e"># max_connections 확인 후 변경</span>
+SELECT @@global.max_connections;
+SET global max_connections<span style="color:#f92672">=</span>300;
+</code></pre></div><h3 id="brunch-api-설계">Brunch API 설계</h3>
+<p>어제는 <code>GET</code> 방식만 설계해봤지만 오늘은 다른 <code>HTTP method</code>들도 사용했다. 특히 댓글창 구현하는 데 힘썼다.</p>
+<ul>
+<li><strong>GET</strong> /comment/{post-idx}</li>
+<li><strong>POST</strong> /comment</li>
+<li><strong>PATCH</strong> /comment</li>
+<li><strong>DELETE</strong> /comment</li>
+</ul>
+<p>그대로 <code>PATCH</code>를 사용할지 <code>PUT</code>으로 변경할지는 조금 더 고민해봐야겠다.</p>
+<h2 id="-한마디">🏃 한마디</h2>
+<p>사실 API 명세서를 같이 작성해야 하는데 너무 API 만드는 데에만 초점을 두고있는 것 같다. 추가적으로 더 만들지 말고 명세서부터 써야겠다.<br>
+명세서 잘 작성하려고 <a href="https://sangm1n.github.io/http-status-code/">HTTP status code</a> 포스팅까지 했으니 빨리 시작해야지.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/til/2020-10/2020-10-18/" class="prev" rel="prev" title="TIL - 2020년 10월 18일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 18일</a>
+         
+        
+        <a href="http://sangm1n.github.io/til/2020-10/2020-10-20/" class="next" rel="next" title="TIL - 2020년 10월 20일">TIL - 2020년 10월 20일&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

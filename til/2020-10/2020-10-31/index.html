@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10/2020-10-28/" />
+  <link rel="next" href="http://sangm1n.github.io/til/2020-11/2020-11-01/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10/2020-10-31/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           TIL - 2020년 10월 31일 | sangminlog
+       
+  </title>
+  <meta name="title" content="TIL - 2020년 10월 31일 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "TIL",
+    "name" : "TIL - 2020년 10월 31일",
+    "headline" : "TIL - 2020년 10월 31일",
+    "description" : "💪 Today I Learned 집꾸미기 클론 코딩 시작  EC2 서버 구축  OS : ubuntu 18.04 Web server : nginx 1.14.0 Back-end language : node 14.15.0 Database : mysql 5.7.32   개발용(dev) \/ 배포용(prod) 각각 서브 도메인 적용  🏃 한마디 소프트 스퀘어드 6주차까지의 교육을 마치고 모의 외주 기간이 시작됐다. 집꾸미기 라는 어플을 배정 받았고 당연히 서버 포지션을 맡았다. 기획서 작성하기 전에 앱을 쓱 봤는데 브런치와는 비교도 안되게 어려워보여서 2주동안 할 수 있을지 걱정이 앞섰다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-31 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-31 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10\/2020-10-31\/",
+    "wordCount" : "80",
+    "keywords" : [  "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 31일</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-31 itemprop="datePublished">October 31, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="집꾸미기-클론-코딩-시작">집꾸미기 클론 코딩 시작</h3>
+<ul>
+<li>EC2 서버 구축
+<ul>
+<li>OS : <em>ubuntu 18.04</em></li>
+<li>Web server : <em>nginx 1.14.0</em></li>
+<li>Back-end language : <em>node 14.15.0</em></li>
+<li>Database : <em>mysql 5.7.32</em></li>
+</ul>
+</li>
+<li>개발용(dev) / 배포용(prod) 각각 서브 도메인 적용</li>
+</ul>
+<h2 id="-한마디">🏃 한마디</h2>
+<p><code>소프트 스퀘어드</code> 6주차까지의 교육을 마치고 <strong>모의 외주</strong> 기간이 시작됐다. <em>집꾸미기</em> 라는 어플을 배정 받았고 당연히 서버 포지션을 맡았다. 기획서 작성하기 전에 앱을 쓱 봤는데 브런치와는 비교도 안되게 어려워보여서 2주동안 할 수 있을지 걱정이 앞섰다. 클라 작업이 뒤쳐지지 않도록 열심히 API 만들어서 줘야겠다.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/til/2020-10/2020-10-28/" class="prev" rel="prev" title="TIL - 2020년 10월 28일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 28일</a>
+         
+        
+        <a href="http://sangm1n.github.io/til/2020-11/2020-11-01/" class="next" rel="next" title="TIL - 2020년 11월 1일">TIL - 2020년 11월 1일&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

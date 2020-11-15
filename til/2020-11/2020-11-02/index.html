@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-11/2020-11-01/" />
+  <link rel="next" href="http://sangm1n.github.io/til/2020-11/2020-11-03/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11/2020-11-02/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           TIL - 2020년 11월 2일 | sangminlog
+       
+  </title>
+  <meta name="title" content="TIL - 2020년 11월 2일 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "TIL",
+    "name" : "TIL - 2020년 11월 2일",
+    "headline" : "TIL - 2020년 11월 2일",
+    "description" : "💪 Today I Learned 집꾸미기 어플 서버 클론  ERD 설계  Product 및 HouseIntro 관련 테이블 생성 Aquerytool \/ passwd : 7b2r3p   API 작성  회원가입 및 로그인 API 클라이언트 테스트 완료 (prod) 프로필 조회 및 수정, 회원탈퇴 API 작성 (dev) 닉네임 중복검사 및 프로필 이미지 수정 API 작성 (dev)    🏃 한마디 상품 관련 ERD 설계를 하고 더미 데이터를 넣어봤는데 실제 배포용 데이터베이스에 어떻게 다 넣을지 막막하다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-11-02 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-02 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11\/2020-11-02\/",
+    "wordCount" : "92",
+    "keywords" : [  "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 2일</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-11-02 itemprop="datePublished">November 2, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="집꾸미기-어플-서버-클론">집꾸미기 어플 서버 클론</h3>
+<ul>
+<li>ERD 설계
+<ul>
+<li>Product 및 HouseIntro 관련 테이블 생성</li>
+<li><a href="https://aquerytool.com:443/aquerymain/index/?rurl=7745750d-383c-47a9-9236-228780ad749c">Aquerytool</a> / passwd : <strong>7b2r3p</strong></li>
+</ul>
+</li>
+<li>API 작성
+<ul>
+<li>회원가입 및 로그인 API 클라이언트 테스트 완료 (prod)</li>
+<li>프로필 조회 및 수정, 회원탈퇴 API 작성 (dev)</li>
+<li>닉네임 중복검사 및 프로필 이미지 수정 API 작성 (dev)</li>
+</ul>
+</li>
+</ul>
+<h2 id="-한마디">🏃 한마디</h2>
+<p>상품 관련 <code>ERD</code> 설계를 하고 더미 데이터를 넣어봤는데 실제 배포용 데이터베이스에 어떻게 다 넣을지 막막하다. <code>NODE_ENV</code> 환경 변수를 이용해 개발용 서버와 배포용 서버를 분리한 후 각각 다른 포트에 접근하도록 함으로써 기존에 dev / prod 두 개의 폴더로 나눠쓰던 것을 합칠 수 있었다.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/til/2020-11/2020-11-01/" class="prev" rel="prev" title="TIL - 2020년 11월 1일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 1일</a>
+         
+        
+        <a href="http://sangm1n.github.io/til/2020-11/2020-11-03/" class="next" rel="next" title="TIL - 2020년 11월 3일">TIL - 2020년 11월 3일&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

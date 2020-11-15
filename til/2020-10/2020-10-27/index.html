@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-10/2020-10-26/" />
+  <link rel="next" href="http://sangm1n.github.io/til/2020-10/2020-10-28/" />
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-10/2020-10-27/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           TIL - 2020년 10월 27일 | sangminlog
+       
+  </title>
+  <meta name="title" content="TIL - 2020년 10월 27일 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "TIL",
+    "name" : "TIL - 2020년 10월 27일",
+    "headline" : "TIL - 2020년 10월 27일",
+    "description" : "💪 Today I Learned Brunch API 현황  홈 화면 조회 API path-variable 삭제  홈 화면에서 보여질 게시글 수를 {count}로 전달 -\u0026gt; php 내에서 배열에 저장해 랜덤으로 쿼리에 전달   API 출력 결과 변경  아래 사진처럼 리스트 형태로 뜨는 값들 묶어줬다.    회원가입 API 구현  사실 Brunch 어플은 카카오 계정으로 로그인 기능만 가능하다. 그래서 임의로 이메일과 패스워드를 통해 회원가입 가능하도록 작성했다. 이메일 \/ 패스워드 \/ 핸드폰 번호 각각 정규표현식 적용해 validation 처리   Transaction 적용  COMMIT : 게시글 조회 성공 시 최근 본 글 과 최근 본 작품 목록에 각각 들어가도록 ROLLBACK : 게시글 조회 실패 시    🏃 한마디 오늘 OAuth를 이용해 소셜 로그인 연동까지 되도록 했어야 깔끔한데 기존 쿼리 수정하다보니 시간이 촉박해서 못했다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-27 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-27 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-10\/2020-10-27\/",
+    "wordCount" : "136",
+    "keywords" : [  "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 10월 27일</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-27 itemprop="datePublished">October 27, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="brunch-api-현황">Brunch API 현황</h3>
+<ul>
+<li>홈 화면 조회 API <code>path-variable</code> 삭제
+<ul>
+<li>홈 화면에서 보여질 게시글 수를 {count}로 전달 -&gt; php 내에서 배열에 저장해 랜덤으로 쿼리에 전달</li>
+</ul>
+</li>
+<li>API 출력 결과 변경
+<ul>
+<li>아래 사진처럼 리스트 형태로 뜨는 값들 묶어줬다.
+<img src="../../images/post-list.png" alt=""></li>
+</ul>
+</li>
+<li>회원가입 API 구현
+<ul>
+<li>사실 <em>Brunch</em> 어플은 <strong>카카오 계정으로 로그인</strong> 기능만 가능하다. 그래서 임의로 이메일과 패스워드를 통해 회원가입 가능하도록 작성했다.</li>
+<li>이메일 / 패스워드 / 핸드폰 번호 각각 정규표현식 적용해 <code>validation</code> 처리</li>
+</ul>
+</li>
+<li><code>Transaction</code> 적용
+<ul>
+<li><strong>COMMIT</strong> : 게시글 조회 성공 시 <em>최근 본 글</em> 과 <em>최근 본 작품</em> 목록에 각각 들어가도록</li>
+<li><strong>ROLLBACK</strong> : 게시글 조회 실패 시</li>
+</ul>
+</li>
+</ul>
+<h2 id="-한마디">🏃 한마디</h2>
+<p>오늘 <code>OAuth</code>를 이용해 소셜 로그인 연동까지 되도록 했어야 깔끔한데 기존 쿼리 수정하다보니 시간이 촉박해서 못했다. 내일 6주차 수업 전에 일찍 카페 가서 해봐야겠다.<br>
+그리고 구글링해서 여차저차 <code>transaction</code> 처리를 해줬지만 정확히 알고 한건지 잘 모르겠다. 이 부분은 시간날 때 포스팅하는겸 다시 공부해야지.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/til/2020-10/2020-10-26/" class="prev" rel="prev" title="TIL - 2020년 10월 26일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 10월 26일</a>
+         
+        
+        <a href="http://sangm1n.github.io/til/2020-10/2020-10-28/" class="next" rel="next" title="TIL - 2020년 10월 28일">TIL - 2020년 10월 28일&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>
