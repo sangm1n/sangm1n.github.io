@@ -6,7 +6,18 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 16일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-16/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-16/</guid>
+      <description>💪 Today I Learned Deep Learning   Neural network에서 과적합을 방지하는 방법
+ Drop out : 연결된 노드 몇 개 삭제. 즉, 가중치를 없애 학습이 잘 안되도록 방해 Weight decay : 가중치 갱신 시 0과 1 사이 임의의 값을 곱해 갱신    DNN back propagation 시 발생하는 문제
+ Vanishing gradient : 역전파할수록 도함수(기울기) 값이 줄어들기 때문에 에러가 앞쪽으로 전달되지 않는 현상 ReLU 등의 성능 좋은 활성화 함수 선택 필요    Momentum</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 13일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-13/</link>

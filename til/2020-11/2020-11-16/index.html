@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-11/2020-11-12/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-11/2020-11-16/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11/2020-11-13/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-11/2020-11-13/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11/2020-11-16/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 11월 13일 | sangminlog
+           TIL - 2020년 11월 16일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 11월 13일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 11월 16일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 11월 13일",
-    "headline" : "TIL - 2020년 11월 13일",
-    "description" : "💪 Today I Learned 집꾸미기 어플 서버 클론 종료 50개 조금 안되는 API를 만드는 것을 끝으로 2주간의 모의 외주 프로젝트가 종료되었다. 최종본으로 제출한 ERD는 아래 사진과 같다. 처음에 만들어두고 수정하는 것을 최대한 지양하려 했지만 데이터를 넣으며 끝도 없이 수정했다.\n🏃 한마디 두 달 간의 소프트 스퀘어드 서버 교육 과정이 끝났다. 모의 외주를 진행하는 2주는 특히나 힘들었다. 월요일에 수료 결과를 알려준다 했으니 주말 동안 푹 쉬어야겠다.",
+    "name" : "TIL - 2020년 11월 16일",
+    "headline" : "TIL - 2020년 11월 16일",
+    "description" : "💪 Today I Learned Deep Learning   Neural network에서 과적합을 방지하는 방법\n Drop out : 연결된 노드 몇 개 삭제. 즉, 가중치를 없애 학습이 잘 안되도록 방해 Weight decay : 가중치 갱신 시 0과 1 사이 임의의 값을 곱해 갱신    DNN back propagation 시 발생하는 문제\n Vanishing gradient : 역전파할수록 도함수(기울기) 값이 줄어들기 때문에 에러가 앞쪽으로 전달되지 않는 현상 ReLU 등의 성능 좋은 활성화 함수 선택 필요    Momentum",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-13 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-11-13 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11\/2020-11-13\/",
-    "wordCount" : "65",
+    "datePublished": "2020-11-16 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-16 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11\/2020-11-16\/",
+    "wordCount" : "81",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 13일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 16일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-11-13 itemprop="datePublished">November 13, 2020</time>
+                <span class="post-time"><time datetime=2020-11-16 itemprop="datePublished">November 16, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -132,8 +132,6 @@
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -148,12 +146,31 @@
           
 
           <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="집꾸미기-어플-서버-클론-종료">집꾸미기 어플 서버 클론 종료</h3>
-<p><img src="../../../images/decohome_api.png" alt=""></p>
-<p>50개 조금 안되는 API를 만드는 것을 끝으로 2주간의 모의 외주 프로젝트가 종료되었다. 최종본으로 제출한 ERD는 아래 사진과 같다. 처음에 만들어두고 수정하는 것을 최대한 지양하려 했지만 데이터를 넣으며 끝도 없이 수정했다.</p>
-<p><img src="../../../images/decohome_last_ERD.png" alt=""></p>
+<h3 id="deep-learning">Deep Learning</h3>
+<ul>
+<li>
+<p>Neural network에서 과적합을 방지하는 방법</p>
+<ul>
+<li><em>Drop out</em> : 연결된 노드 몇 개 삭제. 즉, 가중치를 없애 학습이 잘 안되도록 방해</li>
+<li><em>Weight decay</em> : 가중치 갱신 시 0과 1 사이 임의의 값을 곱해 갱신</li>
+</ul>
+</li>
+<li>
+<p>DNN back propagation 시 발생하는 문제</p>
+<ul>
+<li><em>Vanishing gradient</em> : 역전파할수록 도함수(기울기) 값이 줄어들기 때문에 에러가 앞쪽으로 전달되지 않는 현상</li>
+<li><code>ReLU</code> 등의 성능 좋은 활성화 함수 선택 필요</li>
+</ul>
+</li>
+<li>
+<p>Momentum</p>
+<ul>
+<li><em>local minimum</em> 에 빠지는 문제 해결</li>
+</ul>
+</li>
+</ul>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>두 달 간의 <code>소프트 스퀘어드</code> 서버 교육 과정이 끝났다. 모의 외주를 진행하는 2주는 특히나 힘들었다. 월요일에 수료 결과를 알려준다 했으니 주말 동안 푹 쉬어야겠다.</p>
+<p>딥러닝은 수업 들을 때마다 항상 새롭다.</p>
 
     </div>
     
@@ -177,10 +194,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-11/2020-11-12/" class="prev" rel="prev" title="TIL - 2020년 11월 12일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 12일</a>
+        <a href="http://sangm1n.github.io/til/2020-11/2020-11-13/" class="prev" rel="prev" title="TIL - 2020년 11월 13일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 13일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-11/2020-11-16/" class="next" rel="next" title="TIL - 2020년 11월 16일">TIL - 2020년 11월 16일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -219,9 +234,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
