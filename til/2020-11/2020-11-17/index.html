@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-11/2020-11-13/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-11/2020-11-17/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11/2020-11-16/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-11/2020-11-16/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-11/2020-11-17/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 11월 16일 | sangminlog
+           TIL - 2020년 11월 17일 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 11월 16일 | sangminlog">
+  <meta name="title" content="TIL - 2020년 11월 17일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "TIL",
-    "name" : "TIL - 2020년 11월 16일",
-    "headline" : "TIL - 2020년 11월 16일",
-    "description" : "💪 Today I Learned Deep Learning   Neural network에서 과적합을 방지하는 방법\n Drop out : 연결된 노드 몇 개 삭제. 즉, 가중치를 없애 학습이 잘 안되도록 방해 Weight decay : 가중치 갱신 시 0과 1 사이 임의의 값을 곱해 갱신    DNN back propagation 시 발생하는 문제\n Vanishing gradient : 역전파할수록 도함수(기울기) 값이 줄어들기 때문에 에러가 앞쪽으로 전달되지 않는 현상 ReLU 등의 성능 좋은 활성화 함수 선택 필요    Momentum",
+    "name" : "TIL - 2020년 11월 17일",
+    "headline" : "TIL - 2020년 11월 17일",
+    "description" : "💪 Today I Learned Deep Learning   mnist DNN architecture   define model\nmodel = Sequential() model.add(Flatten(input_shape=(28, 28))) model.add(Dense(128, activation=\u0026#39;relu\u0026#39;)) model.add(Dropout(rate=0.4)) model.add(Dense(64, activation=\u0026#39;relu\u0026#39;)) model.add(Dense(32, activation=\u0026#39;relu\u0026#39;)) model.add(Dense(10, activation=\u0026#39;softmax\u0026#39;))   compile model\nadam = optimizers.adam(lr=learning_rate) model.compile(loss=\u0026#39;categorical_crossentropy\u0026#39;, optimizer=adam, metrics=[\u0026#39;accuracy\u0026#39;])   🏃 한마디 11주차 딥러닝 과제 끝.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-16 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-11-16 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11\/2020-11-16\/",
-    "wordCount" : "81",
+    "datePublished": "2020-11-17 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-17 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-11\/2020-11-17\/",
+    "wordCount" : "39",
     "keywords" : [  "sangminlog"]
 }
 </script>
@@ -117,9 +117,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 16일</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 11월 17일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-11-16 itemprop="datePublished">November 16, 2020</time>
+                <span class="post-time"><time datetime=2020-11-17 itemprop="datePublished">November 17, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -132,6 +132,8 @@
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -149,28 +151,28 @@
 <h3 id="deep-learning">Deep Learning</h3>
 <ul>
 <li>
-<p>Neural network에서 과적합을 방지하는 방법</p>
-<ul>
-<li><em>Drop out</em> : 연결된 노드 몇 개 삭제. 즉, 가중치를 없애 학습이 잘 안되도록 방해</li>
-<li><em>Weight decay</em> : 가중치 갱신 시 0과 1 사이 임의의 값을 곱해 갱신</li>
-</ul>
+<p><code>mnist</code> DNN architecture
+<img src="../../../images/mnist.png" alt=""></p>
 </li>
 <li>
-<p>DNN back propagation 시 발생하는 문제</p>
-<ul>
-<li><em>Vanishing gradient</em> : 역전파할수록 도함수(기울기) 값이 줄어들기 때문에 에러가 앞쪽으로 전달되지 않는 현상</li>
-<li><code>ReLU</code> 등의 성능 좋은 활성화 함수 선택 필요</li>
-</ul>
-</li>
+<p>define model</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">model <span style="color:#f92672">=</span> Sequential()
+model<span style="color:#f92672">.</span>add(Flatten(input_shape<span style="color:#f92672">=</span>(<span style="color:#ae81ff">28</span>, <span style="color:#ae81ff">28</span>)))
+model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">128</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>))
+model<span style="color:#f92672">.</span>add(Dropout(rate<span style="color:#f92672">=</span><span style="color:#ae81ff">0.4</span>))
+model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">64</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>))
+model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">32</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>))
+model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">10</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;softmax&#39;</span>))
+</code></pre></div></li>
 <li>
-<p>Momentum</p>
-<ul>
-<li><em>local minimum</em> 에 빠지는 문제 해결</li>
-</ul>
-</li>
+<p>compile model</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">adam <span style="color:#f92672">=</span> optimizers<span style="color:#f92672">.</span>adam(lr<span style="color:#f92672">=</span>learning_rate)
+model<span style="color:#f92672">.</span>compile(loss<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;categorical_crossentropy&#39;</span>, 
+            optimizer<span style="color:#f92672">=</span>adam, metrics<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;accuracy&#39;</span>])
+</code></pre></div></li>
 </ul>
 <h2 id="-한마디">🏃 한마디</h2>
-<p>딥러닝은 수업 들을 때마다 항상 새롭다.</p>
+<p>11주차 딥러닝 과제 끝.</p>
 
     </div>
     
@@ -194,10 +196,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-11/2020-11-13/" class="prev" rel="prev" title="TIL - 2020년 11월 13일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 13일</a>
+        <a href="http://sangm1n.github.io/til/2020-11/2020-11-16/" class="prev" rel="prev" title="TIL - 2020년 11월 16일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 11월 16일</a>
          
-        
-        <a href="http://sangm1n.github.io/til/2020-11/2020-11-17/" class="next" rel="next" title="TIL - 2020년 11월 17일">TIL - 2020년 11월 17일&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -236,8 +236,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

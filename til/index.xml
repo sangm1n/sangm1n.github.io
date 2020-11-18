@@ -6,7 +6,18 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 17일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-17/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-17/</guid>
+      <description>💪 Today I Learned Deep Learning   mnist DNN architecture   define model
+model = Sequential() model.add(Flatten(input_shape=(28, 28))) model.add(Dense(128, activation=&amp;#39;relu&amp;#39;)) model.add(Dropout(rate=0.4)) model.add(Dense(64, activation=&amp;#39;relu&amp;#39;)) model.add(Dense(32, activation=&amp;#39;relu&amp;#39;)) model.add(Dense(10, activation=&amp;#39;softmax&amp;#39;))   compile model
+adam = optimizers.adam(lr=learning_rate) model.compile(loss=&amp;#39;categorical_crossentropy&amp;#39;, optimizer=adam, metrics=[&amp;#39;accuracy&amp;#39;])   🏃 한마디 11주차 딥러닝 과제 끝.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 16일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-16/</link>
