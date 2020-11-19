@@ -6,11 +6,20 @@
     <description>Recent content in Categories on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soft squared</title>
+      <link>http://sangm1n.github.io/categories/soft-squared/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/categories/soft-squared/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>TIL</title>
       <link>http://sangm1n.github.io/categories/til/</link>
-      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/categories/til/</guid>
       <description></description>
@@ -22,15 +31,6 @@
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/categories/server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soft squared</title>
-      <link>http://sangm1n.github.io/categories/soft-squared/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/categories/soft-squared/</guid>
       <description></description>
     </item>
     
