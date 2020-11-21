@@ -6,7 +6,25 @@
     <description>Recent content in Tags on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm</title>
+      <link>http://sangm1n.github.io/tags/algorithm/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://sangm1n.github.io/tags/python/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JWT</title>
       <link>http://sangm1n.github.io/tags/jwt/</link>
@@ -26,11 +44,11 @@
     </item>
     
     <item>
-      <title>Soft sqruaed</title>
-      <link>http://sangm1n.github.io/tags/soft-sqruaed/</link>
+      <title>Soft squared</title>
+      <link>http://sangm1n.github.io/tags/soft-squared/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/tags/soft-sqruaed/</guid>
+      <guid>http://sangm1n.github.io/tags/soft-squared/</guid>
       <description></description>
     </item>
     
@@ -121,15 +139,6 @@
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soft squared</title>
-      <link>http://sangm1n.github.io/tags/soft-squared/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/tags/soft-squared/</guid>
       <description></description>
     </item>
     

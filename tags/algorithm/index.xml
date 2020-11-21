@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on sangminlog</title>
+    <link>http://sangm1n.github.io/tags/algorithm/</link>
+    <description>Recent content in Algorithm on sangminlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>코딩 테스트를 위한 파이썬 라이브러리</title>
+      <link>http://sangm1n.github.io/basic-python/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/basic-python/</guid>
+      <description>소프트 스퀘어드도 끝났겠다 한동안 놓고 있던 알고리즘 공부를 다시 시작해보려고 한다. 두 달 동안 파이썬 자체를 사용하지 않아 빠르게 훑고 지나가는 식으로 정리해봤다. 이전 블로그에 파이썬 알고리즘 인터뷰 책을 참고하여 정리한 적이 있는데, 이번에는 몇 주 전 새로 산 나동빈님의 이것이 취업을 위한 코딩 테스트다 라는 책을 참고했다. 개인적으로 후자가 조금 더 이해하기 수월한 편이었다.
+유용한 라이브러리 내장 함수 파이썬에는 굳이 import 명령어를 사용하지 않아도 기본적으로 쓸 수 있는 내장 함수가 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
