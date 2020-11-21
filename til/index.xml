@@ -6,7 +6,18 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan - 2020년 11월 21일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-21/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-21/</guid>
+      <description>어제 소프트 스퀘어드 10기 수료식이 끝나고 오늘 아침에 싸피 SW적성진단까지 마쳤다. 해오던 것들이 끝나 한동안 붕 뜰까봐 앞으로의 계획을 짜봤다.
+Algorithm 두 달 이상 안했으니 말 다했다. 코테 준비는 틈틈이 하는 게 맞는데 그게 참 어렵다. 이번에는 진득하게 했으면 좋겠다 제발. 🙏
+Design Pattern ICT 인턴 면접 때 디자인 패턴에 관한 질문이 들어왔을 때 대답을 시원찮게 하기도 했고, 개발 공부할수록 필요성을 더더욱 느낀다. 사실 스프링 공부 하기 전에 자바를 손에 익힐 겸 할 생각이다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 19일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-18/</link>
