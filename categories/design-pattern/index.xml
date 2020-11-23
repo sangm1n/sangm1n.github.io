@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design pattern on sangminlog</title>
+    <link>http://sangm1n.github.io/categories/design-pattern/</link>
+    <description>Recent content in Design pattern on sangminlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/design-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>하루 한패턴 - Strategy pattern</title>
+      <link>http://sangm1n.github.io/strategy/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/strategy/</guid>
+      <description>최근에 계획한 것처럼 디자인패턴 공부의 필요성을 느껴 책을 다시 펼쳤다. 앞으로 스프링 공부를 시작하기 전까지 자바의 정석 과 Head First Design Patterns 책을 병행해서 공부할 예정이다.
+Strategy Pattern 디자인 원칙  애플리케이션에서 달라지는 부분을 찾아 캡슐화한다.  이로써 바뀌지 않는 부분에는 영향을 미치지 않은 채 그 부분만 따로 고치거나 확장할 수 있다.   구현이 아닌 인터페이스에 맞춰서 프로그래밍한다.  Duck 클래스를 예로 들면 자주 바뀌는 행동 을 인터페이스로 표현하고 행동을 구현할 때 이러한 인터페이스를 구현하도록 했다.</description>
+    </item>
+    
+  </channel>
+</rss>
