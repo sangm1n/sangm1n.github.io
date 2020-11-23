@@ -6,7 +6,19 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 23일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-23/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-23/</guid>
+      <description>💪 Today I Learned Design Pattern  Strategy pattern  알고리즘군을 정의하고 각각을 캡슐화하여 교환해서 사용할 수 있도록 만든다. 고로 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.    Abstract Class vs Interface 추상 클래스와 인터페이스의 공통점은
+  Abstract Class
+ 클래스 내 0개 이상의 추상 메소드를 갖거나 abstract로 정의된 경우 추상 클래스를 상속 받아 그 기능을 이용하고 확장 다중 상속 불가능    Interface
+ 모든 메소드가 추상 메소드인 경우 함수의 구현을 강제하기 위해 틀만 존재 다중 상속 가능    🏃 한마디 친구가 추상 클래스와 인터페이스의 차이점을 물어봤는데 바로 대답이 안나오고 우물쭈물거렸다.</description>
+    </item>
+    
     <item>
       <title>Plan - 2020년 11월 21일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-21/</link>
