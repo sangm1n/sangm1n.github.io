@@ -6,15 +6,16 @@
     <description>Recent content in Algorithm on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>코딩 테스트를 위한 파이썬 라이브러리</title>
-      <link>http://sangm1n.github.io/basic-python/</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
+      <link>http://sangm1n.github.io/greedy/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/basic-python/</guid>
-      <description>소프트 스퀘어드도 끝났겠다 한동안 놓고 있던 알고리즘 공부를 다시 시작해보려고 한다. 두 달 동안 파이썬 자체를 사용하지 않아 빠르게 훑고 지나가는 식으로 정리해봤다. 이전 블로그에 파이썬 알고리즘 인터뷰 책을 참고하여 정리한 적이 있는데, 이번에는 몇 주 전 새로 산 나동빈님의 이것이 취업을 위한 코딩 테스트다 라는 책을 참고했다. 개인적으로 후자가 조금 더 이해하기 수월한 편이었다.
-유용한 라이브러리 내장 함수 파이썬에는 굳이 import 명령어를 사용하지 않아도 기본적으로 쓸 수 있는 내장 함수가 있다.</description>
+      <guid>http://sangm1n.github.io/greedy/</guid>
+      <description>그리디 알고리즘은 단어 그대로 번역하여 탐욕 알고리즘으로도 소개된다. 탐욕적이라는 말이 무슨 뜻일까?
+Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 현재 상황에서 당장 좋은 것만 고르는 방법을 의미한다. 그래서 어떻게 보면 무식하게 문제를 푸는 방법이라고 볼 수 있다. 단지 매 순간마다 가장 좋아보이는 것을 선택하고, 이 선택이 나중에 어떠한 영향을 미칠지에 대해서는 전혀 고려하지 않는다.
+코딩 테스트에서 나오는 그리디 알고리즘 문제들은 타 알고리즘과 비교했을 때 미리 외우고 있지 않아도 풀 수 있을 가능성이 높다고 한다.</description>
     </item>
     
   </channel>
