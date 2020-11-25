@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/how-to-install-php/" />
+  <link rel="next" href="http://sangm1n.github.io/what-is-network/" />
+  <link rel="canonical" href="http://sangm1n.github.io/ubuntu-multiple-command/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Ubuntu - 다중 명령어 정리 | sangminlog
+       
+  </title>
+  <meta name="title" content="Ubuntu - 다중 명령어 정리 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Ubuntu - 다중 명령어 정리",
+    "headline" : "Ubuntu - 다중 명령어 정리",
+    "description" : "다중 명령어를 정리하는 이유 이번에 서버 구축 과제를 진행하며 다중 명령어를 종종 사용했는데, 어떠한 상황에서 어떠한 구분자를 사용해야하는지 궁금해서 찾아봤다. 이를 잘 활용하면 일련의 작업을 명령어 한 줄로 작성할 수 있어 효율적인 작업 수행이 가능하다.\nSemicolon (;)  단순히 앞의 명령어부터 순차적으로 실행 명령어의 성공 여부 고려 X  $ cd sangmin; ls -al Ampersand (\u0026amp;)  앞의 명령어는 백그라운드로 실행 즉시 뒤의 명령어 실행 (앞의 명령어 실행 완료 여부 고려 X)  뒤의 명령어가 즉시 실행되기 때문에 앞의 명령어 결과에 종속되서는 안된다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-09-28 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-09-28 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/ubuntu-multiple-command\/",
+    "wordCount" : "517",
+    "keywords" : [ "Ubuntu", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Ubuntu - 다중 명령어 정리</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-09-28 itemprop="datePublished">September 28, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/etc/"> Etc </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="다중-명령어를-정리하는-이유">다중 명령어를 정리하는 이유</h2>
+<p>이번에 <code>서버 구축</code> 과제를 진행하며 다중 명령어를 종종 사용했는데, <em>어떠한 상황에서 어떠한 구분자를 사용해야하는지</em> 궁금해서 찾아봤다. 이를 잘 활용하면 일련의 작업을 명령어 한 줄로 작성할 수 있어 효율적인 작업 수행이 가능하다.</p>
+<h3 id="semicolon-">Semicolon (;)</h3>
+<ul>
+<li>단순히 앞의 명령어부터 순차적으로 실행</li>
+<li>명령어의 성공 여부 고려 X</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd sangmin; ls -al
+</code></pre></div><h3 id="ampersand-">Ampersand (&amp;)</h3>
+<ul>
+<li>앞의 명령어는 백그라운드로 실행</li>
+<li>즉시 뒤의 명령어 실행 (앞의 명령어 실행 완료 여부 고려 X)</li>
+</ul>
+<p>뒤의 명령어가 즉시 실행되기 때문에 앞의 명령어 결과에 종속되서는 안된다. 예를 들면 다음과 같다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mkdir sangmin &amp; cd sangmin
+</code></pre></div><p><code>mkdir</code>은 새로운 디렉토리를 생성하라는 명령어이고, 뒤에 있는 <code>cd</code>는 해당 디렉토리로 이동하라는 명령어이다. <code>cd</code> 명령어를 통해 <em>sangmin</em> 이라는 디렉토리로 이동하기 위해서는 <em>sangmin</em> 디렉토리가 존재해야만 한다.<br>
+하지만 백그라운드에서 디렉토리를 생성하라는 명령이 수행 완료되기도 전에 이동하라는 명령이 먼저 실행되어 <em>&ldquo;No such file or directory&rdquo;</em> 메세지가 뜬다.</p>
+<h3 id="vertical-bar-">Vertical bar (|)</h3>
+<ul>
+<li>앞의 명령어의 실행 결과를 뒤의 명령어의 입력으로 넘기는 기능</li>
+<li>파이프(pipe)라고 불리며 <code>grep</code> 명령어와 묶어서 자주 사용</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ ps -ef | grep httpd
+</code></pre></div><p>위의 명령어는 실행중인 프로세스 목록 중 <em>httpd</em> 라는 문자열이 포함된 라인만 출력해준다.</p>
+<h3 id="double-ampersand-">Double Ampersand (&amp;&amp;)</h3>
+<ul>
+<li>앞에 있는 명령어가 실패하면 뒤에 있는 명령어 실행 X</li>
+</ul>
+<p>고로 앞의 명령어 성공 여부가 뒤의 명령어에 큰 영향을 줄 때 사용하면 유용하다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo apt-get update <span style="color:#f92672">&amp;&amp;</span> sudo apt-get upgrade
+</code></pre></div><h3 id="double-vertical-bar-">Double Vertical bar (||)</h3>
+<ul>
+<li>앞에 있는 명령어가 성공하면 뒤에 있는 명령어 실행 X</li>
+</ul>
+<p>위의 <code>&amp;&amp;</code>와 반대라고 생각하면 된다. 앞의 명령어가 성공하지 못하면 뒤의 명령어가 실행되야 하는 경우에 유용하게 사용할 수 있다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rmdir sangmin <span style="color:#f92672">||</span> sudo rmdir sangmin
+</code></pre></div><p><code>rmdir</code> 명령어로 디렉토리 삭제를 하지 못한 경우 뒤에 있는 명령어를 실행해 <code>root</code> 권한으로 지운다.</p>
+<h2 id="추가적인-명령어-정리">추가적인 명령어 정리</h2>
+<p>그 밖에 이번 과제에서 자주 사용한 명령어는 다음과 같다.</p>
+<h3 id="ps">ps</h3>
+<ul>
+<li>현재 실행 중인 프로세스를 보여주는 명령어</li>
+</ul>
+<p><img src="../images/ps.png" alt="">
+기본적으로 아무런 옵션 없이 명령어를 이용하는 경우 위의 사진처럼 <code>PID</code> / <code>TTY</code> / <code>TIME</code> / <code>CMD</code>만 보여준다.</p>
+<ul>
+<li><code>UID</code> : 프로세스 소유자의 이름 (User ID)</li>
+<li><code>PID</code> : 프로세스 식별 번호 (Process ID)</li>
+<li><code>PPID</code> : 부모 프로세스의 ID</li>
+<li><code>TTY</code> : 프로세스와 연결된 터미널</li>
+<li><code>TIME</code> : 총 CPU 사용 시간</li>
+<li><code>CMD</code> : 프로세스의 실행 명령행</li>
+</ul>
+<p><code>-ef</code> 옵션을 자주 사용했는데 이는 모든 프로세스(<code>-e</code>)를 full format(<code>-f</code>)으로 보여달라는 의미이다.</p>
+<h3 id="grep">grep</h3>
+<ul>
+<li>입력으로 전달된 파일 내용 중 특정 문자열을 찾는 기능</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ ps -ef | grep httpd
+</code></pre></div><p>위처럼 <code>ps</code> 명령어와 함께 요긴하게 사용했다. 현재 실행 중인 프로세스 중 <code>httpd</code> 문자열이 포함된 프로세스만을 보여준다.<br>
+<code>grep</code>은 단순히 문자열 일치 여부만을 검사하는 것은 아니다. 정규 표현식에 의한 패턴 매칭 방식을 사용해 복잡하고 다양한 방식으로 문자열을 찾는다고 한다. (참고 : <a href="https://recipes4dev.tistory.com/157">https://recipes4dev.tistory.com/157</a>)</p>
+<h3 id="netstat">netstat</h3>
+<ul>
+<li><em>network statistics</em> 의 줄임말</li>
+<li>네트워크 연결 상태, 인터페이스 상태 등을 보여주는 명령어</li>
+</ul>
+<p><img src="../images/netstat.png" alt=""></p>
+<ul>
+<li><code>Proto</code> : 해당 통신이 사용하는 프로토콜</li>
+<li><code>Recv-Q</code> / <code>Send-Q</code> : 해당 통신이 사용할 때의 소켓 사이즈 버퍼
+<ul>
+<li><code>Recv-Q</code> : recv()를 통해 처리받지 못한 데이터</li>
+<li><code>Send-Q</code> : send()를 통해 보냈지만 아직 완전히 외부로 보내지지 않은 데이터</li>
+</ul>
+</li>
+<li><code>Local Address</code> : 해당 통신에서 나가는 내 주소</li>
+<li><code>Foreign Address</code> : 목적지에 해당하는 주소</li>
+<li><code>State</code> : <em>ESTABLISHED</em> / <em>LISTEN</em> 과 같은 상태 정보</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ netstat -anp
+</code></pre></div><p>위와 같은 옵션을 부여해 더 상세한 정보를 볼 수 있다.</p>
+<ul>
+<li><code>-a</code> : 모든 상태에 대한 소켓 정보</li>
+<li><code>-n</code> : 도메인 명이 아닌 숫자로 된 IP 주소 표시</li>
+<li><code>-p</code> : 어떤 프로세스에서 해당 통신을 사용하고 있는지 표시</li>
+</ul>
+<h3 id="curl">curl</h3>
+<ul>
+<li>client URL로 서버와 통신할 수 있는 명령어</li>
+<li><code>REST application</code> 개발 테스트 시 유용하게 사용</li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/ubuntu/">
+                    #Ubuntu</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/how-to-install-php/" class="prev" rel="prev" title="APM 컴파일 설치하기 - PHP"><i class="iconfont icon-left"></i>&nbsp;APM 컴파일 설치하기 - PHP</a>
+         
+        
+        <a href="http://sangm1n.github.io/what-is-network/" class="next" rel="next" title="Soft squared - Network에 대하여">Soft squared - Network에 대하여&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

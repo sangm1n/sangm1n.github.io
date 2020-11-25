@@ -9,20 +9,20 @@
     <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>하루 한패턴 - Strategy pattern</title>
-      <link>http://sangm1n.github.io/strategy/</link>
+      <link>http://sangm1n.github.io/strategy-pattern/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/strategy/</guid>
+      <guid>http://sangm1n.github.io/strategy-pattern/</guid>
       <description>최근에 계획한 것처럼 디자인패턴 공부의 필요성을 느껴 책을 다시 펼쳤다. 앞으로 스프링 공부를 시작하기 전까지 자바의 정석 과 Head First Design Patterns 책을 병행해서 공부할 예정이다.
 Strategy Pattern 디자인 원칙  애플리케이션에서 달라지는 부분을 찾아 캡슐화한다.  이로써 바뀌지 않는 부분에는 영향을 미치지 않은 채 그 부분만 따로 고치거나 확장할 수 있다.   구현이 아닌 인터페이스에 맞춰서 프로그래밍한다.  Duck 클래스를 예로 들면 자주 바뀌는 행동 을 인터페이스로 표현하고 행동을 구현할 때 이러한 인터페이스를 구현하도록 했다.</description>
     </item>
     
     <item>
       <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
-      <link>http://sangm1n.github.io/greedy/</link>
+      <link>http://sangm1n.github.io/greedy-algorithm/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/greedy/</guid>
+      <guid>http://sangm1n.github.io/greedy-algorithm/</guid>
       <description>그리디 알고리즘은 단어 그대로 번역하여 탐욕 알고리즘으로도 소개된다. 탐욕적이라는 말이 무슨 뜻일까?
 Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 현재 상황에서 당장 좋은 것만 고르는 방법을 의미한다. 그래서 어떻게 보면 무식하게 문제를 푸는 방법이라고 볼 수 있다. 단지 매 순간마다 가장 좋아보이는 것을 선택하고, 이 선택이 나중에 어떠한 영향을 미칠지에 대해서는 전혀 고려하지 않는다.
 코딩 테스트에서 나오는 그리디 알고리즘 문제들은 타 알고리즘과 비교했을 때 미리 외우고 있지 않아도 풀 수 있을 가능성이 높다고 한다.</description>
@@ -30,20 +30,20 @@ Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 �
     
     <item>
       <title>코딩 테스트를 위한 파이썬 라이브러리</title>
-      <link>http://sangm1n.github.io/basic-python/</link>
+      <link>http://sangm1n.github.io/basic-of-python/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/basic-python/</guid>
+      <guid>http://sangm1n.github.io/basic-of-python/</guid>
       <description>소프트 스퀘어드도 끝났겠다 한동안 놓고 있던 알고리즘 공부를 다시 시작해보려고 한다. 두 달 동안 파이썬 자체를 사용하지 않아 빠르게 훑고 지나가는 식으로 정리해봤다. 이전 블로그에 파이썬 알고리즘 인터뷰 책을 참고하여 정리한 적이 있는데, 이번에는 몇 주 전 새로 산 나동빈님의 이것이 취업을 위한 코딩 테스트다 라는 책을 참고했다. 개인적으로 후자가 조금 더 이해하기 수월한 편이었다.
 유용한 라이브러리 내장 함수 파이썬에는 굳이 import 명령어를 사용하지 않아도 기본적으로 쓸 수 있는 내장 함수가 있다.</description>
     </item>
     
     <item>
       <title>Soft squared - 로그인 인증에 대하여</title>
-      <link>http://sangm1n.github.io/certification/</link>
+      <link>http://sangm1n.github.io/what-is-certification/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/certification/</guid>
+      <guid>http://sangm1n.github.io/what-is-certification/</guid>
       <description>로그인 인증 및 유지 방법 HTTP의 큰 특징으로는 stateless와 connectionless가 있다. stateless는 무상태성, 즉 상태 관리를 하지 않는다는 뜻이다. 조금 더 쉽게 설명하자면 서버가 클라이언트의 상태를 몰라 식별할 수 없다는 말이다. 따라서 로그인 상태가 유지되지 않아 매 요청마다 다시 로그인해줘야하는 번거로움이 있다.
 왜 stateless한 특징을 갖는지 의문이 생길 수 있다. 그 이유가 바로 connectionless이다. 클라이언트와 서버가 성공적으로 연결을 맺어 요청에 대한 응답을 마치면 연결을 끊어버린다. 이러한 비연결성의 장점은 연결을 유지하기 위한 리소스를 줄여 더 많은 연결을 가능하게 한다.</description>
     </item>
@@ -61,10 +61,10 @@ HTTP status code HTTP 상태 코드는 클라이언트가 보낸 요청(request)
     
     <item>
       <title>RESTful한 API 설계하기</title>
-      <link>http://sangm1n.github.io/restapi/</link>
+      <link>http://sangm1n.github.io/about-restapi/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/restapi/</guid>
+      <guid>http://sangm1n.github.io/about-restapi/</guid>
       <description>이전 포스팅에서 API가 무엇인지 간략하게 알아봤다. 소프트 스퀘어드 4주차 과제는 이러한 API를 REST하게 설계하는, 즉 RESTful API를 만드는 것이다. 설계에 앞서 REST API 가 무엇인지 제대로 알고 싶어 정리했다.
 REST API REpresentational State Transfer 의 약자로 2000년도에 Roy Fielding 박사 논문에서 최초로 소개되었다. 로이 필딩은 HTTP 주요 저자 중 한 사람으로 웹의 장점을 최대한 활용할 수 있는 아키텍처로써 REST를 발표했다고 한다.
 REST 구성  자원(Resource) : URI 행위(Verb) : HTTP Method 표현(Representations)  쉽게 말해 REST는 URI를 통해 자원을 표시하고, HTTP Method를 이용해 자원의 행위를 규정하여 그 결과를 받는 것을 말한다.</description>
@@ -72,10 +72,10 @@ REST 구성  자원(Resource) : URI 행위(Verb) : HTTP Method 표현(Representa
     
     <item>
       <title>Soft squared - API에 대하여</title>
-      <link>http://sangm1n.github.io/api/</link>
+      <link>http://sangm1n.github.io/what-is-api/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/api/</guid>
+      <guid>http://sangm1n.github.io/what-is-api/</guid>
       <description>전공자로써 API라는 용어를 수도 없이 들었다. 심지어 졸업작품으로 진행했던 프로젝트에서 Google cloud vision API 를 가져다 썼었지만 정작 정확한 의미는 모르고 있었다.
 API가 도대체 뭔데? 위키백과에서는 API를 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스 라고 정의한다. 그렇게 와닿는 말은 아닌 것 같다. 이해하기 쉽도록 예시를 준비해봤다.
 매개체 Application Programming Interface 에서 interface라는 단어에 초점을 맞춰보자. 직역하면 서로 맞대는 면 정도로 해석할 수 있다.</description>
@@ -83,10 +83,10 @@ API가 도대체 뭔데? 위키백과에서는 API를 응용 프로그램에서 
     
     <item>
       <title>SQL 종류 - DDL / DML / DCL</title>
-      <link>http://sangm1n.github.io/sql/</link>
+      <link>http://sangm1n.github.io/about-sql/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/sql/</guid>
+      <guid>http://sangm1n.github.io/about-sql/</guid>
       <description>SQL (Structured Query Language) SQL 명령어는 크게 세 가지로 분류할 수 있다. SQL이 무엇인지는 이전 포스팅에서 DBMS와 함께 정리해놨다.
 DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하는 언어이다. 스키마(데이터베이스)나 테이블을 생성, 수정, 삭제하는 등 데이터 전체의 골격을 결정한다.
  CREATE : 테이블 혹은 데이터베이스 생성 ALTER : 테이블 수정 DROP : 테이블 혹은 데이터베이스 삭제 TRUNCATE : 테이블 초기화  DML DML은 Data Manipulation Language의 약자로 데이터 조작어이다. DDL을 통해 정의된 데이터베이스에 존재하는 레코드를 조회, 수정, 삭제하는 등 글자 그대로 데이터를 조작한다.</description>
@@ -94,10 +94,10 @@ DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하
     
     <item>
       <title>Soft squared - DBMS에 대하여</title>
-      <link>http://sangm1n.github.io/dbms/</link>
+      <link>http://sangm1n.github.io/what-is-dbms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/dbms/</guid>
+      <guid>http://sangm1n.github.io/what-is-dbms/</guid>
       <description>3주차 수업은 DBMS에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.
 해피 서버와 드림 서버 1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 DBMS와 DB를 분리하는 것이다.
 초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?
@@ -106,10 +106,10 @@ Server program + Back-end Language + DBMS 서버단에 대한 설명에서 Serve
     
     <item>
       <title>Apache vs Nginx 간단 비교</title>
-      <link>http://sangm1n.github.io/apache-nginx/</link>
+      <link>http://sangm1n.github.io/compare-apache-nginx/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/apache-nginx/</guid>
+      <guid>http://sangm1n.github.io/compare-apache-nginx/</guid>
       <description>2주에 걸쳐 서버 프로그램으로 Apache와 Nginx를 설치해서 사용해봤다. 두 가지 프로그램이 전체 웹 서비스의 반 이상을 차지할 정도로 폭넓게 사용된다고 하니 어떤 차이점이 있는지 궁금해졌다.
 Apache http 웹 서버의 대명사라고 불리는 아파치는 MPM(Multi Processing Module : 다중처리모듈) 방식으로 요청을 처리한다.
 스레드/프로세스 기반 구조 스레드/프로세스 기반 구조는 기본적으로 한 개의 스레드가 한 개의 요청만을 처리하는 구조이다. 사용자가 늘어날수록 많은 스레드를 생성해 메모리나 CPU 소모가 증가한다. 대표적으로 prefork와 worker 방식이 있다.
@@ -118,10 +118,10 @@ Prefork MPM  실행 중인 프로세스를 복제하여 처리하는 방식 각 
     
     <item>
       <title>구축한 AWS 서버 외부 접속 확인</title>
-      <link>http://sangm1n.github.io/aws-connet/</link>
+      <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-connet/</guid>
+      <guid>http://sangm1n.github.io/connect-aws/</guid>
       <description>Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.
    Server Program Back-end Language DBMS (+DB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.
 Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi /var/www/html/phpinfo.php &amp;lt;?php phpinfo(); ?</description>
@@ -129,10 +129,10 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     
     <item>
       <title>AWS를 이용한 서버 구축</title>
-      <link>http://sangm1n.github.io/aws-start/</link>
+      <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-start/</guid>
+      <guid>http://sangm1n.github.io/start-aws/</guid>
       <description>AWS ? Amazon Web Services, AWS는 아마존에서 만든 Cloud service로 가상 컴퓨터와 스토리지, 네트워크 인프라 등 다양한 서비스를 제공한다.
 클라우드 컴퓨팅은 네트워크 상에서 클라우드 서비스 자원을 빌려 사용하는 것을 뜻하며 세 분류로 나뉜다.
  IaaS : Infrastructure as a Service, 컴퓨터 환경만 빌려 사용
@@ -142,20 +142,20 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     
     <item>
       <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
-      <link>http://sangm1n.github.io/local-server/</link>
+      <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/local-server/</guid>
+      <guid>http://sangm1n.github.io/server-portforwarding/</guid>
       <description>Bitnami란 무엇일까? 소프트 스퀘어드 1주차 과제는 Ubuntu 위에 APM을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.
 이번에는 편하게 Bitnami를 이용할 것이다. 위키백과에서 bitnami 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 Bitnami WAMP를 사용할 것이다. WAMP는 Window 환경에 Apache / MySQL / PHP를 한 번에 설치해준다.</description>
     </item>
     
     <item>
       <title>Soft squared - Network에 대하여</title>
-      <link>http://sangm1n.github.io/network/</link>
+      <link>http://sangm1n.github.io/what-is-network/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/network/</guid>
+      <guid>http://sangm1n.github.io/what-is-network/</guid>
       <description>컴파일 설치와의 작별 소프트 스퀘어드 에서의 1주차 과제는 Linux 위에 APM을 컴파일 설치하여 서버를 구축하는 것이었다. 단순히 apt와 같은 패키지 매니저를 사용했으면 편했겠지만 컴파일 설치가 왜 중요한지, 어떨 때 사용하는지를 알 수 있었고 덕분에 CLI (Command-line interface) 환경에 조금 더 친숙해졌다.
 어제 2주차 수업을 들으며 앞으로는 컴파일 설치를 하지 않아도 된다는 나름 희소식을 들었다.
 스타벅스 가서 아메리카노 마실래 뚱딴지 같은 소리로 들릴 수도 있지만 2주차 Network 수업은 위의 문장으로 시작됐다. 결론부터 말하자면 아래의 설명을 쉽게 이해할 수 있도록 비유한 것이다.</description>
@@ -163,20 +163,20 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     
     <item>
       <title>Ubuntu - 다중 명령어 정리</title>
-      <link>http://sangm1n.github.io/ubuntu-command/</link>
+      <link>http://sangm1n.github.io/ubuntu-multiple-command/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/ubuntu-command/</guid>
+      <guid>http://sangm1n.github.io/ubuntu-multiple-command/</guid>
       <description>다중 명령어를 정리하는 이유 이번에 서버 구축 과제를 진행하며 다중 명령어를 종종 사용했는데, 어떠한 상황에서 어떠한 구분자를 사용해야하는지 궁금해서 찾아봤다. 이를 잘 활용하면 일련의 작업을 명령어 한 줄로 작성할 수 있어 효율적인 작업 수행이 가능하다.
 Semicolon (;)  단순히 앞의 명령어부터 순차적으로 실행 명령어의 성공 여부 고려 X  $ cd sangmin; ls -al Ampersand (&amp;amp;)  앞의 명령어는 백그라운드로 실행 즉시 뒤의 명령어 실행 (앞의 명령어 실행 완료 여부 고려 X)  뒤의 명령어가 즉시 실행되기 때문에 앞의 명령어 결과에 종속되서는 안된다.</description>
     </item>
     
     <item>
       <title>APM 컴파일 설치하기 - PHP</title>
-      <link>http://sangm1n.github.io/php-install/</link>
+      <link>http://sangm1n.github.io/how-to-install-php/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/php-install/</guid>
+      <guid>http://sangm1n.github.io/how-to-install-php/</guid>
       <description>PHP 7.4.1 컴파일 설치 현재 Ubuntu 18.04위에 Apache 2.4.46과 MySQL 8.0.19까지 컴파일 설치했다. PHP 버전 7.4.1 설치를 마지막으로 우분투 위에 패키지 매니저를 사용하지 않고 APM 컴파일 설치를 완료했다.
 의존성 패키지 설치 의존성 패키지까지 모두 컴파일 설치 할 수는 없으니 편하게 apt-get 명령어를 사용해준다.
 $ apt-get install libxml2-dev $ apt-get install libjpeg-dev $ apt-get install libpng-dev php 설치 Apache와 MySQL 설치할 때와 동일하게 tar.gz 파일을 다운 받아 압축 해제한다.
@@ -185,10 +185,10 @@ $ cd /usr/local/ $ wget https://www.</description>
     
     <item>
       <title>APM 컴파일 설치하기 - MySQL</title>
-      <link>http://sangm1n.github.io/mysql-install/</link>
+      <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/mysql-install/</guid>
+      <guid>http://sangm1n.github.io/how-to-install-mysql/</guid>
       <description>MySQL 8.0.19 컴파일 설치 Ubuntu 18.04 위에 Apache 2.4.46 설치를 완료했다. (이전 내용)
 MySQL은 버전 8.0.19 를 컴파일 설치했는데 시간이 정말 많이 걸려서 놀랐다. 심지어 도중에 한 번 우분투 복구까지 진행했다. 스냅샷을 찍어 백업시켜둔 과거의 나한테 고마웠다. 덕분에 apt-get upgrade하는데 굉장히 많은 시간이 걸렸지만&amp;hellip;
 의존성 패키지 설치 MySQL 공식 문서에 꼭 설치해야 하는 패키지들이 명시되어 있다. apt-get update 후 필요한 패키지들을 설치하면 된다.
@@ -197,30 +197,30 @@ MySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.</
     
     <item>
       <title>APM 컴파일 설치하기 - Apache</title>
-      <link>http://sangm1n.github.io/apache-install/</link>
+      <link>http://sangm1n.github.io/how-to-install-apache/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/apache-install/</guid>
+      <guid>http://sangm1n.github.io/how-to-install-apache/</guid>
       <description>컴파일 설치를 하는 이유 소프트 스퀘어드에서 내준 첫 과제는 서버를 구축하는 것 이다. 단순히 Linux에 Apache / PHP / MySQL (이하 APM) 세 가지만 깔면 된다고 해서 쉬운 과제일 줄 알았는데, package manager를 사용하지 않고 컴파일 설치만을 요구했다. 그렇다면 왜 컴파일 설치를 해야 하는지 알아보도록 하자.
 Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있다. 패키지 매니저를 통해 프로그램을 설치하게 되면 OS 종류나 버전에 맞춰 의존성 있는 프로그램들도 같이 설치해준다. 개인적인 목적으로 설치하는 프로그램인 경우에는 패키지 매니저를 이용해 쉽게 설치하면 되나, 회사에서 업무적인 목적으로 설치하는 경우 이것을 막을 수도 있다.</description>
     </item>
     
     <item>
       <title>Soft squared - Server에 대하여</title>
-      <link>http://sangm1n.github.io/server-intro/</link>
+      <link>http://sangm1n.github.io/what-is-server/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/server-intro/</guid>
+      <guid>http://sangm1n.github.io/what-is-server/</guid>
       <description>Soft squared를 시작하며 드디어 오늘 Soft squared 서버반 첫 수업을 시작했다. 예전부터 막연하게 백엔드 공부를 해보고 싶었다. 혼자 책보며 공부하는 것보다는 배우면서 실습도 해볼 수 있는 프로그램이 있나 찾아보다가 소프트 스퀘어드를 알게 되었다. 막학기 개강과 동시에 소프트 스퀘어드 서버반 등록을 했고 방금 막 첫 수업을 듣고 왔다.
 그래서 서버가 뭔데? 네트워크와 같은 과목을 공부하다 보면 위의 사진을 쉽게 접했을 것이다. 사진을 보면 client가 서버에 요청을 하고 server는 요청에 해당하는 작업을 수행해서 응답하는 모습을 보인다.</description>
     </item>
     
     <item>
       <title>Hugo와 Github pages를 이용한 새 블로그 시작</title>
-      <link>http://sangm1n.github.io/new-blog/</link>
+      <link>http://sangm1n.github.io/start-new-blog/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/new-blog/</guid>
+      <guid>http://sangm1n.github.io/start-new-blog/</guid>
       <description>블로그를 옮긴 이유 기존에 나는 Gatsby 기반의 블로그를 Netlify로 배포해서 운영하고 있었다. 블로그를 옮겨야겠다고 마음 먹은 이유는 바로 테마였다. 정확히 말하자면 markdown 테마이다. 블로그 전체적인 테마는 심플해서 마음에 들었는데, markdown 형식으로 글을 쓸 경우 뭔가 밋밋했다. 또한 기존 블로그는 간단하게 TIL만 작성하는 등 최소한의 시간만 투자했었다. 하지만 기술 블로그의 의미를 조금 더 찾고자 새로운 블로그를 만들기로 결심했다.
 Jekyll vs Hexo vs Hugo 정적 웹사이트 생성기는 굉장히 많다. 그 중 사람들이 가장 많이 사용하는 세 가지를 비교하여 결정했다.</description>
     </item>

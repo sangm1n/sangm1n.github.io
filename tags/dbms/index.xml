@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/dbms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL 종류 - DDL / DML / DCL</title>
-      <link>http://sangm1n.github.io/sql/</link>
+      <link>http://sangm1n.github.io/about-sql/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/sql/</guid>
+      <guid>http://sangm1n.github.io/about-sql/</guid>
       <description>SQL (Structured Query Language) SQL 명령어는 크게 세 가지로 분류할 수 있다. SQL이 무엇인지는 이전 포스팅에서 DBMS와 함께 정리해놨다.
 DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하는 언어이다. 스키마(데이터베이스)나 테이블을 생성, 수정, 삭제하는 등 데이터 전체의 골격을 결정한다.
  CREATE : 테이블 혹은 데이터베이스 생성 ALTER : 테이블 수정 DROP : 테이블 혹은 데이터베이스 삭제 TRUNCATE : 테이블 초기화  DML DML은 Data Manipulation Language의 약자로 데이터 조작어이다. DDL을 통해 정의된 데이터베이스에 존재하는 레코드를 조회, 수정, 삭제하는 등 글자 그대로 데이터를 조작한다.</description>
@@ -20,10 +20,10 @@ DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하
     
     <item>
       <title>Soft squared - DBMS에 대하여</title>
-      <link>http://sangm1n.github.io/dbms/</link>
+      <link>http://sangm1n.github.io/what-is-dbms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/dbms/</guid>
+      <guid>http://sangm1n.github.io/what-is-dbms/</guid>
       <description>3주차 수업은 DBMS에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.
 해피 서버와 드림 서버 1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 DBMS와 DB를 분리하는 것이다.
 초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?

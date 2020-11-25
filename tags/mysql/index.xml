@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Soft squared - DBMS에 대하여</title>
-      <link>http://sangm1n.github.io/dbms/</link>
+      <link>http://sangm1n.github.io/what-is-dbms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/dbms/</guid>
+      <guid>http://sangm1n.github.io/what-is-dbms/</guid>
       <description>3주차 수업은 DBMS에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.
 해피 서버와 드림 서버 1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 DBMS와 DB를 분리하는 것이다.
 초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?
@@ -21,10 +21,10 @@ Server program + Back-end Language + DBMS 서버단에 대한 설명에서 Serve
     
     <item>
       <title>구축한 AWS 서버 외부 접속 확인</title>
-      <link>http://sangm1n.github.io/aws-connet/</link>
+      <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-connet/</guid>
+      <guid>http://sangm1n.github.io/connect-aws/</guid>
       <description>Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.
    Server Program Back-end Language DBMS (+DB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.
 Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi /var/www/html/phpinfo.php &amp;lt;?php phpinfo(); ?</description>
@@ -32,10 +32,10 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     
     <item>
       <title>AWS를 이용한 서버 구축</title>
-      <link>http://sangm1n.github.io/aws-start/</link>
+      <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-start/</guid>
+      <guid>http://sangm1n.github.io/start-aws/</guid>
       <description>AWS ? Amazon Web Services, AWS는 아마존에서 만든 Cloud service로 가상 컴퓨터와 스토리지, 네트워크 인프라 등 다양한 서비스를 제공한다.
 클라우드 컴퓨팅은 네트워크 상에서 클라우드 서비스 자원을 빌려 사용하는 것을 뜻하며 세 분류로 나뉜다.
  IaaS : Infrastructure as a Service, 컴퓨터 환경만 빌려 사용
@@ -45,20 +45,20 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     
     <item>
       <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
-      <link>http://sangm1n.github.io/local-server/</link>
+      <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/local-server/</guid>
+      <guid>http://sangm1n.github.io/server-portforwarding/</guid>
       <description>Bitnami란 무엇일까? 소프트 스퀘어드 1주차 과제는 Ubuntu 위에 APM을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.
 이번에는 편하게 Bitnami를 이용할 것이다. 위키백과에서 bitnami 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 Bitnami WAMP를 사용할 것이다. WAMP는 Window 환경에 Apache / MySQL / PHP를 한 번에 설치해준다.</description>
     </item>
     
     <item>
       <title>APM 컴파일 설치하기 - MySQL</title>
-      <link>http://sangm1n.github.io/mysql-install/</link>
+      <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/mysql-install/</guid>
+      <guid>http://sangm1n.github.io/how-to-install-mysql/</guid>
       <description>MySQL 8.0.19 컴파일 설치 Ubuntu 18.04 위에 Apache 2.4.46 설치를 완료했다. (이전 내용)
 MySQL은 버전 8.0.19 를 컴파일 설치했는데 시간이 정말 많이 걸려서 놀랐다. 심지어 도중에 한 번 우분투 복구까지 진행했다. 스냅샷을 찍어 백업시켜둔 과거의 나한테 고마웠다. 덕분에 apt-get upgrade하는데 굉장히 많은 시간이 걸렸지만&amp;hellip;
 의존성 패키지 설치 MySQL 공식 문서에 꼭 설치해야 하는 패키지들이 명시되어 있다. apt-get update 후 필요한 패키지들을 설치하면 된다.

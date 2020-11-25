@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/about-sql/" />
+  <link rel="next" href="http://sangm1n.github.io/about-restapi/" />
+  <link rel="canonical" href="http://sangm1n.github.io/what-is-api/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Soft squared - API에 대하여 | sangminlog
+       
+  </title>
+  <meta name="title" content="Soft squared - API에 대하여 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Soft squared - API에 대하여",
+    "headline" : "Soft squared - API에 대하여",
+    "description" : "전공자로써 API라는 용어를 수도 없이 들었다. 심지어 졸업작품으로 진행했던 프로젝트에서 Google cloud vision API 를 가져다 썼었지만 정작 정확한 의미는 모르고 있었다.\nAPI가 도대체 뭔데? 위키백과에서는 API를 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스 라고 정의한다. 그렇게 와닿는 말은 아닌 것 같다. 이해하기 쉽도록 예시를 준비해봤다.\n매개체 Application Programming Interface 에서 interface라는 단어에 초점을 맞춰보자. 직역하면 서로 맞대는 면 정도로 해석할 수 있다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-15 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-15 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/what-is-api\/",
+    "wordCount" : "480",
+    "keywords" : [ "Server","Soft squared","API","RestAPI", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Soft squared - API에 대하여</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-15 itemprop="datePublished">October 15, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/soft-squared/"> Soft squared </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>전공자로써 <code>API</code>라는 용어를 수도 없이 들었다. 심지어 졸업작품으로 진행했던 프로젝트에서 <em>Google cloud vision API</em> 를 가져다 썼었지만 정작 정확한 의미는 모르고 있었다.</p>
+<h2 id="api가-도대체-뭔데">API가 도대체 뭔데?</h2>
+<p><a href="https://ko.wikipedia.org/wiki/API">위키백과</a>에서는 API를 <em>응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스</em> 라고 정의한다. 그렇게 와닿는 말은 아닌 것 같다. 이해하기 쉽도록 예시를 준비해봤다.</p>
+<h3 id="매개체">매개체</h3>
+<p><em>Application Programming Interface</em> 에서 <code>interface</code>라는 단어에 초점을 맞춰보자. 직역하면 <strong>서로 맞대는 면</strong> 정도로 해석할 수 있다.<br>
+사용자가 스마트폰 사용하는 모습을 상상해보자. 홈 화면을 보기 위해서는 전원 버튼을 눌러야 하고, 우리는 이 사실을 알고 있다. 여기서 <strong>전원 버튼이</strong> 바로 <strong>API</strong>이다. 사용자 입장에서 어떻게 스마트폰이 홈 화면을 보여줄 수 있는지에 대한 내부 로직은 전혀 몰라도 된다. 단지 사용자가 원하는 것을 제공해주는 매개체 역할을 한다.</p>
+<h3 id="api-명세서">API 명세서</h3>
+<p>그렇다면 API 명세서란 뭘까? 레스토랑에 가서 주문한다고 가정해보자. 종업원에게 메뉴판을 받아 메뉴를 고를 것이다. 메뉴판에는 사장님이 정한 규칙 하에 여러 메뉴들이 있다. 이 <strong>메뉴판을 API 명세서</strong>에, <strong>메뉴를 API</strong>에 비유해보면 이해하기 수월하다.<br>
+단순히 여러 API를 나열하기 위해서 API 명세서를 작성하는 것이 아니다. 그 속에는 나름대로의 규칙이 있으며 궁극적으로 API 명세서를 통해 <strong>클라이언트와 서버가 소통</strong>할 수 있다.</p>
+<h2 id="rest-api">REST API</h2>
+<p><code>REST</code>는 <em>REpresentational State Transfer</em> 의 약자로 <code>HTTP</code> 기반으로 필요한 자원에 접근하는 방식을 정해놓은 규칙을 뜻한다. REST에는 아래와 같은 4개의 속성이 존재한다.</p>
+<ol>
+<li>서버에 있는 모든 리소스는 클라이언트가 바로 접근할 수 있는 고유 <code>URI</code>가 존재한다. URI는 <em>Uniform Resource Identifier</em> 의 약자로 자원의 위치를 나타내는 일종의 식별자이다.</li>
+<li>클라이언트가 요청할 때마다 필요한 정보를 주기 때문에 서버에서는 세션 정보를 포관할 필요가 없다.</li>
+<li><em>GET</em> / <em>POST</em> / <em>PUT</em> / <em>DELETE</em> 등의 <code>HTTP method</code>를 사용한다.</li>
+<li>서비스 내 하나의 리소스가 주변에 연관된 리소스들과 연결되어 표현되어야 한다.</li>
+</ol>
+<p>그리고 REST는 <strong>resource</strong> / <strong>method</strong> / <strong>message</strong> 세 가지로 구성되어 있다.</p>
+<h3 id="resource">Resource</h3>
+<p>위에서 언급했듯이 REST에서는 URI로 자원에 접근하기 때문에 URI 설계 시 지켜야 하는 규칙이 있다.</p>
+<ul>
+<li><code>/</code> 는 계층 관계를 나타내는 데 사용되며 마지막 문자로는 사용하지 않는다.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/users/sangmin/ <span style="color:#f92672">(</span>x<span style="color:#f92672">)</span>
+</code></pre></div></li>
+<li>URI를 구성하는 리소스들은 명사로 이루어져야하며 소문자로 작성한다.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/users/sangmin
+</code></pre></div></li>
+<li>URI에서는 <code>_</code>(언더바)보다 <code>-</code>(하이픈)을 권장한다.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/users/<span style="color:#f92672">{</span>user-idx<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>파일 확장자는 URI에 포함시키지 않는다.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/users/sangmin/logo.png <span style="color:#f92672">(</span>x<span style="color:#f92672">)</span>
+</code></pre></div></li>
+</ul>
+<h3 id="method">Method</h3>
+<p>위에서 잠깐 언급한 <code>HTTP method</code>에 대해서 알아보자. <strong>서버 측 자원에 대한 행위</strong>라는 것을 꼭 기억해야 한다.</p>
+<ul>
+<li><em>GET</em> : 조회</li>
+<li><em>POST</em> : 생성</li>
+<li><em>PUT</em> : 수정</li>
+<li><em>PATCH</em> : 일부 수정</li>
+<li><em>DELETE</em> : 삭제</li>
+</ul>
+<p><code>GET</code>과 <code>POST</code> 방식의 차이점을 <strong>보안</strong>이라는 측면에서 설명하는 사람들이 많다. 나도 여태껏 이렇게 생각해왔는데, 이는 정확한 답변이 아니라고 한다.<br>
+클라이언트는 GET으로 요청할 때 <code>querystring</code>을 이용한다. 반면 POST 같은 경우 <code>packet body</code> 부분에 넣어서 보낸다. 대부분 이러한 이유 때문에 GET 방식이 POST 방식보다 보안에 취약하다고 생각할 것이다. 하지만 POST 방식으로 요청할 때도 마음만 먹으면 손쉽게 데이터를 가로챌 수 있다.<br>
+그러므로 보안성보다는 <strong>행위 자체</strong>에 초점을 두어야 한다. GET은 저장되어 있는 리소스를 조회하는 것이고, POST는 클라이언트에서 준 데이터를 새롭게 저장해달라는 요청이다.</p>
+<h3 id="message">Message</h3>
+<p>클라이언트에서 서버로 요청할 때나 서버에서 클라이언트로 응답할 때 <code>HTTP packet</code>(혹은 <code>message</code>)을 사용한다. 택배 상자를 떠올리면 더 쉽게 이해할 수 있다. 표면에 송장(<strong>Header</strong>)이 붙어 있고 안에 내용물(<strong>Body</strong>)을 담는다. Header에는 내용 타입이나 언제 보냈는지에 대한 정보, 인증 토큰처럼 <code>metadata</code>가 들어있으며 Body는 말 그대로 진짜 데이터를 포함한다. 추가적으로 상태 코드에 대한 내용은 <a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Status">Mozilla</a>에 자세히 나와 있다.</p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><a href="https://medium.com/@dydrlaks/rest-api-3e424716bab">https://medium.com/@dydrlaks/rest-api-3e424716bab</a></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/soft-squared/">
+                    #Soft squared</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/api/">
+                    #API</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/restapi/">
+                    #RestAPI</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/about-sql/" class="prev" rel="prev" title="SQL 종류 - DDL / DML / DCL"><i class="iconfont icon-left"></i>&nbsp;SQL 종류 - DDL / DML / DCL</a>
+         
+        
+        <a href="http://sangm1n.github.io/about-restapi/" class="next" rel="next" title="RESTful한 API 설계하기">RESTful한 API 설계하기&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

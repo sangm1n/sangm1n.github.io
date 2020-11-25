@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/compare-apache-nginx/" />
+  <link rel="next" href="http://sangm1n.github.io/about-sql/" />
+  <link rel="canonical" href="http://sangm1n.github.io/what-is-dbms/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Soft squared - DBMS에 대하여 | sangminlog
+       
+  </title>
+  <meta name="title" content="Soft squared - DBMS에 대하여 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Soft squared - DBMS에 대하여",
+    "headline" : "Soft squared - DBMS에 대하여",
+    "description" : "3주차 수업은 DBMS에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.\n해피 서버와 드림 서버 1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 DBMS와 DB를 분리하는 것이다.\n초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?\nServer program \u002b Back-end Language \u002b DBMS 서버단에 대한 설명에서 Server program \/ Back-end Language \/ DBMS 세 파트를 통틀어서 서버라고 불렀다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-10-09 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-10-09 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/what-is-dbms\/",
+    "wordCount" : "502",
+    "keywords" : [ "Server","Soft squared","DBMS","MySQL", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Soft squared - DBMS에 대하여</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-10-09 itemprop="datePublished">October 9, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/soft-squared/"> Soft squared </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>3주차 수업은 <code>DBMS</code>에 관한 내용이었다. 개인적으로 2학년 데이터베이스 수업을 절어서(?) 잘 모르기도 하고, 꼭 한 번 제대로 파보고 싶었다.</p>
+<h2 id="해피-서버와-드림-서버">해피 서버와 드림 서버</h2>
+<p>1주차에는 단순히 로컬에 서버를 구축했고, 2주차에는 클라이언트와 서버를 분리했다. 이번 3주차의 핵심은 서버단에서 <code>DBMS</code>와 <code>DB</code>를 분리하는 것이다.<br>
+초등학생 때 매일같이 했던 크레이지아케이드 게임에는 해피 서버와 드림 서버가 있다. 해피 서버 사용자와 드림 서버 사용자는 서로 만날 수가 없다. 어떤 로직 때문에 이렇게 됐을까?</p>
+<h3 id="server-program--back-end-language--dbms">Server program + Back-end Language + DBMS</h3>
+<p><a href="https://sangm1n.github.io/server-intro/">서버단</a>에 대한 설명에서 <code>Server program</code> / <code>Back-end Language</code> / <code>DBMS</code> 세 파트를 통틀어서 <strong>서버</strong>라고 불렀다. 이번 포스팅에서는 편하게 <code>APM</code>이라고 부르겠다. 지금부터는 쉽게 설명을 하기 위한 가정일 뿐 실제로 넥슨이 서버를 나누어 서비스한 이유와는 무관하다.<br>
+해피 서버를 운영하던 도중 사용자가 너무 많아져 서버를 새로 만들어야한다고 생각해보자. APM을 통으로 하나 더 구축했고 아래와 같은 문제가 발견됐다.</p>
+<ul>
+<li>해피 서버 사용자와 드림 서버 사용자가 만나서 게임할 수 없다.</li>
+<li>유능한 해커에게 서버가 털리면 모든 사용자들의 정보가 날라간다.</li>
+<li>APM 중 <strong>A</strong>(Apache)와 <strong>P</strong>(PHP)는 같은 로직으로 만들어져 중복된다.</li>
+</ul>
+<p>이러한 문제는 <strong>M</strong>(MySQL)을 분리하여 쉽게 해결할 수 있다.</p>
+<h3 id="server-program--back-end-language--dbms-1">Server program + Back-end Language / DBMS</h3>
+<p><code>DBMS</code>인 <strong>M</strong>을 분리하여 관리한다고 생각해보자. 사용자가 훨씬 많아져 서버를 또 만든다해도 1개의 데이터베이스로 모든 서버에 접근이 가능하다. DB를 외부에서 관리하기 때문에 <strong>보안상으로도 훨씬 안정적</strong>이다.</p>
+<h2 id="rdbms">rDBMS</h2>
+<ul>
+<li><em>Server program</em> : 종업원</li>
+<li><em>Back-end Language</em> : 요리사</li>
+<li><em>DBMS</em> : 스마트 냉장고</li>
+</ul>
+<p>나는 현재 레스토랑에 와있고, 서버단 세 파트 각각을 위와 같이 비유해서 설명해보겠다. 클라이언트인 내가 종업원에게 스테이크를 주문하면 종업원은 요리사에게 메뉴를 전달할 것이다. 고기가 바로 준비되어 있으면 좋겠지만, 그렇지 않은 경우 요리사는 스마트 냉장고한테 <strong>고기 200g 줘</strong>라고 요청해야 한다. 이것이 우리가 흔히 말하는 <code>query</code>이다.</p>
+<h3 id="sql-structured-query-language">SQL (Structured Query Language)</h3>
+<p>방금 요리사가 요청한 것처럼 데이터를 관리하기 위해 만들어진 특수한 프로그래밍 언어를 <code>SQL</code>이라고 한다. 그리고 이러한 SQL을 사용하는 것이 바로 <code>rDBMS</code> 즉, <strong>관계형 데이터베이스 관리 시스템</strong>이다. 쉽게 말해 테이블 간의 관계가 형성된 데이터베이스를 관리하는 것이다. 그래도 어렵다면 실생활 예를 들어보겠다.</p>
+<h4 id="출석부와-학적부">출석부와 학적부</h4>
+<ul>
+<li>출석부 : 학번, 이름, 사진</li>
+<li>학적부 : 학번, 전화번호, 주소</li>
+</ul>
+<p>출석을 부르는데 <em>아무개</em> 가 결석한 것 같다. <em>아무개</em> 한테 연락하려면 어떻게 해야 할까?<br>
+우리는 직관적으로도 알 수 있다. 출석부에서 <em>아무개</em> 의 학번을 찾아 학적부에서 해당 학번의 전화번호를 확인하면 된다. 이렇게 서로 관계를 형성하는 것이 바로 관계형 데이터베이스, <code>rDB</code>이다.</p>
+<h3 id="데이터-모델링">데이터 모델링</h3>
+<p>그렇다면 우리는 항상 SQL을 사용할 수 있을까? 전혀 그렇지 않다. 쿼리문을 사용하기 위해서는 당연히 잘 정제된 데이터가 필요하다. 그러기 위해서는 <code>데이터 모델링</code>을 반드시 거쳐야 한다.<br>
+데이터 설계라도고 불리는 데이터 모델링은 현실 세계를 표로 바꿔주는 작업이다. 추상화라고 볼 수도 있는데, 아래의 세 단계를 거친다.</p>
+<blockquote>
+<p><strong>분석 -&gt; 논리적 모델 -&gt; 물리적 모델</strong></p>
+</blockquote>
+<p>인스타그램 앱을 예로 들면 분석 과정은 사용자 닉네임, 프로필 사진, 게시글, 좋아요 수 등 모든 <strong>요소</strong>를 뽑아내는 것이다. 논리적 모델은 분석한 것을 바탕으로 <code>entity</code> / <code>attribute</code> / <code>relation</code>을 추출하는 것이다. attribute 중 연관된 것들끼리 묶은 것이 entity이며, 이러한 entity 사이의 관계를 정의한 것이 바로 relation이다.<br>
+이것을 DBMS로 옮긴 것이 물리적 모델이라고 봐도 무방하다. entity와 attribute는 각각 <strong>테이블</strong>과 <strong>컬럼</strong>에 대응된다. relation은 <code>primary key</code> / <code>foreign key</code> / <code>join</code> 등으로 매칭된다.</p>
+<h2 id="nosql은-">NoSQL은 ?</h2>
+<p>지금까지 관계형 데이터베이스에 대해서만 알아봤다. <code>MySQL</code>이나 <code>postgreSQL</code>, <code>Oracle</code>은 모두 이러한 관계형 데이터베이스를 관리하는 rDBMS인 셈이다.<br>
+그렇다면 <code>NoSQL</code>은 대체 뭘까? 한마디로 정의하자면 <strong>SQL 형태가 아닌 모든 것</strong>들을 뜻한다. key-value 형태의 DBMS 혹은 graph DBMS처럼 SQL 형태가 아니기만 하면 된다.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/soft-squared/">
+                    #Soft squared</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/dbms/">
+                    #DBMS</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/mysql/">
+                    #MySQL</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/compare-apache-nginx/" class="prev" rel="prev" title="Apache vs Nginx 간단 비교"><i class="iconfont icon-left"></i>&nbsp;Apache vs Nginx 간단 비교</a>
+         
+        
+        <a href="http://sangm1n.github.io/about-sql/" class="next" rel="next" title="SQL 종류 - DDL / DML / DCL">SQL 종류 - DDL / DML / DCL&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

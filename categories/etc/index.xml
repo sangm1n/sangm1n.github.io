@@ -9,30 +9,30 @@
     <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/etc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>코딩 테스트를 위한 파이썬 라이브러리</title>
-      <link>http://sangm1n.github.io/basic-python/</link>
+      <link>http://sangm1n.github.io/basic-of-python/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/basic-python/</guid>
+      <guid>http://sangm1n.github.io/basic-of-python/</guid>
       <description>소프트 스퀘어드도 끝났겠다 한동안 놓고 있던 알고리즘 공부를 다시 시작해보려고 한다. 두 달 동안 파이썬 자체를 사용하지 않아 빠르게 훑고 지나가는 식으로 정리해봤다. 이전 블로그에 파이썬 알고리즘 인터뷰 책을 참고하여 정리한 적이 있는데, 이번에는 몇 주 전 새로 산 나동빈님의 이것이 취업을 위한 코딩 테스트다 라는 책을 참고했다. 개인적으로 후자가 조금 더 이해하기 수월한 편이었다.
 유용한 라이브러리 내장 함수 파이썬에는 굳이 import 명령어를 사용하지 않아도 기본적으로 쓸 수 있는 내장 함수가 있다.</description>
     </item>
     
     <item>
       <title>Ubuntu - 다중 명령어 정리</title>
-      <link>http://sangm1n.github.io/ubuntu-command/</link>
+      <link>http://sangm1n.github.io/ubuntu-multiple-command/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/ubuntu-command/</guid>
+      <guid>http://sangm1n.github.io/ubuntu-multiple-command/</guid>
       <description>다중 명령어를 정리하는 이유 이번에 서버 구축 과제를 진행하며 다중 명령어를 종종 사용했는데, 어떠한 상황에서 어떠한 구분자를 사용해야하는지 궁금해서 찾아봤다. 이를 잘 활용하면 일련의 작업을 명령어 한 줄로 작성할 수 있어 효율적인 작업 수행이 가능하다.
 Semicolon (;)  단순히 앞의 명령어부터 순차적으로 실행 명령어의 성공 여부 고려 X  $ cd sangmin; ls -al Ampersand (&amp;amp;)  앞의 명령어는 백그라운드로 실행 즉시 뒤의 명령어 실행 (앞의 명령어 실행 완료 여부 고려 X)  뒤의 명령어가 즉시 실행되기 때문에 앞의 명령어 결과에 종속되서는 안된다.</description>
     </item>
     
     <item>
       <title>Hugo와 Github pages를 이용한 새 블로그 시작</title>
-      <link>http://sangm1n.github.io/new-blog/</link>
+      <link>http://sangm1n.github.io/start-new-blog/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/new-blog/</guid>
+      <guid>http://sangm1n.github.io/start-new-blog/</guid>
       <description>블로그를 옮긴 이유 기존에 나는 Gatsby 기반의 블로그를 Netlify로 배포해서 운영하고 있었다. 블로그를 옮겨야겠다고 마음 먹은 이유는 바로 테마였다. 정확히 말하자면 markdown 테마이다. 블로그 전체적인 테마는 심플해서 마음에 들었는데, markdown 형식으로 글을 쓸 경우 뭔가 밋밋했다. 또한 기존 블로그는 간단하게 TIL만 작성하는 등 최소한의 시간만 투자했었다. 하지만 기술 블로그의 의미를 조금 더 찾고자 새로운 블로그를 만들기로 결심했다.
 Jekyll vs Hexo vs Hugo 정적 웹사이트 생성기는 굉장히 많다. 그 중 사람들이 가장 많이 사용하는 세 가지를 비교하여 결정했다.</description>
     </item>

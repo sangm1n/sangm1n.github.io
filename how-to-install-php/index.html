@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/how-to-install-mysql/" />
+  <link rel="next" href="http://sangm1n.github.io/ubuntu-multiple-command/" />
+  <link rel="canonical" href="http://sangm1n.github.io/how-to-install-php/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           APM 컴파일 설치하기 - PHP | sangminlog
+       
+  </title>
+  <meta name="title" content="APM 컴파일 설치하기 - PHP | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "APM 컴파일 설치하기 - PHP",
+    "headline" : "APM 컴파일 설치하기 - PHP",
+    "description" : "PHP 7.4.1 컴파일 설치 현재 Ubuntu 18.04위에 Apache 2.4.46과 MySQL 8.0.19까지 컴파일 설치했다. PHP 버전 7.4.1 설치를 마지막으로 우분투 위에 패키지 매니저를 사용하지 않고 APM 컴파일 설치를 완료했다.\n의존성 패키지 설치 의존성 패키지까지 모두 컴파일 설치 할 수는 없으니 편하게 apt-get 명령어를 사용해준다.\n$ apt-get install libxml2-dev $ apt-get install libjpeg-dev $ apt-get install libpng-dev php 설치 Apache와 MySQL 설치할 때와 동일하게 tar.gz 파일을 다운 받아 압축 해제한다.\n$ cd \/usr\/local\/ $ wget https:\/\/www.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-09-26 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-09-26 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/how-to-install-php\/",
+    "wordCount" : "397",
+    "keywords" : [ "Server","PHP","Ubuntu", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">APM 컴파일 설치하기 - PHP</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-09-26 itemprop="datePublished">September 26, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="php-741-컴파일-설치">PHP 7.4.1 컴파일 설치</h2>
+<p>현재 <code>Ubuntu 18.04</code>위에 <a href="https://sangm1n.github.io/apache-install/">Apache 2.4.46</a>과 <a href="https://sangm1n.github.io/mysql-install/">MySQL 8.0.19</a>까지 컴파일 설치했다. <code>PHP</code> 버전 <em>7.4.1</em> 설치를 마지막으로 우분투 위에 패키지 매니저를 사용하지 않고 <code>APM</code> 컴파일 설치를 완료했다.</p>
+<h3 id="의존성-패키지-설치">의존성 패키지 설치</h3>
+<p>의존성 패키지까지 모두 컴파일 설치 할 수는 없으니 편하게 <code>apt-get</code> 명령어를 사용해준다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ apt-get install libxml2-dev
+$ apt-get install libjpeg-dev
+$ apt-get install libpng-dev
+</code></pre></div><h3 id="php-설치">php 설치</h3>
+<p>Apache와 MySQL 설치할 때와 동일하게 <code>tar.gz</code> 파일을 다운 받아 압축 해제한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/
+$ wget https://www.php.net/distributions/php-7.4.1.tar.gz
+$ tar xvfz php-7.4.1.tar.gz
+</code></pre></div><h4 id="configure--make">configure &amp; make</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd php-7.4.1
+$ ./configure <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-apxs2<span style="color:#f92672">=</span>/usr/local/apache2.4/bin/apxs <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--enable-mysqlnd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-mysql-sock<span style="color:#f92672">=</span>mysqlnd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-mysqli<span style="color:#f92672">=</span>mysqlnd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-pdo-mysql<span style="color:#f92672">=</span>mysqlnd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-imap-ssl <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-iconv <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--enable-gd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-jpeg <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-libxml <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--with-openssl
+$ make <span style="color:#f92672">&amp;&amp;</span> make test <span style="color:#f92672">&amp;&amp;</span> make install
+</code></pre></div><p><code>make-install</code>까지 완료하면 다음과 같은 화면이 출력된다.
+<img src="../images/php-install.png" alt=""></p>
+<h4 id="libphp7so-파일-확인">libphp7.so 파일 확인</h4>
+<p><a href="https://httpd.apache.org/docs/2.2/ko/dso.html">Apache 공식 문서</a>를 보면 Apache가 <code>DSO (Dynamic Shared Object)</code> 동적 공유 객체 방식으로 설치되어 있어 아파치를 컴파일한 상태에서 새로운 모듈이 추가될 때 다시 컴파일하지 않아도 된다고 명시되어 있다. 즉 httpd에 기능이 포함되는 것이 아니라 외부에 기능을 두고 필요할 때마다 동적으로 호출해서 사용하는 방식이다. <code>PHP</code>는 대부분 DSO 방식을 사용한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/apache2.4/modules
+$ ls -l
+<span style="color:#75715e"># libphp7.so 파일 확인</span>
+</code></pre></div><p><img src="../images/php-so.png" alt=""></p>
+<h3 id="apache와-php-연동">Apache와 PHP 연동</h3>
+<p>아파치 설정 파일인 <code>httpd.conf</code> 파일을 열어 PHP 모듈이 설치되어 있는지 확인한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/apache2.4/conf
+$ vi httpd.conf
+...
+LoadModule php7_module      modules/libphp7.so
+...
+</code></pre></div><p>모듈이 잘 설치되어 있다면 <code>mime_module</code>에 아래 내용을 AddType 해준다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ vi httpd.conf
+...
+&lt;IfModule mime_module&gt;
+    ...
+    AddType application/x-httpd-php .php .html
+    ...
+</code></pre></div><h4 id="phpini-파일-세팅">php.ini 파일 세팅</h4>
+<ul>
+<li>php.ini : PHP의 설정 파일
+<code>php-7.4.1</code> 디렉토리로 가면 <code>php.ini-development</code>와 <code>php.ini-production</code> 두 개의 파일이 있다.<br>
+전자는 개발용, 후자는 프로덕션 시스템용 버전으로 개발용 같은 경우 더 많은 오류와 경고를 표시해주지만 보안상 문제가 생길 수 있으므로 개발 환경에서만 사용해야 한다. production 파일을 <code>/usr/local/lib</code> 디렉토리에 복사한다.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/php-7.4.1
+$ cp php.ini-production /usr/local/lib/php.ini
+</code></pre></div><h4 id="테스트용-php-파일-작성">테스트용 php 파일 작성</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/apache2.4/htdocs
+$ vi phpinfo.php
+&lt;?php
+phpinfo<span style="color:#f92672">()</span>;
+?&gt;
+</code></pre></div><p><code>APM</code> 컴파일 설치를 하면서 코드를 작성하는 부분은 딱 이 순간 뿐이었다.</p>
+<h4 id="연결-확인">연결 확인</h4>
+<p>아파치를 실행시킨 후 <code>http://127.0.1.1/phpinfo.php</code>로 접속하여 PHP 설치 정보가 출력되면 성공적으로 연동된 것이다. <code>ps -ef | grep httpd</code> 명령어로 아파치가 정상적으로 실행 중인지도 확인한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo /usr/local/apache2.4/bin/httpd -k start
+$ ps -ef | grep httpd | grep -v grep
+$ sudo netstat -anp | grep httpd
+$ sudo curl http://127.0.1.1
+</code></pre></div><p><img src="../images/php.png" alt=""></p>
+<h2 id="설치를-마치며">설치를 마치며</h2>
+<p>여차저차 <code>Ubuntu</code>에 서버를 구축하는 과제를 마무리했다. 리눅스를 오랜만에 사용해 기본적인 명령어조차 기억나지 않아 당황스러웠다. 그래도 과제를 하며 다시 복기할 수 있었고, 다양한 명령어를 접할 수 있었다. 서버반 수업을 듣는 이상 리눅스 사용은 불가피할테니 틈틈이 손에 익혀야겠다.</p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><a href="https://salix97.tistory.com/142?category=837576">https://salix97.tistory.com/142?category=837576</a></li>
+<li><a href="https://victorydntmd.tistory.com/222">https://victorydntmd.tistory.com/222</a></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/php/">
+                    #PHP</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/ubuntu/">
+                    #Ubuntu</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/how-to-install-mysql/" class="prev" rel="prev" title="APM 컴파일 설치하기 - MySQL"><i class="iconfont icon-left"></i>&nbsp;APM 컴파일 설치하기 - MySQL</a>
+         
+        
+        <a href="http://sangm1n.github.io/ubuntu-multiple-command/" class="next" rel="next" title="Ubuntu - 다중 명령어 정리">Ubuntu - 다중 명령어 정리&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>구축한 AWS 서버 외부 접속 확인</title>
-      <link>http://sangm1n.github.io/aws-connet/</link>
+      <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-connet/</guid>
+      <guid>http://sangm1n.github.io/connect-aws/</guid>
       <description>Situation 현재 AWS 클라우드 서비스에 서버를 구축해놨다.
    Server Program Back-end Language DBMS (+DB)     Nginx PHP MySQL    chrome 웹 브라우저를 클라이언트라고 생각하고 서버에 외부 접속하는 방법을 알아보겠다.
 Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 들어가면 Welcome to nginx! 문장이 우릴 맞아준다. nginx가 잘 설치된 것은 물론 외부 접속에 성공했다는 것을 의미한다. PHP phpinfo 파일 작성 $ sudo vi /var/www/html/phpinfo.php &amp;lt;?php phpinfo(); ?</description>
@@ -20,10 +20,10 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     
     <item>
       <title>AWS를 이용한 서버 구축</title>
-      <link>http://sangm1n.github.io/aws-start/</link>
+      <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/aws-start/</guid>
+      <guid>http://sangm1n.github.io/start-aws/</guid>
       <description>AWS ? Amazon Web Services, AWS는 아마존에서 만든 Cloud service로 가상 컴퓨터와 스토리지, 네트워크 인프라 등 다양한 서비스를 제공한다.
 클라우드 컴퓨팅은 네트워크 상에서 클라우드 서비스 자원을 빌려 사용하는 것을 뜻하며 세 분류로 나뉜다.
  IaaS : Infrastructure as a Service, 컴퓨터 환경만 빌려 사용
@@ -33,20 +33,20 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     
     <item>
       <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
-      <link>http://sangm1n.github.io/local-server/</link>
+      <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/local-server/</guid>
+      <guid>http://sangm1n.github.io/server-portforwarding/</guid>
       <description>Bitnami란 무엇일까? 소프트 스퀘어드 1주차 과제는 Ubuntu 위에 APM을 컴파일 설치해 서버를 구축하는 것이었다. 2주차까지는 반복적으로 서버 구축을 하여 익숙해진다고 들었다.
 이번에는 편하게 Bitnami를 이용할 것이다. 위키백과에서 bitnami 를 가상 어플라이언스 및 웹 앱, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리라고 서술한다. 쉽게 말해 복잡한 과정의 어플리케이션 솔루션들을 패키지로 만들어 간단히 설치할 수 있도록 도와주는 프로그램이다. 그 중 웹 서버 구축에 필요한 Bitnami WAMP를 사용할 것이다. WAMP는 Window 환경에 Apache / MySQL / PHP를 한 번에 설치해준다.</description>
     </item>
     
     <item>
       <title>APM 컴파일 설치하기 - PHP</title>
-      <link>http://sangm1n.github.io/php-install/</link>
+      <link>http://sangm1n.github.io/how-to-install-php/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/php-install/</guid>
+      <guid>http://sangm1n.github.io/how-to-install-php/</guid>
       <description>PHP 7.4.1 컴파일 설치 현재 Ubuntu 18.04위에 Apache 2.4.46과 MySQL 8.0.19까지 컴파일 설치했다. PHP 버전 7.4.1 설치를 마지막으로 우분투 위에 패키지 매니저를 사용하지 않고 APM 컴파일 설치를 완료했다.
 의존성 패키지 설치 의존성 패키지까지 모두 컴파일 설치 할 수는 없으니 편하게 apt-get 명령어를 사용해준다.
 $ apt-get install libxml2-dev $ apt-get install libjpeg-dev $ apt-get install libpng-dev php 설치 Apache와 MySQL 설치할 때와 동일하게 tar.gz 파일을 다운 받아 압축 해제한다.

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/how-to-install-apache/" />
+  <link rel="next" href="http://sangm1n.github.io/how-to-install-php/" />
+  <link rel="canonical" href="http://sangm1n.github.io/how-to-install-mysql/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           APM 컴파일 설치하기 - MySQL | sangminlog
+       
+  </title>
+  <meta name="title" content="APM 컴파일 설치하기 - MySQL | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "APM 컴파일 설치하기 - MySQL",
+    "headline" : "APM 컴파일 설치하기 - MySQL",
+    "description" : "MySQL 8.0.19 컴파일 설치 Ubuntu 18.04 위에 Apache 2.4.46 설치를 완료했다. (이전 내용)\nMySQL은 버전 8.0.19 를 컴파일 설치했는데 시간이 정말 많이 걸려서 놀랐다. 심지어 도중에 한 번 우분투 복구까지 진행했다. 스냅샷을 찍어 백업시켜둔 과거의 나한테 고마웠다. 덕분에 apt-get upgrade하는데 굉장히 많은 시간이 걸렸지만\u0026hellip;\n의존성 패키지 설치 MySQL 공식 문서에 꼭 설치해야 하는 패키지들이 명시되어 있다. apt-get update 후 필요한 패키지들을 설치하면 된다.\nMySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-09-25 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-09-25 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/how-to-install-mysql\/",
+    "wordCount" : "410",
+    "keywords" : [ "Server","MySQL","Ubuntu", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">APM 컴파일 설치하기 - MySQL</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-09-25 itemprop="datePublished">September 25, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/server/"> Server </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="mysql-8019-컴파일-설치">MySQL 8.0.19 컴파일 설치</h2>
+<p><code>Ubuntu 18.04</code> 위에 <code>Apache 2.4.46</code> 설치를 완료했다. (<a href="https://sangm1n.github.io/apm-install/">이전 내용</a>)<br>
+<code>MySQL</code>은 버전 <em>8.0.19</em> 를 컴파일 설치했는데 시간이 정말 많이 걸려서 놀랐다. 심지어 도중에 한 번 우분투 복구까지 진행했다. 스냅샷을 찍어 백업시켜둔 과거의 나한테 고마웠다. 덕분에 <code>apt-get upgrade</code>하는데 굉장히 많은 시간이 걸렸지만&hellip;</p>
+<h3 id="의존성-패키지-설치">의존성 패키지 설치</h3>
+<p><a href="https://dev.mysql.com/doc/refman/8.0/en/source-installation-prerequisites.html">MySQL 공식 문서</a>에 꼭 설치해야 하는 패키지들이 명시되어 있다. <code>apt-get update</code> 후 필요한 패키지들을 설치하면 된다.</p>
+<h3 id="mysql-community-server-8019-설치">MySQL Community Server 8.0.19 설치</h3>
+<p><code>Apache</code> 설치할 때와 동일하게 <code>tar.gz</code>파일을 다운받아 압축 해제해준다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local
+$ wget https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.19.tar.gz
+$ tar xvfz mysql-8.0.19.tar.gz
+</code></pre></div><h3 id="mysql-설치">MySQL 설치</h3>
+<ul>
+<li>cmake : 설치 옵션 부여</li>
+<li>make : <code>build</code></li>
+<li>make install : 설치 진행</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/mysql-8.0.19
+$ mkdir &lt;DIRNAME&gt;
+$ cd &lt;DIRNAME&gt;
+$ cmake .. <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DCMAKE_INSTALL_PREFIX<span style="color:#f92672">=</span>/usr/local/mysql <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DMYSQL_DATADIR<span style="color:#f92672">=</span>/usr/local/mysql/data <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DMYSQL_UNIX_ADDR<span style="color:#f92672">=</span>/usr/local/mysql/mysql.sock <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DMYSQL_TCP_PORT<span style="color:#f92672">=</span><span style="color:#ae81ff">3306</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DDEFAULT_CHARSET<span style="color:#f92672">=</span>utf8 <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DDEFAULT_COLLATION<span style="color:#f92672">=</span>utf8_general_ci <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DSYSCONFDIR<span style="color:#f92672">=</span>/etc <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DWITH_EXTRA_CHARSETS<span style="color:#f92672">=</span>all <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DWITH_INNOBASE_STORAGE_ENGINE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DWITH_ARCHIVE_STORAGE_ENGINE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DWITH_BLACKHOLE_STORAGE_ENGINE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DDOWNLOAD_BOOST<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>-DWITH_BOOST<span style="color:#f92672">=</span>/usr/local/mysql/boost
+$ make <span style="color:#f92672">&amp;&amp;</span> make test <span style="color:#f92672">&amp;&amp;</span> make install
+</code></pre></div><p><code>make</code>하는 과정이 굉장히 길다. 사실 Apache를 단숨에 깔고나서 <em>첫 과제는 쉽게 깔기만 하면 되네</em> 하고 생각했었으나 큰 오산이었다. 심지어 앞에서 말했듯이 make 과정을 두 번씩이나 거쳤으니 말 다했다.</p>
+<h3 id="mysql-데이터베이스-초기화">MySQL 데이터베이스 초기화</h3>
+<h4 id="mysql-그룹-및-유저-생성">mysql 그룹 및 유저 생성</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ groupadd mysql
+$ useradd -r -g mysql -s /bin/false mysql
+</code></pre></div><h4 id="mysql-files-디렉토리-생성">mysql-files 디렉토리 생성</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd /usr/local/mysql
+$ mkdir mysql-files
+</code></pre></div><h4 id="권한-설정">권한 설정</h4>
+<ul>
+<li>chown : change own, 파일의 소유권자 변경</li>
+<li>chmod : change mode, 파일과 디렉토리의 사용 권한 변경</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ chown -R mysql:mysql /usr/local/mysql
+$ chown mysql:mysql mysql-files
+$ chmod <span style="color:#ae81ff">750</span> mysql-files
+</code></pre></div><h4 id="기본-데이터베이스-설정">기본 데이터베이스 설정</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ bin/mysqld --initialize --user<span style="color:#f92672">=</span>mysql <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--basedir<span style="color:#f92672">=</span>/usr/local/mysql <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>--datadir<span style="color:#f92672">=</span>/usr/local/mysql/data
+</code></pre></div><p>우분투를 복원시키게 된 지점이 바로 여기이다. <code>bin/mysqld</code> 명령어를 입력하는데 bin 디렉토리가 없어서 한참 헤맸다. <code>find</code> 명령어를 통해 모든 우분투 내 모든 bin 디렉토리를 찾으며 그 속에 mysqld가 있나 확인했다.<br>
+어찌저찌 찾아 다행이란 마음으로 복사해 왔는데 아니나 다를까 실패했다. 실패하고 또 실패하고 계속 실패하다가 그냥 초기 상태로 복원하고 Apache부터 다시 깔았다. 성공하면 아래 사진처럼 임시 비밀번호를 발급해준다. 서버 연결 후 바꿔야하니 기억해두도록 하자.<br>
+<img src="../images/mysql-passwd.png" alt=""></p>
+<h3 id="비밀번호-초기화">비밀번호 초기화</h3>
+<h4 id="mysql-서버-실행">mysql 서버 실행</h4>
+<ul>
+<li>mysqld_safe : mysql 실행</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ bin/mysqld_safe --user<span style="color:#f92672">=</span>mysql &amp;
+</code></pre></div><p>&amp; 명령어를 통해 백그라운드에서 프로세스를 실행시켜준다.</p>
+<h4 id="서버-연결-및-종료">서버 연결 및 종료</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ bin/mysql -u root -p
+</code></pre></div><p>발급받은 임시 비밀번호를 입력하면 쉘 화면이 <code>mysql&gt;</code>로 바뀐다. 아래의 명령어를 통해 <code>root</code> 비밀번호를 변경할 수 있다. <code>root-password</code> 부분은 사용자가 원하는대로 변경 가능하다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mysql&gt; ALTER USER <span style="color:#e6db74">&#39;root&#39;</span>@<span style="color:#e6db74">&#39;localhost&#39;</span> IDENTIFIED BY <span style="color:#e6db74">&#39;root-password&#39;</span>;
+</code></pre></div><p>서버는 <code>shutdown</code> 명령어를 이용하면 종료된다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ bin/mysqladmin -u root -p shutdown
+</code></pre></div><h3 id="mysql-설치-완료">MySQL 설치 완료</h3>
+<p><img src="../images/mysql.png" alt="">
+글을 쓰는 현 시점의 나는 <code>PHP</code>까지 모두 컴파일 설치를 완료했지만 몇 시간 전까지만 하더라도 우분투와 씨름하고 있었다. 물론 설치를 기다리는 과정이 길었던 탓도 있지만 간만에 새벽까지 달려들어 집중했던 것 같다.</p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><a href="https://salix97.tistory.com/141?category=837576">https://salix97.tistory.com/141?category=837576</a></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/server/">
+                    #Server</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/mysql/">
+                    #MySQL</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/ubuntu/">
+                    #Ubuntu</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/how-to-install-apache/" class="prev" rel="prev" title="APM 컴파일 설치하기 - Apache"><i class="iconfont icon-left"></i>&nbsp;APM 컴파일 설치하기 - Apache</a>
+         
+        
+        <a href="http://sangm1n.github.io/how-to-install-php/" class="next" rel="next" title="APM 컴파일 설치하기 - PHP">APM 컴파일 설치하기 - PHP&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>
