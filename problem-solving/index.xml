@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-solvings on sangminlog</title>
+    <link>http://sangm1n.github.io/problem-solving/</link>
+    <description>Recent content in Problem-solvings on sangminlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 8979_올림픽</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-8979/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-8979/</guid>
+      <description>8979 - 올림픽 문제 올림픽은 참가에 의의가 있기에 공식적으로는 국가간 순위를 정하지 않는다. 그러나, 많은 사람들이 자신의 국가가 얼마나 잘 하는지에 관심이 많기 때문에 비공식적으로는 국가간 순위를 정하고 있다. 두 나라가 각각 얻은 금, 은, 동메달 수가 주어지면, 보통 다음 규칙을 따라 어느 나라가 더 잘했는지 결정한다.
+ 금메달 수가 더 많은 나라 금메달 수가 같으면, 은메달 수가 더 많은 나라 금, 은메달 수가 모두 같으면, 동메달 수가 더 많은 나라  각 국가는 1부터 N 사이의 정수로 표현된다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 2033_반올림</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-2033/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-2033/</guid>
+      <description>2033 - 반올림 문제 정수 N이 주어져 있을 때 이 수가 10보다 크면 일의 자리에서 반올림을 하고, 이 결과가 100보다 크면 다시 10의 자리에서 반올림을 하고, 또 이 수가 1000보다 크면 100의 자리에서 반올림을 하고.. (이하 생략) 이러한 연산을 한 결과를 출력하시오.
+코드 한마디 처음엔 round 함수만 사용하면 풀리는 간단한 문제인 줄 알았는데 아니였다.</description>
+    </item>
+    
+  </channel>
+</rss>

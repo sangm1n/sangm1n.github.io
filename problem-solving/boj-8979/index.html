@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-2033/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-8979/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           BOJ/백준 - 8979_올림픽 | sangminlog
+       
+  </title>
+  <meta name="title" content="BOJ/백준 - 8979_올림픽 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "problem-solving",
+    "name" : "BOJ\/백준 - 8979_올림픽",
+    "headline" : "BOJ\/백준 - 8979_올림픽",
+    "description" : "8979 - 올림픽 문제 올림픽은 참가에 의의가 있기에 공식적으로는 국가간 순위를 정하지 않는다. 그러나, 많은 사람들이 자신의 국가가 얼마나 잘 하는지에 관심이 많기 때문에 비공식적으로는 국가간 순위를 정하고 있다. 두 나라가 각각 얻은 금, 은, 동메달 수가 주어지면, 보통 다음 규칙을 따라 어느 나라가 더 잘했는지 결정한다.\n 금메달 수가 더 많은 나라 금메달 수가 같으면, 은메달 수가 더 많은 나라 금, 은메달 수가 모두 같으면, 동메달 수가 더 많은 나라  각 국가는 1부터 N 사이의 정수로 표현된다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-11-27 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-27 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-8979\/",
+    "wordCount" : "167",
+    "keywords" : [ "BOJ","Python", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 8979_올림픽</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-11-27 itemprop="datePublished">November 27, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="8979---올림픽">8979 - 올림픽</h2>
+<h3 id="문제httpswwwacmicpcnetproblem8979"><a href="https://www.acmicpc.net/problem/8979">문제</a></h3>
+<p>올림픽은 참가에 의의가 있기에 공식적으로는 국가간 순위를 정하지 않는다.
+그러나, 많은 사람들이 자신의 국가가 얼마나 잘 하는지에 관심이 많기 때문에 비공식적으로는 국가간 순위를 정하고 있다.
+두 나라가 각각 얻은 금, 은, 동메달 수가 주어지면, 보통 다음 규칙을 따라 어느 나라가 더 잘했는지 결정한다.</p>
+<ol>
+<li>금메달 수가 더 많은 나라</li>
+<li>금메달 수가 같으면, 은메달 수가 더 많은 나라</li>
+<li>금, 은메달 수가 모두 같으면, 동메달 수가 더 많은 나라</li>
+</ol>
+<p>각 국가는 1부터 N 사이의 정수로 표현된다.
+한 국가의 등수는 (자신보다 더 잘한 나라 수) + 1로 정의된다.
+만약 두 나라가 금, 은, 동메달 수가 모두 같다면 두 나라의 등수는 같다.<br>
+예를 들어, 1번 국가가 금메달 1개, 은메달 1개를 얻었고, 2번 국가와 3번 국가가 모두 은메달 1개를 얻었으며,
+4번 국가는 메달을 얻지 못하였다면, 1번 국가가 1등, 2번 국가와 3번 국가가 공동 2등, 4번 국가가 4등이 된다. 이 경우 3등은 없다.<br>
+각 국가의 금, 은, 동메달 정보를 입력받아서, 어느 국가가 몇 등을 했는지 알려주는 프로그램을 작성하시오.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/100428675-9b81a980-30d7-11eb-8426-3331107689ac.png" alt=""></p>
+<h3 id="한마디">한마디</h3>
+<p><code>lambda</code>를 이용해 정렬한 후 같은 등수인 경우만 잘 처리해주면 됐다.</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
+                    #BOJ</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/problem-solving/boj-2033/" class="prev" rel="prev" title="BOJ/백준 - 2033_반올림"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 2033_반올림</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>
