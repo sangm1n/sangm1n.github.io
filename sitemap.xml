@@ -38,6 +38,54 @@
     </url>
   
     <url>
+      <loc>http://sangm1n.github.io/categories/design-pattern/</loc>
+      
+      <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/design-pattern/</loc>
+      
+      <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/tags/gof/</loc>
+      
+      <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://sangm1n.github.io/posts/</loc>
+      
+      <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://sangm1n.github.io/categories/problem-solving/</loc>
       
       <lastmod>2020-11-27T00:00:00+00:00</lastmod>
@@ -98,6 +146,18 @@
     </url>
   
     <url>
+      <loc>http://sangm1n.github.io/observer-pattern/</loc>
+      
+      <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>weekly</changefreq>
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://sangm1n.github.io/problem-solving/boj-2033/</loc>
       
       <lastmod>2020-11-26T00:00:00+00:00</lastmod>
@@ -137,54 +197,6 @@
       <loc>http://sangm1n.github.io/til/</loc>
       
       <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/categories/design-pattern/</loc>
-      
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/head-first/</loc>
-      
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/posts/</loc>
-      
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>weekly</changefreq>
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://sangm1n.github.io/tags/strategy/</loc>
-      
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
       
       
       <changefreq>weekly</changefreq>

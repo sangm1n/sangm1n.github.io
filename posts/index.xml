@@ -6,7 +6,16 @@
     <description>Recent content in Posts on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>하루 한패턴 - Observer pattern</title>
+      <link>http://sangm1n.github.io/observer-pattern/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/observer-pattern/</guid>
+      <description>Observer Pattern 디자인 원칙  서로 상호작용 하는 객체 사이에서는 가능한 느슨한 결합을 한다.  두 객체가 느슨하게 결합되어 있다 == 상호작용을 하지만 서로에 대해 잘 모른다 즉, 주제(subject)는 옵저버가 특정 인터페이스를 구현한다는 것만 알고 있을 뿐 구상 클래스가 무엇인지, 무슨 일을 하는지 등에 대해서는 알 필요가 없다. 주제와 옵저버는 서로 독립적으로 재사용 가능하며, 어느 하나가 바뀌더라도 서로에게 영향을 미치지 않는다.    패턴 정의 observer pattern에서는 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고 자동으로 갱신한다.</description>
+    </item>
+    
     <item>
       <title>하루 한패턴 - Strategy pattern</title>
       <link>http://sangm1n.github.io/strategy-pattern/</link>
