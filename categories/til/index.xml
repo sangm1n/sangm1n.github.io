@@ -6,7 +6,16 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 27일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-27/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-27/</guid>
+      <description>💪 Today I Learned Design Pattern  Observer pattern  한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고 자동으로 갱신한다. 따라서 일련의 객체들 사이에서 일대다 관계를 정의한다.    BOJ  2033_반올림 8979_올림픽 1789_수들의 합  🏃 한마디 블로그에 PS(Problem Solving) 카테고리를 따로 만들었다. 알고리즘 스터디에 들어간 이상 자주 풀 수 밖에 없고 블로그에 모두 올리면 다른 글들이 묻힐 것이라 판단했다. 풀면서 느낀점이나 어려웠던 부분을 간단하게 짚고 갈 생각이다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 24일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-24/</link>
