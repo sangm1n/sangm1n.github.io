@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-10997/" />
-  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-1022/" />
-  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-10994/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-10994/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1022/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           BOJ/백준 - 10994_별 찍기_19 | sangminlog
+           BOJ/백준 - 1022_소용돌이 예쁘게 출력하기 | sangminlog
        
   </title>
-  <meta name="title" content="BOJ/백준 - 10994_별 찍기_19 | sangminlog">
+  <meta name="title" content="BOJ/백준 - 1022_소용돌이 예쁘게 출력하기 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "problem-solving",
-    "name" : "BOJ\/백준 - 10994_별 찍기_19",
-    "headline" : "BOJ\/백준 - 10994_별 찍기_19",
-    "description" : "10994 - 별 찍기-19 문제 예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.\n코드 한마디 맨날 삼각형 관련 별 찍기만 하다가 이렇게 특이한 문제를 풀어보니 규칙 찾기 굉장히 힘들었다.",
+    "name" : "BOJ\/백준 - 1022_소용돌이 예쁘게 출력하기",
+    "headline" : "BOJ\/백준 - 1022_소용돌이 예쁘게 출력하기",
+    "description" : "1022 - 소용돌이 예쁘게 출력하기 문제 크기가 무한인 정사각형 모눈종이가 있다. 모눈종이의 각 정사각형은 행과 열의 쌍으로 표현할 수 있다.\n이 모눈종이 전체를 양의 정수의 소용돌이 모양으로 채울 것이다. 일단 숫자 1을 0행 0열에 쓴다.\n그리고 나서 0행 1열에 숫자 2를 쓴다. 거기서 부터 소용돌이는 반시계 방향으로 시작된다. 다음 숫자는 다음과 같이 채우면 된다.\n이 문제는 위와 같이 채운 것을 예쁘게 출력하면 된다. r1, c1, r2, c2가 입력으로 주어진다. r1, c1은 가장 왼쪽 위 칸이고, r2, c2는 가장 오른쪽 아래 칸이다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-28 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-11-28 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-10994\/",
-    "wordCount" : "29",
+    "datePublished": "2020-11-29 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-29 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1022\/",
+    "wordCount" : "170",
     "keywords" : [ "BOJ","Python", "sangminlog"]
 }
 </script>
@@ -121,9 +121,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 10994_별 찍기_19</h1>
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1022_소용돌이 예쁘게 출력하기</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-11-28 itemprop="datePublished">November 28, 2020</time>
+                <span class="post-time"><time datetime=2020-11-29 itemprop="datePublished">November 29, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -151,13 +151,26 @@
           
           
 
-          <h2 id="10994---별-찍기-19">10994 - 별 찍기-19</h2>
-<h3 id="문제httpswwwacmicpcnetproblem10994"><a href="https://www.acmicpc.net/problem/10994">문제</a></h3>
-<p>예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.</p>
+          <h2 id="1022---소용돌이-예쁘게-출력하기">1022 - 소용돌이 예쁘게 출력하기</h2>
+<h3 id="문제httpswwwacmicpcnetproblem1022"><a href="https://www.acmicpc.net/problem/1022">문제</a></h3>
+<p>크기가 무한인 정사각형 모눈종이가 있다. 모눈종이의 각 정사각형은 행과 열의 쌍으로 표현할 수 있다.<br>
+이 모눈종이 전체를 양의 정수의 소용돌이 모양으로 채울 것이다. 일단 숫자 1을 0행 0열에 쓴다.<br>
+그리고 나서 0행 1열에 숫자 2를 쓴다. 거기서 부터 소용돌이는 반시계 방향으로 시작된다. 다음 숫자는 다음과 같이 채우면 된다.<br>
+이 문제는 위와 같이 채운 것을 예쁘게 출력하면 된다. r1, c1, r2, c2가 입력으로 주어진다. r1, c1은 가장 왼쪽 위 칸이고, r2, c2는 가장 오른쪽 아래 칸이다.
+예쁘게 출력한다는 것은 다음과 같이 출력하는 것이다.</p>
+<ol>
+<li>출력은 r1행부터 r2행까지 차례대로 출력한다.</li>
+<li>각 원소는 공백으로 구분한다.</li>
+<li>모든 행은 같은 길이를 가져야 한다.</li>
+<li>공백의 길이는 최소로 해야 한다.</li>
+<li>모든 숫자의 길이(앞에 붙는 공백을 포함)는 같아야 한다.</li>
+<li>만약 수의 길이가 가장 길이가 긴 수보다 작다면, 왼쪽에서부터 공백을 삽입해 길이를 맞춘다.</li>
+</ol>
 <h3 id="코드">코드</h3>
-<p><img src="https://user-images.githubusercontent.com/46131688/100505825-3cdc2e80-31b0-11eb-8f20-a8d94bfa6d87.png" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/46131688/100544706-d8e26480-329a-11eb-9958-f0a548df77f1.png" alt=""></p>
 <h3 id="한마디">한마디</h3>
-<p>맨날 삼각형 관련 별 찍기만 하다가 이렇게 특이한 문제를 풀어보니 규칙 찾기 굉장히 힘들었다.</p>
+<p>혼자 해결 못하고 구글링해서 힌트를 얻었다. 소용돌이 오른쪽 아래 모서리를 <code>base</code>로 잡아 계산해나가는 것.<br>
+출력 형식이 잘못되었다고 계속 떠서 수십 번 고쳤더니 갑자기 틀렸다고 떠서 너무 당황했다. 알고보니 만들어둔 <code>get_value</code> 함수 내부 인덱스 값을 잘못 설정했다. 아까운 내 시간&hellip;</p>
 
     </div>
     
@@ -192,10 +205,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-10997/" class="prev" rel="prev" title="BOJ/백준 - 10997_별 찍기_22"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 10997_별 찍기_22</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-10994/" class="prev" rel="prev" title="BOJ/백준 - 10994_별 찍기_19"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 10994_별 찍기_19</a>
          
-        
-        <a href="http://sangm1n.github.io/problem-solving/boj-1022/" class="next" rel="next" title="BOJ/백준 - 1022_소용돌이 예쁘게 출력하기">BOJ/백준 - 1022_소용돌이 예쁘게 출력하기&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
