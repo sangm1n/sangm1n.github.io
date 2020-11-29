@@ -6,7 +6,27 @@
     <description>Recent content in Problem-solvings on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 10994_별 찍기_19</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-10994/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-10994/</guid>
+      <description>10994 - 별 찍기-19 문제 예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.
+코드 한마디 맨날 삼각형 관련 별 찍기만 하다가 이렇게 특이한 문제를 풀어보니 규칙 찾기 굉장히 힘들었다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 10997_별 찍기_22</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-10997/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-10997/</guid>
+      <description>10997 - 별 찍기-22 문제 예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.
+코드 한마디 이 전에 풀었던 문제에서 힌트를 얻어서 풀 수 있었지 처음 보는 유형이었다면 골치 아팠을 것 같다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 1789_수들의 합</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1789/</link>
