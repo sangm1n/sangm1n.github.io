@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/observer-pattern/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/implementation-algorithm/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Algorithm - 아이디어를 코드로 바꾸는 구현 | sangminlog
+       
+  </title>
+  <meta name="title" content="Algorithm - 아이디어를 코드로 바꾸는 구현 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Algorithm - 아이디어를 코드로 바꾸는 구현",
+    "headline" : "Algorithm - 아이디어를 코드로 바꾸는 구현",
+    "description" : "코딩 테스트에서 어떤 문제를 풀든 코드를 작성하는 과정은 필수기 때문에 구현은 모든 문제 유형을 포함하는 개념이라고 볼 수 있다.\nImplementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제 를 구현 유형의 문제라고 본다. 알고리즘은 간단한데 코드가 굉장히 길어지는 문제, 문자열을 입력받아 한 문자 단위로 끊어서 리스트에 넣어야 하는 문제 등이 까다로운 구현 유형의 문제라고 할 수 있다.\n저자는 이 책에서 완전 탐색과 시뮬레이션 두 개의 유형을 구현으로 묶었다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-11-30 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-11-30 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/implementation-algorithm\/",
+    "wordCount" : "242",
+    "keywords" : [ "Algorithm","Python","Implementation", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Algorithm - 아이디어를 코드로 바꾸는 구현</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-11-30 itemprop="datePublished">November 30, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/algorithm/"> Algorithm </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>코딩 테스트에서 어떤 문제를 풀든 코드를 작성하는 과정은 필수기 때문에 <strong>구현</strong>은 모든 문제 유형을 포함하는 개념이라고 볼 수 있다.</p>
+<h2 id="implementation-algorithm">Implementation Algorithm</h2>
+<p>특히 <em>풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제</em> 를 구현 유형의 문제라고 본다. 알고리즘은 간단한데 코드가 굉장히 길어지는 문제, 문자열을 입력받아 한 문자 단위로 끊어서 리스트에 넣어야 하는 문제 등이 까다로운 구현 유형의 문제라고 할 수 있다.<br>
+저자는 이 책에서 <strong>완전 탐색</strong>과 <strong>시뮬레이션</strong> 두 개의 유형을 구현으로 묶었다.</p>
+<ul>
+<li>완전 탐색 : 모든 경우의 수를 다 계산하는 방법</li>
+<li>시뮬레이션 : 문제에서 제시한 알고리즘을 한 단계식 차례대로 수행하는 방법</li>
+</ul>
+<p>구현 알고리즘의 대표적인 예시인 상하좌우 문제를 살펴보자.</p>
+<h3 id="상하좌우">상하좌우</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">여행가 A는 N X N 크기의 정사각형 공간 위에 서 있다. 이 공간은 <span style="color:#ae81ff">1</span> X <span style="color:#ae81ff">1</span> 크기의 정사각형으로 나누어져 있다.
+가장 왼쪽 위 좌표는 <span style="color:#f92672">(</span>1, 1<span style="color:#f92672">)</span>이며, 가장 오른쪽 아래 좌표는 <span style="color:#f92672">(</span>N, N<span style="color:#f92672">)</span>에 해당한다.
+여행가 A는 상, 하, 좌, 우 방향으로 이동할 수 잇으며, 시작 좌표는 항상 <span style="color:#f92672">(</span>1, 1<span style="color:#f92672">)</span>이다.
+계획서에는 하나의 줄에 띄어쓰기를 기준으로 하여 L, R, U, D 중 하나의 문자가 반복적으로 적혀 있다.
+ - L : 왼쪽으로 한 칸 이동
+ - R : 오른쪽으로 한 칸 이동
+ - U : 위로 한 칸 이동
+ - D : 아래로 한 칸 이동
+이때 여행가 A가 N X N 크기의 정사각형 공간을 벗어나는 움직임은 무시된다.
+계획서가 주어졌을 때 여행가 A가 최종적으로 도착할 지점의 좌표를 출력하는 프로그램을 작성하시오.
+</code></pre></div><p>해당 문제는 일정한 명령에 따라 개체를 차례대로 이동시킨다는 점에서 시뮬레이션 유형으로 분류된다. 개인적으로 이러한 유형에 약한데 좌표를 잘 이용하는 것이 중요한 것 같다.</p>
+<p><img src="https://user-images.githubusercontent.com/46131688/100571190-e2f57900-3315-11eb-997e-eb85eeee6c4d.png" alt=""></p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><em>이것이 취업을 위한 코딩 테스트다</em></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/algorithm/">
+                    #Algorithm</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/implementation/">
+                    #Implementation</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/observer-pattern/" class="prev" rel="prev" title="하루 한패턴 - Observer pattern"><i class="iconfont icon-left"></i>&nbsp;하루 한패턴 - Observer pattern</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

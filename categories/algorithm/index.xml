@@ -6,7 +6,18 @@
     <description>Recent content in Algorithm on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm - 아이디어를 코드로 바꾸는 구현</title>
+      <link>http://sangm1n.github.io/implementation-algorithm/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/implementation-algorithm/</guid>
+      <description>코딩 테스트에서 어떤 문제를 풀든 코드를 작성하는 과정은 필수기 때문에 구현은 모든 문제 유형을 포함하는 개념이라고 볼 수 있다.
+Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제 를 구현 유형의 문제라고 본다. 알고리즘은 간단한데 코드가 굉장히 길어지는 문제, 문자열을 입력받아 한 문자 단위로 끊어서 리스트에 넣어야 하는 문제 등이 까다로운 구현 유형의 문제라고 할 수 있다.
+저자는 이 책에서 완전 탐색과 시뮬레이션 두 개의 유형을 구현으로 묶었다.</description>
+    </item>
+    
     <item>
       <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
       <link>http://sangm1n.github.io/greedy-algorithm/</link>

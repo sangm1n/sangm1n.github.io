@@ -6,22 +6,40 @@
     <description>Recent content in Tags on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BOJ</title>
-      <link>http://sangm1n.github.io/tags/boj/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Algorithm</title>
+      <link>http://sangm1n.github.io/tags/algorithm/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/tags/boj/</guid>
+      <guid>http://sangm1n.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>http://sangm1n.github.io/tags/implementation/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/tags/implementation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
       <link>http://sangm1n.github.io/tags/python/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BOJ</title>
+      <link>http://sangm1n.github.io/tags/boj/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/tags/boj/</guid>
       <description></description>
     </item>
     
@@ -40,15 +58,6 @@
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/tags/gof/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithm</title>
-      <link>http://sangm1n.github.io/tags/algorithm/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/tags/algorithm/</guid>
       <description></description>
     </item>
     
