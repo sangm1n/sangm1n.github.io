@@ -6,7 +6,17 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 11월 30일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-11-30/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-11-30/</guid>
+      <description>💪 Today I Learned BOJ  1022_소용돌이 예쁘게 출력하기  이것이 취업을 위한 코딩테스트다  왕실의 나이트 게임 개발  CodeUp 기초 100제 알고리즘 처음 공부할 때 코드업 사이트에 있는 기초 100제를 70번대 정도까지 풀었었다. 초반에 문법 익히기에는 이만한 게 없다고 생각해서 자바로 다시 풀어볼 생각이다. 오늘 48번까지 풀었으니 아무리 오래걸려도 모레면 끝날 것 같다.
+🏃 한마디 얼른 자바랑 디자인패턴 공부 끝내고 스프링 시작하고 싶다. 오늘 TOPCIT 점수 나왔는데 아쉽게 400점을 넘기지 못했다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 28일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-28/</link>
