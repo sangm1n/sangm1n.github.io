@@ -6,7 +6,17 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 1일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-12-01/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-12-01/</guid>
+      <description>💪 Today I Learned 알고파 스터디  18238_ZOAC 2 14659_한조서열정리하고옴ㅋㅋ 2847_게임을 만든 동준이 1758_알바생 강호 9009_피보나치 2812_크게 만들기  CodeUp 기초 100제 자바로 84번까지 풀었다. 이 정도면 자바의 정석 5장(배열) 부분까지는 커버 가능할 것 같다. 그러므로 내일부터 OOP 공부해야지.
+백준 그룹 생성 현재 스터디하고 있는 것과 별개로 친구와 백준에 그룹을 하나 만들었다. 코테를 붙지 못하면 아무 의미가 없기 때문에 상반기 이력서 돌릴 때까지는 최대한 꾸준히 해야겠다고 느꼈다. 문제들은 solved.ac에 이미 나뉘어져 있는 것을 참고했다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 11월 30일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-11-30/</link>
