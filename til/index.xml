@@ -6,7 +6,18 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 2일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-12-02/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-12-02/</guid>
+      <description>💪 Today I Learned BOJ  1018_체스판 다시 칠하기 CLASS 레벨 1 클리어  레벨 1은 진짜 무난무난했다.
+자바의 정석  Chapter 6. 객체지향 프로그래밍 I  객체지향언어 클래스와 객체 변수와 메서드    책 읽으면서 예제까지 따라 치다보니 시간이 꽤 오래 걸린다. 하루에 한 챕터를 다 볼 수 있을줄 알았는데 알고리즘까지 같이 하다보니 생각보다 진도가 더디다. 더딘만큼 꼼꼼하게 봐야겠다.
+🏃 한마디 자바의 정석 책 내용이 굉장히 좋은 것 같다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 1일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-12-01/</link>
