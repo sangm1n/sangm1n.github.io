@@ -6,7 +6,18 @@
     <description>Recent content in Algorithm on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm - 그래프 탐색을 위한 DFS/BFS</title>
+      <link>http://sangm1n.github.io/dfs-bfs-algorithm/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/dfs-bfs-algorithm/</guid>
+      <description>탐색은 많은 양의 데이터 중 원하는 데이터를 찾는 과정으로 그래프나 트리 등의 자료구조에서 자주 다룬다. 대표적인 탐색 알고리즘으로 DFS와 BFS가 있고, 이를 확실히 이해하려면 스택과 큐가 뭔지 알아야 한다.
+스택과 큐의 핵심 함수는 삽입(push)과 삭제(pop)다. 따라서 항상 오버플로와 언더플로를 고려해야 한다.
+ overflow : 저장 공간을 벗어나 데이터가 넘쳐흐르는 상황 underflow : 데이터가 들어 있지 않은 상태에서 삭제 연산을 수행하는 상황  Stack  LIFO (Last In First Out) : 후입선출로 접시를 쌓는 모습을 연상하면 된다.</description>
+    </item>
+    
     <item>
       <title>Algorithm - 아이디어를 코드로 바꾸는 구현</title>
       <link>http://sangm1n.github.io/implementation-algorithm/</link>

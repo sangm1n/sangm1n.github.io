@@ -6,7 +6,16 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 3일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-12-03/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-12-03/</guid>
+      <description>💪 Today I Learned 이것이 취업을 위한 코딩테스트다  음료수 얼려 먹기 미로 탈출  DFS / BFS  DFS : 깊이 우선 탐색, 스택 및 재귀 함수로 구현 BFS : 너비 우선 탐색, 큐로 구현  🏃 한마디 월요일에 영상정보처리 기말고사다. 아무리 비대면 시험이라지만 슬슬 준비할 때가 된 것 같다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 2일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-12-02/</link>
