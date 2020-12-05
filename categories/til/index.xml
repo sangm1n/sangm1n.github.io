@@ -6,7 +6,18 @@
     <description>Recent content in TIL on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 4일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-12-04/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-12-04/</guid>
+      <description>💪 Today I Learned 딥러닝 이미지 분류 SW 과제   과제 내용
+ 이미지 파일 업로드 시 CIFAR-10 레이블 중 하나를 예측하여 보여주는 SW 전이학습을 이용하여 예측 모델을 만들고 CIFAR-10 으로 학습 아래와 같은 형태의 UI     진행 상황
+ pyqt5를 이용한 GUI 개발     불러온 사진을 배열로 변경할 때 값이 제대로 안들어가는건지 예측을 제멋대로 한다;; 그래도 GUI는 얼추 만들어 놨으니 월요일 다른 과목 시험 끝낸 후에 다시 예측 모델을 만들어야겠다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 3일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-12-03/</link>

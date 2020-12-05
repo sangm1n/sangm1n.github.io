@@ -6,7 +6,28 @@
     <description>Recent content in BOJ on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 1920_수 찾기</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1920/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1920/</guid>
+      <description>1920 - 수 찾기 문제 N개의 정수 A[1], A[2], …, A[N]이 주어져 있을 때, 이 안에 X라는 정수가 존재하는지 알아내는 프로그램을 작성하시오.
+코드 한마디 이진탐색&amp;hellip; 😭</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 1929_소수 구하기</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1929/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1929/</guid>
+      <description>1929 - 소수 구하기 문제 M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.
+코드 한마디 여태껏 나는 다음과 같은 방식으로 소수를 판별했다.
+count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&amp;#34;Prime number&amp;#34;) 소수란 1과 자기 자신 외의 약수를 가지지 않는 1보다 큰 자연수이기 때문에 반복문을 돌며 나누어 떨어지는지를 검사했다. 학교 수업 때도 동일하게 배웠는데, 저렇게 푸니까 시간초과가 떴다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 1654_랜선 자르기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1654/</link>

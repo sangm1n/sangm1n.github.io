@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/problem-solving/ct-escape-maze/" />
-  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-1929/" />
-  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1654/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1654/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-1920/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1929/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           BOJ/백준 - 1654_랜선 자르기 | sangminlog
+           BOJ/백준 - 1929_소수 구하기 | sangminlog
        
   </title>
-  <meta name="title" content="BOJ/백준 - 1654_랜선 자르기 | sangminlog">
+  <meta name="title" content="BOJ/백준 - 1929_소수 구하기 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "problem-solving",
-    "name" : "BOJ\/백준 - 1654_랜선 자르기",
-    "headline" : "BOJ\/백준 - 1654_랜선 자르기",
-    "description" : "1654 - 랜선 자르기 문제 집에서 시간을 보내던 오영식은 박성원의 부름을 받고 급히 달려왔다. 박성원이 캠프 때 쓸 N개의 랜선을 만들어야 하는데 너무 바빠서 영식이에게 도움을 청했다.\n이미 오영식은 자체적으로 K개의 랜선을 가지고 있다. 그러나 K개의 랜선은 길이가 제각각이다. 박성원은 랜선을 모두 N개의 같은 길이의 랜선으로 만들고 싶었기 때문에 K개의 랜선을 잘라서 만들어야 한다. 예를 들어 300cm 짜리 랜선에서 140cm 짜리 랜선을 두 개 잘라내면 20cm는 버려야 한다. (이미 자른 랜선은 붙일 수 없다.",
+    "name" : "BOJ\/백준 - 1929_소수 구하기",
+    "headline" : "BOJ\/백준 - 1929_소수 구하기",
+    "description" : "1929 - 소수 구하기 문제 M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.\n코드 한마디 여태껏 나는 다음과 같은 방식으로 소수를 판별했다.\ncount = 0 for i in range(1, N): if N % i == 0: count \u002b= 1 if count == 2: print(\u0026#34;Prime number\u0026#34;) 소수란 1과 자기 자신 외의 약수를 가지지 않는 1보다 큰 자연수이기 때문에 반복문을 돌며 나누어 떨어지는지를 검사했다. 학교 수업 때도 동일하게 배웠는데, 저렇게 푸니까 시간초과가 떴다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-03 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-03 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1654\/",
-    "wordCount" : "141",
+    "datePublished": "2020-12-05 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-05 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1929\/",
+    "wordCount" : "81",
     "keywords" : [ "BOJ","Python", "sangminlog"]
 }
 </script>
@@ -121,9 +121,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1654_랜선 자르기</h1>
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1929_소수 구하기</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-03 itemprop="datePublished">December 3, 2020</time>
+                <span class="post-time"><time datetime=2020-12-05 itemprop="datePublished">December 5, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -151,19 +151,22 @@
           
           
 
-          <h2 id="1654---랜선-자르기">1654 - 랜선 자르기</h2>
-<h3 id="문제httpswwwacmicpcnetproblem1654"><a href="https://www.acmicpc.net/problem/1654">문제</a></h3>
-<p>집에서 시간을 보내던 오영식은 박성원의 부름을 받고 급히 달려왔다. 박성원이 캠프 때 쓸 N개의 랜선을 만들어야 하는데 너무 바빠서 영식이에게 도움을 청했다.</p>
-<p>이미 오영식은 자체적으로 K개의 랜선을 가지고 있다. 그러나 K개의 랜선은 길이가 제각각이다.
-박성원은 랜선을 모두 N개의 같은 길이의 랜선으로 만들고 싶었기 때문에 K개의 랜선을 잘라서 만들어야 한다.
-예를 들어 300cm 짜리 랜선에서 140cm 짜리 랜선을 두 개 잘라내면 20cm는 버려야 한다. (이미 자른 랜선은 붙일 수 없다.)</p>
-<p>편의를 위해 랜선을 자르거나 만들 때 손실되는 길이는 없다고 가정하며, 기존의 K개의 랜선으로 N개의 랜선을 만들 수 없는 경우는 없다고 가정하자.
-그리고 자를 때는 항상 센티미터 단위로 정수길이만큼 자른다고 가정하자. N개보다 많이 만드는 것도 N개를 만드는 것에 포함된다.
-이때 만들 수 있는 최대 랜선의 길이를 구하는 프로그램을 작성하시오.</p>
+          <h2 id="1929---소수-구하기">1929 - 소수 구하기</h2>
+<h3 id="문제httpswwwacmicpcnetproblem1929"><a href="https://www.acmicpc.net/problem/1929">문제</a></h3>
+<p>M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.</p>
 <h3 id="코드">코드</h3>
-<p><img src="https://user-images.githubusercontent.com/46131688/101057679-a9e82d80-35cf-11eb-89b2-08bbcd2c0e8c.png" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/46131688/101243046-dff8ef00-3740-11eb-8e3d-2bdfdc43cc0a.png" alt=""></p>
 <h3 id="한마디">한마디</h3>
-<p>처음에 브루트포스로 들이댔다가 당연히(?) 시간초과를 받았다. <strong>이진 탐색</strong>으로 시도해야겠다는 아이디어 자체가 생각나지 않았다. 그리고 <code>sys.stdin.readline()</code>은 확실히 빠르다!</p>
+<p>여태껏 나는 다음과 같은 방식으로 소수를 판별했다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, N):
+    <span style="color:#66d9ef">if</span> N <span style="color:#f92672">%</span> i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+        count <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+
+<span style="color:#66d9ef">if</span> count <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>:
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Prime number&#34;</span>)
+</code></pre></div><p>소수란 <strong>1과 자기 자신 외의 약수를 가지지 않는 1보다 큰 자연수</strong>이기 때문에 반복문을 돌며 나누어 떨어지는지를 검사했다. 학교 수업 때도 동일하게 배웠는데, 저렇게 푸니까 시간초과가 떴다.</p>
+<p>찾아보니 <a href="https://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a>라는 개념이 나왔고 이를 이용하여 쉽게 풀 수 있었다.</p>
 
     </div>
     
@@ -198,10 +201,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/problem-solving/ct-escape-maze/" class="prev" rel="prev" title="이취코 - 미로 탈출"><i class="iconfont icon-left"></i>&nbsp;이취코 - 미로 탈출</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1654/" class="prev" rel="prev" title="BOJ/백준 - 1654_랜선 자르기"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1654_랜선 자르기</a>
          
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-1929/" class="next" rel="next" title="BOJ/백준 - 1929_소수 구하기">BOJ/백준 - 1929_소수 구하기&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1920/" class="next" rel="next" title="BOJ/백준 - 1920_수 찾기">BOJ/백준 - 1920_수 찾기&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
