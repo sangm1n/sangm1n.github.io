@@ -6,7 +6,19 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 5일</title>
+      <link>http://sangm1n.github.io/til/2020-11/2020-12-05/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-11/2020-12-05/</guid>
+      <description>💪 Today I Learned BOJ  1920_수 찾기 1929_소수 구하기 15904_UCPC는 무엇의 약자일까? 2810_컵홀더  영상정보처리 과제  Function   convert_url_to_image
+ urllib.request 라이브러리 이용 url 이미지를 cv2에서 사용할 수 있도록 변형    hex_to_RGB
+ 16진수 색상 코드 입력 입력된 코드 RGB 값으로 변환    backprojection
+ histogram backprojection      한학기동안 배웠던 내용 중 흥미로웠던 토픽에 대해 목표를 제시하고 그것을 코딩하는 과제였다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 4일</title>
       <link>http://sangm1n.github.io/til/2020-11/2020-12-04/</link>
