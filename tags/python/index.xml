@@ -6,9 +6,30 @@
     <description>Recent content in Python on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BOJ/백준 - 1920_수 찾기</title>
+      <title>BOJ/백준 - 17262번 팬덤이 넘쳐흘러</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-17262/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-17262/</guid>
+      <description>17262 - 팬덤이 넘쳐흘러 문제 선물 포장 공장을 말아먹은 욱제는 계곡에서 백숙을 파느라 학교에 자주 가지 못한다. 하지만 월클의 인생은 피곤한 법! 욱제는 지금처럼 힘든 시기에도 자신을 기다리는 5조5억명의 열렬한 팬들을 위해 가끔씩 학교에 가 줘야 한다. 욱제는 백숙이 끓는 걸 지켜봐야 해서 가게를 오래 비울 수 없다. 그래서 욱제는 한 번 학교에 간 뒤 최소 시간동안 머물다가 모든 팬들과 한 번씩 인사를 하고 학교를 떠나려고 한다.
+욱제는 임의의 시각에 학교에 오거나 학교를 떠날 수 있고, 단 한 번의 왕복만 한다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 7570번 줄 세우기</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-7570/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-7570/</guid>
+      <description>7570 - 줄 세우기 문제 대한 어린이집에 올해 입학한 어린이들이 놀이터에 한 줄로 서있다. 모든 어린이들에게는 입학할 때 주어진 번호가 있고 모두 옷에 번호표를 달고 있다. 그런데 어린이들은 아직 번호 순서대로 줄을 잘 서지 못하므로 선생님이 다음과 같은 방법을 사용해서 번호순서대로 줄을 세우려고 한다.
+방법: 줄 서있는 어린이 중 한 명을 선택하여 제일 앞이나 제일 뒤로 보낸다.
+위의 방법을 사용할 때 어린이가 이동해서 빈자리가 생기는 경우에는 빈자리의 뒤에 있는 어린이들이 한 걸음씩 앞으로 걸어와서 빈자리를 메꾼다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 1920번 수 찾기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1920/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -18,7 +39,7 @@
     </item>
     
     <item>
-      <title>BOJ/백준 - 1929_소수 구하기</title>
+      <title>BOJ/백준 - 1929번 소수 구하기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1929/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -40,7 +61,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 1654_랜선 자르기</title>
+      <title>BOJ/백준 - 1654번 랜선 자르기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1654/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -50,7 +71,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>이취코 - 미로 탈출</title>
+      <title>이코테 - 미로 탈출</title>
       <link>http://sangm1n.github.io/problem-solving/ct-escape-maze/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -64,7 +85,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>이취코 - 음료수 얼려 먹기</title>
+      <title>이코테 - 음료수 얼려 먹기</title>
       <link>http://sangm1n.github.io/problem-solving/ct-ice-beverage/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -77,7 +98,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 1018_체스판 다시 칠하기</title>
+      <title>BOJ/백준 - 1018번 체스판 다시 칠하기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1018/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -90,7 +111,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 1436_영화감독 숌</title>
+      <title>BOJ/백준 - 1436번 영화감독 숌</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1436/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -101,7 +122,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 14659_한조서열정리하고옴ㅋㅋ</title>
+      <title>BOJ/백준 - 14659번 한조서열정리하고옴ㅋㅋ</title>
       <link>http://sangm1n.github.io/problem-solving/boj-14659/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -114,7 +135,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 1758_알바생 강호</title>
+      <title>BOJ/백준 - 1758번 알바생 강호</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1758/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -126,7 +147,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 18238_ZOAC 2</title>
+      <title>BOJ/백준 - 18238번 ZOAC 2</title>
       <link>http://sangm1n.github.io/problem-solving/boj-18238/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -136,7 +157,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 2812_크게 만들기</title>
+      <title>BOJ/백준 - 2812번 크게 만들기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-2812/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -146,7 +167,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 2847_게임을 만든 동준이</title>
+      <title>BOJ/백준 - 2847번 게임을 만든 동준이</title>
       <link>http://sangm1n.github.io/problem-solving/boj-2847/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -159,7 +180,7 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>BOJ/백준 - 9009_피보나치</title>
+      <title>BOJ/백준 - 9009번 피보나치</title>
       <link>http://sangm1n.github.io/problem-solving/boj-9009/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -181,7 +202,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>이취코 - 게임 개발</title>
+      <title>이코테 - 게임 개발</title>
       <link>http://sangm1n.github.io/problem-solving/ct-game-development/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -194,7 +215,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>이취코 - 왕실의 나이트</title>
+      <title>이코테 - 왕실의 나이트</title>
       <link>http://sangm1n.github.io/problem-solving/ct-royal-knight/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -207,7 +228,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 1022_소용돌이 예쁘게 출력하기</title>
+      <title>BOJ/백준 - 1022번 소용돌이 예쁘게 출력하기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1022/</link>
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -219,7 +240,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 10994_별 찍기_19</title>
+      <title>BOJ/백준 - 10994번 별 찍기 19</title>
       <link>http://sangm1n.github.io/problem-solving/boj-10994/</link>
       <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -229,7 +250,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 10997_별 찍기_22</title>
+      <title>BOJ/백준 - 10997번 별 찍기 22</title>
       <link>http://sangm1n.github.io/problem-solving/boj-10997/</link>
       <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -239,7 +260,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 1789_수들의 합</title>
+      <title>BOJ/백준 - 1789번 수들의 합</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1789/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -249,7 +270,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 8979_올림픽</title>
+      <title>BOJ/백준 - 8979번 올림픽</title>
       <link>http://sangm1n.github.io/problem-solving/boj-8979/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -259,7 +280,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>BOJ/백준 - 2033_반올림</title>
+      <title>BOJ/백준 - 2033번 반올림</title>
       <link>http://sangm1n.github.io/problem-solving/boj-2033/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       

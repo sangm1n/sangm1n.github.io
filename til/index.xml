@@ -6,13 +6,22 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 6일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-06/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-06/</guid>
+      <description>💪 Today I Learned BOJ  2164번 카드 2 2805번 나무 자르기 7570번 줄 세우기 11497번 통나무 건너뛰기 13305번 주유소 14754번 Pizza Boxes 17262번 팬덤이 넘쳐흘러  🏃 한마디 역시 시험 기간에는 다른 게 더 재밌다. 평소에는 하기 싫던 알고리즘에 자꾸 손이 간다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 5일</title>
-      <link>http://sangm1n.github.io/til/2020-11/2020-12-05/</link>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-05/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-11/2020-12-05/</guid>
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-05/</guid>
       <description>💪 Today I Learned BOJ  1920_수 찾기 1929_소수 구하기 15904_UCPC는 무엇의 약자일까? 2810_컵홀더  영상정보처리 과제  Function   convert_url_to_image
  urllib.request 라이브러리 이용 url 이미지를 cv2에서 사용할 수 있도록 변형    hex_to_RGB
  16진수 색상 코드 입력 입력된 코드 RGB 값으로 변환    backprojection
@@ -21,10 +30,10 @@
     
     <item>
       <title>TIL - 2020년 12월 4일</title>
-      <link>http://sangm1n.github.io/til/2020-11/2020-12-04/</link>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-04/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-11/2020-12-04/</guid>
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-04/</guid>
       <description>💪 Today I Learned 딥러닝 이미지 분류 SW 과제   과제 내용
  이미지 파일 업로드 시 CIFAR-10 레이블 중 하나를 예측하여 보여주는 SW 전이학습을 이용하여 예측 모델을 만들고 CIFAR-10 으로 학습 아래와 같은 형태의 UI     진행 상황
  pyqt5를 이용한 GUI 개발     불러온 사진을 배열로 변경할 때 값이 제대로 안들어가는건지 예측을 제멋대로 한다;; 그래도 GUI는 얼추 만들어 놨으니 월요일 다른 과목 시험 끝낸 후에 다시 예측 모델을 만들어야겠다.</description>
@@ -32,19 +41,19 @@
     
     <item>
       <title>TIL - 2020년 12월 3일</title>
-      <link>http://sangm1n.github.io/til/2020-11/2020-12-03/</link>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-03/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-11/2020-12-03/</guid>
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-03/</guid>
       <description>💪 Today I Learned 이것이 취업을 위한 코딩테스트다  음료수 얼려 먹기 미로 탈출  DFS / BFS  DFS : 깊이 우선 탐색, 스택 및 재귀 함수로 구현 BFS : 너비 우선 탐색, 큐로 구현  🏃 한마디 월요일에 영상정보처리 기말고사다. 아무리 비대면 시험이라지만 슬슬 준비할 때가 된 것 같다.</description>
     </item>
     
     <item>
       <title>TIL - 2020년 12월 2일</title>
-      <link>http://sangm1n.github.io/til/2020-11/2020-12-02/</link>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-02/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-11/2020-12-02/</guid>
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-02/</guid>
       <description>💪 Today I Learned BOJ  1018_체스판 다시 칠하기 CLASS 레벨 1 클리어  레벨 1은 진짜 무난무난했다.
 자바의 정석  Chapter 6. 객체지향 프로그래밍 I  객체지향언어 클래스와 객체 변수와 메서드    책 읽으면서 예제까지 따라 치다보니 시간이 꽤 오래 걸린다. 하루에 한 챕터를 다 볼 수 있을줄 알았는데 알고리즘까지 같이 하다보니 생각보다 진도가 더디다. 더딘만큼 꼼꼼하게 봐야겠다.
 🏃 한마디 자바의 정석 책 내용이 굉장히 좋은 것 같다.</description>
@@ -52,10 +61,10 @@
     
     <item>
       <title>TIL - 2020년 12월 1일</title>
-      <link>http://sangm1n.github.io/til/2020-11/2020-12-01/</link>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-01/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/til/2020-11/2020-12-01/</guid>
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-01/</guid>
       <description>💪 Today I Learned 알고파 스터디  18238_ZOAC 2 14659_한조서열정리하고옴ㅋㅋ 2847_게임을 만든 동준이 1758_알바생 강호 9009_피보나치 2812_크게 만들기  CodeUp 기초 100제 자바로 84번까지 풀었다. 이 정도면 자바의 정석 5장(배열) 부분까지는 커버 가능할 것 같다. 그러므로 내일부터 OOP 공부해야지.
 백준 그룹 생성 현재 스터디하고 있는 것과 별개로 친구와 백준에 그룹을 하나 만들었다. 코테를 붙지 못하면 아무 의미가 없기 때문에 상반기 이력서 돌릴 때까지는 최대한 꾸준히 해야겠다고 느꼈다. 문제들은 solved.ac에 이미 나뉘어져 있는 것을 참고했다.</description>
     </item>
