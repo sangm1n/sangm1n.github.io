@@ -6,7 +6,17 @@
     <description>Recent content in Python on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 8980번 택배</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-8980/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-8980/</guid>
+      <description>8980번 - 택배 문제 아래 그림과 같이 직선 도로상에 왼쪽부터 오른쪽으로 1번부터 차례대로 번호가 붙여진 마을들이 있다. 마을에 있는 물건을 배송하기 위한 트럭 한 대가 있고, 트럭이 있는 본부는 1번 마을 왼쪽에 있다. 이 트럭은 본부에서 출발하여 1번 마을부터 마지막 마을까지 오른쪽으로 가면서 마을에 있는 물건을 배송한다.
+각 마을은 배송할 물건들을 박스에 넣어 보내며, 본부에서는 박스를 보내는 마을번호, 박스를 받는 마을번호와 보낼 박스의 개수를 알고 있다. 박스들은 모두 크기가 같다. 트럭에 최대로 실을 수 있는 박스의 개수, 즉 트럭의 용량이 있다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 17262번 팬덤이 넘쳐흘러</title>
       <link>http://sangm1n.github.io/problem-solving/boj-17262/</link>
