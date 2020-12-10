@@ -6,7 +6,31 @@
     <description>Recent content in Problem solving on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 10773번 제로</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-10773/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-10773/</guid>
+      <description>10773 - 제로 문제 나코더 기장 재민이는 동아리 회식을 준비하기 위해서 장부를 관리하는 중이다.
+재현이는 재민이를 도와서 돈을 관리하는 중인데, 애석하게도 항상 정신없는 재현이는 돈을 실수로 잘못 부르는 사고를 치기 일쑤였다.
+재현이는 잘못된 수를 부를 때마다 0을 외쳐서, 가장 최근에 재민이가 쓴 수를 지우게 시킨다.
+재민이는 이렇게 모든 수를 받아 적은 후 그 수의 합을 알고 싶어 한다. 재민이를 도와주자!
+코드 한마디 스택의 원리를 이용해 쉽게 풀 수 있었다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 7568번 덩치</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-7568/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-7568/</guid>
+      <description>7568 - 덩치 문제 우리는 사람의 덩치를 키와 몸무게, 이 두 개의 값으로 표현하여 그 등수를 매겨보려고 한다. 어떤 사람의 몸무게가 x kg이고 키가 y cm라면 이 사람의 덩치는 (x,y)로 표시된다.
+두 사람 A 와 B의 덩치가 각각 (x,y), (p,q)라고 할 때 x&amp;gt;p 그리고 y&amp;gt;q 이라면 우리는 A의 덩치가 B의 덩치보다 &amp;ldquo;더 크다&amp;quot;고 말한다.
+예를 들어 어떤 A, B 두 사람의 덩치가 각각 (56,177), (45,165) 라고 한다면 A의 덩치가 B보다 큰 셈이 된다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 8980번 택배</title>
       <link>http://sangm1n.github.io/problem-solving/boj-8980/</link>
