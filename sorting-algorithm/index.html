@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/dfs-bfs-algorithm/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/sorting-algorithm/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Algorithm - 기준에 따라 데이터를 정렬 | sangminlog
+       
+  </title>
+  <meta name="title" content="Algorithm - 기준에 따라 데이터를 정렬 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Algorithm - 기준에 따라 데이터를 정렬",
+    "headline" : "Algorithm - 기준에 따라 데이터를 정렬",
+    "description" : "Sorting 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.\nSelection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고\u0026hellip; 이러한 연산을 반복하면 된다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-11 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-11 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/sorting-algorithm\/",
+    "wordCount" : "239",
+    "keywords" : [ "Algorithm","Python","Sorting", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Algorithm - 기준에 따라 데이터를 정렬</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-12-11 itemprop="datePublished">December 11, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/algorithm/"> Algorithm </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="sorting">Sorting</h2>
+<p><strong>정렬</strong>은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 <em>이진 탐색</em> 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.</p>
+<h3 id="selection-sort">Selection sort</h3>
+<p>말 그대로 데이터를 <strong>선택</strong>해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고&hellip; 이러한 연산을 반복하면 된다.<br>
+하지만 선택 정렬은 다른 정렬 알고리즘과 비교해 시간 복잡도가 커 비효율적이다.</p>
+<h3 id="insertion-sort">Insertion sort</h3>
+<p><strong>삽입 정렬</strong>은 데이터를 하나씩 확인하며 필요할 때만 위치를 바꾼다. 따라서 데이터가 거의 다 정렬되어 있을 경우에 굉장히 효과적이다.<br>
+첫 번째 데이터는 정렬되어 있다고 가정하고, 두 번째 데이터부터 어떤 위치에 들어갈지를 판단해서 넣는다.</p>
+<h3 id="quick-sort">Quick sort</h3>
+<p>이름만 들어도 빠른 정렬이라는 생각이 든다. <strong>퀵 정렬</strong>의 포인트는 <code>pivot</code>을 사용하는 것이다. 일종의 기준점 역할을 하는 피벗을 기준으로 큰 수와 작은 수를 교환하는 방식으로 동작한다. 연산이 끝날때 마다 리스트를 반으로 나누기 때문에 빠른 시간 내에 정렬이 가능하다.</p>
+<h3 id="count-sort">Count sort</h3>
+<p><strong>계수 정렬</strong>은 특정한 조건이 부합할 때 사용하면 매우 빠른 알고리즘이다. 일반적으로 가장 큰 데이터와 가장 작은 데이터의 차이가 1,000,000을 넘지 않을 때 효과적이라고 한다. 왜냐하면 <em>모든 범위를 담을 수 있는 크기의 리스트를 선언해서 사용</em> 해야 하기 때문이다.<br>
+특히 성적 분포처럼 동일한 값을 갖는 데이터가 여러 개 존재할 때 적합하다. 요약하자면 계수 정렬은 데이터의 크기가 한정되어 있고, 데이터가 많이 중복되어 있을수록 유리하다.</p>
+<h3 id="정렬-알고리즘별-시간-복잡도">정렬 알고리즘별 시간 복잡도</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/101921345-3e760f80-3c10-11eb-8227-02ed40853a9a.png" alt=""></p>
+<p>참고로 파이썬의 정렬 라이브러리 <code>sorted</code> 함수는 <em>O(NlogN)</em> 을 보장한다.</p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><em>이것이 취업을 위한 코딩 테스트다</em></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/algorithm/">
+                    #Algorithm</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/sorting/">
+                    #Sorting</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/dfs-bfs-algorithm/" class="prev" rel="prev" title="Algorithm - 그래프 탐색을 위한 DFS/BFS"><i class="iconfont icon-left"></i>&nbsp;Algorithm - 그래프 탐색을 위한 DFS/BFS</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

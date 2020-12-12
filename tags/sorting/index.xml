@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sorting on sangminlog</title>
+    <link>http://sangm1n.github.io/tags/sorting/</link>
+    <description>Recent content in Sorting on sangminlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm - 기준에 따라 데이터를 정렬</title>
+      <link>http://sangm1n.github.io/sorting-algorithm/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/sorting-algorithm/</guid>
+      <description>Sorting 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
+Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고&amp;hellip; 이러한 연산을 반복하면 된다.</description>
+    </item>
+    
+  </channel>
+</rss>

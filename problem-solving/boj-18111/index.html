@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-10773/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-10989/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-18111/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           BOJ/백준 - 18111번 마인크래프트 | sangminlog
+       
+  </title>
+  <meta name="title" content="BOJ/백준 - 18111번 마인크래프트 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "problem-solving",
+    "name" : "BOJ\/백준 - 18111번 마인크래프트",
+    "headline" : "BOJ\/백준 - 18111번 마인크래프트",
+    "description" : "18111 - 마인크래프트 문제 팀 레드시프트는 대회 준비를 하다가 지루해져서 샌드박스 게임인 ‘마인크래프트’를 켰다. 마인크래프트는 1 × 1 × 1(세로, 가로, 높이) 크기의 블록들로 이루어진 3차원 세계에서 자유롭게 땅을 파거나 집을 지을 수 있는 게임이다.\n목재를 충분히 모은 lvalue는 집을 짓기로 하였다. 하지만 고르지 않은 땅에는 집을 지을 수 없기 때문에 땅의 높이를 모두 동일하게 만드는 ‘땅 고르기’ 작업을 해야 한다.\nlvalue는 세로 N, 가로 M 크기의 집터를 골랐다. 집터 맨 왼쪽 위의 좌표는 (0, 0)이다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-10 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-10 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-18111\/",
+    "wordCount" : "213",
+    "keywords" : [ "BOJ","Python", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 18111번 마인크래프트</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-12-10 itemprop="datePublished">December 10, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="18111---마인크래프트">18111 - 마인크래프트</h2>
+<h3 id="문제httpswwwacmicpcnetproblem18111"><a href="https://www.acmicpc.net/problem/18111">문제</a></h3>
+<p>팀 레드시프트는 대회 준비를 하다가 지루해져서 샌드박스 게임인 ‘마인크래프트’를 켰다.
+마인크래프트는 1 × 1 × 1(세로, 가로, 높이) 크기의 블록들로 이루어진 3차원 세계에서 자유롭게 땅을 파거나 집을 지을 수 있는 게임이다.</p>
+<p>목재를 충분히 모은 lvalue는 집을 짓기로 하였다. 하지만 고르지 않은 땅에는 집을 지을 수 없기 때문에 땅의 높이를 모두 동일하게 만드는 ‘땅 고르기’ 작업을 해야 한다.</p>
+<p>lvalue는 세로 N, 가로 M 크기의 집터를 골랐다. 집터 맨 왼쪽 위의 좌표는 (0, 0)이다.
+우리의 목적은 이 집터 내의 땅의 높이를 일정하게 바꾸는 것이다. 우리는 다음과 같은 두 종류의 작업을 할 수 있다.</p>
+<ol>
+<li><strong>좌표 (i, j)의 가장 위에 있는 블록을 제거하여 인벤토리에 넣는다.</strong></li>
+<li><strong>인벤토리에서 블록 하나를 꺼내어 좌표 (i, j)의 가장 위에 있는 블록 위에 놓는다.</strong></li>
+</ol>
+<p>1번 작업은 2초가 걸리며, 2번 작업은 1초가 걸린다. 밤에는 무서운 몬스터들이 나오기 때문에 최대한 빨리 땅 고르기 작업을 마쳐야 한다.
+‘땅 고르기’ 작업에 걸리는 최소 시간과 그 경우 땅의 높이를 출력하시오.</p>
+<p>단, 집터 아래에 동굴 등 빈 공간은 존재하지 않으며, 집터 바깥에서 블록을 가져올 수 없다.
+또한, 작업을 시작할 때 인벤토리에는 B개의 블록이 들어 있다. 땅의 높이는 256블록을 초과할 수 없으며, 음수가 될 수 없다.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/101773331-fda6c980-3b2f-11eb-8ccf-41c27d41b786.png" alt=""></p>
+<h3 id="한마디">한마디</h3>
+<p>레벨 2 마지막 문제였는데 어찌나 안풀리던지, 고치는 족족 <em>시간초과</em> 와 <em>틀렸습니다</em> 의 연속이었다. 결국 검색해서 찾아본 뒤 해결했다.<br>
+나도 처음엔 <code>collections</code> 라이브러리에 있는 Counter를 가져와서 풀었는데 왜 안됐을까&hellip;</p>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
+                    #BOJ</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/problem-solving/boj-10773/" class="prev" rel="prev" title="BOJ/백준 - 10773번 제로"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 10773번 제로</a>
+         
+        
+        <a href="http://sangm1n.github.io/problem-solving/boj-10989/" class="next" rel="next" title="BOJ/백준 - 10989번 수 정렬하기 3">BOJ/백준 - 10989번 수 정렬하기 3&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

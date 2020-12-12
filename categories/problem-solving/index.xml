@@ -6,7 +6,51 @@
     <description>Recent content in Problem solving on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 1074번 Z</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1074/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1074/</guid>
+      <description>1074 - Z 문제 한수는 크기가 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 한다. 예를 들어, 2×2배열을 왼쪽 위칸, 오른쪽 위칸, 왼쪽 아래칸, 오른쪽 아래칸 순서대로 방문하면 Z모양이다.
+만약, N &amp;gt; 1이 라서 왼쪽 위에 있는 칸이 하나가 아니라면, 배열을 크기가 2^(N-1) × 2^(N-1)로 4등분 한 후에 재귀적으로 순서대로 방문한다.
+N이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 프로그램을 작성하시오.
+코드 한마디 좌표를 4등분해서 1사분할, 2사분할, 3사분할, 4사분할 순서로 재귀 함수를 호출하면 된다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 1389번 케빈 베이컨의 6단계 법칙</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1389/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1389/</guid>
+      <description>1389 - 케빈 베이컨의 6단계 법칙 문제 케빈 베이컨의 6단계 법칙에 의하면 지구에 있는 모든 사람들은 최대 6단계 이내에서 서로 아는 사람으로 연결될 수 있다. 케빈 베이컨 게임은 임의의 두 사람이 최소 몇 단계 만에 이어질 수 있는지 계산하는 게임이다.
+예를 들면, 전혀 상관없을 것 같은 인하대학교의 이강호와 서강대학교의 민세희는 몇 단계만에 이어질 수 있을까?
+천민호는 이강호와 같은 학교에 다니는 사이이다. 천민호와 최백준은 Baekjoon Online Judge를 통해 알게 되었다. 최백준과 김선영은 같이 Startlink를 창업했다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 10989번 수 정렬하기 3</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-10989/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-10989/</guid>
+      <description>10989 - 수 정렬하기 3 문제 N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로그램을 작성하시오.
+코드 한마디 계속 메모리 초과 뜨길래 defaultdict를 사용해봤다. 실행 시간이 너무 오래 걸리는 것 같아 찾아봤는데, 파이썬으로 푼 대다수 사람들의 실행 시간이 모두 높았다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 18111번 마인크래프트</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-18111/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-18111/</guid>
+      <description>18111 - 마인크래프트 문제 팀 레드시프트는 대회 준비를 하다가 지루해져서 샌드박스 게임인 ‘마인크래프트’를 켰다. 마인크래프트는 1 × 1 × 1(세로, 가로, 높이) 크기의 블록들로 이루어진 3차원 세계에서 자유롭게 땅을 파거나 집을 지을 수 있는 게임이다.
+목재를 충분히 모은 lvalue는 집을 짓기로 하였다. 하지만 고르지 않은 땅에는 집을 지을 수 없기 때문에 땅의 높이를 모두 동일하게 만드는 ‘땅 고르기’ 작업을 해야 한다.
+lvalue는 세로 N, 가로 M 크기의 집터를 골랐다. 집터 맨 왼쪽 위의 좌표는 (0, 0)이다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 10773번 제로</title>
       <link>http://sangm1n.github.io/problem-solving/boj-10773/</link>
