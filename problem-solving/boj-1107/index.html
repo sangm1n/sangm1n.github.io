@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-12/2020-12-10/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-12/2020-12-12/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-12/2020-12-11/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1389/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-1074/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1107/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 12월 11일 | sangminlog
+           BOJ/백준 - 1107번 리모컨 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 12월 11일 | sangminlog">
+  <meta name="title" content="BOJ/백준 - 1107번 리모컨 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "TIL",
-    "name" : "TIL - 2020년 12월 11일",
-    "headline" : "TIL - 2020년 12월 11일",
-    "description" : "💪 Today I Learned BOJ  1012번 유기농 배추 1074번 Z 1260번 DFS와 BFS 1389번 케빈 베이컨의 6단계 법칙  🏃 한마디 딥러닝 기말고사 대체 과제 끝 !",
+    "articleSection" : "problem-solving",
+    "name" : "BOJ\/백준 - 1107번 리모컨",
+    "headline" : "BOJ\/백준 - 1107번 리모컨",
+    "description" : "1107 - 리모컨 문제 수빈이는 TV를 보고 있다. 수빈이는 채널을 돌리려고 했지만, 버튼을 너무 세게 누르는 바람에, 일부 숫자 버튼이 고장났다.\n리모컨에는 버튼이 0부터 9까지 숫자, \u002b와 -가 있다. \u002b를 누르면 현재 보고있는 채널에서 \u002b1된 채널로 이동하고, -를 누르면 -1된 채널로 이동한다.\n채널 0에서 -를 누른 경우에는 채널이 변하지 않고, 채널은 무한대 만큼 있다. 수빈이가 지금 이동하려고 하는 채널은 N이다.\n어떤 버튼이 고장났는지 주어졌을 때, 채널 N으로 이동하기 위해서 버튼을 최소 몇 번 눌러야하는지 구하는 프로그램을 작성하시오.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-11 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-11 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-12\/2020-12-11\/",
-    "wordCount" : "26",
-    "keywords" : [  "sangminlog"]
+    "datePublished": "2020-12-12 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-12 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1107\/",
+    "wordCount" : "100",
+    "keywords" : [ "BOJ","Python", "sangminlog"]
 }
 </script>
 
@@ -121,14 +121,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 12월 11일</h1>
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1107번 리모컨</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-11 itemprop="datePublished">December 11, 2020</time>
+                <span class="post-time"><time datetime=2020-12-12 itemprop="datePublished">December 12, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
                         
                 </span>
         </div>
@@ -136,6 +136,8 @@
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -149,21 +151,34 @@
           
           
 
-          <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="boj">BOJ</h3>
-<ul>
-<li>1012번 유기농 배추</li>
-<li><a href="https://sangm1n.github.io/problem-solving/boj-1074/">1074번 Z</a></li>
-<li>1260번 DFS와 BFS</li>
-<li><a href="https://sangm1n.github.io/problem-solving/boj-1389/">1389번 케빈 베이컨의 6단계 법칙</a></li>
-</ul>
-<h2 id="-한마디">🏃 한마디</h2>
-<p>딥러닝 기말고사 대체 과제 끝 !</p>
+          <h2 id="1107---리모컨">1107 - 리모컨</h2>
+<h3 id="문제httpswwwacmicpcnetproblem1107"><a href="https://www.acmicpc.net/problem/1107">문제</a></h3>
+<p>수빈이는 TV를 보고 있다. 수빈이는 채널을 돌리려고 했지만, 버튼을 너무 세게 누르는 바람에, 일부 숫자 버튼이 고장났다.<br>
+리모컨에는 버튼이 0부터 9까지 숫자, +와 -가 있다. +를 누르면 현재 보고있는 채널에서 +1된 채널로 이동하고, -를 누르면 -1된 채널로 이동한다.<br>
+채널 0에서 -를 누른 경우에는 채널이 변하지 않고, 채널은 무한대 만큼 있다.
+수빈이가 지금 이동하려고 하는 채널은 N이다.<br>
+어떤 버튼이 고장났는지 주어졌을 때, <strong>채널 N으로 이동하기 위해서 버튼을 최소 몇 번 눌러야하는지</strong> 구하는 프로그램을 작성하시오.
+수빈이가 지금 보고 있는 채널은 100번이다.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/101988216-97f74080-3cdb-11eb-9a81-1a14339a215c.png" alt=""></p>
+<h3 id="한마디">한마디</h3>
+<p>중복 순열을 이용해서 풀다가 안되서 결국 브루트포스로 해결했다. 실행 시간이 너무 오래 걸려 조금 아쉽다.</p>
 
     </div>
     
 
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
+                    #BOJ</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -182,10 +197,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-10/" class="prev" rel="prev" title="TIL - 2020년 12월 10일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 12월 10일</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1389/" class="prev" rel="prev" title="BOJ/백준 - 1389번 케빈 베이컨의 6단계 법칙"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1389번 케빈 베이컨의 6단계 법칙</a>
          
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-12/" class="next" rel="next" title="TIL - 2020년 12월 12일">TIL - 2020년 12월 12일&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1074/" class="next" rel="next" title="BOJ/백준 - 1074번 Z">BOJ/백준 - 1074번 Z&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -224,8 +239,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

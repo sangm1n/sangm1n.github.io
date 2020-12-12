@@ -6,7 +6,17 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 12일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-12/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-12/</guid>
+      <description>💪 Today I Learned BOJ  1012번 유기농 배추 1074번 Z 1107번 리모컨 1260번 DFS와 BFS 1389번 케빈 베이컨의 6단계 법칙  R 데이터 분석 과제  3개년도 (2015 ~ 2017) 지역별 범죄 발생률 분석   연구실에 있을 때 같은 데이터로 연습했던 적이 있다. 마침 마지막 과제가 공공 데이터를 사용하는 것이었기 때문에 보완해서 제출했다.
+🏃 한마디 교양 과제를 끝으로 드디어 종강했다. 내일은 쉬엄쉬엄 하고 다시 월요일부터 새로운 공부 해야겠다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 11일</title>
       <link>http://sangm1n.github.io/til/2020-12/2020-12-11/</link>
