@@ -8,24 +8,35 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>［안드로이드 / Android］ Manifest에 대하여</title>
-      <link>http://sangm1n.github.io/what-is-manifest/</link>
+      <title>［안드로이드 / Android］ 안드로이드 4대 컴포넌트</title>
+      <link>http://sangm1n.github.io/about-components/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/what-is-manifest/</guid>
-      <description>소프트 스퀘어드에서 클라이언트 특강이 열렸길래 신청했다. 졸업작품으로 앱을 만들었는데 당시 안드로이드 스튜디오를 처음 쓰기도 했고, 기초부터 차근차근 하기에는 시간이 부족해 무작정 찾아보면서 진행했었다.
-그러다 보니 프로젝트 진행한지 1년 정도 지난 지금 머리에 남은 게 하나도 없다. 이참에 열심히 배워두면 언젠가 앱 출시할 수 있는 기회가 오지 않을까?
-Manifest 안드로이드 스튜디오에서 프로젝트를 생성하면 AndroidManifest.xml 파일이 생성된다. 공식 사이트에 있는 문서를 보면 Manifest 파일은 앱에 대한 필수 정보를 안드로이드 빌드 도구와 AOS, Google Play에 제공한다고 나와있다.</description>
+      <guid>http://sangm1n.github.io/about-components/</guid>
+      <description>직전 포스팅에서 짤막하게 언급했듯이 안드로이드에는 4대 컴포넌트가 있다.
+ Activity : 액티비티 Service : 서비스 Broadcast Receiver (BR) : 방송 수신자 Content Provider (CP) : 콘텐츠 제공자  각 컴포넌트는 하나의 독립적인 형태로 존재하며 고유의 기능을 수행한다. 하나의 컴포넌트에서 다른 컴포넌트를 호출할 때는 인텐트를 거쳐야 하기 때문에 컴토넌트들이 인텐트를 통해 상호작용 한다.
+Activity 액티비티는 UI 화면을 담당한다. 그래서 안드로이드 앱을 만들 때 나머지 3개의 컴포넌트들과 달리 액티비티는 반드시 하나 이상 있어야 한다.</description>
     </item>
     
     <item>
       <title>［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</title>
       <link>http://sangm1n.github.io/sorting-algorithm/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/sorting-algorithm/</guid>
       <description>Sorting 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
 Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고&amp;hellip; 이러한 연산을 반복하면 된다.</description>
+    </item>
+    
+    <item>
+      <title>［안드로이드 / Android］ Manifest에 대하여</title>
+      <link>http://sangm1n.github.io/what-is-manifest/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/what-is-manifest/</guid>
+      <description>소프트 스퀘어드에서 클라이언트 특강이 열렸길래 신청했다. 졸업작품으로 앱을 만들었는데 당시 안드로이드 스튜디오를 처음 쓰기도 했고, 기초부터 차근차근 하기에는 시간이 부족해 무작정 찾아보면서 진행했었다.
+그러다 보니 프로젝트 진행한지 1년 정도 지난 지금 머리에 남은 게 하나도 없다. 이참에 열심히 배워두면 언젠가 앱 출시할 수 있는 기회가 오지 않을까?
+Manifest 안드로이드 스튜디오에서 프로젝트를 생성하면 AndroidManifest.xml 파일이 생성된다. 공식 사이트에 있는 문서를 보면 Manifest 파일은 앱에 대한 필수 정보를 안드로이드 빌드 도구와 AOS, Google Play에 제공한다고 나와있다.</description>
     </item>
     
     <item>

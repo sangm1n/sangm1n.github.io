@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Algorithm</title>
+      <link>http://sangm1n.github.io/tags/algorithm/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Android</title>
       <link>http://sangm1n.github.io/tags/android/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
@@ -26,15 +35,6 @@
     </item>
     
     <item>
-      <title>Manifest</title>
-      <link>http://sangm1n.github.io/tags/manifest/</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/tags/manifest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>http://sangm1n.github.io/tags/python/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
@@ -44,18 +44,9 @@
     </item>
     
     <item>
-      <title>Algorithm</title>
-      <link>http://sangm1n.github.io/tags/algorithm/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sorting</title>
       <link>http://sangm1n.github.io/tags/sorting/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/tags/sorting/</guid>
       <description></description>
