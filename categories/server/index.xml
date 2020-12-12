@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTTP 상태 코드에는 무엇이 있을까?</title>
+      <title>［서버 / Server］ HTTP 상태 코드에는 무엇이 있을까?</title>
       <link>http://sangm1n.github.io/http-status-code/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@ HTTP status code HTTP 상태 코드는 클라이언트가 보낸 요청(request)
     </item>
     
     <item>
-      <title>RESTful한 API 설계하기</title>
+      <title>［서버 / Server］ RESTful한 API 설계하기</title>
       <link>http://sangm1n.github.io/about-restapi/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@ REST 구성  자원(Resource) : URI 행위(Verb) : HTTP Method 표현(Representa
     </item>
     
     <item>
-      <title>SQL 종류 - DDL / DML / DCL</title>
+      <title>［데이터베이스 / Database］  DDL / DML / DCL</title>
       <link>http://sangm1n.github.io/about-sql/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -41,7 +41,7 @@ DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하
     </item>
     
     <item>
-      <title>Apache vs Nginx 간단 비교</title>
+      <title>［서버 / Server］ Apache vs Nginx 간단 비교</title>
       <link>http://sangm1n.github.io/compare-apache-nginx/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -53,7 +53,7 @@ Prefork MPM  실행 중인 프로세스를 복제하여 처리하는 방식 각 
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (2) 외부 접속</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (2) 외부 접속</title>
       <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -64,7 +64,7 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (1) NPM 설치</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (1) NPM 설치</title>
       <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -77,7 +77,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
+      <title>［서버 / Server］ Bitnami로 서버 구축하여 외부에서 접속하기</title>
       <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -87,7 +87,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - PHP</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - PHP</title>
       <link>http://sangm1n.github.io/how-to-install-php/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -99,7 +99,7 @@ $ cd /usr/local/ $ wget https://www.</description>
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - MySQL</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - MySQL</title>
       <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -111,7 +111,7 @@ MySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.</
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - Apache</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - Apache</title>
       <link>http://sangm1n.github.io/how-to-install-apache/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       

@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algorithm - 기준에 따라 데이터를 정렬</title>
+      <title>［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</title>
       <link>http://sangm1n.github.io/sorting-algorithm/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -18,7 +18,7 @@ Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. �
     </item>
     
     <item>
-      <title>Algorithm - 그래프 탐색을 위한 DFS/BFS</title>
+      <title>［알고리즘 / Algorithm］ 그래프 탐색을 위한 DFS/BFS</title>
       <link>http://sangm1n.github.io/dfs-bfs-algorithm/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -29,7 +29,7 @@ Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. �
     </item>
     
     <item>
-      <title>Algorithm - 아이디어를 코드로 바꾸는 구현</title>
+      <title>［알고리즘 / Algorithm］ 아이디어를 코드로 바꾸는 구현</title>
       <link>http://sangm1n.github.io/implementation-algorithm/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -40,7 +40,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
+      <title>［알고리즘 / Algorithm］ 당장 좋은 것만 선택하는 그리디</title>
       <link>http://sangm1n.github.io/greedy-algorithm/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       

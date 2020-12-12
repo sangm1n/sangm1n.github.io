@@ -31,7 +31,7 @@ N이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 �
     </item>
     
     <item>
-      <title>Algorithm - 기준에 따라 데이터를 정렬</title>
+      <title>［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</title>
       <link>http://sangm1n.github.io/sorting-algorithm/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -138,17 +138,6 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>Algorithm - 그래프 탐색을 위한 DFS/BFS</title>
-      <link>http://sangm1n.github.io/dfs-bfs-algorithm/</link>
-      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/dfs-bfs-algorithm/</guid>
-      <description>탐색은 많은 양의 데이터 중 원하는 데이터를 찾는 과정으로 그래프나 트리 등의 자료구조에서 자주 다룬다. 대표적인 탐색 알고리즘으로 DFS와 BFS가 있고, 이를 확실히 이해하려면 스택과 큐가 뭔지 알아야 한다.
-스택과 큐의 핵심 함수는 삽입(push)과 삭제(pop)다. 따라서 항상 오버플로와 언더플로를 고려해야 한다.
- overflow : 저장 공간을 벗어나 데이터가 넘쳐흐르는 상황 underflow : 데이터가 들어 있지 않은 상태에서 삭제 연산을 수행하는 상황  Stack  LIFO (Last In First Out) : 후입선출로 접시를 쌓는 모습을 연상하면 된다.</description>
-    </item>
-    
-    <item>
       <title>BOJ/백준 - 1654번 랜선 자르기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1654/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
@@ -183,6 +172,17 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
 구멍이 뚫려 있는 부분끼리 상, 하, 좌, 우로 붙어 있는 경우 서로 연결되어 있는 것으로 간주한다.
 이때 얼음 틀의 모양이 주어졌을 때 생성되는 총 아이스크림의 개수를 구하는 프로그램을 작성하시오.
 코드 한마디 재귀를 이용한 DFS 알고리즘으로 쉽게 풀 수 있는 문제이다.</description>
+    </item>
+    
+    <item>
+      <title>［알고리즘 / Algorithm］ 그래프 탐색을 위한 DFS/BFS</title>
+      <link>http://sangm1n.github.io/dfs-bfs-algorithm/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/dfs-bfs-algorithm/</guid>
+      <description>탐색은 많은 양의 데이터 중 원하는 데이터를 찾는 과정으로 그래프나 트리 등의 자료구조에서 자주 다룬다. 대표적인 탐색 알고리즘으로 DFS와 BFS가 있고, 이를 확실히 이해하려면 스택과 큐가 뭔지 알아야 한다.
+스택과 큐의 핵심 함수는 삽입(push)과 삭제(pop)다. 따라서 항상 오버플로와 언더플로를 고려해야 한다.
+ overflow : 저장 공간을 벗어나 데이터가 넘쳐흐르는 상황 underflow : 데이터가 들어 있지 않은 상태에서 삭제 연산을 수행하는 상황  Stack  LIFO (Last In First Out) : 후입선출로 접시를 쌓는 모습을 연상하면 된다.</description>
     </item>
     
     <item>
@@ -279,17 +279,6 @@ count = 0 for i in range(1, N): if N % i == 0: count += 1 if count == 2: print(&
     </item>
     
     <item>
-      <title>Algorithm - 아이디어를 코드로 바꾸는 구현</title>
-      <link>http://sangm1n.github.io/implementation-algorithm/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/implementation-algorithm/</guid>
-      <description>코딩 테스트에서 어떤 문제를 풀든 코드를 작성하는 과정은 필수기 때문에 구현은 모든 문제 유형을 포함하는 개념이라고 볼 수 있다.
-Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제 를 구현 유형의 문제라고 본다. 알고리즘은 간단한데 코드가 굉장히 길어지는 문제, 문자열을 입력받아 한 문자 단위로 끊어서 리스트에 넣어야 하는 문제 등이 까다로운 구현 유형의 문제라고 할 수 있다.
-저자는 이 책에서 완전 탐색과 시뮬레이션 두 개의 유형을 구현으로 묶었다.</description>
-    </item>
-    
-    <item>
       <title>이코테 - 게임 개발</title>
       <link>http://sangm1n.github.io/problem-solving/ct-game-development/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
@@ -313,6 +302,17 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
 나이트는 말을 타고 있기 때문에 이동을 할 때는 L자 형태로만 이동할 수 있으며 정원 밖으로는 나갈 수 없다.
 나이트는 특정한 위치에서 다음과 같은 2가지 경우로 이동할 수 있다.
  수평으로 두 칸 이동한 뒤에 수직으로 한 칸 이동하기 수직으로 두 칸 이동한 뒤에 수평으로 한 칸 이동하기  이처럼 좌표 평면상 나이트의 위치가 주어졌을 때 나이트가 이동할 수 있는 경우의 수를 구하시오.</description>
+    </item>
+    
+    <item>
+      <title>［알고리즘 / Algorithm］ 아이디어를 코드로 바꾸는 구현</title>
+      <link>http://sangm1n.github.io/implementation-algorithm/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/implementation-algorithm/</guid>
+      <description>코딩 테스트에서 어떤 문제를 풀든 코드를 작성하는 과정은 필수기 때문에 구현은 모든 문제 유형을 포함하는 개념이라고 볼 수 있다.
+Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제 를 구현 유형의 문제라고 본다. 알고리즘은 간단한데 코드가 굉장히 길어지는 문제, 문자열을 입력받아 한 문자 단위로 끊어서 리스트에 넣어야 하는 문제 등이 까다로운 구현 유형의 문제라고 할 수 있다.
+저자는 이 책에서 완전 탐색과 시뮬레이션 두 개의 유형을 구현으로 묶었다.</description>
     </item>
     
     <item>
@@ -378,7 +378,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
+      <title>［알고리즘 / Algorithm］ 당장 좋은 것만 선택하는 그리디</title>
       <link>http://sangm1n.github.io/greedy-algorithm/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -389,7 +389,7 @@ Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 �
     </item>
     
     <item>
-      <title>코딩 테스트를 위한 파이썬 라이브러리</title>
+      <title>［파이썬 / Python］ 코딩 테스트를 위한 파이썬 라이브러리</title>
       <link>http://sangm1n.github.io/basic-of-python/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       

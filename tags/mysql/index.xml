@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Soft squared - DBMS에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ DBMS에 대하여</title>
       <link>http://sangm1n.github.io/what-is-dbms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -20,7 +20,7 @@ Server program + Back-end Language + DBMS 서버단에 대한 설명에서 Serve
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (2) 외부 접속</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (2) 외부 접속</title>
       <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (1) NPM 설치</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (1) NPM 설치</title>
       <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
+      <title>［서버 / Server］ Bitnami로 서버 구축하여 외부에서 접속하기</title>
       <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -54,7 +54,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - MySQL</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - MySQL</title>
       <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       

@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AWS를 이용한 서버 구축 - (2) 외부 접속</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (2) 외부 접속</title>
       <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (1) NPM 설치</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (1) NPM 설치</title>
       <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       

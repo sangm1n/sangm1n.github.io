@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ubuntu - 다중 명령어 정리</title>
+      <title>［우분투 / Ubuntu］ 다중 명령어 정리</title>
       <link>http://sangm1n.github.io/ubuntu-multiple-command/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -18,7 +18,7 @@ Semicolon (;)  단순히 앞의 명령어부터 순차적으로 실행 명령어
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - PHP</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - PHP</title>
       <link>http://sangm1n.github.io/how-to-install-php/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@ $ cd /usr/local/ $ wget https://www.</description>
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - MySQL</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - MySQL</title>
       <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -42,7 +42,7 @@ MySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.</
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - Apache</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - Apache</title>
       <link>http://sangm1n.github.io/how-to-install-apache/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/sorting-algorithm/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/what-is-manifest/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           ［안드로이드 / Android］ Manifest에 대하여 | sangminlog
+       
+  </title>
+  <meta name="title" content="［안드로이드 / Android］ Manifest에 대하여 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "［안드로이드 \/ Android］ Manifest에 대하여",
+    "headline" : "［안드로이드 \/ Android］ Manifest에 대하여",
+    "description" : "소프트 스퀘어드에서 클라이언트 특강이 열렸길래 신청했다. 졸업작품으로 앱을 만들었는데 당시 안드로이드 스튜디오를 처음 쓰기도 했고, 기초부터 차근차근 하기에는 시간이 부족해 무작정 찾아보면서 진행했었다.\n그러다 보니 프로젝트 진행한지 1년 정도 지난 지금 머리에 남은 게 하나도 없다. 이참에 열심히 배워두면 언젠가 앱 출시할 수 있는 기회가 오지 않을까?\nManifest 안드로이드 스튜디오에서 프로젝트를 생성하면 AndroidManifest.xml 파일이 생성된다. 공식 사이트에 있는 문서를 보면 Manifest 파일은 앱에 대한 필수 정보를 안드로이드 빌드 도구와 AOS, Google Play에 제공한다고 나와있다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-12 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-12 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/what-is-manifest\/",
+    "wordCount" : "428",
+    "keywords" : [ "Android","Manifest", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">［안드로이드 / Android］ Manifest에 대하여</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-12-12 itemprop="datePublished">December 12, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/android/"> Android </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>소프트 스퀘어드에서 클라이언트 특강이 열렸길래 신청했다. 졸업작품으로 앱을 만들었는데 당시 안드로이드 스튜디오를 처음 쓰기도 했고, 기초부터 차근차근 하기에는 시간이 부족해 무작정 찾아보면서 진행했었다.<br>
+그러다 보니 프로젝트 진행한지 1년 정도 지난 지금 머리에 남은 게 하나도 없다. 이참에 열심히 배워두면 언젠가 앱 출시할 수 있는 기회가 오지 않을까?</p>
+<h2 id="manifest">Manifest</h2>
+<p>안드로이드 스튜디오에서 프로젝트를 생성하면 <code>AndroidManifest.xml</code> 파일이 생성된다. <a href="https://developer.android.com/guide/topics/manifest/manifest-intro?hl=ko">공식 사이트</a>에 있는 문서를 보면 Manifest 파일은 앱에 대한 필수 정보를 안드로이드 빌드 도구와 AOS, Google Play에 제공한다고 나와있다. 쉽게 <strong>앱에 대한 필수 정보를 시스템에 제공하는 목록</strong> 정도로 생각하면 될 것 같다. 이러한 Manifest 파일에 특히 선언되어야 하는 정보들이 있다.</p>
+<ul>
+<li><em>Package name</em></li>
+<li><em>App components</em></li>
+<li><em>Permissions</em></li>
+<li><em>Device compatibility</em></li>
+</ul>
+<p>위의 네 가지 정보들이 어떻게 파일에 반영되는지 알아보자.</p>
+<h3 id="package-name">Package Name</h3>
+<p>Manifest 파일의 루트 요소(<code>&lt;manifest&gt;&lt;/manifest&gt;</code>)에는 해당 앱의 패키지 네임이 반드시 기재되어야 한다. &ldquo;com.example.myapplication&rdquo; 이라는 패키지를 만들었다면 아래와 같은 Manifest 파일이 생성된다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">&lt;?</span>xml version<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1.0&#34;</span> encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span><span style="color:#f92672">?&gt;</span>
+<span style="color:#f92672">&lt;</span>manifest xmlns<span style="color:#f92672">:</span>android<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://schemas.android.com/apk/res/android&#34;</span>
+    package<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;com.example.myapplication&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">...</span>
+<span style="color:#f92672">&lt;/</span>manifest<span style="color:#f92672">&gt;</span>
+</code></pre></div><p>이러한 패키지 네임은 <code>apk</code>를 추출하는 과정에서 아래와 같은 목적으로 사용된다.</p>
+<ol>
+<li><code>R.java</code> 클래스의 네임스페이스로 이 이름 적용
+<ul>
+<li>위의 예시에서는 &ldquo;com.example.myapplication.R&rdquo; 클래스 생성</li>
+</ul>
+</li>
+<li>Manifest 파일 내에서 선언된 상대 경로에 적용</li>
+</ol>
+<p>주민등록번호가 사람의 고유 식별자인 것처럼 패키지 네임은 곧 프로젝트의 식별자이다.</p>
+<h3 id="app-components">App Components</h3>
+<p>안드로이드에는 4대 컴포넌트가 있는데, 앱에서 이 컴포넌트들을 사용하기 위해서는 Manifest 파일에 해당하는 XML 요소를 선언해줘야 한다.</p>
+<ul>
+<li><strong>〈acvitivy〉</strong> : Activity의 각 하위 클래스</li>
+<li><strong>〈service〉</strong> : Service의 각 하위 클래스</li>
+<li><strong>〈receiver〉</strong> : Broadcast Receive의 각 하위 클래스</li>
+<li><strong>〈provider〉</strong> : Content Provider의 각 하위 클래스</li>
+</ul>
+<p>XML 요소를 선언하지 않고 위의 컴포넌트들을 하위 클래스로 지정해서 사용하면 시스템이 실행되지 않는다.<br>
+하위 클래스 이름은 <code>name</code> 특성에 패키지 네임을 지정해서 사용한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">&lt;</span>activity android<span style="color:#f92672">:</span>name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.MainActivity&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">...</span>
+<span style="color:#f92672">&lt;/</span>activity<span style="color:#f92672">&gt;</span>
+</code></pre></div><h4 id="intent-filter">Intent filter</h4>
+<p>4대 컴포넌트들은 각각 인텐트에 의해 활성화된다. 인텐트는 메시지 객체로 작업할 데이터나 작업을 수행해야 하는 명령 등을 포함한다.</p>
+<h3 id="permissions">Permissions</h3>
+<p>안드로이드 앱은 연락처나 SMS와 같은 민감한 사용자 데이터, 카메라처럼 특정 시스템 기능에 엑세스하기 위한 권한을 반드시 요청해야 한다.<br>
+각 권한은 고유한 레이블로 식별되는데, SMS 메시지를 보내야 하는 앱은 아래와 같이 설정해준다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">&lt;</span>manifest <span style="color:#f92672">...&gt;</span>
+    <span style="color:#f92672">&lt;</span>uses<span style="color:#f92672">-</span>permission android<span style="color:#f92672">:</span>name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;android.permission.SEND_SMS&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/</span>manifest<span style="color:#f92672">&gt;</span>
+</code></pre></div><p>안드로이드 버전과 별개로 앱에서 필요로 하는 모든 권한에는 <code>uses-permission</code> 태그를 설정해줘야 한다.</p>
+<h3 id="device-compatibility">Device Compatibility</h3>
+<p>Manifest 파일에는 앱에 필요한 하드웨어나 소프트웨어 기능 뿐만 아니라 앱과 호환되는 기기 유형도 선언할 수 있다.<br>
+<code>uses-feature</code> 태그를 사용하면 앱에 필요한 하드웨어 및 소프트웨어 기능을 선언할 수 있다. 만약 나침반 센서가 없는 기기에서 앱이 기본적인 기능을 실행하지 못한다면 다음과 같이 선언해서 사용할 수 있다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">&lt;</span>manifest <span style="color:#f92672">...&gt;</span>
+    <span style="color:#f92672">&lt;</span>uses<span style="color:#f92672">-</span>feature android<span style="color:#f92672">:</span>name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;android.hardware.sensor.compass&#34;</span>
+                  android<span style="color:#f92672">:</span>required<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;true&#34;</span> <span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/</span>manifest<span style="color:#f92672">&gt;</span>
+</code></pre></div><p>앱이 호환되는 최소 버전을 나타내려면 <code>uses-sdk</code> 태그와 <strong>minSdkVersion</strong> 속성을 이용한다. 이는 <code>build.gradle</code> 파일에서 재정의하기 때문에 Manifest 파일이 아닌 build.gradle 파일에 선언하는 것이 더 좋다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">android <span style="color:#f92672">{</span>
+  defaultConfig <span style="color:#f92672">{</span>
+    applicationId <span style="color:#e6db74">&#34;com.example.myapplication&#34;</span>
+
+    <span style="color:#75715e">// Defines the minimum API level required to run the app.
+</span><span style="color:#75715e"></span>    minSdkVersion 15
+    <span style="color:#75715e">// Specifies the API level used to test the app.
+</span><span style="color:#75715e"></span>    targetSdkVersion 28
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><a href="https://developer.android.com/guide/topics/manifest/manifest-intro?hl=ko">https://developer.android.com/guide/topics/manifest/manifest-intro?hl=ko</a></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/android/">
+                    #Android</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/manifest/">
+                    #Manifest</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/sorting-algorithm/" class="prev" rel="prev" title="［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬"><i class="iconfont icon-left"></i>&nbsp;［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>

@@ -6,9 +6,20 @@
     <description>Recent content in Posts on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algorithm - 기준에 따라 데이터를 정렬</title>
+      <title>［안드로이드 / Android］ Manifest에 대하여</title>
+      <link>http://sangm1n.github.io/what-is-manifest/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/what-is-manifest/</guid>
+      <description>소프트 스퀘어드에서 클라이언트 특강이 열렸길래 신청했다. 졸업작품으로 앱을 만들었는데 당시 안드로이드 스튜디오를 처음 쓰기도 했고, 기초부터 차근차근 하기에는 시간이 부족해 무작정 찾아보면서 진행했었다.
+그러다 보니 프로젝트 진행한지 1년 정도 지난 지금 머리에 남은 게 하나도 없다. 이참에 열심히 배워두면 언젠가 앱 출시할 수 있는 기회가 오지 않을까?
+Manifest 안드로이드 스튜디오에서 프로젝트를 생성하면 AndroidManifest.xml 파일이 생성된다. 공식 사이트에 있는 문서를 보면 Manifest 파일은 앱에 대한 필수 정보를 안드로이드 빌드 도구와 AOS, Google Play에 제공한다고 나와있다.</description>
+    </item>
+    
+    <item>
+      <title>［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</title>
       <link>http://sangm1n.github.io/sorting-algorithm/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -18,7 +29,7 @@ Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. �
     </item>
     
     <item>
-      <title>Algorithm - 그래프 탐색을 위한 DFS/BFS</title>
+      <title>［알고리즘 / Algorithm］ 그래프 탐색을 위한 DFS/BFS</title>
       <link>http://sangm1n.github.io/dfs-bfs-algorithm/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -29,7 +40,7 @@ Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. �
     </item>
     
     <item>
-      <title>Algorithm - 아이디어를 코드로 바꾸는 구현</title>
+      <title>［알고리즘 / Algorithm］ 아이디어를 코드로 바꾸는 구현</title>
       <link>http://sangm1n.github.io/implementation-algorithm/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -40,7 +51,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>하루 한패턴 - Observer pattern</title>
+      <title>［디자인패턴 / DesignPattern］ Observer pattern</title>
       <link>http://sangm1n.github.io/observer-pattern/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -49,7 +60,7 @@ Implementation Algorithm 특히 풀이를 떠올리는 것은 쉽지만 소스�
     </item>
     
     <item>
-      <title>하루 한패턴 - Strategy pattern</title>
+      <title>［디자인패턴 / DesignPattern］ Strategy pattern</title>
       <link>http://sangm1n.github.io/strategy-pattern/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -59,7 +70,7 @@ Strategy Pattern 디자인 원칙  애플리케이션에서 달라지는 부분�
     </item>
     
     <item>
-      <title>Algorithm - 당장 좋은 것만 선택하는 그리디</title>
+      <title>［알고리즘 / Algorithm］ 당장 좋은 것만 선택하는 그리디</title>
       <link>http://sangm1n.github.io/greedy-algorithm/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -70,7 +81,7 @@ Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 �
     </item>
     
     <item>
-      <title>코딩 테스트를 위한 파이썬 라이브러리</title>
+      <title>［파이썬 / Python］ 코딩 테스트를 위한 파이썬 라이브러리</title>
       <link>http://sangm1n.github.io/basic-of-python/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -80,7 +91,7 @@ Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 �
     </item>
     
     <item>
-      <title>Soft squared - 로그인 인증에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ 로그인 인증에 대하여</title>
       <link>http://sangm1n.github.io/what-is-certification/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -90,7 +101,7 @@ Greedy Algorithm 그리디 알고리즘에서의 탐욕적이다 라는 말은 �
     </item>
     
     <item>
-      <title>HTTP 상태 코드에는 무엇이 있을까?</title>
+      <title>［서버 / Server］ HTTP 상태 코드에는 무엇이 있을까?</title>
       <link>http://sangm1n.github.io/http-status-code/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -101,7 +112,7 @@ HTTP status code HTTP 상태 코드는 클라이언트가 보낸 요청(request)
     </item>
     
     <item>
-      <title>RESTful한 API 설계하기</title>
+      <title>［서버 / Server］ RESTful한 API 설계하기</title>
       <link>http://sangm1n.github.io/about-restapi/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -112,7 +123,7 @@ REST 구성  자원(Resource) : URI 행위(Verb) : HTTP Method 표현(Representa
     </item>
     
     <item>
-      <title>Soft squared - API에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ API에 대하여</title>
       <link>http://sangm1n.github.io/what-is-api/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -123,7 +134,7 @@ API가 도대체 뭔데? 위키백과에서는 API를 응용 프로그램에서 
     </item>
     
     <item>
-      <title>SQL 종류 - DDL / DML / DCL</title>
+      <title>［데이터베이스 / Database］  DDL / DML / DCL</title>
       <link>http://sangm1n.github.io/about-sql/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -134,7 +145,7 @@ DDL DDL은 Data Definition Language의 약자로 데이터베이스를 정의하
     </item>
     
     <item>
-      <title>Soft squared - DBMS에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ DBMS에 대하여</title>
       <link>http://sangm1n.github.io/what-is-dbms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -146,7 +157,7 @@ Server program + Back-end Language + DBMS 서버단에 대한 설명에서 Serve
     </item>
     
     <item>
-      <title>Apache vs Nginx 간단 비교</title>
+      <title>［서버 / Server］ Apache vs Nginx 간단 비교</title>
       <link>http://sangm1n.github.io/compare-apache-nginx/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -158,7 +169,7 @@ Prefork MPM  실행 중인 프로세스를 복제하여 처리하는 방식 각 
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (2) 외부 접속</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (2) 외부 접속</title>
       <link>http://sangm1n.github.io/connect-aws/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -169,7 +180,7 @@ Nginx 인바운드 규칙에 HTTP를 추가하고 인스턴스의 IP 주소로 �
     </item>
     
     <item>
-      <title>AWS를 이용한 서버 구축 - (1) NPM 설치</title>
+      <title>［서버 / Server］ AWS를 이용한 서버 구축 (1) NPM 설치</title>
       <link>http://sangm1n.github.io/start-aws/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -182,7 +193,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>Bitnami로 서버 구축하여 외부에서 접속하기</title>
+      <title>［서버 / Server］ Bitnami로 서버 구축하여 외부에서 접속하기</title>
       <link>http://sangm1n.github.io/server-portforwarding/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -192,7 +203,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>Soft squared - Network에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ Network에 대하여</title>
       <link>http://sangm1n.github.io/what-is-network/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -203,7 +214,7 @@ ex) AWS Elastic Beanstalk, Windows Azure, Heroku SaaS : Software as a Service, �
     </item>
     
     <item>
-      <title>Ubuntu - 다중 명령어 정리</title>
+      <title>［우분투 / Ubuntu］ 다중 명령어 정리</title>
       <link>http://sangm1n.github.io/ubuntu-multiple-command/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -213,7 +224,7 @@ Semicolon (;)  단순히 앞의 명령어부터 순차적으로 실행 명령어
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - PHP</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - PHP</title>
       <link>http://sangm1n.github.io/how-to-install-php/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -225,7 +236,7 @@ $ cd /usr/local/ $ wget https://www.</description>
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - MySQL</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - MySQL</title>
       <link>http://sangm1n.github.io/how-to-install-mysql/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -237,7 +248,7 @@ MySQL Community Server 8.0.19 설치 Apache 설치할 때와 동일하게 tar.</
     </item>
     
     <item>
-      <title>APM 컴파일 설치하기 - Apache</title>
+      <title>［서버 / Server］ APM 컴파일 설치하기 - Apache</title>
       <link>http://sangm1n.github.io/how-to-install-apache/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -247,7 +258,7 @@ Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있�
     </item>
     
     <item>
-      <title>Soft squared - Server에 대하여</title>
+      <title>［소프트스퀘어드 / SoftSquared］ Server에 대하여</title>
       <link>http://sangm1n.github.io/what-is-server/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -257,7 +268,7 @@ Ubuntu를 예로 들면 apt 혹은 apt-get이라는 패키지 매니저가 있�
     </item>
     
     <item>
-      <title>Hugo와 Github pages를 이용한 새 블로그 시작</title>
+      <title>［기타 / Etc］ Hugo와 Github pages를 이용한 새 블로그 시작</title>
       <link>http://sangm1n.github.io/start-new-blog/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
