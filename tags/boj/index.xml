@@ -6,7 +6,19 @@
     <description>Recent content in BOJ on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 1541번 잃어버린 괄호</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1541/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1541/</guid>
+      <description>1541 - 잃어버린 괄호 문제 세준이는 양수와 +, -, 그리고 괄호를 가지고 식을 만들었다. 그리고 나서 세준이는 괄호를 모두 지웠다.
+그리고 나서 세준이는 괄호를 적절히 쳐서 이 식의 값을 최소로 만들려고 한다.
+괄호를 적절히 쳐서 이 식의 값을 최소로 만드는 프로그램을 작성하시오.
+코드 한마디 &amp;lsquo;-&amp;rsquo; 기호마다 끊어 다음 &amp;lsquo;-&amp;lsquo;가 나올때까지의 수를 모두 빼주면 된다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 1074번 Z</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1074/</link>

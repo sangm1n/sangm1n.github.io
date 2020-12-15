@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/dynamic-programming-algorithm/" />
-  
-  <link rel="canonical" href="http://sangm1n.github.io/binary-search-algorithm/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/ct-floor-construct/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/ct-make-one/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/ct-ant-warrior/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           ［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog
+           이코테 - 개미 전사 | sangminlog
        
   </title>
-  <meta name="title" content="［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog">
+  <meta name="title" content="이코테 - 개미 전사 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "posts",
-    "name" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
-    "headline" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
-    "description" : "Search 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.\nSequential Search 순차 탐색이란 리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.\n이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 O(N) 이다.\nBinary Search 반면 이진 탐색은 정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인한다.",
+    "articleSection" : "problem-solving",
+    "name" : "이코테 - 개미 전사",
+    "headline" : "이코테 - 개미 전사",
+    "description" : "개미 전사 이것이 취업을 위한 코딩 테스트다\n문제 개미 전사는 부족한 식량을 충당하고자 메뚜기 마을의 식량창고를 몰래 공격하려고 한다. 메뚜기 마을에는 여러 개의 식량창고가 있는데 식량창고는 일직선으로 이어져 있다.\n각 식량창고에는 정해진 수의 식량을 저장하고 있으며 개미 전사는 식량창고를 선택적으로 약탈하여 식량을 빼앗을 예정이다. 이때 메뚜기 정찰병들은 일직선상에 존재하는 식량창고 중에서 서로 인접한 식량창고가 공격받으면 바로 알아챌 수 있다.\n따라서 개미 전사가 정찰병에게 들키지 않고 식량창고를 약탈하기 위해서는 최소한 한 칸 이상 떨어진 식량창고를 약탈해야 한다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -57,9 +57,9 @@
     "copyrightYear" : "2020",
     "datePublished": "2020-12-15 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-12-15 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/binary-search-algorithm\/",
-    "wordCount" : "108",
-    "keywords" : [ "Algorithm","Python","Binary-search", "sangminlog"]
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/ct-ant-warrior\/",
+    "wordCount" : "165",
+    "keywords" : [ "coding test","Python", "sangminlog"]
 }
 </script>
 
@@ -121,14 +121,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색</h1>
+        <h1 class="post-title" itemprop="name headline">이코테 - 개미 전사</h1>
         <div class="post-meta">
                 <span class="post-time"><time datetime=2020-12-15 itemprop="datePublished">December 15, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/algorithm/"> Algorithm </a>
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
                         
                 </span>
         </div>
@@ -151,23 +151,23 @@
           
           
 
-          <h2 id="search">Search</h2>
-<p>이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.</p>
-<h3 id="sequential-search">Sequential Search</h3>
-<p>순차 탐색이란 <strong>리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법</strong>을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.<br>
-이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 <em>O(N)</em> 이다.</p>
-<h3 id="binary-search">Binary Search</h3>
-<p>반면 이진 탐색은 <strong>정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인</strong>한다. 시작점과 끝점, 중간점 3개의 변수를 사용하는데, 찾고자하는 데이터와 중간점 위치에 있는 데이터를 반복해서 비교한다.<br>
-한 번 확인할 때마다 확인하는 데이터가 반으로 줄기 때문에 시간복잡도는 <em>O(logN)</em> 이다.</p>
-<h4 id="재귀-함수로-구현">재귀 함수로 구현</h4>
-<p><img src="https://user-images.githubusercontent.com/46131688/102184376-b2573700-3ef2-11eb-82dc-5a0f70540d37.png" alt=""></p>
-<h4 id="반복문으로-구현">반복문으로 구현</h4>
-<p><img src="https://user-images.githubusercontent.com/46131688/102184410-c4d17080-3ef2-11eb-99cd-a94dde66eff7.png" alt=""></p>
-<hr>
-<h4 id="참고">참고</h4>
-<ul>
-<li><em>이것이 취업을 위한 코딩 테스트다</em></li>
-</ul>
+          <h2 id="개미-전사">개미 전사</h2>
+<p><em>이것이 취업을 위한 코딩 테스트다</em></p>
+<h3 id="문제">문제</h3>
+<p>개미 전사는 부족한 식량을 충당하고자 메뚜기 마을의 식량창고를 몰래 공격하려고 한다.
+메뚜기 마을에는 여러 개의 식량창고가 있는데 식량창고는 일직선으로 이어져 있다.<br>
+각 식량창고에는 정해진 수의 식량을 저장하고 있으며 개미 전사는 식량창고를 선택적으로 약탈하여 식량을 빼앗을 예정이다.
+이때 메뚜기 정찰병들은 일직선상에 존재하는 식량창고 중에서 서로 인접한 식량창고가 공격받으면 바로 알아챌 수 있다.<br>
+따라서 개미 전사가 정찰병에게 들키지 않고 식량창고를 약탈하기 위해서는 최소한 한 칸 이상 떨어진 식량창고를 약탈해야 한다.
+예를 들어 식량창고 4개가 다음과 같이 존재한다고 가정하자.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">{<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>}
+</code></pre></div><p>이때 개미 전사는 <strong>두 번째, 네 번째 식량창고를 선택했을 때 최댓값인 총 8개의 식량을 빼앗을 수 있다.</strong>
+개미 전사는 식량창고가 이렇게 일직선상일 때 최대한 많은 식량을 얻기를 원한다.<br>
+개미 전사를 위해 식량창고 N개에 대한 정보가 주어졌을 때 얻을 수 있는 식량의 최댓값을 구하는 프로그램을 작성하시오.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/102211317-c7de5800-3f16-11eb-9c2e-ff1612457b86.png" alt=""></p>
+<h3 id="한마디">한마디</h3>
+<p>바로 직전 식량 창고를 털면 현재 창고는 털지 못하고, 그 전의 식량 창고를 털면 현재 창고를 털 수 있다. 따라서 두 가지 경우를 비교해 더 많은 식량을 털도록 하면 된다.</p>
 
     </div>
     
@@ -177,14 +177,11 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s) - 
             
-            <span class="tag"><a href="http://sangm1n.github.io/tags/algorithm/">
-                    #Algorithm</a></span>
+            <span class="tag"><a href="http://sangm1n.github.io/tags/coding-test/">
+                    #coding test</a></span>
             
             <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
                     #Python</a></span>
-            
-            <span class="tag"><a href="http://sangm1n.github.io/tags/binary-search/">
-                    #Binary-search</a></span>
             
             </section>
         
@@ -205,8 +202,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/dynamic-programming-algorithm/" class="prev" rel="prev" title="［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍"><i class="iconfont icon-left"></i>&nbsp;［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍</a>
+        <a href="http://sangm1n.github.io/problem-solving/ct-floor-construct/" class="prev" rel="prev" title="이코테 - 바닥 공사"><i class="iconfont icon-left"></i>&nbsp;이코테 - 바닥 공사</a>
          
+        
+        <a href="http://sangm1n.github.io/problem-solving/ct-make-one/" class="next" rel="next" title="이코테 - 1로 만들기">이코테 - 1로 만들기&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

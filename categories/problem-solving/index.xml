@@ -6,7 +6,71 @@
     <description>Recent content in Problem solving on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 1541번 잃어버린 괄호</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1541/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1541/</guid>
+      <description>1541 - 잃어버린 괄호 문제 세준이는 양수와 +, -, 그리고 괄호를 가지고 식을 만들었다. 그리고 나서 세준이는 괄호를 모두 지웠다.
+그리고 나서 세준이는 괄호를 적절히 쳐서 이 식의 값을 최소로 만들려고 한다.
+괄호를 적절히 쳐서 이 식의 값을 최소로 만드는 프로그램을 작성하시오.
+코드 한마디 &amp;lsquo;-&amp;rsquo; 기호마다 끊어 다음 &amp;lsquo;-&amp;lsquo;가 나올때까지의 수를 모두 빼주면 된다.</description>
+    </item>
+    
+    <item>
+      <title>이코테 - 1로 만들기</title>
+      <link>http://sangm1n.github.io/problem-solving/ct-make-one/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/ct-make-one/</guid>
+      <description>1로 만들기 이것이 취업을 위한 코딩 테스트다
+문제 정수 X가 주어질 때 정수 X에 사용할 수 있는 연산은 다음과 같이 4가지이다.
+ X가 5로 나누어 떨어지면, 5로 나눈다. X가 3으로 나누어 떨어지면, 3으로 나눈다. X가 2로 나누어 떨어지면, 2로 나눈다. X에서 1을 뺀다.  정수 X가 주어졌을 때, 연산 4개를 적절히 사용해서 1을 만들려고 한다. 연산을 사용하는 횟수의 최솟값을 출력하시오.
+코드 한마디 DP table을 이용해 Bottom-up 방식으로 풀면 된다.</description>
+    </item>
+    
+    <item>
+      <title>이코테 - 개미 전사</title>
+      <link>http://sangm1n.github.io/problem-solving/ct-ant-warrior/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/ct-ant-warrior/</guid>
+      <description>개미 전사 이것이 취업을 위한 코딩 테스트다
+문제 개미 전사는 부족한 식량을 충당하고자 메뚜기 마을의 식량창고를 몰래 공격하려고 한다. 메뚜기 마을에는 여러 개의 식량창고가 있는데 식량창고는 일직선으로 이어져 있다.
+각 식량창고에는 정해진 수의 식량을 저장하고 있으며 개미 전사는 식량창고를 선택적으로 약탈하여 식량을 빼앗을 예정이다. 이때 메뚜기 정찰병들은 일직선상에 존재하는 식량창고 중에서 서로 인접한 식량창고가 공격받으면 바로 알아챌 수 있다.
+따라서 개미 전사가 정찰병에게 들키지 않고 식량창고를 약탈하기 위해서는 최소한 한 칸 이상 떨어진 식량창고를 약탈해야 한다.</description>
+    </item>
+    
+    <item>
+      <title>이코테 - 바닥 공사</title>
+      <link>http://sangm1n.github.io/problem-solving/ct-floor-construct/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/ct-floor-construct/</guid>
+      <description>바닥 공사 이것이 취업을 위한 코딩 테스트다
+문제 가로의 길이가 N, 세로의 길이가 2인 직사각형 형태의 얇은 바닥이 있다.
+이 얇은 바닥을 1 X 2의 덮개, 2 X 1의 덮개, 2 X 2의 덮개를 이용해 채우고자 한다.
+이때 바닥을 채우는 모든 경우의 수를 구하는 프로그램을 작성하시오.
+예를 들어 2 X 3 크기의 바닥을 채우는 경우의 수는 5가지이다.
+코드 한마디 다이나믹 프로그래밍의 근본적인 예제라고 할 수 있는 타일링 문제 유형이다.</description>
+    </item>
+    
+    <item>
+      <title>이코테 - 효율적인 화폐 구성</title>
+      <link>http://sangm1n.github.io/problem-solving/ct-efficient-money/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/ct-efficient-money/</guid>
+      <description>효율적인 화폐 구성 이것이 취업을 위한 코딩 테스트다
+문제 N가지 종류의 화폐가 있다.
+이 화폐들의 개수를 최소한으로 이용해서 그 가치의 합이 M원이 되도록 하려고 한다.
+이때 각 화폐는 몇 개라도 사용할 수 있으며, 사용한 화폐의 구성은 같지만 순서만 다른 것은 같은 경우로 구분한다.
+예를 들어 2원, 3원 단위의 화폐가 있을 때는 15원을 만들기 위해 3원을 5개 사용하는 것이 가장 최소한의 화폐 개수이다.
+코드 한마디 DP 문제들 점화식 짜는 게 굉장히 어려운 것 같다.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 1074번 Z</title>
       <link>http://sangm1n.github.io/problem-solving/boj-1074/</link>

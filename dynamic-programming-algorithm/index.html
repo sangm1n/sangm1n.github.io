@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/dynamic-programming-algorithm/" />
-  
-  <link rel="canonical" href="http://sangm1n.github.io/binary-search-algorithm/" />
+  <link rel="prev" href="http://sangm1n.github.io/about-components/" />
+  <link rel="next" href="http://sangm1n.github.io/binary-search-algorithm/" />
+  <link rel="canonical" href="http://sangm1n.github.io/dynamic-programming-algorithm/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           ［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog
+           ［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍 | sangminlog
        
   </title>
-  <meta name="title" content="［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog">
+  <meta name="title" content="［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "posts",
-    "name" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
-    "headline" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
-    "description" : "Search 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.\nSequential Search 순차 탐색이란 리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.\n이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 O(N) 이다.\nBinary Search 반면 이진 탐색은 정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인한다.",
+    "name" : "［알고리즘 \/ Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍",
+    "headline" : "［알고리즘 \/ Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍",
+    "description" : "Dynamic Programming 다이나믹 프로그래밍 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘 기법이다. 기본적으로 아래의 조건을 만족할 때 사용할 수 있다.\n 큰 문제를 작은 문제로 나눌 수 있다. 작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일하다.  이러한 조건을 만족하는 대표적인 문제로는 피보나치 수열이 있다.\nTop-down 피보나치 수열을 memoization 기법을 사용하여 해결해보자. 메모이제이션은 한 번 구한 결과를 메모리 공간에 저장해두고 같은 식을 다시 호출하면 저장해둔 결과를 그대로 가져오는 기법이다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -57,9 +57,9 @@
     "copyrightYear" : "2020",
     "datePublished": "2020-12-15 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-12-15 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/binary-search-algorithm\/",
-    "wordCount" : "108",
-    "keywords" : [ "Algorithm","Python","Binary-search", "sangminlog"]
+    "url" : "http:\/\/sangm1n.github.io\/dynamic-programming-algorithm\/",
+    "wordCount" : "152",
+    "keywords" : [ "Algorithm","Python","Dynamic-programming", "sangminlog"]
 }
 </script>
 
@@ -121,7 +121,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색</h1>
+        <h1 class="post-title" itemprop="name headline">［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍</h1>
         <div class="post-meta">
                 <span class="post-time"><time datetime=2020-12-15 itemprop="datePublished">December 15, 2020</time>
                 </span>
@@ -151,18 +151,21 @@
           
           
 
-          <h2 id="search">Search</h2>
-<p>이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.</p>
-<h3 id="sequential-search">Sequential Search</h3>
-<p>순차 탐색이란 <strong>리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법</strong>을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.<br>
-이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 <em>O(N)</em> 이다.</p>
-<h3 id="binary-search">Binary Search</h3>
-<p>반면 이진 탐색은 <strong>정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인</strong>한다. 시작점과 끝점, 중간점 3개의 변수를 사용하는데, 찾고자하는 데이터와 중간점 위치에 있는 데이터를 반복해서 비교한다.<br>
-한 번 확인할 때마다 확인하는 데이터가 반으로 줄기 때문에 시간복잡도는 <em>O(logN)</em> 이다.</p>
-<h4 id="재귀-함수로-구현">재귀 함수로 구현</h4>
-<p><img src="https://user-images.githubusercontent.com/46131688/102184376-b2573700-3ef2-11eb-82dc-5a0f70540d37.png" alt=""></p>
-<h4 id="반복문으로-구현">반복문으로 구현</h4>
-<p><img src="https://user-images.githubusercontent.com/46131688/102184410-c4d17080-3ef2-11eb-99cd-a94dde66eff7.png" alt=""></p>
+          <h2 id="dynamic-programming">Dynamic Programming</h2>
+<p>다이나믹 프로그래밍 <strong>큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘 기법</strong>이다. 기본적으로 아래의 조건을 만족할 때 사용할 수 있다.</p>
+<ol>
+<li>큰 문제를 작은 문제로 나눌 수 있다.</li>
+<li>작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일하다.</li>
+</ol>
+<p>이러한 조건을 만족하는 대표적인 문제로는 피보나치 수열이 있다.</p>
+<h3 id="top-down">Top-down</h3>
+<p>피보나치 수열을 <code>memoization</code> 기법을 사용하여 해결해보자. 메모이제이션은 <strong>한 번 구한 결과를 메모리 공간에 저장해두고 같은 식을 다시 호출하면 저장해둔 결과를 그대로 가져오는 기법</strong>이다. 
+<img src="https://user-images.githubusercontent.com/46131688/102200729-8f378200-3f08-11eb-9c2a-8b73de2c0176.png" alt=""></p>
+<p>이렇듯 재귀 함수처럼 큰 문제를 해결하기 위해 작은 문제를 호출하는 것을 <code>Top-down</code> 방식이라고 한다.</p>
+<h3 id="bottom-up">Bottom-up</h3>
+<p>반면 작은 문제부터 답을 도출해나가는 <code>Bottom-up</code> 방식도 있다. 다이나믹 프로그래밍의 전형적인 형태로 이 방식에서 사용되는 결과 저장용 리스트를 <em>DP table</em> 이라고 부른다.
+<img src="https://user-images.githubusercontent.com/46131688/102201233-27356b80-3f09-11eb-897f-5af0ab5b4931.png" alt=""></p>
+<p>분할 정복과 비슷하지만 가장 큰 차이점은 다이나믹 프로그래밍은 문제들이 서로 영향을 미치고 있다는 점이다. 그래서 위의 코드처럼 이미 해결된 부분 문제에 대한 답을 저장해 놓았다가 나중에 동일한 문제를 풀어야 할 때 이미 저장한 값을 반환한다.</p>
 <hr>
 <h4 id="참고">참고</h4>
 <ul>
@@ -183,8 +186,8 @@
             <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
                     #Python</a></span>
             
-            <span class="tag"><a href="http://sangm1n.github.io/tags/binary-search/">
-                    #Binary-search</a></span>
+            <span class="tag"><a href="http://sangm1n.github.io/tags/dynamic-programming/">
+                    #Dynamic-programming</a></span>
             
             </section>
         
@@ -205,8 +208,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/dynamic-programming-algorithm/" class="prev" rel="prev" title="［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍"><i class="iconfont icon-left"></i>&nbsp;［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍</a>
+        <a href="http://sangm1n.github.io/about-components/" class="prev" rel="prev" title="［안드로이드 / Android］ 안드로이드 4대 컴포넌트"><i class="iconfont icon-left"></i>&nbsp;［안드로이드 / Android］ 안드로이드 4대 컴포넌트</a>
          
+        
+        <a href="http://sangm1n.github.io/binary-search-algorithm/" class="next" rel="next" title="［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색">［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
