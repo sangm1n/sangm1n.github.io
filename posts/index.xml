@@ -6,7 +6,19 @@
     <description>Recent content in Posts on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색</title>
+      <link>http://sangm1n.github.io/binary-search-algorithm/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/binary-search-algorithm/</guid>
+      <description>Search 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.
+Sequential Search 순차 탐색이란 리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.
+이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 O(N) 이다.
+Binary Search 반면 이진 탐색은 정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인한다.</description>
+    </item>
+    
     <item>
       <title>［안드로이드 / Android］ 안드로이드 4대 컴포넌트</title>
       <link>http://sangm1n.github.io/about-components/</link>

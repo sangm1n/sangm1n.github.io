@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/about-components/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/binary-search-algorithm/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           ［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog
+       
+  </title>
+  <meta name="title" content="［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색 | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
+    "headline" : "［알고리즘 \/ Algorithm］범위를 좁혀가는 이진 탐색",
+    "description" : "Search 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.\nSequential Search 순차 탐색이란 리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.\n이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 O(N) 이다.\nBinary Search 반면 이진 탐색은 정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인한다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-15 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-15 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/binary-search-algorithm\/",
+    "wordCount" : "108",
+    "keywords" : [ "Algorithm","Python","Binary-search", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-12-15 itemprop="datePublished">December 15, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/algorithm/"> Algorithm </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="search">Search</h2>
+<p>이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.</p>
+<h3 id="sequential-search">Sequential Search</h3>
+<p>순차 탐색이란 <strong>리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법</strong>을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.<br>
+이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 <em>O(N)</em> 이다.</p>
+<h3 id="binary-search">Binary Search</h3>
+<p>반면 이진 탐색은 <strong>정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인</strong>한다. 시작점과 끝점, 중간점 3개의 변수를 사용하는데, 찾고자하는 데이터와 중간점 위치에 있는 데이터를 반복해서 비교한다.<br>
+한 번 확인할 때마다 확인하는 데이터가 반으로 줄기 때문에 시간복잡도는 <em>O(logN)</em> 이다.</p>
+<h4 id="재귀-함수로-구현">재귀 함수로 구현</h4>
+<p><img src="https://user-images.githubusercontent.com/46131688/102184376-b2573700-3ef2-11eb-82dc-5a0f70540d37.png" alt=""></p>
+<h4 id="반복문으로-구현">반복문으로 구현</h4>
+<p><img src="https://user-images.githubusercontent.com/46131688/102184410-c4d17080-3ef2-11eb-99cd-a94dde66eff7.png" alt=""></p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><em>이것이 취업을 위한 코딩 테스트다</em></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/algorithm/">
+                    #Algorithm</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/binary-search/">
+                    #Binary-search</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/about-components/" class="prev" rel="prev" title="［안드로이드 / Android］ 안드로이드 4대 컴포넌트"><i class="iconfont icon-left"></i>&nbsp;［안드로이드 / Android］ 안드로이드 4대 컴포넌트</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>
