@@ -60,6 +60,18 @@
     </item>
     
     <item>
+      <title>이코테 - 떡볶이 떡 만들기</title>
+      <link>http://sangm1n.github.io/problem-solving/ct-rice-cake/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/ct-rice-cake/</guid>
+      <description>떡볶이 떡 만들기 이것이 취업을 위한 코딩 테스트다
+문제 오늘은 떡볶이 떡을 만드는 날이다. 떡볶이 떡의 길이가 일정하지 않지만 한 봉지 안에 들어가는 떡의 총 길이는 절단기로 잘라 맞춘다.
+절단기에 높이(H)를 지정하면 줄지어진 떡을 한 번에 절단한다. 높이가 H보다 긴 떡은 H 위의 부분이 잘릴 것이고, 낮은 떡은 잘리지 않는다.
+예를 들어 높이가 19, 14, 10, 17cm인 떡이 나란히 있고 절단기 높이를 15cm로 지정하면 자른 뒤 떡의 높이는 15, 14, 10, 15cm가 될 것이다.</description>
+    </item>
+    
+    <item>
       <title>이코테 - 미로 탈출</title>
       <link>http://sangm1n.github.io/problem-solving/ct-escape-maze/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>

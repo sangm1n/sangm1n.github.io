@@ -6,7 +6,27 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 15일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-15/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-15/</guid>
+      <description>💪 Today I Learned BOJ  1541번 잃어버린 괄호  이것이 취업을 위한 코딩테스트다  1로 만들기 개미 전사 바닥 공사 효율적인 화폐 구성  Dynamic Programming 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘
+ Top-down  memoization 기법 한 번 구한 결과를 메모리 공간에 저장해두고, 같은 식을 다시 호출할 때 저장해둔 결과를 그대로 가져온다.   Bottom-up  DP-table 사용 작은 문제부터 답을 도출해나간다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 12월 14일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-14/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-14/</guid>
+      <description>💪 Today I Learned 이것이 취업을 위한 코딩테스트다  부품 찾기 떡볶이 떡 만들기  Search 리스트에 담긴 데이터를 확인하는 알고리즘
+ Sequential Search  특정한 데이터를 찾기 위해 리스트 맨 앞에서부터 하나씩 확인하는 방법 시간복잡도 O(N)   Binary Search  정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인하는 방법 시간복잡도 O(logN)    🏃 한마디 백준을 풀면서 봤던 문제와 비슷한 문제들이 이코테 책에 자주 나온다. 책을 미리 읽고 풀었다면 더 수월했을 것 같다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 12일</title>
       <link>http://sangm1n.github.io/til/2020-12/2020-12-12/</link>

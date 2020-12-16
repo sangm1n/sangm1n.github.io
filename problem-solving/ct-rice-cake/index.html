@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1107/" />
-  <link rel="next" href="http://sangm1n.github.io/problem-solving/ct-rice-cake/" />
-  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1074/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1074/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/ct-efficient-money/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/ct-rice-cake/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           BOJ/백준 - 1074번 Z | sangminlog
+           이코테 - 떡볶이 떡 만들기 | sangminlog
        
   </title>
-  <meta name="title" content="BOJ/백준 - 1074번 Z | sangminlog">
+  <meta name="title" content="이코테 - 떡볶이 떡 만들기 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "problem-solving",
-    "name" : "BOJ\/백준 - 1074번 Z",
-    "headline" : "BOJ\/백준 - 1074번 Z",
-    "description" : "1074 - Z 문제 한수는 크기가 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 한다. 예를 들어, 2×2배열을 왼쪽 위칸, 오른쪽 위칸, 왼쪽 아래칸, 오른쪽 아래칸 순서대로 방문하면 Z모양이다.\n만약, N \u0026gt; 1이 라서 왼쪽 위에 있는 칸이 하나가 아니라면, 배열을 크기가 2^(N-1) × 2^(N-1)로 4등분 한 후에 재귀적으로 순서대로 방문한다.\nN이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 프로그램을 작성하시오.\n코드 한마디 좌표를 4등분해서 1사분할, 2사분할, 3사분할, 4사분할 순서로 재귀 함수를 호출하면 된다.",
+    "name" : "이코테 - 떡볶이 떡 만들기",
+    "headline" : "이코테 - 떡볶이 떡 만들기",
+    "description" : "떡볶이 떡 만들기 이것이 취업을 위한 코딩 테스트다\n문제 오늘은 떡볶이 떡을 만드는 날이다. 떡볶이 떡의 길이가 일정하지 않지만 한 봉지 안에 들어가는 떡의 총 길이는 절단기로 잘라 맞춘다.\n절단기에 높이(H)를 지정하면 줄지어진 떡을 한 번에 절단한다. 높이가 H보다 긴 떡은 H 위의 부분이 잘릴 것이고, 낮은 떡은 잘리지 않는다.\n예를 들어 높이가 19, 14, 10, 17cm인 떡이 나란히 있고 절단기 높이를 15cm로 지정하면 자른 뒤 떡의 높이는 15, 14, 10, 15cm가 될 것이다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-12 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-12 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1074\/",
-    "wordCount" : "74",
-    "keywords" : [ "BOJ","Python", "sangminlog"]
+    "datePublished": "2020-12-14 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-14 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/ct-rice-cake\/",
+    "wordCount" : "120",
+    "keywords" : [ "coding test","Python", "sangminlog"]
 }
 </script>
 
@@ -121,9 +121,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1074번 Z</h1>
+        <h1 class="post-title" itemprop="name headline">이코테 - 떡볶이 떡 만들기</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-12 itemprop="datePublished">December 12, 2020</time>
+                <span class="post-time"><time datetime=2020-12-14 itemprop="datePublished">December 14, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -151,17 +151,19 @@
           
           
 
-          <h2 id="1074---z">1074 - Z</h2>
-<h3 id="문제httpswwwacmicpcnetproblem1074"><a href="https://www.acmicpc.net/problem/1074">문제</a></h3>
-<p>한수는 크기가 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 한다.
-예를 들어, 2×2배열을 왼쪽 위칸, 오른쪽 위칸, 왼쪽 아래칸, 오른쪽 아래칸 순서대로 방문하면 Z모양이다.</p>
-<p><img src="https://user-images.githubusercontent.com/46131688/101977025-fc8bae80-3c8d-11eb-8675-fe4d780e1ad7.png" alt=""></p>
-<p>만약, <strong>N &gt; 1이 라서 왼쪽 위에 있는 칸이 하나가 아니라면, 배열을 크기가 2^(N-1) × 2^(N-1)로 4등분 한 후에 재귀적으로 순서대로 방문한다.</strong></p>
-<p>N이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 프로그램을 작성하시오.</p>
+          <h2 id="떡볶이-떡-만들기">떡볶이 떡 만들기</h2>
+<p><em>이것이 취업을 위한 코딩 테스트다</em></p>
+<h3 id="문제">문제</h3>
+<p>오늘은 떡볶이 떡을 만드는 날이다. 떡볶이 떡의 길이가 일정하지 않지만 한 봉지 안에 들어가는 떡의 총 길이는 절단기로 잘라 맞춘다.</p>
+<p>절단기에 높이(H)를 지정하면 줄지어진 떡을 한 번에 절단한다.
+<strong>높이가 H보다 긴 떡은 H 위의 부분이 잘릴 것이고, 낮은 떡은 잘리지 않는다.</strong></p>
+<p>예를 들어 높이가 19, 14, 10, 17cm인 떡이 나란히 있고 절단기 높이를 15cm로 지정하면 자른 뒤 떡의 높이는 15, 14, 10, 15cm가 될 것이다.</p>
+<p>잘린 떡의 길이는 차례대로 4, 0, 0, 2cm이다. 손님은 6cm만큼의 길이를 가져간다.</p>
+<p>손님이 왔을 때 요청한 총 길이가 M일 때 적어도 M만큼의 떡을 얻기 위해 절단기에 설정할 수 있는 높이의 최댓값을 구하는 프로그램을 작성하시오.</p>
 <h3 id="코드">코드</h3>
-<p><img src="https://user-images.githubusercontent.com/46131688/101977083-5b512800-3c8e-11eb-884b-8c3b7924f550.png" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/46131688/102311966-22c48d80-3fb1-11eb-910d-1a18c8533b8c.png" alt=""></p>
 <h3 id="한마디">한마디</h3>
-<p>좌표를 4등분해서 1사분할, 2사분할, 3사분할, 4사분할 순서로 재귀 함수를 호출하면 된다.</p>
+<p>이진 탐색으로 풀어야 시간 초과를 피할 수 있을 것 같다.</p>
 
     </div>
     
@@ -171,8 +173,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s) - 
             
-            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
-                    #BOJ</a></span>
+            <span class="tag"><a href="http://sangm1n.github.io/tags/coding-test/">
+                    #coding test</a></span>
             
             <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
                     #Python</a></span>
@@ -196,10 +198,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-1107/" class="prev" rel="prev" title="BOJ/백준 - 1107번 리모컨"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1107번 리모컨</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1074/" class="prev" rel="prev" title="BOJ/백준 - 1074번 Z"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1074번 Z</a>
          
         
-        <a href="http://sangm1n.github.io/problem-solving/ct-rice-cake/" class="next" rel="next" title="이코테 - 떡볶이 떡 만들기">이코테 - 떡볶이 떡 만들기&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/ct-efficient-money/" class="next" rel="next" title="이코테 - 효율적인 화폐 구성">이코테 - 효율적인 화폐 구성&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

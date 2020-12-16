@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1107/" />
-  <link rel="next" href="http://sangm1n.github.io/problem-solving/ct-rice-cake/" />
-  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1074/" />
+  <link rel="prev" href="http://sangm1n.github.io/til/2020-12/2020-12-14/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/til/2020-12/2020-12-15/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           BOJ/백준 - 1074번 Z | sangminlog
+           TIL - 2020년 12월 15일 | sangminlog
        
   </title>
-  <meta name="title" content="BOJ/백준 - 1074번 Z | sangminlog">
+  <meta name="title" content="TIL - 2020년 12월 15일 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "problem-solving",
-    "name" : "BOJ\/백준 - 1074번 Z",
-    "headline" : "BOJ\/백준 - 1074번 Z",
-    "description" : "1074 - Z 문제 한수는 크기가 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 한다. 예를 들어, 2×2배열을 왼쪽 위칸, 오른쪽 위칸, 왼쪽 아래칸, 오른쪽 아래칸 순서대로 방문하면 Z모양이다.\n만약, N \u0026gt; 1이 라서 왼쪽 위에 있는 칸이 하나가 아니라면, 배열을 크기가 2^(N-1) × 2^(N-1)로 4등분 한 후에 재귀적으로 순서대로 방문한다.\nN이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 프로그램을 작성하시오.\n코드 한마디 좌표를 4등분해서 1사분할, 2사분할, 3사분할, 4사분할 순서로 재귀 함수를 호출하면 된다.",
+    "articleSection" : "TIL",
+    "name" : "TIL - 2020년 12월 15일",
+    "headline" : "TIL - 2020년 12월 15일",
+    "description" : "💪 Today I Learned BOJ  1541번 잃어버린 괄호  이것이 취업을 위한 코딩테스트다  1로 만들기 개미 전사 바닥 공사 효율적인 화폐 구성  Dynamic Programming 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘\n Top-down  memoization 기법 한 번 구한 결과를 메모리 공간에 저장해두고, 같은 식을 다시 호출할 때 저장해둔 결과를 그대로 가져온다.   Bottom-up  DP-table 사용 작은 문제부터 답을 도출해나간다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-12 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-12 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1074\/",
-    "wordCount" : "74",
-    "keywords" : [ "BOJ","Python", "sangminlog"]
+    "datePublished": "2020-12-15 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-15 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/til\/2020-12\/2020-12-15\/",
+    "wordCount" : "75",
+    "keywords" : [  "sangminlog"]
 }
 </script>
 
@@ -121,14 +121,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1074번 Z</h1>
+        <h1 class="post-title" itemprop="name headline">TIL - 2020년 12월 15일</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-12 itemprop="datePublished">December 12, 2020</time>
+                <span class="post-time"><time datetime=2020-12-15 itemprop="datePublished">December 15, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
+                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
                         
                 </span>
         </div>
@@ -136,8 +136,6 @@
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -151,33 +149,41 @@
           
           
 
-          <h2 id="1074---z">1074 - Z</h2>
-<h3 id="문제httpswwwacmicpcnetproblem1074"><a href="https://www.acmicpc.net/problem/1074">문제</a></h3>
-<p>한수는 크기가 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 한다.
-예를 들어, 2×2배열을 왼쪽 위칸, 오른쪽 위칸, 왼쪽 아래칸, 오른쪽 아래칸 순서대로 방문하면 Z모양이다.</p>
-<p><img src="https://user-images.githubusercontent.com/46131688/101977025-fc8bae80-3c8d-11eb-8675-fe4d780e1ad7.png" alt=""></p>
-<p>만약, <strong>N &gt; 1이 라서 왼쪽 위에 있는 칸이 하나가 아니라면, 배열을 크기가 2^(N-1) × 2^(N-1)로 4등분 한 후에 재귀적으로 순서대로 방문한다.</strong></p>
-<p>N이 주어졌을 때, r행 c열을 몇 번째로 방문하는지 출력하는 프로그램을 작성하시오.</p>
-<h3 id="코드">코드</h3>
-<p><img src="https://user-images.githubusercontent.com/46131688/101977083-5b512800-3c8e-11eb-884b-8c3b7924f550.png" alt=""></p>
-<h3 id="한마디">한마디</h3>
-<p>좌표를 4등분해서 1사분할, 2사분할, 3사분할, 4사분할 순서로 재귀 함수를 호출하면 된다.</p>
+          <h2 id="-today-i-learned">💪 Today I Learned</h2>
+<h3 id="boj">BOJ</h3>
+<ul>
+<li><a href="https://sangm1n.github.io/problem-solving/boj-1541/">1541번 잃어버린 괄호</a></li>
+</ul>
+<h3 id="이것이-취업을-위한-코딩테스트다">이것이 취업을 위한 코딩테스트다</h3>
+<ul>
+<li><a href="https://sangm1n.github.io/problem-solving/ct-make-one/">1로 만들기</a></li>
+<li><a href="https://sangm1n.github.io/problem-solving/ct-ant-warrior/">개미 전사</a></li>
+<li><a href="https://sangm1n.github.io/problem-solving/ct-floor-construct/">바닥 공사</a></li>
+<li><a href="https://sangm1n.github.io/problem-solving/ct-efficient-money/">효율적인 화폐 구성</a></li>
+</ul>
+<h3 id="dynamic-programming">Dynamic Programming</h3>
+<p>큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘</p>
+<ul>
+<li><em>Top-down</em>
+<ul>
+<li><code>memoization</code> 기법</li>
+<li>한 번 구한 결과를 메모리 공간에 저장해두고, 같은 식을 다시 호출할 때 저장해둔 결과를 그대로 가져온다.</li>
+</ul>
+</li>
+<li><em>Bottom-up</em>
+<ul>
+<li><code>DP-table</code> 사용</li>
+<li>작은 문제부터 답을 도출해나간다.</li>
+</ul>
+</li>
+</ul>
+<h2 id="-한마디">🏃 한마디</h2>
+<p>DP 문제는 점화식을 잘 세워서 풀어야 하는데 그 과정이 생각보다 까다롭다.</p>
 
     </div>
     
 
     <div class="post-tags">
-        
-            <section>
-            <i class="iconfont icon-tag"></i>Tag(s) - 
-            
-            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
-                    #BOJ</a></span>
-            
-            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
-                    #Python</a></span>
-            
-            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -196,10 +202,8 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-1107/" class="prev" rel="prev" title="BOJ/백준 - 1107번 리모컨"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1107번 리모컨</a>
+        <a href="http://sangm1n.github.io/til/2020-12/2020-12-14/" class="prev" rel="prev" title="TIL - 2020년 12월 14일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 12월 14일</a>
          
-        
-        <a href="http://sangm1n.github.io/problem-solving/ct-rice-cake/" class="next" rel="next" title="이코테 - 떡볶이 떡 만들기">이코테 - 떡볶이 떡 만들기&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -238,9 +242,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
