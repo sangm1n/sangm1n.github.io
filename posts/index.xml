@@ -6,26 +6,37 @@
     <description>Recent content in Posts on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>［알고리즘 / Algorithm］범위를 좁혀가는 이진 탐색</title>
+      <title>［알고리즘 / Algorithm］ 가장 빠르게 도달하는 최단 경로</title>
+      <link>http://sangm1n.github.io/shortest-path-algorithm/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/shortest-path-algorithm/</guid>
+      <description>Shortest Path Algorithm 길 찾기 문제라고도 불리는 최단 경로 알고리즘은 말 그대로 가장 짧은 경로를 찾는 알고리즘이다.
+한 지점에서 다른 지점까지의 최단 경로를 구하는 다익스트라 알고리즘과 모든 지점에서 다른 모든 지점까지의 최단 경로를 모두 구하는 플로이드 와샬 알고리즘에 대해 알아보자.
+Dijkstra Algorithm 다익스트라 알고리즘은 특정한 노드에서 출발하여 다른 노드로 가는 각각의 최단 경로를 구해준다. 음의 간선이 없을 때 정상적으로 동작하며, 매 순간 가장 비용이 적은 노드를 선택하는 과정을 반복하기 때문에 그리디 알고리즘으로 분류된다.</description>
+    </item>
+    
+    <item>
+      <title>［알고리즘 / Algorithm］ 범위를 좁혀가는 이진 탐색</title>
       <link>http://sangm1n.github.io/binary-search-algorithm/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/binary-search-algorithm/</guid>
-      <description>Search 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.
+      <description>Search Algorithm 이진 탐색에 앞서 순차 탐색에 대해 먼저 이해할 필요가 있다.
 Sequential Search 순차 탐색이란 리스트 안의 특정한 데이터를 찾기 위해 맨 앞에서부터 하나씩 확인하는 방법을 뜻한다. 이는 보통 정렬되어 있지 않은 리스트에서 많이 사용하는데, 데이터가 아무리 많아도 시간만 충분하다면 항상 원하는 데이터를 찾을 수 있다.
 이처럼 데이터 정렬 여부와 관계없이 항상 맨 앞에서부터 확인하기 때문에 시간복잡도는 O(N) 이다.
 Binary Search 반면 이진 탐색은 정렬된 데이터의 탐색 범위를 반씩 좁혀가며 확인한다.</description>
     </item>
     
     <item>
-      <title>［알고리즘 / Algorithm］중복되는 연산을 줄여주는 다이나믹 프로그래밍</title>
+      <title>［알고리즘 / Algorithm］ 중복되는 연산을 줄여주는 다이나믹 프로그래밍</title>
       <link>http://sangm1n.github.io/dynamic-programming-algorithm/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/dynamic-programming-algorithm/</guid>
-      <description>Dynamic Programming 다이나믹 프로그래밍 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘 기법이다. 기본적으로 아래의 조건을 만족할 때 사용할 수 있다.
+      <description>Dynamic Programming Algorithm 다이나믹 프로그래밍 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘 기법이다. 기본적으로 아래의 조건을 만족할 때 사용할 수 있다.
  큰 문제를 작은 문제로 나눌 수 있다. 작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일하다.  이러한 조건을 만족하는 대표적인 문제로는 피보나치 수열이 있다.
 Top-down 피보나치 수열을 memoization 기법을 사용하여 해결해보자. 메모이제이션은 한 번 구한 결과를 메모리 공간에 저장해두고 같은 식을 다시 호출하면 저장해둔 결과를 그대로 가져오는 기법이다.</description>
     </item>
@@ -47,7 +58,7 @@ Activity 액티비티는 UI 화면을 담당한다. 그래서 안드로이드 �
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/sorting-algorithm/</guid>
-      <description>Sorting 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
+      <description>Sorting Algorithm 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
 Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고&amp;hellip; 이러한 연산을 반복하면 된다.</description>
     </item>
     

@@ -6,14 +6,25 @@
     <description>Recent content in Sorting on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>［알고리즘 / Algorithm］ 가장 빠르게 도달하는 최단 경로</title>
+      <link>http://sangm1n.github.io/shortest-path-algorithm/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/shortest-path-algorithm/</guid>
+      <description>Shortest Path Algorithm 길 찾기 문제라고도 불리는 최단 경로 알고리즘은 말 그대로 가장 짧은 경로를 찾는 알고리즘이다.
+한 지점에서 다른 지점까지의 최단 경로를 구하는 다익스트라 알고리즘과 모든 지점에서 다른 모든 지점까지의 최단 경로를 모두 구하는 플로이드 와샬 알고리즘에 대해 알아보자.
+Dijkstra Algorithm 다익스트라 알고리즘은 특정한 노드에서 출발하여 다른 노드로 가는 각각의 최단 경로를 구해준다. 음의 간선이 없을 때 정상적으로 동작하며, 매 순간 가장 비용이 적은 노드를 선택하는 과정을 반복하기 때문에 그리디 알고리즘으로 분류된다.</description>
+    </item>
+    
     <item>
       <title>［알고리즘 / Algorithm］ 기준에 따라 데이터를 정렬</title>
       <link>http://sangm1n.github.io/sorting-algorithm/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/sorting-algorithm/</guid>
-      <description>Sorting 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
+      <description>Sorting Algorithm 정렬은 데이터를 특정한 기준에 따라 순서대로 나열하는 것이다. 정렬 알고리즘은 이진 탐색 의 전처리 과정이기도 하기 때문에 반드시 짚고 넘어가야 한다. 책에서는 다양한 정렬 알고리즘 중 많이 사용하는 선택 정렬, 삽입 정렬, 퀵 정렬, 계수 정렬을 언급했다.
 Selection sort 말 그대로 데이터를 선택해서 정렬하는 것이다. 오름차순 정렬을 하고자 할 때 전체 데이터에서 가장 작은 데이터를 맨 앞에 있는 데이터와 바꾸고, 그 다음으로 작은 데이터를 두 번째 데이터와 바꾸고&amp;hellip; 이러한 연산을 반복하면 된다.</description>
     </item>
     
