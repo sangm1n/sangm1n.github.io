@@ -6,7 +6,18 @@
     <description>Recent content in Posts on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>［알고리즘 / Algorithm］ 다양한 그래프 이론 알고리즘</title>
+      <link>http://sangm1n.github.io/graph-algorithm/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/graph-algorithm/</guid>
+      <description>이전 포스팅인 DFS/BFS와 최단 경로에서 다룬 내용도 그래프 알고리즘의 한 유형이다. 문제를 접했을 때 서로 다른 개체가 연결되어 있다는 이야기를 들으면 가장 먼저 그래프 알고리즘을 떠올려야 한다.
+그래프 알고리즘에 앞서 트리 자료구조에 대해 간략히 짚고 넘어가겠다. 트리는 그래프의 일종으로 여러 노드가 한 노드를 가리킬 수 없는 구조이다.
+    그래프 트리     방향성 방향 그래프 혹은 무방향 그래프 방향 그래프   순환성 순환 및 비순환 비순환   루트 노드 존재하지 않음 존재함   노드간 관계성 부모와 자식 관계 없음 부모와 자식 관게   모델 종류 네트워크 모델 계층 모델    Graph Algorithm 그래프는 주로 두 가지 방식으로 구현한다.</description>
+    </item>
+    
     <item>
       <title>［알고리즘 / Algorithm］ 가장 빠르게 도달하는 최단 경로</title>
       <link>http://sangm1n.github.io/shortest-path-algorithm/</link>

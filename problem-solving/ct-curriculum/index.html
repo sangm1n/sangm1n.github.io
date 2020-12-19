@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-12/2020-12-14/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-12/2020-12-17/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-12/2020-12-15/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/ct-future-city/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-7490/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/ct-curriculum/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 12월 15일 | sangminlog
+           이코테 - 커리큘럼 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 12월 15일 | sangminlog">
+  <meta name="title" content="이코테 - 커리큘럼 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "TIL",
-    "name" : "TIL - 2020년 12월 15일",
-    "headline" : "TIL - 2020년 12월 15일",
-    "description" : "💪 Today I Learned BOJ  1541번 잃어버린 괄호  이것이 취업을 위한 코딩테스트다  1로 만들기 개미 전사 바닥 공사 효율적인 화폐 구성  Dynamic Programming 큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘\n Top-down  memoization 기법 한 번 구한 결과를 메모리 공간에 저장해두고, 같은 식을 다시 호출할 때 저장해둔 결과를 그대로 가져온다.   Bottom-up  DP-table 사용 작은 문제부터 답을 도출해나간다.",
+    "articleSection" : "problem-solving",
+    "name" : "이코테 - 커리큘럼",
+    "headline" : "이코테 - 커리큘럼",
+    "description" : "미래 도시 이것이 취업을 위한 코딩 테스트다\n문제 온라인 강의는 선수 강의가 있을 수 있는데, 선수 강의가 있는 강의는 선수 강의를 먼저 들어야만 해당 강의를 들을 수 있다.\n예를 들어 \u0026lsquo;알고리즘\u0026rsquo; 강의의 선수 강의로 \u0026lsquo;자료구조\u0026rsquo;가 존재한다면, \u0026lsquo;자료구조\u0026rsquo;를 들은 이후에 \u0026lsquo;알고리즘\u0026rsquo; 강의를 들을 수 있다. 모든 강의는 1번부터 N번까지의 번호를 가지며 동시에 여러 개의 강의를 들을 수 있다.\n예를 들어 N=3일 때, 3번 강의의 선수 강의로 1번과 2번 강의가 있고, 1번과 2번 강의는 선수 강의가 없다고 가정하자.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-15 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-15 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-12\/2020-12-15\/",
-    "wordCount" : "75",
-    "keywords" : [  "sangminlog"]
+    "datePublished": "2020-12-19 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-19 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/ct-curriculum\/",
+    "wordCount" : "144",
+    "keywords" : [ "coding test","Python", "sangminlog"]
 }
 </script>
 
@@ -121,14 +121,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 12월 15일</h1>
+        <h1 class="post-title" itemprop="name headline">이코테 - 커리큘럼</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-15 itemprop="datePublished">December 15, 2020</time>
+                <span class="post-time"><time datetime=2020-12-19 itemprop="datePublished">December 19, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
                         
                 </span>
         </div>
@@ -136,6 +136,8 @@
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -149,41 +151,41 @@
           
           
 
-          <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="boj">BOJ</h3>
+          <h2 id="미래-도시">미래 도시</h2>
+<p><em>이것이 취업을 위한 코딩 테스트다</em></p>
+<h3 id="문제">문제</h3>
+<p>온라인 강의는 선수 강의가 있을 수 있는데, <strong>선수 강의가 있는 강의는 선수 강의를 먼저 들어야만 해당 강의를 들을 수 있다.</strong></p>
+<p>예를 들어 &lsquo;알고리즘&rsquo; 강의의 선수 강의로 &lsquo;자료구조&rsquo;가 존재한다면, &lsquo;자료구조&rsquo;를 들은 이후에 &lsquo;알고리즘&rsquo; 강의를 들을 수 있다.
+모든 강의는 1번부터 N번까지의 번호를 가지며 동시에 여러 개의 강의를 들을 수 있다.</p>
+<p>예를 들어 N=3일 때, 3번 강의의 선수 강의로 1번과 2번 강의가 있고, 1번과 2번 강의는 선수 강의가 없다고 가정하자.
+각 강의에 대하여 강의 시간은 다음과 같다.</p>
 <ul>
-<li><a href="https://sangm1n.github.io/problem-solving/boj-1541/">1541번 잃어버린 괄호</a></li>
+<li>1번 강의 : 30시간</li>
+<li>2번 강의 : 20시간</li>
+<li>3번 강의 : 40시간</li>
 </ul>
-<h3 id="이것이-취업을-위한-코딩테스트다">이것이 취업을 위한 코딩테스트다</h3>
-<ul>
-<li><a href="https://sangm1n.github.io/problem-solving/ct-make-one/">1로 만들기</a></li>
-<li><a href="https://sangm1n.github.io/problem-solving/ct-ant-warrior/">개미 전사</a></li>
-<li><a href="https://sangm1n.github.io/problem-solving/ct-floor-construct/">바닥 공사</a></li>
-<li><a href="https://sangm1n.github.io/problem-solving/ct-efficient-money/">효율적인 화폐 구성</a></li>
-</ul>
-<h3 id="dynamic-programming">Dynamic Programming</h3>
-<p>큰 문제를 작게 나누고, 같은 문제라면 한 번씩만 풀어 문제를 효율적으로 해결하는 알고리즘</p>
-<ul>
-<li><em>Top-down</em>
-<ul>
-<li><code>memoization</code> 기법</li>
-<li>한 번 구한 결과를 메모리 공간에 저장해두고, 같은 식을 다시 호출할 때 저장해둔 결과를 그대로 가져온다.</li>
-</ul>
-</li>
-<li><em>Bottom-up</em>
-<ul>
-<li><code>DP-table</code> 사용</li>
-<li>작은 문제부터 답을 도출해나간다.</li>
-</ul>
-</li>
-</ul>
-<h2 id="-한마디">🏃 한마디</h2>
-<p>DP 문제는 점화식을 잘 세워서 풀어야 하는데 그 과정이 생각보다 까다롭다.</p>
+<p>이 경우 1번 강의를 수강하기까지의 최소 시간은 30시간, 2번 강의를 수강하기까지의 최소 시간은 20시간, 3번 강의를 수강하기까지의 최소 시간은 70시간이다.</p>
+<p>N개의 강의 정보가 주어졌을 때, N개의 강의에 대하여 수강하기까지 걸리는 최소 시간을 각각 출력하는 프로그램을 작성하시오.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/102690533-689b8300-4249-11eb-9d5d-97206b3226a2.png" alt=""></p>
+<h3 id="한마디">한마디</h3>
+<p>방향 그래프에서 선후 관계를 처리해줘야 하는 문제는 <strong>위상 정렬</strong> 알고리즘을 이용한다.</p>
 
     </div>
     
 
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/coding-test/">
+                    #coding test</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -202,10 +204,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-14/" class="prev" rel="prev" title="TIL - 2020년 12월 14일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 12월 14일</a>
+        <a href="http://sangm1n.github.io/problem-solving/ct-future-city/" class="prev" rel="prev" title="이코테 - 미래 도시"><i class="iconfont icon-left"></i>&nbsp;이코테 - 미래 도시</a>
          
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-17/" class="next" rel="next" title="TIL - 2020년 12월 17일">TIL - 2020년 12월 17일&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-7490/" class="next" rel="next" title="BOJ/백준 - 7490번 0 만들기">BOJ/백준 - 7490번 0 만들기&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -244,8 +246,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

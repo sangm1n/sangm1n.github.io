@@ -6,7 +6,27 @@
     <description>Recent content in TILs on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - 2020년 12월 19일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-19/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-19/</guid>
+      <description>💪 Today I Learned BOJ  7490번 0 만들기  바로 DP로 접근했는데 어지간히 안풀렸다. 대다수 사람들이 재귀로 풀던데, 재귀에 대한 감이 아직 안잡혀서 큰일이다.    이것이 취업을 위한 코딩테스트다  팀 결성 도시 분할 계획 커리큘럼  Graph Algorithm  포스팅 대체  🏃 한마디 따로 토이 프로젝트를 하나 해야할 것 같은 기분이 든다.</description>
+    </item>
+    
+    <item>
+      <title>TIL - 2020년 12월 17일</title>
+      <link>http://sangm1n.github.io/til/2020-12/2020-12-17/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/til/2020-12/2020-12-17/</guid>
+      <description>💪 Today I Learned 이것이 취업을 위한 코딩테스트다  미래 도시 전보  Shortest Path Algorithm   Dijkstra algorithm
+ 특정한 노드에서 출발하여 다른 노드로 가는 각각의 최단 경로를 구하는 알고리즘 우선순위 큐를 이용한 구현    Floyd-Warshall algorithm
+ 모든 노드에 대하여 다른 모든 노드로 가는 최단 경로를 구하는 알고리즘 2차원 배열을 이용한 구현    🏃 한마디 따로 토이 프로젝트를 하나 해야할 것 같은 기분이 든다.</description>
+    </item>
+    
     <item>
       <title>TIL - 2020년 12월 15일</title>
       <link>http://sangm1n.github.io/til/2020-12/2020-12-15/</link>
