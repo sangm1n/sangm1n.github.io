@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/til/2020-12/2020-12-17/" />
-  <link rel="next" href="http://sangm1n.github.io/til/2020-12/2020-12-20/" />
-  <link rel="canonical" href="http://sangm1n.github.io/til/2020-12/2020-12-19/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-7490/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-1697/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1780/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           TIL - 2020년 12월 19일 | sangminlog
+           BOJ/백준 - 1780번 종이의 개수 | sangminlog
        
   </title>
-  <meta name="title" content="TIL - 2020년 12월 19일 | sangminlog">
+  <meta name="title" content="BOJ/백준 - 1780번 종이의 개수 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,10 @@
          "@type": "WebPage",
          "@id": "http:\/\/sangm1n.github.io"
     },
-    "articleSection" : "TIL",
-    "name" : "TIL - 2020년 12월 19일",
-    "headline" : "TIL - 2020년 12월 19일",
-    "description" : "💪 Today I Learned BOJ  7490번 0 만들기  바로 DP로 접근했는데 어지간히 안풀렸다. 대다수 사람들이 재귀로 풀던데, 재귀에 대한 감이 아직 안잡혀서 큰일이다.    이것이 취업을 위한 코딩테스트다  팀 결성 도시 분할 계획 커리큘럼  Graph Algorithm  포스팅 대체  🏃 한마디 이번 주에 계획한 이것이 취업을 위한 코딩 테스트다 책 파트 2를 마무리했다. SDS 동계 알고리즘 특강 코딩 테스트 보기 전까지 뒤에 있는 유형별 기출문제를 다 풀고 싶다.",
+    "articleSection" : "problem-solving",
+    "name" : "BOJ\/백준 - 1780번 종이의 개수",
+    "headline" : "BOJ\/백준 - 1780번 종이의 개수",
+    "description" : "1780 - 종이의 개수 문제 N×N크기의 행렬로 표현되는 종이가 있다. 종이의 각 칸에는 -1, 0, 1의 세 값 중 하나가 저장되어 있다. 우리는 이 행렬을 적절한 크기로 자르려고 하는데, 이때 다음의 규칙에 따라 자르려고 한다.\n 만약 종이가 모두 같은 수로 되어 있다면 이 종이를 그대로 사용한다. (1)이 아닌 경우에는 종이를 같은 크기의 9개의 종이로 자르고, 각각의 잘린 종이에 대해서 (1)의 과정을 반복한다.  이와 같이 종이를 잘랐을 때, -1로만 채워진 종이의 개수, 0으로만 채워진 종이의 개수, 1로만 채워진 종이의 개수를 구해내는 프로그램을 작성하시오.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,11 +55,11 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-19 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-19 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/til\/2020-12\/2020-12-19\/",
-    "wordCount" : "66",
-    "keywords" : [  "sangminlog"]
+    "datePublished": "2020-12-20 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-20 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1780\/",
+    "wordCount" : "107",
+    "keywords" : [ "BOJ","Python", "sangminlog"]
 }
 </script>
 
@@ -121,14 +121,14 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">TIL - 2020년 12월 19일</h1>
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1780번 종이의 개수</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-19 itemprop="datePublished">December 19, 2020</time>
+                <span class="post-time"><time datetime=2020-12-20 itemprop="datePublished">December 20, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://sangm1n.github.io/categories/til/"> TIL </a>
+                        <a href="http://sangm1n.github.io/categories/problem-solving/"> Problem solving </a>
                         
                 </span>
         </div>
@@ -136,6 +136,8 @@
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -149,32 +151,35 @@
           
           
 
-          <h2 id="-today-i-learned">💪 Today I Learned</h2>
-<h3 id="boj">BOJ</h3>
-<ul>
-<li><a href="https://sangm1n.github.io/problem-solving/boj-7490/">7490번 0 만들기</a>
-<ul>
-<li>바로 DP로 접근했는데 어지간히 안풀렸다. 대다수 사람들이 재귀로 풀던데, 재귀에 대한 감이 아직 안잡혀서 큰일이다.</li>
-</ul>
-</li>
-</ul>
-<h3 id="이것이-취업을-위한-코딩테스트다">이것이 취업을 위한 코딩테스트다</h3>
-<ul>
-<li>팀 결성</li>
-<li>도시 분할 계획</li>
-<li><a href="https://sangm1n.github.io/problem-solving/ct-curriculum/">커리큘럼</a></li>
-</ul>
-<h3 id="graph-algorithm">Graph Algorithm</h3>
-<ul>
-<li><a href="https://sangm1n.github.io/graph-algorithm/">포스팅</a> 대체</li>
-</ul>
-<h2 id="-한마디">🏃 한마디</h2>
-<p>이번 주에 계획한 <em>이것이 취업을 위한 코딩 테스트다</em> 책 파트 2를 마무리했다. SDS 동계 알고리즘 특강 코딩 테스트 보기 전까지 뒤에 있는 유형별 기출문제를 다 풀고 싶다.</p>
+          <h2 id="1780---종이의-개수">1780 - 종이의 개수</h2>
+<h3 id="문제httpswwwacmicpcnetproblem1780"><a href="https://www.acmicpc.net/problem/1780">문제</a></h3>
+<p>N×N크기의 행렬로 표현되는 종이가 있다. 종이의 각 칸에는 -1, 0, 1의 세 값 중 하나가 저장되어 있다.
+우리는 이 행렬을 적절한 크기로 자르려고 하는데, 이때 다음의 규칙에 따라 자르려고 한다.</p>
+<ol>
+<li>만약 종이가 모두 같은 수로 되어 있다면 이 종이를 그대로 사용한다.</li>
+<li><strong>(1)이 아닌 경우에는 종이를 같은 크기의 9개의 종이로 자르고, 각각의 잘린 종이에 대해서 (1)의 과정을 반복한다.</strong></li>
+</ol>
+<p>이와 같이 종이를 잘랐을 때, -1로만 채워진 종이의 개수, 0으로만 채워진 종이의 개수, 1로만 채워진 종이의 개수를 구해내는 프로그램을 작성하시오.</p>
+<h3 id="코드">코드</h3>
+<p><img src="https://user-images.githubusercontent.com/46131688/102713003-59c7d580-4308-11eb-8aeb-4c97f280cd27.png" alt="image"></p>
+<h3 id="한마디">한마디</h3>
+<p>문제를 읽자마자 저번에 풀었던 <a href="https://sangm1n.github.io/problem-solving/boj-1074/">Z 문제</a>가 생각났다. 종이가 모두 같은 숫자로 구성되어 있지 않으면 계속 9등분해서 계산하기 때문에 9등분된 구역마다 재귀 함수를 호출했다.</p>
 
     </div>
     
 
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/boj/">
+                    #BOJ</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -193,10 +198,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-17/" class="prev" rel="prev" title="TIL - 2020년 12월 17일"><i class="iconfont icon-left"></i>&nbsp;TIL - 2020년 12월 17일</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-7490/" class="prev" rel="prev" title="BOJ/백준 - 7490번 0 만들기"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 7490번 0 만들기</a>
          
         
-        <a href="http://sangm1n.github.io/til/2020-12/2020-12-20/" class="next" rel="next" title="TIL - 2020년 12월 20일">TIL - 2020년 12월 20일&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-1697/" class="next" rel="next" title="BOJ/백준 - 1697번 숨바꼭질">BOJ/백준 - 1697번 숨바꼭질&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -235,8 +240,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
