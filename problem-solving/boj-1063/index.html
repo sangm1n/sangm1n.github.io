@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-1697/" />
-  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-2667/" />
-  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-2579/" />
+  <link rel="prev" href="http://sangm1n.github.io/problem-solving/boj-2667/" />
+  <link rel="next" href="http://sangm1n.github.io/problem-solving/boj-5430/" />
+  <link rel="canonical" href="http://sangm1n.github.io/problem-solving/boj-1063/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
@@ -23,10 +23,10 @@
   <title>
        
        
-           BOJ/백준 - 2579번 계단 오르기 | sangminlog
+           BOJ/백준 - 1063번 킹 | sangminlog
        
   </title>
-  <meta name="title" content="BOJ/백준 - 2579번 계단 오르기 | sangminlog">
+  <meta name="title" content="BOJ/백준 - 1063번 킹 | sangminlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,9 +45,9 @@
          "@id": "http:\/\/sangm1n.github.io"
     },
     "articleSection" : "problem-solving",
-    "name" : "BOJ\/백준 - 2579번 계단 오르기",
-    "headline" : "BOJ\/백준 - 2579번 계단 오르기",
-    "description" : "2579 - 계단 오르기 문제 계단 오르기 게임은 계단 아래 시작점부터 계단 꼭대기에 위치한 도착점까지 가는 게임이다. \u0026lt;그림 1\u0026gt;과 같이 각각의 계단에는 일정한 점수가 쓰여 있는데 계단을 밟으면 그 계단에 쓰여 있는 점수를 얻게 된다.\n예를 들어 \u0026lt;그림 2\u0026gt;와 같이 시작점에서부터 첫 번째, 두 번째, 네 번째, 여섯 번째 계단을 밟아 도착점에 도달하면 총 점수는 10 \u002b 20 \u002b 25 \u002b 20 = 75점이 된다.\n계단 오르는 데는 다음과 같은 규칙이 있다.",
+    "name" : "BOJ\/백준 - 1063번 킹",
+    "headline" : "BOJ\/백준 - 1063번 킹",
+    "description" : "1063 - 킹 문제 8 X 8 크기의 체스판에 왕이 하나 있다. 킹의 현재 위치가 주어진다. 체스판에서 말의 위치는 다음과 같이 주어진다. 알파벳 하나와 숫자 하나로 이루어져 있는데, 알파벳은 열을 상징하고, 숫자는 행을 상징한다.\n열은 가장 왼쪽 열이 A이고, 가장 오른쪽 열이 H까지 이고, 행은 가장 아래가 1이고 가장 위가 8이다. 예를 들어, 왼쪽 아래 코너는 A1이고, 그 오른쪽 칸은 B1이다.\n킹은 다음과 같이 움직일 수 있다.\n R : 한 칸 오른쪽으로 L : 한 칸 왼쪽으로 B : 한 칸 아래로 T : 한 칸 위로 RT : 오른쪽 위 대각선으로 LT : 왼쪽 위 대각선으로 RB : 오른쪽 아래 대각선으로 LB : 왼쪽 아래 대각선으로  체스판에는 돌이 하나 있는데, 돌과 같은 곳으로 이동할 때는, 돌을 킹이 움직인 방향과 같은 방향으로 한 칸 이동시킨다.",
     "inLanguage" : "en-us",
     "author" : "sangmin",
     "creator" : "sangmin",
@@ -55,10 +55,10 @@
     "accountablePerson" : "sangmin",
     "copyrightHolder" : "sangmin",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-21 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2020-12-21 00:00:00 \u002b0000 UTC",
-    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-2579\/",
-    "wordCount" : "178",
+    "datePublished": "2020-12-22 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-22 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/problem-solving\/boj-1063\/",
+    "wordCount" : "182",
     "keywords" : [ "BOJ","Python", "sangminlog"]
 }
 </script>
@@ -121,9 +121,9 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 2579번 계단 오르기</h1>
+        <h1 class="post-title" itemprop="name headline">BOJ/백준 - 1063번 킹</h1>
         <div class="post-meta">
-                <span class="post-time"><time datetime=2020-12-21 itemprop="datePublished">December 21, 2020</time>
+                <span class="post-time"><time datetime=2020-12-22 itemprop="datePublished">December 22, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -151,25 +151,32 @@
           
           
 
-          <h2 id="2579---계단-오르기">2579 - 계단 오르기</h2>
-<h3 id="문제httpswwwacmicpcnetproblem2579"><a href="https://www.acmicpc.net/problem/2579">문제</a></h3>
-<p>계단 오르기 게임은 계단 아래 시작점부터 계단 꼭대기에 위치한 도착점까지 가는 게임이다. &lt;그림 1&gt;과 같이 각각의 계단에는 일정한 점수가 쓰여 있는데 계단을 밟으면 그 계단에 쓰여 있는 점수를 얻게 된다.</p>
-<p><img src="https://user-images.githubusercontent.com/46131688/102849261-1ed5b700-445a-11eb-937d-09a9dc2b5734.png" alt="image"></p>
-<p>예를 들어 &lt;그림 2&gt;와 같이 시작점에서부터 첫 번째, 두 번째, 네 번째, 여섯 번째 계단을 밟아 도착점에 도달하면 총 점수는 10 + 20 + 25 + 20 = 75점이 된다.</p>
-<p><img src="https://user-images.githubusercontent.com/46131688/102849277-28f7b580-445a-11eb-8dbc-ad8749861ada.png" alt="image"></p>
-<p>계단 오르는 데는 다음과 같은 규칙이 있다.</p>
-<ol>
-<li>계단은 한 번에 한 계단씩 또는 두 계단씩 오를 수 있다. 즉, 한 계단을 밟으면서 이어서 다음 계단이나, 다음 다음 계단으로 오를 수 있다.</li>
-<li>연속된 세 개의 계단을 모두 밟아서는 안 된다. 단, 시작점은 계단에 포함되지 않는다.</li>
-<li>마지막 도착 계단은 반드시 밟아야 한다.</li>
-</ol>
-<p>따라서 첫 번째 계단을 밟고 이어 두 번째 계단이나, 세 번째 계단으로 오를 수 있다.<br>
-하지만, 첫 번째 계단을 밟고 이어 네 번째 계단으로 올라가거나, 첫 번째, 두 번째, 세 번째 계단을 연속해서 모두 밟을 수는 없다.</p>
-<p>각 계단에 쓰여 있는 점수가 주어질 때 이 게임에서 얻을 수 있는 총 점수의 최댓값을 구하는 프로그램을 작성하시오.</p>
+          <h2 id="1063---킹">1063 - 킹</h2>
+<h3 id="문제httpswwwacmicpcnetproblem1063"><a href="https://www.acmicpc.net/problem/1063">문제</a></h3>
+<p>8 X 8 크기의 체스판에 왕이 하나 있다. 킹의 현재 위치가 주어진다. 체스판에서 말의 위치는 다음과 같이 주어진다.
+알파벳 하나와 숫자 하나로 이루어져 있는데, 알파벳은 열을 상징하고, 숫자는 행을 상징한다.</p>
+<p>열은 가장 왼쪽 열이 A이고, 가장 오른쪽 열이 H까지 이고, 행은 가장 아래가 1이고 가장 위가 8이다.
+예를 들어, 왼쪽 아래 코너는 A1이고, 그 오른쪽 칸은 B1이다.</p>
+<p>킹은 다음과 같이 움직일 수 있다.</p>
+<ul>
+<li>R : 한 칸 오른쪽으로</li>
+<li>L : 한 칸 왼쪽으로</li>
+<li>B : 한 칸 아래로</li>
+<li>T : 한 칸 위로</li>
+<li>RT : 오른쪽 위 대각선으로</li>
+<li>LT : 왼쪽 위 대각선으로</li>
+<li>RB : 오른쪽 아래 대각선으로</li>
+<li>LB : 왼쪽 아래 대각선으로</li>
+</ul>
+<p>체스판에는 돌이 하나 있는데, <strong>돌과 같은 곳으로 이동할 때는, 돌을 킹이 움직인 방향과 같은 방향으로 한 칸 이동시킨다.</strong> 아래 그림을 참고하자.</p>
+<p><img src="https://user-images.githubusercontent.com/46131688/102967180-bad3f100-4534-11eb-8e50-8d1558e362ca.png" alt="image"></p>
+<p>입력으로 킹이 어떻게 움직여야 하는지 주어진다.
+입력으로 주어진 대로 움직여서 킹이나 돌이 체스판 밖으로 나갈 경우에는 그 이동은 건너 뛰고 다음 이동을 한다.</p>
+<p>킹과 돌의 마지막 위치를 구하는 프로그램을 작성하시오.</p>
 <h3 id="코드">코드</h3>
-<p><img src="https://user-images.githubusercontent.com/46131688/102849362-580e2700-445a-11eb-8dd3-423cf3e15035.png" alt="image"></p>
+<p><img src="https://user-images.githubusercontent.com/46131688/102967250-ddfea080-4534-11eb-90f9-b403f75a0fa4.png" alt="image"></p>
 <h3 id="한마디">한마디</h3>
-<p>DP 테이블을 이용해 <code>Bottom-up</code> 방식으로 풀었다.</p>
+<p>스터디 콘테스트 때 이 문제만 몇 분동안 잡고 있었는지 모르겠다. 위 문제에서 굵은 글씨로 표시한 부분을 제대로 구현하지 못해 계속 틀렸다고 떴었다.</p>
 
     </div>
     
@@ -204,10 +211,10 @@
 
     <div class="post-nav">
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-1697/" class="prev" rel="prev" title="BOJ/백준 - 1697번 숨바꼭질"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 1697번 숨바꼭질</a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-2667/" class="prev" rel="prev" title="BOJ/백준 - 2667번 단지번호붙이기"><i class="iconfont icon-left"></i>&nbsp;BOJ/백준 - 2667번 단지번호붙이기</a>
          
         
-        <a href="http://sangm1n.github.io/problem-solving/boj-2667/" class="next" rel="next" title="BOJ/백준 - 2667번 단지번호붙이기">BOJ/백준 - 2667번 단지번호붙이기&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://sangm1n.github.io/problem-solving/boj-5430/" class="next" rel="next" title="BOJ/백준 - 5430번 AC">BOJ/백준 - 5430번 AC&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

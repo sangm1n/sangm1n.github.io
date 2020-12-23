@@ -6,7 +6,40 @@
     <description>Recent content in Problem solving on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOJ/백준 - 5430번 AC</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-5430/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-5430/</guid>
+      <description>5430 - AC 문제 선영이는 주말에 할 일이 없어서 새로운 언어 AC를 만들었다. AC는 정수 배열에 연산을 하기 위해 만든 언어이다. 이 언어에는 두 가지 함수 R(뒤집기)과 D(버리기)가 있다.
+함수 R은 배열에 있는 숫자의 순서를 뒤집는 함수이고, D는 첫 번째 숫자를 버리는 함수이다. 배열이 비어있는데 D를 사용한 경우에는 에러가 발생한다.
+함수는 조합해서 한 번에 사용할 수 있다. 예를 들어, &amp;ldquo;AB&amp;quot;는 A를 수행한 다음에 바로 이어서 B를 수행하는 함수이다. 예를 들어, &amp;ldquo;RDD&amp;quot;는 배열을 뒤집은 다음 처음 두 숫자를 버리는 함수이다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 1063번 킹</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-1063/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-1063/</guid>
+      <description>1063 - 킹 문제 8 X 8 크기의 체스판에 왕이 하나 있다. 킹의 현재 위치가 주어진다. 체스판에서 말의 위치는 다음과 같이 주어진다. 알파벳 하나와 숫자 하나로 이루어져 있는데, 알파벳은 열을 상징하고, 숫자는 행을 상징한다.
+열은 가장 왼쪽 열이 A이고, 가장 오른쪽 열이 H까지 이고, 행은 가장 아래가 1이고 가장 위가 8이다. 예를 들어, 왼쪽 아래 코너는 A1이고, 그 오른쪽 칸은 B1이다.
+킹은 다음과 같이 움직일 수 있다.
+ R : 한 칸 오른쪽으로 L : 한 칸 왼쪽으로 B : 한 칸 아래로 T : 한 칸 위로 RT : 오른쪽 위 대각선으로 LT : 왼쪽 위 대각선으로 RB : 오른쪽 아래 대각선으로 LB : 왼쪽 아래 대각선으로  체스판에는 돌이 하나 있는데, 돌과 같은 곳으로 이동할 때는, 돌을 킹이 움직인 방향과 같은 방향으로 한 칸 이동시킨다.</description>
+    </item>
+    
+    <item>
+      <title>BOJ/백준 - 2667번 단지번호붙이기</title>
+      <link>http://sangm1n.github.io/problem-solving/boj-2667/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/problem-solving/boj-2667/</guid>
+      <description>2667 - 단지번호붙이기 문제 &amp;lt;그림 1&amp;gt;과 같이 정사각형 모양의 지도가 있다. 1은 집이 있는 곳을, 0은 집이 없는 곳을 나타낸다. 철수는 이 지도를 가지고 연결된 집의 모임인 단지를 정의하고, 단지에 번호를 붙이려 한다. 여기서 연결되었다는 것은 어떤 집이 좌우, 혹은 아래위로 다른 집이 있는 경우를 말한다. 대각선상에 집이 있는 경우는 연결된 것이 아니다.
+&amp;lt;그림 2&amp;gt;는 &amp;lt;그림 1&amp;gt;을 단지별로 번호를 붙인 것이다. 지도를 입력하여 단지수를 출력하고, 각 단지에 속하는 집의 수를 오름차순으로 정렬하여 출력하는 프로그램을 작성하시오.</description>
+    </item>
+    
     <item>
       <title>BOJ/백준 - 2579번 계단 오르기</title>
       <link>http://sangm1n.github.io/problem-solving/boj-2579/</link>
