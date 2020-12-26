@@ -5,8 +5,17 @@
     <description>Recent content in sangminlog on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>http://sangm1n.github.io/posts/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/posts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TILs</title>
@@ -23,15 +32,6 @@
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://sangm1n.github.io/problem-solving/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>http://sangm1n.github.io/posts/</link>
-      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://sangm1n.github.io/posts/</guid>
       <description></description>
     </item>
     
