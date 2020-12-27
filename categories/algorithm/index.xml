@@ -6,13 +6,24 @@
     <description>Recent content in Algorithm on sangminlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://sangm1n.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2)</title>
+      <link>http://sangm1n.github.io/etc-algorithm-2/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://sangm1n.github.io/etc-algorithm-2/</guid>
+      <description>직전 포스팅에 다 작성하기엔 양이 많아 1, 2로 나눴다.
+구간 합 구간 합 문제는 리스트 내 특정 구간의 모든 수를 합한 값을 구하는 문제이다. 여러 개의 쿼리로 구성되는 문제 형태로 출제되는데, 보통 다수의 구간에 대한 각각의 합을 구하도록 요구된다.
+ 10, 20, 30, 40, 50  리스트가 있을 때 두 번째 수부터 세 번째 수까지의 합은 50, 두 번째부터 네 번째 수까지의 합은 90이다. N개의 수와 M개의 쿼리가 주어져 각각의 구간 합을 매번 구한다면 O(NM) 의 시간복잡도를 가진다.</description>
+    </item>
+    
     <item>
       <title>［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (1)</title>
-      <link>http://sangm1n.github.io/etc-algorithm/</link>
+      <link>http://sangm1n.github.io/etc-algorithm-1/</link>
       <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://sangm1n.github.io/etc-algorithm/</guid>
+      <guid>http://sangm1n.github.io/etc-algorithm-1/</guid>
       <description>이것이 취업을 위한 코딩 테스트다 책 부록에 있는 기타 알고리즘 몇 가지를 정리해봤다.
 소수 판별 소수란 1보다 큰 자연수 중 1과 자기 자신을 제외한 자연수로는 나누어 떨어지지 않는 자연수를 뜻한다. 쉽게 말해 1과 자기 자신으로만 나누어지는 자연수이다. 보통 소수인지 아닌지 판별하는 함수를 작성하라고 하면 아래처럼 코드를 짤 것이다.
 나도 대부분 위처럼 코드를 작성해왔는데, 백준에서 문제를 풀다보면 빈번히 시간 초과가 뜬다. 1,000,000 처럼 큰 수가 입력으로 들어오면 2부터 999,999까지 모든 수에 대한 연산이 이루어지기 때문에 상당히 비효율적인 코드이다.</description>

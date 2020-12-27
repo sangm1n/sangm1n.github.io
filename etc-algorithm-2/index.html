@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="sangmin">
+  
+  
+  
+  <link rel="prev" href="http://sangm1n.github.io/etc-algorithm-1/" />
+  
+  <link rel="canonical" href="http://sangm1n.github.io/etc-algorithm-2/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           ［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2) | sangminlog
+       
+  </title>
+  <meta name="title" content="［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2) | sangminlog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/sangm1n.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "［알고리즘 \/ Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2)",
+    "headline" : "［알고리즘 \/ Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2)",
+    "description" : "직전 포스팅에 다 작성하기엔 양이 많아 1, 2로 나눴다.\n구간 합 구간 합 문제는 리스트 내 특정 구간의 모든 수를 합한 값을 구하는 문제이다. 여러 개의 쿼리로 구성되는 문제 형태로 출제되는데, 보통 다수의 구간에 대한 각각의 합을 구하도록 요구된다.\n 10, 20, 30, 40, 50  리스트가 있을 때 두 번째 수부터 세 번째 수까지의 합은 50, 두 번째부터 네 번째 수까지의 합은 90이다. N개의 수와 M개의 쿼리가 주어져 각각의 구간 합을 매번 구한다면 O(NM) 의 시간복잡도를 가진다.",
+    "inLanguage" : "en-us",
+    "author" : "sangmin",
+    "creator" : "sangmin",
+    "publisher": "sangmin",
+    "accountablePerson" : "sangmin",
+    "copyrightHolder" : "sangmin",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-27 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2020-12-27 00:00:00 \u002b0000 UTC",
+    "url" : "http:\/\/sangm1n.github.io\/etc-algorithm-2\/",
+    "wordCount" : "254",
+    "keywords" : [ "Algorithm","Python", "sangminlog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont "></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont"></i></a>&nbsp;<a href="http://sangm1n.github.io">$ cd home/</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/til/" title="">TIL</a>
+                
+                <a class="menu-item" href="/problem-solving/" title="">PS</a>
+                
+                <a class="menu-item" href="/categories/" title="">Category</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tag</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (2)</h1>
+        <div class="post-meta">
+                <span class="post-time"><time datetime=2020-12-27 itemprop="datePublished">December 27, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://sangm1n.github.io/categories/algorithm/"> Algorithm </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p><a href="https://sangm1n.github.io/etc-algorithm-1/">직전 포스팅</a>에 다 작성하기엔 양이 많아 1, 2로 나눴다.</p>
+<h2 id="구간-합">구간 합</h2>
+<p>구간 합 문제는 <strong>리스트 내 특정 구간의 모든 수를 합한 값을 구하는 문제</strong>이다. 여러 개의 쿼리로 구성되는 문제 형태로 출제되는데, 보통 다수의 구간에 대한 각각의 합을 구하도록 요구된다.</p>
+<ul>
+<li>10, 20, 30, 40, 50</li>
+</ul>
+<p>리스트가 있을 때 두 번째 수부터 세 번째 수까지의 합은 50, 두 번째부터 네 번째 수까지의 합은 90이다. N개의 수와 M개의 쿼리가 주어져 각각의 구간 합을 매번 구한다면 <em>O(NM)</em> 의 시간복잡도를 가진다. 그렇기 때문에 데이터가 많아질 경우 해결할 수 없을 것이다.</p>
+<p>따라서 <code>prefix sum</code> 기법을 이요하면 된다. 접두사 합이란 리스트 맨 앞부터 특정 위치까지의 합을 구해 놓은 것을 의미한다. 이를 이용하면 시간복잡도는 <em>O(N+M)</em> 으로 줄어든다.</p>
+<ol>
+<li>N개의 수에 대한 접두사 합을 계산하여 배열 P에 저장한다.</li>
+<li>매 M개의 쿼리 정보 [Left, Right]를 확인할 때, 구간 합은 <em>P[Right] - P[Left-1]</em> 이다.</li>
+</ol>
+<p>위에 있는 5개 수에 대한 접두사 합을 계산해보자.</p>
+<ul>
+<li>0, 10, 30, 60, 100, 150</li>
+</ul>
+<p>3개의 쿼리가 주어졌을 때, 구간 합을 구하는 과정은 아래와 같다.</p>
+<ol>
+<li>첫 번째 수부터 세 번째 수까지의 구간 합
+<ul>
+<li>P[3] - P[1-1] = 50</li>
+</ul>
+</li>
+<li>두 번째 수부터 다섯 번째 수까지의 구간 합
+<ul>
+<li>P[5] - P[2-1] = 140</li>
+</ul>
+</li>
+<li>네 번째 수부터 다섯 번째 수까지의 구간 합
+<ul>
+<li>P[5] - P[4-1] = 90</li>
+</ul>
+</li>
+</ol>
+<h2 id="순열과-조합">순열과 조합</h2>
+<p>순열과 조합에 대해서는 <a href="https://sangm1n.github.io/basic-of-python/">이전 포스팅</a>에서 간략하게 다룬 적이 있다.</p>
+<ul>
+<li>순열 : 서로 다른 n개에서 r개를 선택하여 일렬로 나열하는 것</li>
+<li>조합 : 서로 다른 n개에서 순서에 상관없이 서로 다른 r개를 선택하는 것</li>
+</ul>
+<p>직접 구현할 수도 있지만 알고리즘 문제에서는 모든 경우를 다 출력하도록 요구하는 경우가 많아 <code>itertools</code> 라이브러리를 이용하면 손쉽게 출력할 수 있다.</p>
+<p><img src="https://user-images.githubusercontent.com/46131688/103166754-829c1d80-4868-11eb-89fe-dda88d340283.png" alt="image"></p>
+<hr>
+<h4 id="참고">참고</h4>
+<ul>
+<li><em>이것이 취업을 위한 코딩 테스트다</em></li>
+</ul>
+
+    </div>
+    
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s) - 
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/algorithm/">
+                    #Algorithm</a></span>
+            
+            <span class="tag"><a href="http://sangm1n.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://sangm1n.github.io">home</a></span>
+        </section>
+    </div>
+
+    <script src="https://utteranc.es/client.js"
+        repo="sangm1n/blog-comments"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <div class="post-nav">
+        
+        <a href="http://sangm1n.github.io/etc-algorithm-1/" class="prev" rel="prev" title="［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (1)"><i class="iconfont icon-left"></i>&nbsp;［알고리즘 / Algorithm］ 더 알아두면 좋은 기타 알고리즘 (1)</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+  <div class="copyright">
+    &copy;   
+    <span class="author" itemprop="copyrightHolder"
+      ><a href="http://sangm1n.github.io">sangmin</a> |
+    </span>
+     
+    <span
+      >Powered by
+      <a href="https://gohugo.io/" target="_blank" rel="external nofollow"
+        >Hugo</a
+      >
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+     </div>
+  </body>
+</html>
